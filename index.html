@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=yes" />
+    <meta name="mobile-web-app-capable" content="yes" />
+ 
+    <link rel="shortcut icon" href="res/favicon.ico" type="image/x-icon" />
+ 
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css" rel="stylesheet" />
+    <link href="css/index.css" rel="stylesheet" />
+</head>
+
+<body>
+
+    <!-- Weather Content -->
+    <div id="outerContent">
+        <div id="currentConditions" class="row">
+            <div id="conditionsData">
+                <span id="currentConditionsTitle">My Weather Station</span><br>
+                <span id="currentConditionsSubtitle">Current Conditions</span><br>
+
+                <span>Last Updated</span><span id="lastUpdated" class="measurement"></span><br>
+
+                <span>Temperature</span><span id="temperatureIcon" class="weatherIcon"></span><span id="currentTemp"
+                    class="measurement"></span>
+                <span>Feels Like</span><span id="feelsLikeIcon" class="weatherIcon"></span><span id="feelsLikeTemp"
+                    class="measurement"></span><br>
+
+                <span>Rain Rate</span><span id="rainRateIcon" class="weatherIcon"></span><span id="precipRate"
+                    class="measurement"></span>
+                <span>Total Today</span><span id="precipTotal" class="measurement"></span><br>
+
+                <span>Humidity</span><span id="humidityIcon" class="weatherIcon"></span><span id="humidity"
+                    class="measurement"></span><br>
+
+                <span>UV Index</span><span id="uvIcon" class="weatherIcon"></span><span id="uvIndex"
+                    class="measurement"></span><br>
+
+                <span>Dew Point</span><span id="dewPointIcon" class="weatherIcon"></span><span id="dewPoint"
+                    class="measurement"></span><br>
+
+                <span>Pressure</span><span id="pressureIcon" class="weatherIcon"></span><span id="pressure"
+                    class="measurement"></span><br>
+
+                <span>Wind </span><span id="windIcon" class="weatherIcon"></span><span id="windDir"
+                    class="measurement"></span>
+                <span style="font-size: 14px; margin-left: 4px;" class="weatherIcon fas fa-wind"></span><span
+                    id="windSpeed" class="measurement"></span>
+                <span style="font-size: 20px; margin-left: 4px;" class="weatherIcon darkHalo fas fa-wind"></span><span
+                    id="windGust" class="measurement"></span><br>
+            </div>
+
+            <iframe id="radarFrame" class="frameContainer" frameborder="0" allowfullscreen
+                allow="fullscreen; geolocation" scrolling="no"
+                src="https://script.google.com/macros/s/AKfycbxfBgCMWyIvPBjR5GsLp05uVtmEJjp23xSPtB5RMJDoybdFDvk/exec?pws=true&fade=true">
+            </iframe>
+        </div>
+    </div>
+
+
+    <!-- Startup Spinner -->
+    <div id="kickstart">
+        <span class="fa-stack fa-2x">
+            <i class="kickstartIcon fas fa-cloud-sun-rain fa-stack-1x"></i>
+            <i class="kickstartSurround fas fa-circle-notch fa-stack-2x"></i>
+        </span>
+    </div>
+
+
+    <!-- Chart Popup -->
+    <iframe id="fullscreenFrame" frameborder="0" style="width: 0px; height: 0px"></iframe>
+
+    <!-- Javascript -->    
+    <script src="js/main.js"></script>
+
+</body>
+
+</html>

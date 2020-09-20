@@ -1,0 +1,168 @@
+body {
+    display: flex;
+    flex-flow: column;
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    background-color: #2e2e2e;
+    overflow-x: hidden;
+}
+
+#outerContent {
+    display: flex;
+    flex-grow: 1;
+    flex-flow: column wrap;
+}
+
+/* ----- Current Conditions ----- */
+
+#currentConditions {
+    display: flex;
+    flex-grow: 1;
+    justify-content: space-between;
+    align-items: center;
+    flex-flow: row wrap;
+}
+
+#conditionsData {
+    text-align: left;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    vertical-align: middle;
+    color: #999999;
+    margin-right: 15px;
+    margin-bottom: 50px;
+    width: 380px;
+}
+
+#radarFrame {
+    height: 300px;
+    margin-bottom: 50px;
+}
+
+#currentConditionsTitle {
+    font-size: 18px;
+    font-weight: 600;
+}
+
+#currentConditionsSubtitle {
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.measurement {
+    margin-left: 5px;
+    margin-right: 15px;
+    font-size: 16px;
+    font-weight: 800;
+    line-height: 200%;
+}
+
+#currentConditionsTitle, .measurement, .darkHalo {
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+
+[data-value]::before {
+    content: attr(data-value);
+}
+
+.weatherIcon {
+    margin-left: 8px;
+    margin-right: 2px;
+    font-size: 20px;
+}
+
+/* ----- Charts ----- */
+
+.row {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    padding: 20px;
+    width: 100%;
+}
+
+.frameContainer {
+    position: relative;
+    flex-grow: 1;
+    margin-right: 30px;
+    margin-bottom: 50px;
+}
+
+.chart {
+    flex-grow: 1;
+    width: 100%;
+    height: 100%;
+}
+
+.popoutIcon {
+    position: absolute;
+    right: 0px;
+    top: 0px;
+    font-size: 10px;
+    color: #999999;
+}
+
+.popoutIcon:hover {
+    color: rgb(30, 30, 30);
+}
+
+/* ----- Startup animation ----- */
+
+#kickstart {
+    display: block;
+    width: 70px;
+    height: 70px;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    color: #32ff32;
+}
+
+.kickstartIcon {
+    animation: kickstartIcon 1.5s infinite;
+}
+
+.kickstartSurround {
+    animation: kickstartSurround 1.5s infinite;
+}
+
+@keyframes kickstartIcon {
+    0% {
+        transform: rotate(0deg);
+        opacity: 0.5;
+    }
+    40% {
+        opacity: 1;
+    }
+    70% {
+        transform: rotate(360deg);
+        opacity: 0.2;
+    }
+    100% {
+        transform: rotate(360deg);
+        opacity: 0.1;
+    }
+}
+
+@keyframes kickstartSurround {
+    0% {
+        transform: rotate(-30deg);
+        opacity: 1;
+    }
+    50% {
+        transform: rotate(150deg);
+        opacity: 1;
+    }
+    80% {
+        transform: rotate(-30deg);
+        opacity: 0.1;
+    }
+    100% {
+        transform: rotate(-30deg);
+        opacity: 1;
+    }
+}
