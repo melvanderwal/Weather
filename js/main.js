@@ -21,7 +21,7 @@ if (urlParams.has("padtop"))
         if (day.rain) dayDiv.getElementsByClassName("forecastPrecipMm")[0].textContent = day.rain;
         if (day.precipPercent) dayDiv.getElementsByClassName("forecastPrecipPct")[0].textContent = day.precipPercent + "%";
         dayDiv.getElementsByClassName("forecastSummary")[0].textContent = day.summary;
-        dayDiv.onpointerdown = function() { document.getElementById(town + "ForecastDescription").textContent = day.description; }
+        dayDiv.onpointerdown = function() { document.getElementById(town + "ForecastDescription").textContent = day.day + ": " + day.description; }
         townDiv.appendChild(dayDiv);
     });
 });
