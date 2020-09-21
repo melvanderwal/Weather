@@ -4,9 +4,9 @@
 <head>
     <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=yes" />
     <meta name="mobile-web-app-capable" content="yes" />
- 
+
     <link rel="shortcut icon" href="res/favicon.ico" type="image/x-icon" />
- 
+
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css" rel="stylesheet" />
     <link href="css/index.css" rel="stylesheet" />
 </head>
@@ -56,6 +56,15 @@
                 src="https://script.google.com/macros/s/AKfycbxfBgCMWyIvPBjR5GsLp05uVtmEJjp23xSPtB5RMJDoybdFDvk/exec?pws=true&fade=true">
             </iframe>
         </div>
+
+        <div id="forecast">
+            <span class="forecastTownLabel">Ipswich</span>
+            <div id="ipswich" class="forecastTown"></div>
+            <div id="ipswichForecastDescription" class="forecastDescription"></div>
+            <span class="forecastTownLabel">Kenmore</span>
+            <div id="kenmore" class="forecastTown"></div>
+            <div id="kenmoreForecastDescription" class="forecastDescription"></div>
+        </div>
     </div>
 
 
@@ -71,7 +80,19 @@
     <!-- Chart Popup -->
     <iframe id="fullscreenFrame" frameborder="0" style="width: 0px; height: 0px"></iframe>
 
-    <!-- Javascript -->    
+    <!-- Forecast Day Template -->
+    <template id="forecastDayTemplate">
+        <div class="forecastDayContainer">
+            <span class="forecastDay"></span>
+            <img class="forecastImage"></img>
+            <span class="forecastTemp"><span class="forecastMin"></span>&nbsp;&nbsp;<span class="forecastMax"></span></span>
+            <span class="forecastPrecip"><span class="forecastPrecipPct"></span>&nbsp;&nbsp;<span class="forecastPrecipMm"></span></span>
+            <span class="forecastSummary"></span>
+        </div>
+    </template>
+
+    <!-- Javascript -->
+    <script src="data/forecast.js"></script>
     <script src="js/main.js"></script>
 
 </body>

@@ -1,10 +1,30 @@
 // If the padtop url parameter was provided, apply a margin to the top of the page so when 
 // embedded in the MelStuff page it starts below the header
 var urlParams = new URLSearchParams(window.location.search);
-console.log(urlParams);
 if (urlParams.has("padtop"))
     document.body.style.paddingTop = urlParams.get("padtop") + "px";
 
+
+// Add the forecast to the page
+["ipswich", "kenmore"].forEach(town => {
+    let townDiv = document.getElementById(town);
+
+    forecast[town].forEach(day => {
+        let templateNode = document.getElementById("forecastDayTemplate").cloneNode(true);
+        let dayDiv = document.createElement("div");
+        dayDiv.innerHTML = templateNode.innerHTML;
+
+        dayDiv.getElementsByClassName("forecastDay")[0].textContent = day.day;
+        dayDiv.getElementsByClassName("forecastImage")[0].setAttribute("src", "res/" + day.image + ".png");
+        if (day.min) dayDiv.getElementsByClassName("forecastMin")[0].textContent = day.min + "°";
+        if (day.max) dayDiv.getElementsByClassName("forecastMax")[0].textContent = day.max + "°";
+        if (day.rain) dayDiv.getElementsByClassName("forecastPrecipMm")[0].textContent = day.rain;
+        if (day.precipPercent) dayDiv.getElementsByClassName("forecastPrecipPct")[0].textContent = day.precipPercent + "%";
+        dayDiv.getElementsByClassName("forecastSummary")[0].textContent = day.summary;
+        dayDiv.onpointerdown = function() { document.getElementById(town + "ForecastDescription").textContent = day.description; }
+        townDiv.appendChild(dayDiv);
+    });
+});
 
 // Opens a fullscreen iframe with the link stored on the calling button's data-link attribute
 function setFullScreenElement(callingElement) {
