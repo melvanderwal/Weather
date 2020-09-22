@@ -1,0 +1,83 @@
+:root {
+    --sun-color: #ffff00;
+    --moon-color: #ffff9d;
+}
+
+.weatherIcon {
+    margin-left: 8px;
+    margin-right: 2px;
+    font-size: 20px;
+}
+
+.forecastIcon {
+    padding-top: 5px;
+    padding-bottom: 5px;
+    font-size: 36px;
+}
+
+.fa-sun {
+    --fa-secondary-opacity: 0.7;
+}
+
+.fa-moon-stars {
+    --fa-secondary-color: #ffffff;
+    --fa-secondary-opacity: 0.8;
+}
+
+.fa-cloud-sun {
+    --fa-secondary-color: var(--sun-color);
+    --fa-secondary-opacity: 0.7;
+    --fa-primary-opacity: 1.0;
+}
+
+.fa-cloud-moon {
+    --fa-secondary-color: var(--moon-color);
+    --fa-secondary-opacity: 1.0;
+}
+
+.fa-cloud-sun-rain {
+    --fa-secondary-color: var(--sun-color);
+}
+
+.fa-cloud-moon-rain {
+    --fa-secondary-color: var(--moon-color);
+}
+
+.fa-cloud-drizzle {
+    --fa-secondary-color: #42a0ff;
+    --fa-secondary-opacity: 0.8;
+}
+
+.fa-cloud-showers-heavy {
+    --fa-secondary-color: #0d86ff;
+    --fa-secondary-opacity: 1.0;
+}
+
+.fa-cloud-rain {
+    --fa-secondary-color: #575757;
+    --fa-secondary-opacity: 1.0;
+}
+
+.fa-thunderstorm {
+    --fa-secondary-color: #ffffa4;
+    --fa-secondary-opacity: 1.0;
+}
+
+.fa-hurricane {
+    --fa-secondary-opacity: 0.8;
+}
+
+.fa-sun-haze {
+    --fa-secondary-color: var(--sun-color);
+    --fa-secondary-opacity: 0.6;
+}
+
+.fa-sun-dust {
+    --fa-secondary-color: var(--sun-color);
+    --fa-secondary-opacity: 0.2;
+}
+
+.fa-snowman {
+    --fa-secondary-color: #ffffff;
+    --fa-secondary-opacity: 1;
+}

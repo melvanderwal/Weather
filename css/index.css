@@ -66,12 +66,6 @@ body {
     content: attr(data-value);
 }
 
-.weatherIcon {
-    margin-left: 8px;
-    margin-right: 2px;
-    font-size: 20px;
-}
-
 /* ----- Forecast ----- */
 
 #forecast {
@@ -96,17 +90,32 @@ body {
 }
 
 .forecastTownLabel {
-    font-size: 14px;
+    cursor: pointer;
     text-align: center;
-    font-weight: 600;
+    text-align: center;
     text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
 }
 
+.forecastTownActive {
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.forecastTownInactive {
+    font-size: 12px;
+    font-weight: 400;
+}
+
 .forecastDayContainer {
+    cursor: pointer;
     display: flex;
     flex-grow: 1;
     flex-flow: column;
     align-items: center;
+    border-color: #999999;
+    border-radius: 5px;
+    border-width: 1px;
+    border-style: none;
 }
 
 .forecastDescription {
@@ -120,12 +129,6 @@ body {
     font-size: 11px;
     font-weight: 600;
     text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
-}
-
-.forecastImage {
-    padding-top: 5px;
-    padding-bottom: 5px;
-    width: 50px;
 }
 
 .forecastTemp {
@@ -146,7 +149,6 @@ body {
 .forecastPrecip {
     color: skyblue;
 }
-
 
 /* ----- Charts ----- */
 

@@ -7,8 +7,11 @@
 
     <link rel="shortcut icon" href="res/favicon.ico" type="image/x-icon" />
 
-    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css" rel="stylesheet" />
+    <!-- My MelStuff Font Awesome kit-->
+    <script src="https://kit.fontawesome.com/0ce0c19af1.js" crossorigin="anonymous"></script>
+
     <link href="css/index.css" rel="stylesheet" />
+    <link href="css/icons.css" rel="stylesheet" />
 </head>
 
 <body>
@@ -45,7 +48,7 @@
 
                 <span>Wind </span><span id="windIcon" class="weatherIcon"></span><span id="windDir"
                     class="measurement"></span>
-                <span style="font-size: 14px; margin-left: 4px;" class="weatherIcon fas fa-wind"></span><span
+                <span style="font-size: 16px; margin-left: 4px;" class="weatherIcon fal fa-wind"></span><span
                     id="windSpeed" class="measurement"></span>
                 <span style="font-size: 20px; margin-left: 4px;" class="weatherIcon darkHalo fas fa-wind"></span><span
                     id="windGust" class="measurement"></span><br>
@@ -58,12 +61,12 @@
         </div>
 
         <div id="forecast">
-            <span class="forecastTownLabel">Ipswich</span>
-            <div id="ipswich" class="forecastTown"></div>
-            <div id="ipswichForecastDescription" class="forecastDescription"></div>
-            <span class="forecastTownLabel">Kenmore</span>
-            <div id="kenmore" class="forecastTown"></div>
-            <div id="kenmoreForecastDescription" class="forecastDescription"></div>
+            <span class="forecastTownLabel">
+                <span id="ipswichLabel" class="forecastTownActive" onclick="setForecastTown('ipswich')">Ipswich</span>&nbsp;&nbsp;
+                <span id="kenmoreLabel" class="forecastTownInactive" onclick="setForecastTown('kenmore')">Kenmore</span>
+            </span>
+            <div id="forecastDays" class="forecastTown"></div>
+            <div id="forecastDescription" class="forecastDescription"></div>
         </div>
     </div>
 
@@ -84,18 +87,22 @@
     <template id="forecastDayTemplate">
         <div class="forecastDayContainer">
             <span class="forecastDay"></span>
-            <img class="forecastImage"></img>
+            <span class="forecastIcon"></span>
             <span class="forecastSummary"></span>
-            <span class="forecastTemp"><span class="forecastMin"></span>&nbsp;&nbsp;<span class="forecastMax"></span></span>
+            <span class="forecastTemp"><span class="forecastMin"></span>&nbsp;&nbsp;
+                <span class="forecastMax"></span></span>
             <span class="forecastPrecip forecastPrecipPct"></span>
             <span class="forecastPrecip forecastPrecipMm"></span>
         </div>
     </template>
 
     <!-- Javascript -->
+    <script src="data/sunrise-sunset.js"></script>
     <script src="data/forecast.js"></script>
     <script src="js/main.js"></script>
-
+    <script src="js/current-conditions.js"></script>
+    <script src="js/forecast.js"></script>
+    <script src="js/pws-charts.js"></script>
 </body>
 
 </html>
