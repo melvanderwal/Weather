@@ -1,5 +1,5 @@
 var forecast={
-	"updated": "24/09/2020, 4:55:40 am",
+	"updated": "24/09/2020, 5:10:40 am",
 	"kenmore": [
 		{
 			"class": "day eve",
@@ -82,18 +82,9 @@ var forecast={
 	],
 	"ipswich": [
 		{
-			"class": "day eve",
-			"day": "Wednesday",
-			"image": "clear",
-			"summary": "Clear.",
-			"precipPercent": 0,
-			"description": "Clear. Light winds."
-		},
-		{
 			"class": "day main",
 			"day": "Thursday",
 			"image": "sunny",
-			"min": 11,
 			"max": 31,
 			"summary": "Sunny.",
 			"precipPercent": 0,
@@ -102,12 +93,12 @@ var forecast={
 		{
 			"class": "day",
 			"day": "Friday",
-			"image": "sunny",
+			"image": "partly-cloudy",
 			"min": 9,
 			"max": 33,
-			"summary": "Sunny.",
-			"precipPercent": 5,
-			"description": "Sunny. Light winds becoming northwesterly 15 to 20 km/h in the early afternoon then becoming light in the late afternoon."
+			"summary": "Mostly sunny.",
+			"precipPercent": 10,
+			"description": "Mostly sunny. Light winds becoming northwesterly 15 to 20 km/h in the early afternoon then becoming light in the late afternoon."
 		},
 		{
 			"class": "day",
