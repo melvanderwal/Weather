@@ -26,7 +26,9 @@
                 <span>Last Updated</span><span id="lastUpdated" class="measurement"></span><br>
 
                 <span>Temperature</span><span id="temperatureIcon" class="weatherIcon"></span><span id="currentTemp"
-                    class="measurement" style="margin-right: 3px;"></span><span id="minTemp" class="tempMin" title="Lowest Temperature Today"></span>&nbsp;<span id="maxTemp" class="tempMax" title="Highest Temperature Today"></span>&nbsp;&nbsp;
+                    class="measurement" style="margin-right: 3px;"></span><span style="display:none;" id="minTemp"
+                    class="tempMin" title="Lowest Temperature Today"></span>&nbsp;<span style="display:none;"
+                    id="maxTemp" class="tempMax" title="Highest Temperature Today"></span>&nbsp;&nbsp;
                 <span>Feels Like</span><span id="feelsLikeIcon" class="weatherIcon"></span><span id="feelsLikeTemp"
                     class="measurement"></span><br>
 
@@ -50,10 +52,10 @@
 
                 <span>Wind </span><span id="windIcon" class="weatherIcon" title="Direction"></span><span id="windDir"
                     class="measurement"></span>
-                <span style="font-size: 16px; margin-left: 4px;" class="weatherIcon fal fa-wind" title="Speed"></span></span><span
-                    id="windSpeed" class="measurement"></span>
-                <span style="font-size: 20px; margin-left: 4px;" class="weatherIcon darkHalo fas fa-wind" title="Gust"></span><span
-                    id="windGust" class="measurement"></span><br>
+                <span style="font-size: 16px; margin-left: 4px;" class="weatherIcon fal fa-wind"
+                    title="Speed"></span></span><span id="windSpeed" class="measurement"></span>
+                <span style="font-size: 20px; margin-left: 4px;" class="weatherIcon darkHalo fas fa-wind"
+                    title="Gust"></span><span id="windGust" class="measurement"></span><br>
             </div>
 
             <iframe id="radarFrame" class="frameContainer" frameborder="0" allowfullscreen
