@@ -1,4 +1,5 @@
 function getCurrentConditions() {
+    updateSunriseSunset();
     let parentNode = document.querySelector("#conditionsData");
     let lastUpdated = parentNode.querySelector("#lastUpdated");
     let currentTemp = parentNode.querySelector("#currentTemp");
@@ -12,57 +13,80 @@ function getCurrentConditions() {
     let precipTotal = parentNode.querySelector("#precipTotal");
     let pressure = parentNode.querySelector("#pressure");
     let dewPoint = parentNode.querySelector("#dewPoint");
+    let sunrise = parentNode.querySelector("#sunrise");
+    let sunset = parentNode.querySelector("#sunset");
+    let minTemp = parentNode.querySelector("#minTemp");
+    let maxTemp = parentNode.querySelector("#maxTemp");
 
-
+    let dt = new Date();
+    let d = "0" + dt.getDate();
+    let m = "0" + (dt.getMonth() + 1);
+    let formattedDate = dt.getFullYear() + m.slice(m.length - 2) + d.slice(d.length - 2);
 
     let url = "https://api.weather.com/v2/pws/observations/current?stationId=IBRISBAN393&format=json&units=m&numericPrecision=decimal&apiKey=759a03e6e0844b2c9a03e6e0843b2ce7";
+    let summaryUrl = "https://api.weather.com/v2/pws/history/daily?stationId=IBRISBAN393&format=json&units=m&numericPrecision=decimal&apiKey=759a03e6e0844b2c9a03e6e0843b2ce7&date=" + formattedDate;
     fetch(url, { method: 'GET' })
         .then(response => response.json())
-        .then(json => {
-            let data = json.observations[0];
-
-            // Set text display values
-            lastUpdated.dataset.value = data.obsTimeLocal;
-            currentTemp.dataset.value = data.metric.temp + "°";
-            feelsLikeTemp.dataset.value = humidex(data.metric.temp, data.humidity) + "°";
-            humidity.dataset.value = data.humidity + "%";
-            uvIndex.dataset.value = data.uv;
-            windDir.dataset.value = data.metric.windSpeed == 0 ? "" : data.winddir + "°";
-            windSpeed.dataset.value = data.metric.windSpeed + "km/h";
-            windGust.dataset.value = data.metric.windGust + "km/h";
-            precipRate.dataset.value = data.metric.precipRate == 0 ? "" : data.metric.precipRate + "mm/hr";
-            precipTotal.dataset.value = data.metric.precipTotal + "mm";
-            pressure.dataset.value = data.metric.pressure + "hPa";
-            dewPoint.dataset.value = data.metric.dewpt + "°";
-
-            // Set text color
-            lastUpdated.style.color = "#999999";
-            currentTemp.style.color = getColor("temp", data.metric.temp);
-            feelsLikeTemp.style.color = getColor("humidex", humidex(data.metric.temp, data.humidity));
-            dewPoint.style.color = getColor("dewpt", data.metric.temp - data.metric.dewpt);
-            precipRate.style.color = getColor("precipRate", data.metric.precipRate);
-            precipTotal.style.color = getColor("precipTotal", data.metric.precipTotal);
-            uvIndex.style.color = getColor("uv", data.uv);
-            humidity.style.color = getColor("humidity", data.humidity);
-            pressure.style.color = getColor("pressure", data.metric.pressure);
-            windDir.style.color = "rgb(20,100,100)";
-            windSpeed.style.color = "rgb(20,100,100)";
-            windGust.style.color = "rgb(20,100,100)";
-
-            // Set icon properties
-            setIcon("humidex", humidex(data.metric.temp, data.humidity));
-            setIcon("winddir", [data.winddir, data.metric.windSpeed]);
-            setIcon("uv", data.uv);
-            setIcon("humidity", data.humidity);
-            setIcon("precipRate", data.metric.precipRate);
-            setIcon("temp", data.metric.temp);
-            setIcon("dewpt", data.metric.temp - data.metric.dewpt);
-            setIcon("pressure", data.metric.pressure);
-
+        .then(observationsJson => {
+            fetch(summaryUrl, { method: 'GET' })
+                .then(response => response.json())
+                .then(summaryJson => {
+                    updateCurrentConditions(observationsJson, summaryJson);
+                })
+                .catch(function (error) {
+                    lastUpdated.dataset.value = "An error occurred";
+                });
         })
         .catch(function (error) {
             lastUpdated.dataset.value = "An error occurred";
         });
+
+    function updateCurrentConditions(observationsJson, summaryJson) {
+        let data = observationsJson.observations[0];
+        let summaryData = summaryJson.observations[0];
+
+        // Set text display values
+        lastUpdated.dataset.value = data.obsTimeLocal;
+        currentTemp.dataset.value = data.metric.temp + "°";
+        feelsLikeTemp.dataset.value = humidex(data.metric.temp, data.humidity) + "°";
+        humidity.dataset.value = data.humidity + "%";
+        uvIndex.dataset.value = data.uv;
+        windDir.dataset.value = data.metric.windSpeed == 0 ? "" : data.winddir + "°";
+        windSpeed.dataset.value = data.metric.windSpeed + "km/h";
+        windGust.dataset.value = data.metric.windGust + "km/h";
+        precipRate.dataset.value = data.metric.precipRate == 0 ? "" : data.metric.precipRate + "mm/hr";
+        precipTotal.dataset.value = data.metric.precipTotal + "mm";
+        pressure.dataset.value = data.metric.pressure + "hPa";
+        dewPoint.dataset.value = data.metric.dewpt + "°";
+        sunrise.textContent = sunriseSunset.sunriseTime;
+        sunset.textContent = sunriseSunset.sunsetTime;
+        minTemp.textContent = summaryData.metric.tempLow + "°";
+        maxTemp.textContent = summaryData.metric.tempHigh + "°";
+
+        // Set text color
+        lastUpdated.style.color = "#999999";
+        currentTemp.style.color = getColor("temp", data.metric.temp);
+        feelsLikeTemp.style.color = getColor("humidex", humidex(data.metric.temp, data.humidity));
+        dewPoint.style.color = getColor("dewpt", data.metric.temp - data.metric.dewpt);
+        precipRate.style.color = getColor("precipRate", data.metric.precipRate);
+        precipTotal.style.color = getColor("precipTotal", data.metric.precipTotal);
+        uvIndex.style.color = getColor("uv", data.uv);
+        humidity.style.color = getColor("humidity", data.humidity);
+        pressure.style.color = getColor("pressure", data.metric.pressure);
+        windDir.style.color = "rgb(20,100,100)";
+        windSpeed.style.color = "rgb(20,100,100)";
+        windGust.style.color = "rgb(20,100,100)";
+
+        // Set icon properties
+        setIcon("humidex", humidex(data.metric.temp, data.humidity));
+        setIcon("winddir", [data.winddir, data.metric.windSpeed]);
+        setIcon("uv", data.uv);
+        setIcon("humidity", data.humidity);
+        setIcon("precipRate", data.metric.precipRate);
+        setIcon("temp", data.metric.temp);
+        setIcon("dewpt", data.metric.temp - data.metric.dewpt);
+        setIcon("pressure", data.metric.pressure);
+    }
 }
 
 
@@ -98,9 +122,9 @@ function setIcon(measurement, value) {
     }
     else if (measurement == "uv") {
         element = document.querySelector("#uvIcon");
-        if (isNight) iconClass = "fad fa-moon-stars";
-        else if (isDawn) iconClass="fad fa-sunrise";
-        else if (isDusk) iconClass="fad fa-sunset";
+        if (sunriseSunset.isNight) iconClass = "fad fa-moon-stars";
+        else if (sunriseSunset.isDawn) iconClass = "fad fa-sunrise";
+        else if (sunriseSunset.isDusk) iconClass = "fad fa-sunset";
         else if (value < 3) iconClass = "fad fa-cloud";
         else if (value < 6) iconClass = "fad fa-cloud-sun";
         else iconClass = "fad fa-sun";
@@ -109,7 +133,7 @@ function setIcon(measurement, value) {
     else if (measurement == "precipRate") {
         element = document.querySelector("#rainRateIcon");
         if (value == 0) iconClass = "fad fa-tint-slash";
-        else if (value < 2) iconClass = isNight ?  "fad fa-cloud-moon-rain" : "fad fa-cloud-sun-rain";
+        else if (value < 2) iconClass = sunriseSunset.isNight ? "fad fa-cloud-moon-rain" : "fad fa-cloud-sun-rain";
         else if (value < 4) iconClass = "fad fa-cloud-drizzle";
         else if (value < 10) iconClass = "fad fa-cloud-showers";
         else iconClass = "fad fa-cloud-showers-heavy";
@@ -118,11 +142,11 @@ function setIcon(measurement, value) {
     else if (measurement == "temp") {
         element = document.querySelector("#temperatureIcon");
         if (value < 5) iconClass = "fad fa-temperature-frigid";
-        else if (value < 10) iconClass = "fad fa-thermometer-empty";
-        else if (value < 18) iconClass = "fad fa-temperature-low";
-        else if (value < 26) iconClass = "fad fa-thermometer-half";
-        else if (value < 34) iconClass = "fad fa-temperature-high";
-        else iconClass = "fad fa-temperature-hot";
+        else if (value < 10) iconClass = "fad fa-thermometer-empty thermometer";
+        else if (value < 20) iconClass = "fad fa-temperature-low thermometer";
+        else if (value < 30) iconClass = "fad fa-thermometer-half thermometer";
+        else if (value < 35) iconClass = "fad fa-temperature-high thermometer";
+        else iconClass = "fad fa-temperature-hot thermometer";
         color = getColor("temp", value);
     }
     else if (measurement == "pressure") {

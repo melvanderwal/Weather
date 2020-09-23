@@ -23,6 +23,8 @@ function setForecastTown(town) {
         if (day.rain) dayDiv.getElementsByClassName("forecastPrecipMm")[0].textContent = day.rain;
         if (day.precipPercent) dayDiv.getElementsByClassName("forecastPrecipPct")[0].textContent = day.precipPercent + "%";
         dayDiv.getElementsByClassName("forecastSummary")[0].textContent = day.summary.substring(0, day.summary.length - 1);
+        dayDiv.getElementsByClassName("forecastDayContainer")[0].title = day.description;
+
         dayDiv.onpointerdown = function () { 
             descriptionSpan.textContent = day.description; 
             let borderDays = containerDiv.getElementsByClassName("forecastDayContainer");

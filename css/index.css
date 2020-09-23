@@ -138,11 +138,11 @@ body {
     flex-flow: row;
 }
 
-.forecastMin {
+.tempMin {
     color: #4285f4;
 }
 
-.forecastMax {
+.tempMax {
     color: #ea4335;
 }
 

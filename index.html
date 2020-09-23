@@ -26,7 +26,7 @@
                 <span>Last Updated</span><span id="lastUpdated" class="measurement"></span><br>
 
                 <span>Temperature</span><span id="temperatureIcon" class="weatherIcon"></span><span id="currentTemp"
-                    class="measurement"></span>
+                    class="measurement" style="margin-right: 3px;"></span><span id="minTemp" class="tempMin" title="Lowest Temperature Today"></span>&nbsp;<span id="maxTemp" class="tempMax" title="Highest Temperature Today"></span>&nbsp;&nbsp;
                 <span>Feels Like</span><span id="feelsLikeIcon" class="weatherIcon"></span><span id="feelsLikeTemp"
                     class="measurement"></span><br>
 
@@ -34,11 +34,13 @@
                     class="measurement"></span>
                 <span>Total Today</span><span id="precipTotal" class="measurement"></span><br>
 
-                <span>Humidity</span><span id="humidityIcon" class="weatherIcon"></span><span id="humidity"
-                    class="measurement"></span><br>
+                <span>Humidity</span>
+                <span id="humidityIcon" class="weatherIcon"></span><span id="humidity" class="measurement"></span> <br>
 
-                <span>UV Index</span><span id="uvIcon" class="weatherIcon"></span><span id="uvIndex"
-                    class="measurement"></span><br>
+                <span>UV Index</span>
+                <span id="uvIcon" class="weatherIcon"></span><span id="uvIndex" class="measurement"></span>
+                <span class="weatherIcon fad fa-sunrise"></span>&nbsp;<span id="sunrise"></span>
+                <span class="weatherIcon fad fa-sunset"></span>&nbsp;<span id="sunset"></span><br>
 
                 <span>Dew Point</span><span id="dewPointIcon" class="weatherIcon"></span><span id="dewPoint"
                     class="measurement"></span><br>
@@ -46,11 +48,11 @@
                 <span>Pressure</span><span id="pressureIcon" class="weatherIcon"></span><span id="pressure"
                     class="measurement"></span><br>
 
-                <span>Wind </span><span id="windIcon" class="weatherIcon"></span><span id="windDir"
+                <span>Wind </span><span id="windIcon" class="weatherIcon" title="Direction"></span><span id="windDir"
                     class="measurement"></span>
-                <span style="font-size: 16px; margin-left: 4px;" class="weatherIcon fal fa-wind"></span><span
+                <span style="font-size: 16px; margin-left: 4px;" class="weatherIcon fal fa-wind" title="Speed"></span></span><span
                     id="windSpeed" class="measurement"></span>
-                <span style="font-size: 20px; margin-left: 4px;" class="weatherIcon darkHalo fas fa-wind"></span><span
+                <span style="font-size: 20px; margin-left: 4px;" class="weatherIcon darkHalo fas fa-wind" title="Gust"></span><span
                     id="windGust" class="measurement"></span><br>
             </div>
 
@@ -62,7 +64,8 @@
 
         <div id="forecast">
             <span class="forecastTownLabel">
-                <span id="ipswichLabel" class="forecastTownActive" onclick="setForecastTown('ipswich')">Ipswich</span>&nbsp;&nbsp;
+                <span id="ipswichLabel" class="forecastTownActive"
+                    onclick="setForecastTown('ipswich')">Ipswich</span>&nbsp;&nbsp;
                 <span id="kenmoreLabel" class="forecastTownInactive" onclick="setForecastTown('kenmore')">Kenmore</span>
             </span>
             <div id="forecastDays" class="forecastTown"></div>
@@ -89,8 +92,8 @@
             <span class="forecastDay"></span>
             <span class="forecastIcon"></span>
             <span class="forecastSummary"></span>
-            <span class="forecastTemp"><span class="forecastMin"></span>&nbsp;&nbsp;
-                <span class="forecastMax"></span></span>
+            <span class="forecastTemp"><span class="forecastMin tempMin"></span>&nbsp;&nbsp;
+                <span class="forecastMax tempMax"></span></span>
             <span class="forecastPrecip forecastPrecipPct"></span>
             <span class="forecastPrecip forecastPrecipMm"></span>
         </div>
