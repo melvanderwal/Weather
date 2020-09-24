@@ -1,32 +1,23 @@
 var forecast={
-	"updated": "24/09/2020, 9:55:40 am",
+	"updated": "24/09/2020, 10:10:40 am",
 	"kenmore": [
-		{
-			"class": "day eve",
-			"day": "Wednesday",
-			"image": "clear",
-			"summary": "Clear.",
-			"precipPercent": 5,
-			"description": "Clear. Light winds."
-		},
 		{
 			"class": "day main",
 			"day": "Thursday",
 			"image": "sunny",
-			"min": 13,
 			"max": 30,
 			"summary": "Sunny.",
 			"precipPercent": 0,
-			"description": "Sunny. Light winds."
+			"description": "Sunny. Light winds becoming northeasterly 15 to 20 km/h in the late afternoon then becoming light in the evening."
 		},
 		{
 			"class": "day",
 			"day": "Friday",
-			"image": "sunny",
+			"image": "partly-cloudy",
 			"min": 11,
 			"max": 31,
-			"summary": "Sunny.",
-			"precipPercent": 5,
+			"summary": "Mostly sunny.",
+			"precipPercent": 20,
 			"description": "Sunny. Winds north to northwesterly and light becoming northerly 15 to 25 km/h in the middle of the day then increasing to 25 to 35 km/h in the early afternoon."
 		},
 		{
