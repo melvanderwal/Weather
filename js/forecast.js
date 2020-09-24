@@ -9,13 +9,15 @@ function setForecastTown(town) {
     document.getElementById("ipswichLabel").className = town == "ipswich" ? "forecastTownActive" : "forecastTownInactive";
     document.getElementById("kenmoreLabel").className = town == "kenmore" ? "forecastTownActive" : "forecastTownInactive";
 
+    let dayIdx = 0;
     forecast[town].forEach(day => {
+        dayIdx += 1;
         let templateNode = document.getElementById("forecastDayTemplate").cloneNode(true);
         let dayDiv = document.createElement("div");
         dayDiv.innerHTML = templateNode.innerHTML;
 
         let iconInfo = forecastIcon(day.image);
-        dayDiv.getElementsByClassName("forecastDay")[0].textContent = day.day;
+        dayDiv.getElementsByClassName("forecastDay")[0].textContent = dayIdx == 1 ? "Today" : day.day;
         dayDiv.getElementsByClassName("forecastIcon")[0].className = "forecastIcon " + iconInfo[0];
         dayDiv.getElementsByClassName("forecastIcon")[0].style.color = iconInfo[1];
         if (day.min) dayDiv.getElementsByClassName("forecastMin")[0].textContent = day.min + "°";

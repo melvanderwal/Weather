@@ -17,33 +17,31 @@ function getCurrentConditions() {
     let sunset = parentNode.querySelector("#sunset");
     let minTemp = parentNode.querySelector("#minTemp");
     let maxTemp = parentNode.querySelector("#maxTemp");
-
-    let dt = new Date();
-    let d = "0" + dt.getDate();
-    let m = "0" + (dt.getMonth() + 1);
-    let formattedDate = dt.getFullYear() + m.slice(m.length - 2) + d.slice(d.length - 2);
+    let pressureMinMax = parentNode.querySelector("#pressureMinMax");
 
     let url = "https://api.weather.com/v2/pws/observations/current?stationId=IBRISBAN393&format=json&units=m&numericPrecision=decimal&apiKey=759a03e6e0844b2c9a03e6e0843b2ce7";
-    let summaryUrl = "https://api.weather.com/v2/pws/history/daily?stationId=IBRISBAN393&format=json&units=m&numericPrecision=decimal&apiKey=759a03e6e0844b2c9a03e6e0843b2ce7&date=" + formattedDate;
+    let summaryUrl = "https://script.google.com/macros/s/AKfycbzkef0L1D0efPByQfJnwoznyQ2s2FZbNtM501alTQ8un6fc2oeq/exec?todaySummary=1";
     fetch(url, { method: 'GET' })
         .then(response => response.json())
         .then(observationsJson => {
             fetch(summaryUrl, { method: 'GET' })
                 .then(response => response.json())
                 .then(summaryJson => {
+                    console.log(summaryJson);
                     updateCurrentConditions(observationsJson, summaryJson);
                 })
                 .catch(function (error) {
+                    console.log(error);
                     lastUpdated.dataset.value = "An error occurred";
                 });
         })
         .catch(function (error) {
+            console.log(error);
             lastUpdated.dataset.value = "An error occurred";
         });
 
-    function updateCurrentConditions(observationsJson, summaryJson) {
+    function updateCurrentConditions(observationsJson, summaryData) {
         let data = observationsJson.observations[0];
-        let summaryData = summaryJson.observations[0];
 
         // Set text display values
         lastUpdated.dataset.value = data.obsTimeLocal;
@@ -60,8 +58,9 @@ function getCurrentConditions() {
         dewPoint.dataset.value = data.metric.dewpt + "°";
         sunrise.textContent = sunriseSunset.sunriseTime;
         sunset.textContent = sunriseSunset.sunsetTime;
-        minTemp.textContent = summaryData.metric.tempLow + "°";
-        maxTemp.textContent = summaryData.metric.tempHigh + "°";
+        minTemp.textContent = summaryData.minTemperature + "°";
+        maxTemp.textContent = summaryData.maxTemperature + "°";
+        pressureMinMax.textContent = parseInt(summaryData.minPressure) + "-" + parseInt(summaryData.maxPressure) + "hPa";
 
         // Set text color
         lastUpdated.style.color = "#999999";
