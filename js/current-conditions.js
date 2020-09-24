@@ -27,7 +27,6 @@ function getCurrentConditions() {
             fetch(summaryUrl, { method: 'GET' })
                 .then(response => response.json())
                 .then(summaryJson => {
-                    console.log(summaryJson);
                     updateCurrentConditions(observationsJson, summaryJson);
                 })
                 .catch(function (error) {
@@ -121,7 +120,7 @@ function setIcon(measurement, value) {
     }
     else if (measurement == "uv") {
         element = document.querySelector("#uvIcon");
-        if (sunriseSunset.isNight) iconClass = "fad fa-moon-stars";
+        if (sunriseSunset.isNight) iconClass = "far fa-moon";
         else if (sunriseSunset.isDawn) iconClass = "fad fa-sunrise";
         else if (sunriseSunset.isDusk) iconClass = "fad fa-sunset";
         else if (value < 3) iconClass = "fad fa-cloud";

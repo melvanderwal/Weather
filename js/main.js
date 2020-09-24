@@ -13,7 +13,7 @@ function updateSunriseSunset() {
     hoursSinceSunrise = hoursSinceSunrise < 0 ? 24 + hoursSinceSunrise : hoursSinceSunrise;
     let hoursUntilSunset = (sunset - now) / 3600000;
     hoursUntilSunset = hoursUntilSunset < 0 ? 24 + hoursUntilSunset : hoursUntilSunset;
-    let isNight = now <= sunrise && now >= sunset;
+    let isNight = now <= sunrise || now >= sunset;
 
     sunriseSunset.hoursSinceSunrise = hoursSinceSunrise;
     sunriseSunset.hoursUntilSunset = hoursUntilSunset;
@@ -22,6 +22,7 @@ function updateSunriseSunset() {
     sunriseSunset.isDusk = !isNight && hoursUntilSunset < 1.5;
     sunriseSunset.sunriseTime = new Date(sunriseSunset.sunriseLocal).toLocaleTimeString(navigator.language, { timeStyle: "short" });
     sunriseSunset.sunsetTime = new Date(sunriseSunset.sunsetLocal).toLocaleTimeString(navigator.language, { timeStyle: "short" });
+console.log(sunriseSunset);
 }
 
 
