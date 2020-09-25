@@ -1,14 +1,14 @@
 var forecast={
-	"updated": "26/09/2020, 8:55:40 am",
+	"updated": "26/09/2020, 9:10:40 am",
 	"kenmore": [
 		{
 			"class": "day main",
 			"day": "Saturday",
-			"image": "sunny",
+			"image": "wind",
 			"max": 26,
-			"summary": "Sunny.",
+			"summary": "Windy. Sunny.",
 			"precipPercent": 0,
-			"description": "Sunny. Winds westerly 25 to 40 km/h tending southwesterly 15 to 20 km/h in the evening then becoming light in the late evening."
+			"description": "Sunny. Winds west to southwesterly 35 to 50 km/h becoming light in the evening."
 		},
 		{
 			"class": "day",
@@ -75,11 +75,11 @@ var forecast={
 		{
 			"class": "day main",
 			"day": "Saturday",
-			"image": "sunny",
+			"image": "wind",
 			"max": 26,
-			"summary": "Sunny.",
+			"summary": "Windy. Sunny.",
 			"precipPercent": 0,
-			"description": "Sunny. Winds westerly 25 to 40 km/h tending southwesterly 15 to 20 km/h in the evening then becoming light in the late evening."
+			"description": "Sunny. Winds westerly 30 to 40 km/h tending southwesterly 25 to 30 km/h in the late afternoon then becoming light in the evening."
 		},
 		{
 			"class": "day",
