@@ -1,5 +1,5 @@
 var forecast={
-	"updated": "25/09/2020, 7:25:40 pm",
+	"updated": "25/09/2020, 7:40:40 pm",
 	"kenmore": [
 		{
 			"class": "day eve",
@@ -87,7 +87,7 @@ var forecast={
 			"image": "partly-cloudy",
 			"summary": "Mostly clear.",
 			"precipPercent": 20,
-			"description": "Mostly clear. Slight (20%) chance of a shower. Winds northwesterly 15 to 20 km/h becoming light in the evening."
+			"description": "Partly cloudy. Slight (30%) chance of a shower. The chance of a thunderstorm. Light winds."
 		},
 		{
 			"class": "day main",
