@@ -1,19 +1,10 @@
 var forecast={
-	"updated": "29/09/2020, 4:40:40 am",
+	"updated": "29/09/2020, 4:55:40 am",
 	"kenmore": [
-		{
-			"class": "day eve",
-			"day": "Monday",
-			"image": "partly-cloudy",
-			"summary": "Mostly clear.",
-			"precipPercent": 0,
-			"description": "Mostly clear. Light winds."
-		},
 		{
 			"class": "day main",
 			"day": "Tuesday",
 			"image": "partly-cloudy",
-			"min": 10,
 			"max": 25,
 			"summary": "Partly cloudy.",
 			"precipPercent": 10,
@@ -26,7 +17,7 @@ var forecast={
 			"min": 10,
 			"max": 26,
 			"summary": "Partly cloudy.",
-			"precipPercent": 10,
+			"precipPercent": 5,
 			"description": "Partly cloudy. Light winds."
 		},
 		{
