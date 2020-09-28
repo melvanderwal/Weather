@@ -1,5 +1,5 @@
 var forecast={
-	"updated": "29/09/2020, 4:55:40 am",
+	"updated": "29/09/2020, 5:10:40 am",
 	"kenmore": [
 		{
 			"class": "day main",
@@ -74,18 +74,9 @@ var forecast={
 	],
 	"ipswich": [
 		{
-			"class": "day eve",
-			"day": "Monday",
-			"image": "partly-cloudy",
-			"summary": "Mostly clear.",
-			"precipPercent": 0,
-			"description": "Mostly clear. Light winds."
-		},
-		{
 			"class": "day main",
 			"day": "Tuesday",
 			"image": "partly-cloudy",
-			"min": 7,
 			"max": 26,
 			"summary": "Partly cloudy.",
 			"precipPercent": 5,
