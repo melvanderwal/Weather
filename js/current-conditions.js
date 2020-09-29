@@ -105,18 +105,13 @@ function setIcon(measurement, value) {
     }
     else if (measurement == "humidex") {
         element = document.querySelector("#feelsLikeIcon");
-        if (value < 10) {
-            iconClass = "fas fa-grimace";
-            color = "rgb(0,0,255)";
-        }
-        else {
-            if (value < 29) iconClass = "fas fa-smile";
-            else if (value < 35) iconClass = "fas fa-meh";
-            else if (value < 40) iconClass = "fas fa-flushed";
-            else if (value < 45) iconClass = "fas fa-grin-beam-sweat";
-            else iconClass = "fas fa-dizzy";
-            color = getColor("humidex", value);
-        }
+        if (value < 10) iconClass = "fas fa-grimace";
+        else if (value < 29) iconClass = "fas fa-smile";
+        else if (value < 35) iconClass = "fas fa-meh";
+        else if (value < 40) iconClass = "fas fa-flushed";
+        else if (value < 45) iconClass = "fas fa-grin-beam-sweat";
+        else iconClass = "fas fa-dizzy";
+        color = getColor("humidex", value);
     }
     else if (measurement == "uv") {
         element = document.querySelector("#uvIcon");
@@ -176,7 +171,6 @@ function getColor(measurement, value) {
     if (measurement == "precipTotal") return scaleColor(scaleNumber(value, 0, 25), [169, 194, 219], [0, 0, 255]);
     if (measurement == "humidity") return scaleColor(scaleNumber(value, 50, 100), [169, 194, 219], [0, 0, 255]);
     if (measurement == "dewpt") return scaleColor(scaleNumber(value, 0, 5), [0, 0, 255], [169, 194, 219]);
-    if (measurement == "humidex") return scaleColor(scaleNumber(value, 25, 40), [0, 255, 0], [255, 0, 0]);
     if (measurement == "uv") return scaleColor(scaleNumber(value, 1, 10), [77, 255, 0], [255, 0, 0]);
     if (measurement == "uvIcon") return scaleColor(scaleNumber(value, 1, 10), [0, 0, 0], [255, 0, 0]);
 
@@ -184,6 +178,12 @@ function getColor(measurement, value) {
         return (value < 24) ?
             scaleColor(scaleNumber(value, 0, 24), [0, 0, 255], [0, 255, 0]) :
             scaleColor(scaleNumber(value, 24, 35), [0, 255, 0], [255, 0, 0]);
+
+    if (measurement == "humidex")
+        return (value < 10) ?
+            "rgb(0,0,255)" :
+            scaleColor(scaleNumber(value, 25, 40), [0, 255, 0], [255, 0, 0]);
+
 
     if (measurement == "pressure") {
         if (value < 1000) return "dimgray";
