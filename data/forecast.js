@@ -1,19 +1,10 @@
 var forecast={
-	"updated": "30/09/2020, 4:49:40 am",
+	"updated": "30/09/2020, 5:04:40 am",
 	"kenmore": [
-		{
-			"class": "day eve",
-			"day": "Tuesday",
-			"image": "clear",
-			"summary": "Clear.",
-			"precipPercent": 0,
-			"description": "Clear. Light winds."
-		},
 		{
 			"class": "day main",
 			"day": "Wednesday",
 			"image": "partly-cloudy",
-			"min": 10,
 			"max": 26,
 			"summary": "Partly cloudy.",
 			"precipPercent": 0,
@@ -26,7 +17,7 @@ var forecast={
 			"min": 12,
 			"max": 28,
 			"summary": "Possible shower developing.",
-			"rain": "0 to 2 mm",
+			"rain": "0 to 1 mm",
 			"precipPercent": 40,
 			"description": "Mostly sunny morning. Medium (40%) chance of showers in the afternoon and evening. The chance of a thunderstorm in the afternoon and evening. Light winds becoming north to northeasterly 15 to 25 km/h in the middle of the day then becoming light in the evening."
 		},
@@ -84,18 +75,9 @@ var forecast={
 	],
 	"ipswich": [
 		{
-			"class": "day eve",
-			"day": "Tuesday",
-			"image": "partly-cloudy",
-			"summary": "Mostly clear.",
-			"precipPercent": 0,
-			"description": "Mostly clear. Light winds."
-		},
-		{
 			"class": "day main",
 			"day": "Wednesday",
 			"image": "partly-cloudy",
-			"min": 8,
 			"max": 27,
 			"summary": "Partly cloudy.",
 			"precipPercent": 0,
@@ -107,10 +89,10 @@ var forecast={
 			"image": "light-showers",
 			"min": 10,
 			"max": 30,
-			"summary": "Possible shower developing.",
-			"rain": "0 to 2 mm",
+			"summary": "Possible shower.",
+			"rain": "0 to 1 mm",
 			"precipPercent": 40,
-			"description": "Mostly sunny morning. Medium (40%) chance of showers in the afternoon and evening. The chance of a thunderstorm in the afternoon and evening. Light winds."
+			"description": "Partly cloudy. Medium (40%) chance of showers in the late morning and afternoon. The chance of a thunderstorm in the afternoon and evening. Light winds."
 		},
 		{
 			"class": "day",
