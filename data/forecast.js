@@ -1,24 +1,14 @@
 var forecast={
-	"updated": "30/09/2020, 10:49:40 pm",
+	"updated": "01/10/2020, 5:04:40 am",
 	"kenmore": [
-		{
-			"class": "day eve",
-			"day": "Wednesday",
-			"image": "partly-cloudy",
-			"summary": "Partly cloudy.",
-			"precipPercent": 0,
-			"description": "Partly cloudy. Winds northeasterly 15 to 20 km/h becoming light in the evening."
-		},
 		{
 			"class": "day main",
 			"day": "Thursday",
 			"image": "light-showers",
-			"min": 12,
 			"max": 28,
 			"summary": "Possible shower.",
-			"rain": "0 to 1 mm",
-			"precipPercent": 30,
-			"description": "Partly cloudy. Slight (30%) chance of a shower in the late morning and afternoon. The chance of a thunderstorm in the afternoon and evening, especially in the west. Light winds becoming north to northeasterly 15 to 25 km/h in the middle of the day then becoming light in the evening."
+			"precipPercent": 40,
+			"description": "Partly cloudy. Medium (40%) chance of showers in the late morning and afternoon. The chance of a thunderstorm during this afternoon and evening. Light winds becoming north to northeasterly 15 to 25 km/h in the middle of the day then becoming light in the evening."
 		},
 		{
 			"class": "day",
@@ -84,23 +74,13 @@ var forecast={
 	],
 	"ipswich": [
 		{
-			"class": "day eve",
-			"day": "Wednesday",
-			"image": "partly-cloudy",
-			"summary": "Partly cloudy.",
-			"precipPercent": 0,
-			"description": "Partly cloudy. Winds northeasterly 15 to 20 km/h becoming light in the evening."
-		},
-		{
 			"class": "day main",
 			"day": "Thursday",
 			"image": "light-showers",
-			"min": 10,
 			"max": 30,
 			"summary": "Possible shower.",
-			"rain": "0 to 1 mm",
 			"precipPercent": 40,
-			"description": "Partly cloudy. Medium (40%) chance of showers in the late morning and afternoon. The chance of a thunderstorm in the afternoon and evening. Light winds."
+			"description": "Partly cloudy. Medium (40%) chance of showers in the late morning and afternoon. The chance of a thunderstorm during this afternoon and evening. Light winds."
 		},
 		{
 			"class": "day",
