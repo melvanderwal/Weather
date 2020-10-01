@@ -1,19 +1,10 @@
 var forecast={
-	"updated": "01/10/2020, 10:49:40 pm",
+	"updated": "02/10/2020, 5:04:40 am",
 	"kenmore": [
-		{
-			"class": "day eve",
-			"day": "Thursday",
-			"image": "partly-cloudy",
-			"summary": "Mostly clear.",
-			"precipPercent": 30,
-			"description": "Mostly clear. Slight (30%) chance of a shower in the west during the early evening. Winds northeasterly 15 to 20 km/h turning northerly in the evening."
-		},
 		{
 			"class": "day main",
 			"day": "Friday",
 			"image": "sunny",
-			"min": 12,
 			"max": 30,
 			"summary": "Sunny.",
 			"precipPercent": 0,
@@ -27,7 +18,7 @@ var forecast={
 			"max": 28,
 			"summary": "Mostly sunny.",
 			"precipPercent": 5,
-			"description": "Mostly sunny. Light winds becoming easterly 15 to 20 km/h in the middle of the day then becoming light in the evening."
+			"description": "Mostly sunny. Patchy fog in the west in the early morning. Light winds becoming easterly 15 to 20 km/h in the middle of the day then becoming light in the evening."
 		},
 		{
 			"class": "day",
@@ -82,18 +73,9 @@ var forecast={
 	],
 	"ipswich": [
 		{
-			"class": "day eve",
-			"day": "Thursday",
-			"image": "partly-cloudy",
-			"summary": "Mostly clear.",
-			"precipPercent": 30,
-			"description": "Mostly clear. Slight (30%) chance of a shower in the west during the early evening. Light winds."
-		},
-		{
 			"class": "day main",
 			"day": "Friday",
 			"image": "sunny",
-			"min": 11,
 			"max": 32,
 			"summary": "Sunny.",
 			"precipPercent": 0,
@@ -102,12 +84,12 @@ var forecast={
 		{
 			"class": "day",
 			"day": "Saturday",
-			"image": "partly-cloudy",
+			"image": "fog",
 			"min": 13,
 			"max": 29,
-			"summary": "Mostly sunny.",
+			"summary": "Early fog then sunny.",
 			"precipPercent": 5,
-			"description": "Mostly sunny. Light winds becoming easterly 15 to 20 km/h in the late afternoon then becoming light in the evening."
+			"description": "Patchy fog in the early morning. Mostly sunny day. Light winds becoming easterly 15 to 20 km/h in the late afternoon then becoming light in the evening."
 		},
 		{
 			"class": "day",
