@@ -57,8 +57,8 @@ function getCurrentConditions() {
         dewPoint.dataset.value = data.metric.dewpt + "°";
         sunrise.textContent = sunriseSunset.sunriseTime;
         sunset.textContent = sunriseSunset.sunsetTime;
-        minTemp.textContent = summaryData.minTemperature + "°";
-        maxTemp.textContent = summaryData.maxTemperature + "°";
+        minTemp.textContent = Math.min(summaryData.minTemperature, data.metric.temp) + "°";
+        maxTemp.textContent = Math.max(summaryData.maxTemperature, data.metric.temp) + "°";
         pressureMinMax.textContent = parseInt(summaryData.minPressure) + "-" + parseInt(summaryData.maxPressure) + "hPa";
 
         // Set text color
