@@ -22,7 +22,6 @@ function updateSunriseSunset() {
     sunriseSunset.isDusk = !isNight && hoursUntilSunset < 1.5;
     sunriseSunset.sunriseTime = new Date(sunriseSunset.sunriseLocal).toLocaleTimeString(navigator.language, { timeStyle: "short" });
     sunriseSunset.sunsetTime = new Date(sunriseSunset.sunsetLocal).toLocaleTimeString(navigator.language, { timeStyle: "short" });
-console.log(sunriseSunset);
 }
 
 
