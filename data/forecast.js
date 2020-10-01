@@ -1,5 +1,5 @@
 var forecast={
-	"updated": "01/10/2020, 3:34:40 pm",
+	"updated": "01/10/2020, 3:49:40 pm",
 	"kenmore": [
 		{
 			"class": "day main",
@@ -74,23 +74,22 @@ var forecast={
 	],
 	"ipswich": [
 		{
-			"class": "day main",
+			"class": "day eve",
 			"day": "Thursday",
 			"image": "storm",
-			"max": 30,
-			"summary": "Shower or two. possible storm",
+			"summary": "Shower or two. possible storm.",
 			"precipPercent": 50,
-			"description": "Partly cloudy. Medium (50%) chance of showers in the afternoon and evening. The chance of a thunderstorm in the afternoon and evening. Light winds becoming northeasterly 15 to 20 km/h in the late afternoon then becoming light in the evening."
+			"description": "Partly cloudy. Medium (50%) chance of showers in the afternoon and evening. The chance of a thunderstorm in the afternoon and evening, possibly severe in the north. Winds northeasterly 15 to 20 km/h becoming light in the evening."
 		},
 		{
-			"class": "day",
+			"class": "day main",
 			"day": "Friday",
 			"image": "sunny",
 			"min": 11,
-			"max": 31,
+			"max": 32,
 			"summary": "Sunny.",
 			"precipPercent": 0,
-			"description": "Sunny. Light winds becoming east to northeasterly 15 to 20 km/h in the late afternoon then becoming light in the evening."
+			"description": "Sunny. Light winds becoming easterly 20 to 25 km/h in the late afternoon then becoming light in the evening."
 		},
 		{
 			"class": "day",
@@ -141,6 +140,15 @@ var forecast={
 			"summary": "Partly cloudy.",
 			"precipPercent": 10,
 			"description": "Partly cloudy. Light winds becoming easterly 15 to 20 km/h during the day."
+		},
+		{
+			"class": "day",
+			"day": "Thursday",
+			"image": "blank",
+			"min": null,
+			"max": null,
+			"summary": "##",
+			"description": "##"
 		}
 	]
 }
