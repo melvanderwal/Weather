@@ -1,14 +1,14 @@
 var forecast={
-	"updated": "01/10/2020, 2:04:40 pm",
+	"updated": "01/10/2020, 2:19:40 pm",
 	"kenmore": [
 		{
 			"class": "day main",
 			"day": "Thursday",
-			"image": "light-showers",
+			"image": "storm",
 			"max": 28,
-			"summary": "Possible shower.",
+			"summary": "Possible shower or storm.",
 			"precipPercent": 40,
-			"description": "Partly cloudy. Medium (40%) chance of showers in the late morning and afternoon. The chance of a thunderstorm during this afternoon and evening. Light winds becoming north to northeasterly 15 to 25 km/h in the middle of the day then becoming light in the evening."
+			"description": "Partly cloudy. Medium (40%) chance of showers in the afternoon and evening. The chance of a thunderstorm in the afternoon and evening, especially in the west and near the border ranges in the south. Winds northeasterly 15 to 25 km/h turning northerly 15 to 20 km/h in the evening."
 		},
 		{
 			"class": "day",
@@ -76,11 +76,11 @@ var forecast={
 		{
 			"class": "day main",
 			"day": "Thursday",
-			"image": "light-showers",
+			"image": "storm",
 			"max": 30,
-			"summary": "Possible shower.",
-			"precipPercent": 40,
-			"description": "Partly cloudy. Medium (40%) chance of showers in the late morning and afternoon. The chance of a thunderstorm during this afternoon and evening. Light winds."
+			"summary": "Shower or two. possible storm",
+			"precipPercent": 50,
+			"description": "Partly cloudy. Medium (50%) chance of showers in the afternoon and evening. The chance of a thunderstorm in the afternoon and evening. Light winds becoming northeasterly 15 to 20 km/h in the late afternoon then becoming light in the evening."
 		},
 		{
 			"class": "day",
