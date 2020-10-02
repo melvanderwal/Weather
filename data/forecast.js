@@ -1,23 +1,14 @@
 var forecast={
-	"updated": "02/10/2020, 10:49:40 pm",
+	"updated": "03/10/2020, 5:04:40 am",
 	"kenmore": [
-		{
-			"class": "day eve",
-			"day": "Friday",
-			"image": "clear",
-			"summary": "Clear.",
-			"precipPercent": 0,
-			"description": "Clear. Winds easterly 20 to 25 km/h becoming light in the evening."
-		},
 		{
 			"class": "day main",
 			"day": "Saturday",
 			"image": "partly-cloudy",
-			"min": 14,
 			"max": 28,
-			"summary": "Partly cloudy.",
-			"precipPercent": 10,
-			"description": "Partly cloudy. The chance of fog over western parts in the early morning. Light winds becoming southeasterly 15 to 20 km/h in the morning then tending easterly 20 to 30 km/h in the middle of the day."
+			"summary": "Mostly sunny.",
+			"precipPercent": 5,
+			"description": "Mostly sunny. The chance of fog patches in the west early this morning. Winds southeasterly 15 to 20 km/h turning easterly 20 to 30 km/h in the middle of the day then becoming light in the evening."
 		},
 		{
 			"class": "day",
@@ -26,8 +17,8 @@ var forecast={
 			"min": 14,
 			"max": 27,
 			"summary": "Partly cloudy.",
-			"precipPercent": 5,
-			"description": "Partly cloudy. Light winds becoming east to northeasterly 15 to 25 km/h in the middle of the day then becoming light in the evening."
+			"precipPercent": 10,
+			"description": "Partly cloudy. The chance of fog patches in the west in the early morning. Light winds becoming east to northeasterly 15 to 25 km/h in the middle of the day then becoming light in the evening."
 		},
 		{
 			"class": "day",
@@ -82,22 +73,13 @@ var forecast={
 	],
 	"ipswich": [
 		{
-			"class": "day eve",
-			"day": "Friday",
-			"image": "clear",
-			"summary": "Clear.",
-			"precipPercent": 0,
-			"description": "Clear. Winds easterly 20 to 25 km/h becoming light in the evening."
-		},
-		{
 			"class": "day main",
 			"day": "Saturday",
 			"image": "partly-cloudy",
-			"min": 13,
 			"max": 29,
-			"summary": "Partly cloudy.",
-			"precipPercent": 5,
-			"description": "Partly cloudy. The chance of fog in the early morning. Light winds becoming easterly 20 to 25 km/h in the middle of the day then becoming light in the evening."
+			"summary": "Mostly sunny.",
+			"precipPercent": 0,
+			"description": "The chance of fog patches early this morning. Mostly sunny afternoon. Light winds becoming easterly 20 to 25 km/h in the middle of the day then becoming light in the evening."
 		},
 		{
 			"class": "day",
@@ -107,7 +89,7 @@ var forecast={
 			"max": 28,
 			"summary": "Partly cloudy.",
 			"precipPercent": 5,
-			"description": "Partly cloudy. Light winds becoming northeasterly 15 to 20 km/h in the middle of the day then becoming light in the evening."
+			"description": "Partly cloudy. The chance of patches fog in the early morning. Light winds becoming northeasterly 15 to 20 km/h in the middle of the day then becoming light in the evening."
 		},
 		{
 			"class": "day",
