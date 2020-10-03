@@ -1,5 +1,5 @@
 var forecast={
-	"updated": "03/10/2020, 3:04:40 pm",
+	"updated": "03/10/2020, 3:14:38 pm",
 	"kenmore": [
 		{
 			"class": "day main",
@@ -140,6 +140,75 @@ var forecast={
 			"summary": "Partly cloudy.",
 			"precipPercent": 20,
 			"description": "Partly cloudy. Slight (20%) chance of a shower. Light winds becoming northeasterly 15 to 20 km/h during the day."
+		}
+	],
+	"warwick": [
+		{
+			"class": "day main",
+			"day": "Saturday",
+			"image": "partly-cloudy",
+			"max": 28,
+			"summary": "Mostly sunny.",
+			"precipPercent": 0,
+			"description": "Sunny. Winds east to northeasterly 15 to 25 km/h. Daytime maximum temperatures around 30."
+		},
+		{
+			"class": "day",
+			"day": "Sunday",
+			"image": "partly-cloudy",
+			"min": 8,
+			"max": 26,
+			"summary": "Mostly sunny.",
+			"precipPercent": 0,
+			"description": "Sunny. Winds northeasterly 15 to 25 km/h. Overnight temperatures falling to between 9 and 14 with daytime temperatures reaching 26 to 31."
+		},
+		{
+			"class": "day",
+			"day": "Monday",
+			"image": "partly-cloudy",
+			"min": 9,
+			"max": 27,
+			"summary": "Mostly sunny.",
+			"precipPercent": 5,
+			"description": "Sunny. Winds northeasterly 15 to 25 km/h becoming light during the afternoon then becoming northeasterly 15 to 20 km/h during the evening. Overnight temperatures falling to between 10 and 14 with daytime temperatures reaching around 30."
+		},
+		{
+			"class": "day",
+			"day": "Tuesday",
+			"image": "partly-cloudy",
+			"min": 9,
+			"max": 28,
+			"summary": "Mostly sunny.",
+			"precipPercent": 5,
+			"description": "Mostly sunny. Light winds becoming east to northeasterly 15 to 25 km/h during the morning. Overnight temperatures falling to between 10 and 15 with daytime temperatures reaching around 30."
+		},
+		{
+			"class": "day",
+			"day": "Wednesday",
+			"image": "partly-cloudy",
+			"min": 9,
+			"max": 27,
+			"summary": "Mostly sunny.",
+			"precipPercent": 10
+		},
+		{
+			"class": "day",
+			"day": "Thursday",
+			"image": "partly-cloudy",
+			"min": 9,
+			"max": 27,
+			"summary": "Partly cloudy.",
+			"precipPercent": 20
+		},
+		{
+			"class": "day",
+			"day": "Friday",
+			"image": "partly-cloudy",
+			"min": 10,
+			"max": 27,
+			"summary": "Partly cloudy.",
+			"rain": "0 to 1 mm",
+			"precipPercent": 30
 		}
 	]
 }
