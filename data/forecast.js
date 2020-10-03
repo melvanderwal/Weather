@@ -1,23 +1,14 @@
 var forecast={
-	"updated": "03/10/2020, 10:49:40 pm",
+	"updated": "04/10/2020, 5:04:40 am",
 	"kenmore": [
-		{
-			"class": "day eve",
-			"day": "Saturday",
-			"image": "partly-cloudy",
-			"summary": "Mostly clear.",
-			"precipPercent": 0,
-			"description": "Mostly clear. Winds easterly 15 to 25 km/h becoming light in the evening."
-		},
 		{
 			"class": "day main",
 			"day": "Sunday",
 			"image": "partly-cloudy",
-			"min": 14,
 			"max": 27,
 			"summary": "Partly cloudy.",
 			"precipPercent": 5,
-			"description": "Partly cloudy. The chance of fog in the west in the early morning. Light winds."
+			"description": "Partly cloudy. Light winds."
 		},
 		{
 			"class": "day",
@@ -83,22 +74,13 @@ var forecast={
 	],
 	"ipswich": [
 		{
-			"class": "day eve",
-			"day": "Saturday",
-			"image": "partly-cloudy",
-			"summary": "Mostly clear.",
-			"precipPercent": 0,
-			"description": "Mostly clear. Winds easterly 20 to 25 km/h becoming light in the evening."
-		},
-		{
 			"class": "day main",
 			"day": "Sunday",
 			"image": "partly-cloudy",
-			"min": 12,
 			"max": 28,
 			"summary": "Partly cloudy.",
 			"precipPercent": 5,
-			"description": "Partly cloudy. The chance of fog in the early morning. Light winds."
+			"description": "Partly cloudy. Light winds."
 		},
 		{
 			"class": "day",
@@ -164,22 +146,13 @@ var forecast={
 	],
 	"warwick": [
 		{
-			"class": "day eve",
-			"day": "Saturday",
-			"image": "clear",
-			"summary": "Clear.",
-			"precipPercent": 0,
-			"description": "Clear. Winds east to northeasterly 15 to 25 km/h."
-		},
-		{
 			"class": "day main",
 			"day": "Sunday",
 			"image": "partly-cloudy",
-			"min": 8,
 			"max": 26,
-			"summary": "Partly cloudy.",
+			"summary": "Mostly sunny.",
 			"precipPercent": 0,
-			"description": "Sunny. Winds northeasterly 20 to 30 km/h. Overnight temperatures falling to between 9 and 15 with daytime temperatures reaching 26 to 31."
+			"description": "Sunny. Winds northeasterly 20 to 30 km/h. Daytime maximum temperatures 26 to 31."
 		},
 		{
 			"class": "day",
