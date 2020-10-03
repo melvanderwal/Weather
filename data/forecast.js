@@ -1,5 +1,5 @@
 var forecast={
-	"updated": "03/10/2020, 4:04:40 pm",
+	"updated": "03/10/2020, 4:19:40 pm",
 	"kenmore": [
 		{
 			"class": "day main",
@@ -144,56 +144,65 @@ var forecast={
 	],
 	"warwick": [
 		{
-			"class": "day main",
+			"class": "day eve",
 			"day": "Saturday",
-			"image": "partly-cloudy",
-			"max": 28,
-			"summary": "Mostly sunny.",
+			"image": "clear",
+			"summary": "Clear.",
 			"precipPercent": 0,
-			"description": "Sunny. Winds east to northeasterly 15 to 25 km/h. Daytime maximum temperatures around 30."
+			"description": "Clear. Winds east to northeasterly 15 to 25 km/h."
 		},
 		{
-			"class": "day",
+			"class": "day main",
 			"day": "Sunday",
 			"image": "partly-cloudy",
 			"min": 8,
 			"max": 26,
-			"summary": "Mostly sunny.",
+			"summary": "Partly cloudy.",
 			"precipPercent": 0,
-			"description": "Sunny. Winds northeasterly 15 to 25 km/h. Overnight temperatures falling to between 9 and 14 with daytime temperatures reaching 26 to 31."
+			"description": "Sunny. Winds northeasterly 20 to 30 km/h. Overnight temperatures falling to between 9 and 15 with daytime temperatures reaching 26 to 31."
 		},
 		{
 			"class": "day",
 			"day": "Monday",
 			"image": "partly-cloudy",
 			"min": 9,
-			"max": 27,
-			"summary": "Mostly sunny.",
+			"max": 28,
+			"summary": "Partly cloudy.",
 			"precipPercent": 5,
-			"description": "Sunny. Winds northeasterly 15 to 25 km/h becoming light during the afternoon then becoming northeasterly 15 to 20 km/h during the evening. Overnight temperatures falling to between 10 and 14 with daytime temperatures reaching around 30."
+			"description": "Mostly sunny. Winds northeasterly 15 to 25 km/h becoming light in the middle of the day. Overnight temperatures falling to between 10 and 14 with daytime temperatures reaching around 30."
 		},
 		{
 			"class": "day",
 			"day": "Tuesday",
-			"image": "partly-cloudy",
+			"image": "sunny",
 			"min": 9,
-			"max": 28,
-			"summary": "Mostly sunny.",
-			"precipPercent": 5,
-			"description": "Mostly sunny. Light winds becoming east to northeasterly 15 to 25 km/h during the morning. Overnight temperatures falling to between 10 and 15 with daytime temperatures reaching around 30."
+			"max": 30,
+			"summary": "Sunny.",
+			"precipPercent": 0,
+			"description": "Sunny. Light winds becoming east to northeasterly 15 to 20 km/h during the evening. Overnight temperatures falling to between 10 and 15 with daytime temperatures reaching around 30."
 		},
 		{
 			"class": "day",
 			"day": "Wednesday",
 			"image": "partly-cloudy",
-			"min": 9,
+			"min": 10,
 			"max": 27,
-			"summary": "Mostly sunny.",
-			"precipPercent": 10
+			"summary": "Partly cloudy.",
+			"precipPercent": 5,
+			"description": "Mostly sunny. Light winds becoming east to northeasterly 15 to 25 km/h during the morning. Overnight temperatures falling to between 11 and 15 with daytime temperatures reaching around 30."
 		},
 		{
 			"class": "day",
 			"day": "Thursday",
+			"image": "partly-cloudy",
+			"min": 10,
+			"max": 25,
+			"summary": "Partly cloudy.",
+			"precipPercent": 10
+		},
+		{
+			"class": "day",
+			"day": "Friday",
 			"image": "partly-cloudy",
 			"min": 9,
 			"max": 27,
@@ -202,10 +211,10 @@ var forecast={
 		},
 		{
 			"class": "day",
-			"day": "Friday",
+			"day": "Saturday",
 			"image": "partly-cloudy",
 			"min": 10,
-			"max": 27,
+			"max": 28,
 			"summary": "Partly cloudy.",
 			"rain": "0 to 1 mm",
 			"precipPercent": 30
