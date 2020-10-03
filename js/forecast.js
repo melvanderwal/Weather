@@ -8,6 +8,7 @@ function setForecastTown(town) {
 
     document.getElementById("ipswichLabel").className = town == "ipswich" ? "forecastTownActive" : "forecastTownInactive";
     document.getElementById("kenmoreLabel").className = town == "kenmore" ? "forecastTownActive" : "forecastTownInactive";
+    document.getElementById("warwickLabel").className = town == "warwick" ? "forecastTownActive" : "forecastTownInactive";
 
     let dayIdx = 0;
     forecast[town].forEach(day => {
