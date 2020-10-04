@@ -1,14 +1,14 @@
 var forecast={
-	"updated": "04/10/2020, 9:49:40 am",
+	"updated": "04/10/2020, 10:04:40 am",
 	"kenmore": [
 		{
 			"class": "day main",
 			"day": "Sunday",
 			"image": "partly-cloudy",
 			"max": 27,
-			"summary": "Partly cloudy.",
+			"summary": "Mostly sunny.",
 			"precipPercent": 5,
-			"description": "Partly cloudy. Light winds."
+			"description": "Partly cloudy morning, mostly sunny afternoon. Light winds."
 		},
 		{
 			"class": "day",
@@ -78,9 +78,9 @@ var forecast={
 			"day": "Sunday",
 			"image": "partly-cloudy",
 			"max": 28,
-			"summary": "Partly cloudy.",
+			"summary": "Mostly sunny.",
 			"precipPercent": 5,
-			"description": "Partly cloudy. Light winds."
+			"description": "Partly cloudy morning, mostly sunny afternoon. Light winds."
 		},
 		{
 			"class": "day",
