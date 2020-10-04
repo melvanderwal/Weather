@@ -1,19 +1,10 @@
 var forecast={
-	"updated": "04/10/2020, 10:49:40 pm",
+	"updated": "05/10/2020, 5:04:40 am",
 	"kenmore": [
-		{
-			"class": "day eve",
-			"day": "Sunday",
-			"image": "partly-cloudy",
-			"summary": "Mostly clear.",
-			"precipPercent": 5,
-			"description": "Mostly clear. Light winds."
-		},
 		{
 			"class": "day main",
 			"day": "Monday",
 			"image": "partly-cloudy",
-			"min": 13,
 			"max": 27,
 			"summary": "Partly cloudy.",
 			"precipPercent": 5,
@@ -83,18 +74,9 @@ var forecast={
 	],
 	"ipswich": [
 		{
-			"class": "day eve",
-			"day": "Sunday",
-			"image": "partly-cloudy",
-			"summary": "Mostly clear.",
-			"precipPercent": 5,
-			"description": "Mostly clear. Light winds."
-		},
-		{
 			"class": "day main",
 			"day": "Monday",
 			"image": "partly-cloudy",
-			"min": 13,
 			"max": 29,
 			"summary": "Partly cloudy.",
 			"precipPercent": 5,
@@ -164,22 +146,13 @@ var forecast={
 	],
 	"warwick": [
 		{
-			"class": "day eve",
-			"day": "Sunday",
-			"image": "clear",
-			"summary": "Clear.",
-			"precipPercent": 0,
-			"description": "Clear. Winds northeasterly 15 to 20 km/h."
-		},
-		{
 			"class": "day main",
 			"day": "Monday",
 			"image": "partly-cloudy",
-			"min": 9,
 			"max": 27,
-			"summary": "Mostly sunny.",
+			"summary": "Partly cloudy.",
 			"precipPercent": 0,
-			"description": "Mostly sunny. The chance of fog in the far east in the early morning. Winds northeasterly 15 to 20 km/h increasing to 20 to 30 km/h in the morning then becoming east to northeasterly and light in the early afternoon. Overnight temperatures falling to between 10 and 15 with daytime temperatures reaching around 30."
+			"description": "Mostly sunny. Winds northeasterly 15 to 20 km/h increasing to 20 to 30 km/h in the morning then becoming east to northeasterly and light in the early afternoon. Daytime maximum temperatures around 30."
 		},
 		{
 			"class": "day",
