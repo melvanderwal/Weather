@@ -1,23 +1,14 @@
 var forecast={
-	"updated": "05/10/2020, 10:49:40 pm",
+	"updated": "06/10/2020, 5:04:40 am",
 	"kenmore": [
-		{
-			"class": "day eve",
-			"day": "Monday",
-			"image": "clear",
-			"summary": "Clear.",
-			"precipPercent": 0,
-			"description": "Clear. Light winds."
-		},
 		{
 			"class": "day main",
 			"day": "Tuesday",
 			"image": "partly-cloudy",
-			"min": 14,
 			"max": 27,
 			"summary": "Partly cloudy.",
 			"precipPercent": 10,
-			"description": "Partly cloudy. Slight (20%) chance of a shower about bayside suburbs in the morning. Near zero chance of rain elsewhere. Light winds."
+			"description": "Partly cloudy. Patchy fog in the west early this morning. Light winds."
 		},
 		{
 			"class": "day",
@@ -27,7 +18,7 @@ var forecast={
 			"max": 27,
 			"summary": "Partly cloudy.",
 			"precipPercent": 5,
-			"description": "Partly cloudy. Light winds."
+			"description": "Partly cloudy. The chance of fog in the west in the early morning. Light winds."
 		},
 		{
 			"class": "day",
@@ -84,22 +75,13 @@ var forecast={
 	],
 	"ipswich": [
 		{
-			"class": "day eve",
-			"day": "Monday",
-			"image": "clear",
-			"summary": "Clear.",
-			"precipPercent": 0,
-			"description": "Clear. Light winds."
-		},
-		{
 			"class": "day main",
 			"day": "Tuesday",
-			"image": "partly-cloudy",
-			"min": 12,
+			"image": "fog",
 			"max": 29,
-			"summary": "Partly cloudy.",
-			"precipPercent": 0,
-			"description": "Partly cloudy. Light winds."
+			"summary": "Morning fog then mostly sunny.",
+			"precipPercent": 5,
+			"description": "Patchy fog early this morning. Mostly sunny afternoon. Light winds."
 		},
 		{
 			"class": "day",
@@ -108,8 +90,8 @@ var forecast={
 			"min": 11,
 			"max": 29,
 			"summary": "Partly cloudy.",
-			"precipPercent": 5,
-			"description": "Partly cloudy. Light winds."
+			"precipPercent": 0,
+			"description": "Partly cloudy. The chance of fog in the early morning. Light winds."
 		},
 		{
 			"class": "day",
@@ -165,22 +147,13 @@ var forecast={
 	],
 	"warwick": [
 		{
-			"class": "day eve",
-			"day": "Monday",
-			"image": "clear",
-			"summary": "Clear.",
-			"precipPercent": 0,
-			"description": "Clear. Light winds."
-		},
-		{
 			"class": "day main",
 			"day": "Tuesday",
-			"image": "sunny",
-			"min": 9,
+			"image": "fog",
 			"max": 29,
-			"summary": "Sunny.",
+			"summary": "Morning fog then sunny.",
 			"precipPercent": 0,
-			"description": "Sunny. Winds northeasterly 15 to 25 km/h becoming light in the middle of the day. Overnight temperatures falling to between 10 and 15 with daytime temperatures reaching around 30."
+			"description": "Sunny. Patchy fog in the east early this morning. Winds northeasterly 15 to 25 km/h becoming light in the middle of the day. Daytime maximum temperatures around 30."
 		},
 		{
 			"class": "day",
@@ -190,7 +163,7 @@ var forecast={
 			"max": 29,
 			"summary": "Mostly sunny.",
 			"precipPercent": 0,
-			"description": "Mostly sunny. Winds northeasterly 15 to 25 km/h becoming light in the early afternoon then becoming northeasterly 15 to 20 km/h in the evening. Overnight temperatures falling to between 10 and 16 with daytime temperatures reaching around 30."
+			"description": "Sunny. Winds northeasterly 15 to 25 km/h becoming light in the early afternoon then becoming northeasterly 15 to 20 km/h in the evening. Overnight temperatures falling to between 10 and 16 with daytime temperatures reaching around 30."
 		},
 		{
 			"class": "day",
