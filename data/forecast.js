@@ -1,5 +1,5 @@
 var forecast={
-	"updated": "09/10/2020, 2:49:40 pm",
+	"updated": "09/10/2020, 3:04:40 pm",
 	"kenmore": [
 		{
 			"class": "day main",
@@ -8,7 +8,7 @@ var forecast={
 			"max": 32,
 			"summary": "Possible afternoon storm.",
 			"precipPercent": 30,
-			"description": "Sunny morning. Slight (30%) chance of a shower or gusty thunderstorm during this afternoon and evening. Light winds becoming north to northeasterly 15 to 25 km/h in the early afternoon then becoming light in the late evening."
+			"description": "Partly cloudy. Slight (30%) chance of a shower. The chance of a thunderstorm, mainly in the mid to late afternoon. Winds north to northeasterly 15 to 25 km/h becoming light in the late evening."
 		},
 		{
 			"class": "day",
