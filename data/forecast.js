@@ -1,5 +1,5 @@
 var forecast={
-	"updated": "09/10/2020, 5:04:40 pm",
+	"updated": "09/10/2020, 5:19:40 pm",
 	"kenmore": [
 		{
 			"class": "day eve",
@@ -84,10 +84,10 @@ var forecast={
 		{
 			"class": "day eve",
 			"day": "Friday",
-			"image": "light-showers",
-			"summary": "Possible shower.",
+			"image": "partly-cloudy",
+			"summary": "Mostly Clear.",
 			"precipPercent": 20,
-			"description": "Mostly clear. Slight (20%) chance of a shower. The chance of a thunderstorm until early evening. Light winds."
+			"description": "Mostly clear. Slight (20%) chance of a shower. The chance of a thunderstorm to the northwest until early evening. Light winds."
 		},
 		{
 			"class": "day main",
