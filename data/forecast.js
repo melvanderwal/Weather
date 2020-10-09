@@ -1,19 +1,10 @@
 var forecast={
-	"updated": "09/10/2020, 10:49:40 pm",
+	"updated": "10/10/2020, 5:04:40 am",
 	"kenmore": [
-		{
-			"class": "day eve",
-			"day": "Friday",
-			"image": "partly-cloudy",
-			"summary": "Mostly clear.",
-			"precipPercent": 20,
-			"description": "Mostly clear. Slight (20%) chance of a shower. The chance of a thunderstorm in the northwest until early evening. Winds northeasterly 15 to 25 km/h turning northerly 15 to 20 km/h in the evening."
-		},
 		{
 			"class": "day main",
 			"day": "Saturday",
 			"image": "sunny",
-			"min": 15,
 			"max": 30,
 			"summary": "Sunny.",
 			"precipPercent": 0,
@@ -82,18 +73,9 @@ var forecast={
 	],
 	"ipswich": [
 		{
-			"class": "day eve",
-			"day": "Friday",
-			"image": "partly-cloudy",
-			"summary": "Mostly Clear.",
-			"precipPercent": 20,
-			"description": "Mostly clear. Slight (20%) chance of a shower. The chance of a thunderstorm to the northwest until early evening. Light winds."
-		},
-		{
 			"class": "day main",
 			"day": "Saturday",
 			"image": "sunny",
-			"min": 11,
 			"max": 31,
 			"summary": "Sunny.",
 			"precipPercent": 0,
@@ -163,22 +145,13 @@ var forecast={
 	],
 	"warwick": [
 		{
-			"class": "day eve",
-			"day": "Friday",
-			"image": "clear",
-			"summary": "Clear.",
-			"precipPercent": 10,
-			"description": "Clear. Winds southwesterly 15 to 25 km/h turning southerly 15 to 20 km/h in the late evening."
-		},
-		{
 			"class": "day main",
 			"day": "Saturday",
 			"image": "sunny",
-			"min": 8,
 			"max": 29,
 			"summary": "Sunny.",
 			"precipPercent": 0,
-			"description": "Sunny. Light winds becoming south to southeasterly 15 to 20 km/h in the morning then becoming light in the middle of the day. Overnight temperatures falling to between 9 and 13 with daytime temperatures reaching around 30."
+			"description": "Sunny. Winds south to southeasterly 15 to 20 km/h becoming light in the middle of the day. Daytime maximum temperatures around 30."
 		},
 		{
 			"class": "day",
@@ -188,7 +161,7 @@ var forecast={
 			"max": 29,
 			"summary": "Mostly sunny.",
 			"precipPercent": 10,
-			"description": "Mostly sunny. Slight (30%) chance of a shower in the north from the late morning. Near zero chance of rain elsewhere. The chance of a thunderstorm in the north in the afternoon and evening. Light winds becoming east to northeasterly 15 to 25 km/h in the morning. Overnight temperatures falling to between 10 and 13 with daytime temperatures reaching around 30."
+			"description": "Mostly sunny. Slight (20%) chance of a shower in the north from the late morning. Near zero chance of rain elsewhere. The chance of a thunderstorm in the north in the afternoon and evening. Light winds becoming east to northeasterly 15 to 25 km/h in the morning. Overnight temperatures falling to between 10 and 13 with daytime temperatures reaching around 30."
 		},
 		{
 			"class": "day",
