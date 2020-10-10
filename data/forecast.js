@@ -1,5 +1,5 @@
 var forecast={
-	"updated": "10/10/2020, 4:34:40 pm",
+	"updated": "10/10/2020, 4:49:40 pm",
 	"kenmore": [
 		{
 			"class": "day eve",
@@ -188,7 +188,7 @@ var forecast={
 			"summary": "Shower or two.",
 			"rain": "0 to 3 mm",
 			"precipPercent": 50,
-			"description": "Partly cloudy. Slight (30%) chance of a shower, most likely in the morning and afternoon. The chance of a thunderstorm in the afternoon and evening. Winds east to northeasterly 15 to 20 km/h tending north to northeasterly 15 to 25 km/h during the morning then tending east to northeasterly 15 to 20 km/h during the afternoon. Overnight temperatures falling to between 11 and 15 with daytime temperatures reaching around 30."
+			"description": "Partly cloudy. Medium (40%) chance of showers from the late morning. The chance of a thunderstorm in the afternoon and evening. Winds east to northeasterly 20 to 30 km/h becoming light in the middle of the day then becoming easterly 15 to 20 km/h in the late afternoon. Overnight temperatures falling to between 11 and 15 with daytime temperatures reaching the mid to high 20s."
 		},
 		{
 			"class": "day",
@@ -199,7 +199,7 @@ var forecast={
 			"summary": "Partly cloudy.",
 			"rain": "0 to 0.4 mm",
 			"precipPercent": 30,
-			"description": "Partly cloudy. Slight (20%) chance of a shower. The chance of a thunderstorm in the north and about the southern border ranges in the afternoon and evening. Winds east to northeasterly 15 to 20 km/h becoming light during the day then becoming east to southeasterly 15 to 20 km/h during the afternoon. Overnight temperatures falling to between 10 and 15 with daytime temperatures reaching around 30."
+			"description": "Partly cloudy. Slight (20%) chance of a shower. The chance of a thunderstorm in the east in the afternoon and evening. Winds east to northeasterly 15 to 20 km/h tending east to southeasterly 15 to 25 km/h during the morning. Overnight temperatures falling to between 14 and 17 with daytime temperatures reaching 24 to 29."
 		},
 		{
 			"class": "day",
@@ -209,7 +209,7 @@ var forecast={
 			"max": 21,
 			"summary": "Partly cloudy.",
 			"precipPercent": 10,
-			"description": "##"
+			"description": "Partly cloudy. Winds easterly 25 to 35 km/h. Overnight temperatures falling to between 12 and 16 with daytime temperatures reaching 23 to 29."
 		},
 		{
 			"class": "day",
