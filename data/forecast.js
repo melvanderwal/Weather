@@ -1,5 +1,5 @@
 var forecast={
-	"updated": "10/10/2020, 4:04:40 pm",
+	"updated": "10/10/2020, 4:19:40 pm",
 	"kenmore": [
 		{
 			"class": "day main",
@@ -145,70 +145,80 @@ var forecast={
 	],
 	"warwick": [
 		{
-			"class": "day main",
+			"class": "day eve",
 			"day": "Saturday",
-			"image": "sunny",
-			"max": 29,
-			"summary": "Sunny.",
+			"image": "clear",
+			"summary": "Clear.",
 			"precipPercent": 0,
-			"description": "Sunny. Winds south to southeasterly 15 to 20 km/h becoming light in the middle of the day. Daytime maximum temperatures around 30."
+			"description": "Clear. Light winds."
 		},
 		{
-			"class": "day",
+			"class": "day main",
 			"day": "Sunday",
 			"image": "partly-cloudy",
-			"min": 9,
-			"max": 29,
+			"min": 5,
+			"max": 26,
 			"summary": "Mostly sunny.",
-			"precipPercent": 10,
-			"description": "Mostly sunny. Slight (20%) chance of a shower in the north from the late morning. Near zero chance of rain elsewhere. The chance of a thunderstorm in the north in the afternoon and evening. Light winds becoming east to northeasterly 15 to 25 km/h in the morning. Overnight temperatures falling to between 10 and 13 with daytime temperatures reaching around 30."
+			"precipPercent": 20,
+			"description": "Mostly sunny. Slight (20%) chance of a shower in the north and east in the late afternoon and evening. Near zero chance of rain elsewhere. The chance of a thunderstorm in the north in the late afternoon and evening. Light winds becoming east to northeasterly 15 to 20 km/h in the morning. Overnight temperatures falling to between 7 and 10 with daytime temperatures reaching the mid to high 20s."
 		},
 		{
 			"class": "day",
 			"day": "Monday",
-			"image": "light-showers",
-			"min": 10,
-			"max": 26,
-			"summary": "Possible shower.",
-			"rain": "0 to 4 mm",
-			"precipPercent": 40,
+			"image": "showers",
+			"min": 9,
+			"max": 25,
+			"summary": "Shower or two.",
+			"rain": "0 to 3 mm",
+			"precipPercent": 50,
 			"description": "Partly cloudy. Slight (30%) chance of a shower, most likely in the morning and afternoon. The chance of a thunderstorm in the afternoon and evening. Winds east to northeasterly 15 to 20 km/h tending north to northeasterly 15 to 25 km/h during the morning then tending east to northeasterly 15 to 20 km/h during the afternoon. Overnight temperatures falling to between 11 and 15 with daytime temperatures reaching around 30."
 		},
 		{
 			"class": "day",
 			"day": "Tuesday",
 			"image": "partly-cloudy",
-			"min": 9,
-			"max": 26,
+			"min": 13,
+			"max": 23,
 			"summary": "Partly cloudy.",
-			"precipPercent": 20,
+			"rain": "0 to 0.4 mm",
+			"precipPercent": 30,
 			"description": "Partly cloudy. Slight (20%) chance of a shower. The chance of a thunderstorm in the north and about the southern border ranges in the afternoon and evening. Winds east to northeasterly 15 to 20 km/h becoming light during the day then becoming east to southeasterly 15 to 20 km/h during the afternoon. Overnight temperatures falling to between 10 and 15 with daytime temperatures reaching around 30."
 		},
 		{
 			"class": "day",
 			"day": "Wednesday",
 			"image": "partly-cloudy",
-			"min": 8,
-			"max": 25,
-			"summary": "Mostly sunny.",
-			"precipPercent": 10
+			"min": 12,
+			"max": 21,
+			"summary": "Partly cloudy.",
+			"precipPercent": 10,
+			"description": "##"
 		},
 		{
 			"class": "day",
 			"day": "Thursday",
 			"image": "partly-cloudy",
-			"min": 7,
-			"max": 25,
+			"min": 12,
+			"max": 22,
+			"summary": "Partly cloudy.",
+			"precipPercent": 10
+		},
+		{
+			"class": "day",
+			"day": "Friday",
+			"image": "partly-cloudy",
+			"min": 11,
+			"max": 26,
 			"summary": "Mostly sunny.",
 			"precipPercent": 5
 		},
 		{
 			"class": "day",
-			"day": "Friday",
-			"image": "sunny",
-			"min": 7,
-			"max": 29,
-			"summary": "Sunny.",
+			"day": "Saturday",
+			"image": "partly-cloudy",
+			"min": 12,
+			"max": 27,
+			"summary": "Mostly sunny.",
 			"precipPercent": 5
 		}
 	]
