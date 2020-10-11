@@ -38,6 +38,9 @@ function setForecastTown(town) {
             dayDiv.getElementsByClassName("forecastDayContainer")[0].style = "border-style: dotted;";
         }
         containerDiv.appendChild(dayDiv);
+        
+        // Select today's forecast
+        if (dayIdx == 1) dayDiv.dispatchEvent(new Event('pointerdown'));
     });
 }
 
