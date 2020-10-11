@@ -1,19 +1,10 @@
 var forecast={
-	"updated": "11/10/2020, 10:49:40 pm",
+	"updated": "12/10/2020, 5:04:40 am",
 	"kenmore": [
-		{
-			"class": "day eve",
-			"day": "Sunday",
-			"image": "partly-cloudy",
-			"summary": "Mostly clear.",
-			"precipPercent": 0,
-			"description": "Mostly clear. Winds easterly 15 to 25 km/h becoming light in the late evening."
-		},
 		{
 			"class": "day main",
 			"day": "Monday",
 			"image": "partly-cloudy",
-			"min": 15,
 			"max": 28,
 			"summary": "Partly cloudy.",
 			"precipPercent": 10,
@@ -26,7 +17,7 @@ var forecast={
 			"min": 15,
 			"max": 28,
 			"summary": "Partly cloudy.",
-			"precipPercent": 5,
+			"precipPercent": 10,
 			"description": "Partly cloudy. Light winds becoming east to southeasterly 20 to 30 km/h in the morning then becoming light in the late evening."
 		},
 		{
@@ -82,18 +73,9 @@ var forecast={
 	],
 	"ipswich": [
 		{
-			"class": "day eve",
-			"day": "Sunday",
-			"image": "partly-cloudy",
-			"summary": "Mostly clear.",
-			"precipPercent": 0,
-			"description": "Mostly clear. Winds easterly 15 to 20 km/h becoming light in the evening."
-		},
-		{
 			"class": "day main",
 			"day": "Monday",
 			"image": "partly-cloudy",
-			"min": 13,
 			"max": 29,
 			"summary": "Partly cloudy.",
 			"precipPercent": 10,
@@ -106,7 +88,7 @@ var forecast={
 			"min": 13,
 			"max": 29,
 			"summary": "Partly cloudy.",
-			"precipPercent": 5,
+			"precipPercent": 10,
 			"description": "Partly cloudy. Light winds becoming easterly 20 to 25 km/h in the middle of the day then becoming light in the evening."
 		},
 		{
@@ -162,34 +144,24 @@ var forecast={
 	],
 	"warwick": [
 		{
-			"class": "day eve",
-			"day": "Sunday",
-			"image": "partly-cloudy",
-			"summary": "Mostly clear.",
-			"precipPercent": 5,
-			"description": "Mostly clear. The chance of a thunderstorm in the north later this evening. Winds northeast to southeasterly 15 to 25 km/h."
-		},
-		{
 			"class": "day main",
 			"day": "Monday",
 			"image": "storm",
-			"min": 9,
 			"max": 26,
-			"summary": "Possible shower or storm.",
-			"rain": "0 to 2 mm",
-			"precipPercent": 40,
-			"description": "Partly cloudy. Medium (40%) chance of showers, most likely from the late morning. The chance of a thunderstorm. Winds east to northeasterly 15 to 25 km/h becoming light in the middle of the day then becoming east to northeasterly 15 to 20 km/h in the early afternoon. Overnight temperatures falling to between 11 and 16 with daytime temperatures reaching around 30."
+			"summary": "Shower or two. Possible late storm.",
+			"precipPercent": 50,
+			"description": "Partly cloudy. Medium (50%) chance of showers, most likely from late this morning. The chance of a thunderstorm. Winds east to northeasterly 15 to 25 km/h becoming light in the middle of the day then becoming east to northeasterly 15 to 20 km/h in the early afternoon. Daytime maximum temperatures in the mid to high 20s."
 		},
 		{
 			"class": "day",
 			"day": "Tuesday",
-			"image": "partly-cloudy",
+			"image": "light-showers",
 			"min": 10,
 			"max": 25,
-			"summary": "Partly cloudy.",
-			"rain": "0 to 1 mm",
+			"summary": "Possible shower.",
+			"rain": "0 to 0.4 mm",
 			"precipPercent": 30,
-			"description": "Partly cloudy. Medium (40%) chance of showers over the Granite Belt, slight (20%) chance elsewhere. The chance of a thunderstorm in the afternoon and evening. Winds east to northeasterly 15 to 20 km/h becoming light in the middle of the day then becoming east to southeasterly 15 to 20 km/h in the early afternoon. Overnight temperatures falling to between 11 and 15 with daytime temperatures reaching the mid to high 20s."
+			"description": "Partly cloudy. Medium (50%) chance of showers over the Granite Belt, slight (20%) chance elsewhere. The chance of a thunderstorm in the southeast in the afternoon and evening. Winds east to northeasterly 15 to 20 km/h becoming light in the middle of the day then becoming east to southeasterly 15 to 20 km/h in the early afternoon. Overnight temperatures falling to between 11 and 15 with daytime temperatures reaching the mid to high 20s."
 		},
 		{
 			"class": "day",
