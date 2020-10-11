@@ -1,5 +1,5 @@
 var forecast={
-	"updated": "11/10/2020, 4:04:40 pm",
+	"updated": "11/10/2020, 4:19:40 pm",
 	"kenmore": [
 		{
 			"class": "day main",
@@ -144,16 +144,15 @@ var forecast={
 	],
 	"warwick": [
 		{
-			"class": "day main",
+			"class": "day eve",
 			"day": "Sunday",
 			"image": "partly-cloudy",
-			"max": 29,
 			"summary": "Mostly sunny.",
 			"precipPercent": 5,
 			"description": "Mostly sunny. Slight (20%) chance of a shower in the north, near zero chance elsewhere. The chance of a thunderstorm in the north this evening. Winds northeasterly 15 to 20 km/h becoming light in the middle of the day then becoming east to northeasterly 15 to 20 km/h in the evening. Daytime maximum temperatures around 30."
 		},
 		{
-			"class": "day",
+			"class": "day main",
 			"day": "Monday",
 			"image": "light-showers",
 			"min": 9,
@@ -167,49 +166,59 @@ var forecast={
 			"class": "day",
 			"day": "Tuesday",
 			"image": "partly-cloudy",
-			"min": 13,
-			"max": 23,
+			"min": 10,
+			"max": 25,
 			"summary": "Partly cloudy.",
-			"rain": "0 to 0.4 mm",
+			"rain": "0 to 1 mm",
 			"precipPercent": 30,
-			"description": "Partly cloudy. Slight (20%) chance of a shower. The chance of a thunderstorm in the east in the afternoon and evening. Winds east to northeasterly 15 to 20 km/h tending east to southeasterly 15 to 25 km/h during the morning. Overnight temperatures falling to between 14 and 17 with daytime temperatures reaching 24 to 29."
+			"description": "Partly cloudy. Medium (40%) chance of showers over the Granite Belt, slight (20%) chance elsewhere. The chance of a thunderstorm in the afternoon and evening. Winds east to northeasterly 15 to 20 km/h becoming light in the middle of the day then becoming east to southeasterly 15 to 20 km/h in the early afternoon. Overnight temperatures falling to between 11 and 15 with daytime temperatures reaching the mid to high 20s."
 		},
 		{
 			"class": "day",
 			"day": "Wednesday",
 			"image": "partly-cloudy",
-			"min": 12,
-			"max": 21,
+			"min": 8,
+			"max": 25,
 			"summary": "Partly cloudy.",
-			"precipPercent": 10,
-			"description": "Partly cloudy. Winds easterly 25 to 35 km/h. Overnight temperatures falling to between 12 and 16 with daytime temperatures reaching 23 to 29."
+			"precipPercent": 5,
+			"description": "Mostly sunny. Winds easterly 25 to 35 km/h. Overnight temperatures falling to between 9 and 15 with daytime temperatures reaching 25 to 30."
 		},
 		{
 			"class": "day",
 			"day": "Thursday",
 			"image": "partly-cloudy",
-			"min": 12,
-			"max": 22,
+			"min": 7,
+			"max": 25,
 			"summary": "Partly cloudy.",
-			"precipPercent": 10
+			"precipPercent": 5,
+			"description": "Partly cloudy. Winds easterly 15 to 25 km/h turning northeasterly 15 to 20 km/h during the day. Overnight temperatures falling to between 9 and 13 with daytime temperatures reaching around 30."
 		},
 		{
 			"class": "day",
 			"day": "Friday",
 			"image": "partly-cloudy",
-			"min": 11,
-			"max": 26,
+			"min": 7,
+			"max": 29,
 			"summary": "Mostly sunny.",
-			"precipPercent": 5
+			"precipPercent": 0
 		},
 		{
 			"class": "day",
 			"day": "Saturday",
 			"image": "partly-cloudy",
-			"min": 12,
-			"max": 27,
+			"min": 9,
+			"max": 31,
 			"summary": "Mostly sunny.",
 			"precipPercent": 5
+		},
+		{
+			"class": "day",
+			"day": "Sunday",
+			"image": "partly-cloudy",
+			"min": 12,
+			"max": 29,
+			"summary": "Partly cloudy.",
+			"precipPercent": 20
 		}
 	]
 }
