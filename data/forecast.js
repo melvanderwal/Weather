@@ -1,19 +1,10 @@
 var forecast={
-	"updated": "12/10/2020, 10:49:40 pm",
+	"updated": "13/10/2020, 5:04:40 am",
 	"kenmore": [
-		{
-			"class": "day eve",
-			"day": "Monday",
-			"image": "partly-cloudy",
-			"summary": "Partly cloudy.",
-			"precipPercent": 10,
-			"description": "Partly cloudy. Slight (20%) chance of a shower in the west. Winds easterly 15 to 20 km/h becoming light in the evening."
-		},
 		{
 			"class": "day main",
 			"day": "Tuesday",
 			"image": "partly-cloudy",
-			"min": 14,
 			"max": 28,
 			"summary": "Partly cloudy.",
 			"precipPercent": 10,
@@ -82,18 +73,9 @@ var forecast={
 	],
 	"ipswich": [
 		{
-			"class": "day eve",
-			"day": "Monday",
-			"image": "partly-cloudy",
-			"summary": "Partly cloudy.",
-			"precipPercent": 30,
-			"description": "Partly cloudy. Slight (30%) chance of a shower. Winds easterly 15 to 20 km/h becoming light in the evening."
-		},
-		{
 			"class": "day main",
 			"day": "Tuesday",
 			"image": "partly-cloudy",
-			"min": 12,
 			"max": 29,
 			"summary": "Partly cloudy.",
 			"precipPercent": 10,
@@ -162,23 +144,13 @@ var forecast={
 	],
 	"warwick": [
 		{
-			"class": "day eve",
-			"day": "Monday",
-			"image": "storm",
-			"summary": "Shower or two. Possible storm.",
-			"precipPercent": 50,
-			"description": "Partly cloudy. High (70%) chance of showers over the Granite Belt, medium (40%) chance elsewhere. The chance of a thunderstorm. Winds east to northeasterly 15 to 20 km/h."
-		},
-		{
 			"class": "day main",
 			"day": "Tuesday",
 			"image": "storm",
-			"min": 10,
 			"max": 26,
 			"summary": "Possible storm.",
-			"rain": "0 to 0.4 mm",
 			"precipPercent": 30,
-			"description": "Partly cloudy. Medium (50%) chance of showers over the Granite Belt, slight (30%) chance elsewhere. The chance of a thunderstorm. Winds east to northeasterly 15 to 25 km/h becoming light in the middle of the day then becoming east to southeasterly 15 to 20 km/h in the late afternoon. Overnight temperatures falling to between 11 and 15 with daytime temperatures reaching the mid to high 20s."
+			"description": "Partly cloudy. Medium (50%) chance of showers over the Granite Belt, slight (20%) chance elsewhere. The chance of a thunderstorm from late morning. Winds east to northeasterly 15 to 25 km/h becoming light in the middle of the day then becoming east to southeasterly 15 to 20 km/h in the late afternoon. Daytime maximum temperatures in the mid to high 20s."
 		},
 		{
 			"class": "day",
