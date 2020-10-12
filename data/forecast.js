@@ -1,5 +1,5 @@
 var forecast={
-	"updated": "12/10/2020, 4:04:40 pm",
+	"updated": "12/10/2020, 4:19:40 pm",
 	"kenmore": [
 		{
 			"class": "day main",
@@ -144,69 +144,78 @@ var forecast={
 	],
 	"warwick": [
 		{
-			"class": "day main",
+			"class": "day eve",
 			"day": "Monday",
 			"image": "storm",
-			"max": 26,
-			"summary": "Shower or two. Possible late storm.",
+			"summary": "Shower or two. Possible storm.",
 			"precipPercent": 50,
-			"description": "Partly cloudy. Medium (50%) chance of showers, most likely from late this morning. The chance of a thunderstorm. Winds east to northeasterly 15 to 25 km/h becoming light in the middle of the day then becoming east to northeasterly 15 to 20 km/h in the early afternoon. Daytime maximum temperatures in the mid to high 20s."
+			"description": "Partly cloudy. High (70%) chance of showers over the Granite Belt, medium (40%) chance elsewhere. The chance of a thunderstorm. Winds east to northeasterly 15 to 20 km/h."
 		},
 		{
-			"class": "day",
+			"class": "day main",
 			"day": "Tuesday",
-			"image": "light-showers",
+			"image": "storm",
 			"min": 10,
-			"max": 25,
-			"summary": "Possible shower.",
+			"max": 26,
+			"summary": "Possible storm.",
 			"rain": "0 to 0.4 mm",
 			"precipPercent": 30,
-			"description": "Partly cloudy. Medium (50%) chance of showers over the Granite Belt, slight (20%) chance elsewhere. The chance of a thunderstorm in the southeast in the afternoon and evening. Winds east to northeasterly 15 to 20 km/h becoming light in the middle of the day then becoming east to southeasterly 15 to 20 km/h in the early afternoon. Overnight temperatures falling to between 11 and 15 with daytime temperatures reaching the mid to high 20s."
+			"description": "Partly cloudy. Medium (50%) chance of showers over the Granite Belt, slight (30%) chance elsewhere. The chance of a thunderstorm. Winds east to northeasterly 15 to 25 km/h becoming light in the middle of the day then becoming east to southeasterly 15 to 20 km/h in the late afternoon. Overnight temperatures falling to between 11 and 15 with daytime temperatures reaching the mid to high 20s."
 		},
 		{
 			"class": "day",
 			"day": "Wednesday",
 			"image": "partly-cloudy",
-			"min": 8,
+			"min": 9,
 			"max": 25,
 			"summary": "Partly cloudy.",
-			"precipPercent": 5,
-			"description": "Mostly sunny. Winds easterly 25 to 35 km/h. Overnight temperatures falling to between 9 and 15 with daytime temperatures reaching 25 to 30."
+			"precipPercent": 10,
+			"description": "Mostly sunny. Winds easterly 15 to 20 km/h becoming light before dawn then becoming easterly 15 to 25 km/h in the morning. Overnight temperatures falling to between 10 and 14 with daytime temperatures reaching 25 to 30."
 		},
 		{
 			"class": "day",
 			"day": "Thursday",
 			"image": "partly-cloudy",
-			"min": 7,
-			"max": 25,
+			"min": 8,
+			"max": 27,
 			"summary": "Partly cloudy.",
-			"precipPercent": 5,
-			"description": "Partly cloudy. Winds easterly 15 to 25 km/h turning northeasterly 15 to 20 km/h during the day. Overnight temperatures falling to between 9 and 13 with daytime temperatures reaching around 30."
+			"precipPercent": 0,
+			"description": "Sunny. Winds easterly 15 to 20 km/h increasing to 25 km/h before turning northeasterly 15 to 20 km/h during the day. Overnight temperatures falling to between 9 and 14 with daytime temperatures reaching around 30."
 		},
 		{
 			"class": "day",
 			"day": "Friday",
-			"image": "partly-cloudy",
+			"image": "sunny",
 			"min": 7,
-			"max": 29,
-			"summary": "Mostly sunny.",
-			"precipPercent": 0
+			"max": 30,
+			"summary": "Sunny.",
+			"precipPercent": 0,
+			"description": "Sunny. Winds northeasterly 15 to 20 km/h becoming light during the day then becoming east to northeasterly 15 to 20 km/h during the afternoon. Overnight temperatures falling to between 9 and 14 with daytime temperatures reaching around 30."
 		},
 		{
 			"class": "day",
 			"day": "Saturday",
 			"image": "partly-cloudy",
 			"min": 9,
-			"max": 31,
+			"max": 30,
 			"summary": "Mostly sunny.",
-			"precipPercent": 5
+			"precipPercent": 0
 		},
 		{
 			"class": "day",
 			"day": "Sunday",
 			"image": "partly-cloudy",
+			"min": 9,
+			"max": 33,
+			"summary": "Mostly sunny.",
+			"precipPercent": 5
+		},
+		{
+			"class": "day",
+			"day": "Monday",
+			"image": "partly-cloudy",
 			"min": 12,
-			"max": 29,
+			"max": 30,
 			"summary": "Partly cloudy.",
 			"precipPercent": 20
 		}
