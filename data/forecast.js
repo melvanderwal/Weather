@@ -1,24 +1,14 @@
 var forecast={
-	"updated": "13/10/2020, 10:49:40 pm",
+	"updated": "14/10/2020, 5:04:40 am",
 	"kenmore": [
-		{
-			"class": "day eve",
-			"day": "Tuesday",
-			"image": "partly-cloudy",
-			"summary": "Mostly clear.",
-			"precipPercent": 0,
-			"description": "Mostly clear. Winds east to southeasterly 15 to 25 km/h becoming light in the late evening."
-		},
 		{
 			"class": "day main",
 			"day": "Wednesday",
-			"image": "partly-cloudy",
-			"min": 14,
+			"image": "light-showers",
 			"max": 27,
-			"summary": "Partly cloudy.",
-			"rain": "0 to 0.2 mm",
-			"precipPercent": 30,
-			"description": "Partly cloudy. Slight (30%) chance of a shower in the morning and afternoon. Winds southeasterly 20 to 30 km/h."
+			"summary": "Possible shower.",
+			"precipPercent": 40,
+			"description": "Partly cloudy. Slight (40%) chance of a shower during the morning and early afternoon. Winds southeasterly 20 to 30 km/h."
 		},
 		{
 			"class": "day",
@@ -84,22 +74,13 @@ var forecast={
 	],
 	"ipswich": [
 		{
-			"class": "day eve",
-			"day": "Tuesday",
-			"image": "partly-cloudy",
-			"summary": "Mostly clear.",
-			"precipPercent": 5,
-			"description": "Mostly clear. Winds easterly 20 to 25 km/h becoming light in the evening."
-		},
-		{
 			"class": "day main",
 			"day": "Wednesday",
 			"image": "partly-cloudy",
-			"min": 11,
 			"max": 27,
 			"summary": "Partly cloudy.",
 			"precipPercent": 20,
-			"description": "Partly cloudy. Slight (20%) chance of a shower, most likely in the late morning and early afternoon. Light winds becoming east to southeasterly 20 to 30 km/h in the morning then becoming light in the evening."
+			"description": "Partly cloudy. Slight (20%) chance of a shower during the morning and early afternoon. Winds southeasterly 20 to 25 km/h tending easterly 20 to 30 km/h in the early afternoon then becoming light in the evening."
 		},
 		{
 			"class": "day",
@@ -164,22 +145,13 @@ var forecast={
 	],
 	"warwick": [
 		{
-			"class": "day eve",
-			"day": "Tuesday",
-			"image": "partly-cloudy",
-			"summary": "Mostly clear.",
-			"precipPercent": 30,
-			"description": "Mostly clear. Medium (40%) chance of showers in the southeast early this evening, slight (20%) chance elsewhere. The chance of a thunderstorm. Winds southeasterly 15 to 20 km/h turning easterly in the evening."
-		},
-		{
 			"class": "day main",
 			"day": "Wednesday",
 			"image": "partly-cloudy",
-			"min": 8,
 			"max": 24,
 			"summary": "Partly cloudy.",
 			"precipPercent": 5,
-			"description": "Mostly sunny. Winds easterly 15 to 20 km/h becoming light before dawn then becoming easterly 20 to 30 km/h early in the morning. Overnight temperatures falling to between 9 and 14 with daytime temperatures reaching 25 to 30."
+			"description": "Mostly sunny. Winds easterly 20 to 30 km/h. Daytime maximum temperatures 25 to 30."
 		},
 		{
 			"class": "day",
