@@ -1,24 +1,14 @@
 var forecast={
-	"updated": "14/10/2020, 10:49:40 pm",
+	"updated": "15/10/2020, 5:04:40 am",
 	"kenmore": [
-		{
-			"class": "day eve",
-			"day": "Wednesday",
-			"image": "partly-cloudy",
-			"summary": "Partly cloudy.",
-			"precipPercent": 10,
-			"description": "Partly cloudy. Winds southeasterly 15 to 25 km/h."
-		},
 		{
 			"class": "day main",
 			"day": "Thursday",
 			"image": "partly-cloudy",
-			"min": 14,
 			"max": 28,
 			"summary": "Partly cloudy.",
-			"rain": "0 to 0.2 mm",
 			"precipPercent": 30,
-			"description": "Slight (30%) chance of a shower in the morning. Mostly sunny afternoon. Light winds becoming easterly 15 to 25 km/h in the morning then becoming light in the evening."
+			"description": "Slight (30%) chance of a shower in the late morning. Mostly sunny afternoon. Light winds becoming easterly 15 to 25 km/h in the morning then becoming light in the evening."
 		},
 		{
 			"class": "day",
@@ -28,7 +18,7 @@ var forecast={
 			"max": 30,
 			"summary": "Sunny.",
 			"precipPercent": 0,
-			"description": "Sunny. Light winds becoming northeasterly 15 to 20 km/h in the late afternoon then becoming light in the evening."
+			"description": "Sunny. Patchy fog in the west in the early morning. Light winds becoming northeasterly 15 to 20 km/h in the late afternoon then becoming light in the evening."
 		},
 		{
 			"class": "day",
@@ -84,32 +74,23 @@ var forecast={
 	],
 	"ipswich": [
 		{
-			"class": "day eve",
-			"day": "Wednesday",
-			"image": "partly-cloudy",
-			"summary": "Mostly clear.",
-			"precipPercent": 10,
-			"description": "Mostly clear. Winds easterly 20 to 25 km/h becoming light in the evening."
-		},
-		{
 			"class": "day main",
 			"day": "Thursday",
 			"image": "partly-cloudy",
-			"min": 11,
 			"max": 29,
 			"summary": "Partly cloudy.",
 			"precipPercent": 20,
-			"description": "Partly cloudy. Slight (20%) chance of a shower in the late morning and afternoon. Light winds becoming easterly 20 to 25 km/h in the early afternoon then becoming light in the evening."
+			"description": "Partly cloudy. Slight (20%) chance of a shower. Light winds becoming easterly 20 to 25 km/h in the early afternoon then becoming light in the evening."
 		},
 		{
 			"class": "day",
 			"day": "Friday",
-			"image": "sunny",
+			"image": "fog",
 			"min": 11,
 			"max": 32,
-			"summary": "Sunny.",
+			"summary": "Early fog then sunny.",
 			"precipPercent": 0,
-			"description": "Sunny. Light winds becoming northeasterly 20 to 25 km/h in the late afternoon then becoming light in the evening."
+			"description": "Patchy fog in the early morning. Sunny day. Light winds becoming northeasterly 20 to 25 km/h in the late afternoon then becoming light in the evening."
 		},
 		{
 			"class": "day",
@@ -164,22 +145,13 @@ var forecast={
 	],
 	"warwick": [
 		{
-			"class": "day eve",
-			"day": "Wednesday",
-			"image": "partly-cloudy",
-			"summary": "Mostly clear.",
-			"precipPercent": 0,
-			"description": "Clear. Winds easterly 20 to 30 km/h."
-		},
-		{
 			"class": "day main",
 			"day": "Thursday",
 			"image": "partly-cloudy",
-			"min": 7,
 			"max": 27,
 			"summary": "Mostly sunny.",
-			"precipPercent": 5,
-			"description": "Sunny. Winds easterly 15 to 20 km/h turning northeasterly during the day. Overnight temperatures falling to between 8 and 13 with daytime temperatures reaching around 30."
+			"precipPercent": 0,
+			"description": "Mostly sunny. Winds easterly 15 to 20 km/h turning northeasterly during the day. Daytime maximum temperatures around 30."
 		},
 		{
 			"class": "day",
@@ -189,7 +161,7 @@ var forecast={
 			"max": 30,
 			"summary": "Mostly sunny.",
 			"precipPercent": 0,
-			"description": "Sunny. Winds north to northeasterly 15 to 25 km/h becoming light in the middle of the day then becoming north to northeasterly 15 to 20 km/h in the late evening. Overnight temperatures falling to between 9 and 14 with daytime temperatures reaching around 30."
+			"description": "Sunny. Patchy fog in the far east in the early morning. Winds north to northeasterly 15 to 25 km/h becoming light in the middle of the day then becoming north to northeasterly 15 to 20 km/h in the late evening. Overnight temperatures falling to between 9 and 14 with daytime temperatures reaching around 30."
 		},
 		{
 			"class": "day",
