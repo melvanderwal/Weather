@@ -1,23 +1,14 @@
 var forecast={
-	"updated": "15/10/2020, 10:49:40 pm",
+	"updated": "16/10/2020, 5:04:40 am",
 	"kenmore": [
-		{
-			"class": "day eve",
-			"day": "Thursday",
-			"image": "clear",
-			"summary": "Clear.",
-			"precipPercent": 0,
-			"description": "Clear. Winds easterly 15 to 20 km/h becoming light in the evening."
-		},
 		{
 			"class": "day main",
 			"day": "Friday",
 			"image": "sunny",
-			"min": 13,
 			"max": 30,
 			"summary": "Sunny.",
 			"precipPercent": 0,
-			"description": "Sunny. Patchy fog in the west in the early morning. Light winds becoming northeasterly 15 to 20 km/h in the early afternoon then becoming light in the evening."
+			"description": "Sunny. Patchy fog in the west early this morning. Light winds becoming northeasterly 15 to 20 km/h in the early afternoon then becoming light in the evening."
 		},
 		{
 			"class": "day",
@@ -83,22 +74,13 @@ var forecast={
 	],
 	"ipswich": [
 		{
-			"class": "day eve",
-			"day": "Thursday",
-			"image": "clear",
-			"summary": "Clear.",
-			"precipPercent": 5,
-			"description": "Clear. Winds easterly 20 to 25 km/h becoming light in the evening."
-		},
-		{
 			"class": "day main",
 			"day": "Friday",
 			"image": "sunny",
-			"min": 10,
 			"max": 32,
 			"summary": "Sunny.",
 			"precipPercent": 0,
-			"description": "Patchy fog in the early morning. Sunny day. Light winds becoming northeasterly 15 to 20 km/h in the late afternoon then becoming light in the evening."
+			"description": "Patchy fog early this morning. Sunny day. Light winds becoming northeasterly 15 to 20 km/h in the late afternoon then becoming light in the evening."
 		},
 		{
 			"class": "day",
@@ -163,22 +145,13 @@ var forecast={
 	],
 	"warwick": [
 		{
-			"class": "day eve",
-			"day": "Thursday",
-			"image": "clear",
-			"summary": "Clear.",
-			"precipPercent": 0,
-			"description": "Clear. Winds easterly 15 to 20 km/h turning northeasterly in the evening."
-		},
-		{
 			"class": "day main",
 			"day": "Friday",
 			"image": "partly-cloudy",
-			"min": 8,
 			"max": 31,
 			"summary": "Mostly sunny.",
 			"precipPercent": 0,
-			"description": "Mostly sunny. Light winds becoming northerly 15 to 25 km/h in the morning then becoming light in the middle of the day. Overnight temperatures falling to between 9 and 15 with daytime temperatures reaching the low 30s."
+			"description": "Mostly sunny. Winds northerly 15 to 25 km/h becoming light in the morning. Daytime maximum temperatures in the low 30s."
 		},
 		{
 			"class": "day",
