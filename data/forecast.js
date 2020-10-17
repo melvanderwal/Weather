@@ -1,5 +1,5 @@
 var forecast={
-	"updated": "18/10/2020, 7:49:40 am",
+	"updated": "18/10/2020, 8:04:40 am",
 	"kenmore": [
 		{
 			"class": "day main",
@@ -74,13 +74,22 @@ var forecast={
 	],
 	"ipswich": [
 		{
+			"class": "day eve",
+			"day": "Saturday",
+			"image": "clear",
+			"summary": "Clear.",
+			"precipPercent": 0,
+			"description": "Clear. Light winds."
+		},
+		{
 			"class": "day main",
 			"day": "Sunday",
 			"image": "partly-cloudy",
+			"min": null,
 			"max": 34,
 			"summary": "Mostly sunny.",
 			"precipPercent": 30,
-			"description": "Mostly sunny day. Slight (30%) chance of a shower this evening. The chance of a thunderstorm this evening. Light winds becoming northeasterly 20 to 25 km/h in the early afternoon then becoming light in the evening."
+			"description": "Mostly sunny day. Slight (20%) chance of a shower in the evening. The chance of a thunderstorm at night. Light winds becoming northeasterly 20 to 25 km/h in the early afternoon then becoming light in the evening."
 		},
 		{
 			"class": "day",
