@@ -1,5 +1,5 @@
 var forecast={
-	"updated": "18/10/2020, 4:34:40 pm",
+	"updated": "18/10/2020, 4:49:40 pm",
 	"kenmore": [
 		{
 			"class": "day eve",
@@ -175,7 +175,7 @@ var forecast={
 			"image": "storm",
 			"summary": "Rain at times. Storm likely.",
 			"precipPercent": 60,
-			"description": "Partly cloudy. High (70%) chance of rain in the south, slight (30%) chance elsewhere. The chance of a thunderstorm. Winds south to southwesterly 15 to 25 km/h tending south to southeasterly in the evening."
+			"description": "Partly cloudy. High (70%) chance of showers, tending to rain areas about the Granite Belt, slight (30%) chance elsewhere. The chance of a thunderstorm. Winds south to southwesterly 15 to 25 km/h tending south to southeasterly in the evening."
 		},
 		{
 			"class": "day main",
