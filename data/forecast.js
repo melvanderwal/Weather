@@ -1,5 +1,5 @@
 var forecast={
-	"updated": "18/10/2020, 7:49:40 pm",
+	"updated": "18/10/2020, 8:04:40 pm",
 	"kenmore": [
 		{
 			"class": "day eve",
@@ -43,13 +43,13 @@ var forecast={
 		{
 			"class": "day",
 			"day": "Thursday",
-			"image": "cloudy",
+			"image": "partly-cloudy",
 			"min": 15,
 			"max": 27,
-			"summary": "Cloudy.",
+			"summary": "Partly cloudy.",
 			"rain": "0 to 1 mm",
 			"precipPercent": 30,
-			"description": "Cloudy. Slight (30%) chance of a shower. Light winds becoming northeasterly 15 to 20 km/h during the afternoon then becoming light during the evening."
+			"description": "Partly cloudy. Slight (30%) chance of a shower. Light winds becoming northeasterly 15 to 20 km/h during the afternoon then becoming light during the evening."
 		},
 		{
 			"class": "day",
@@ -211,13 +211,13 @@ var forecast={
 		{
 			"class": "day",
 			"day": "Thursday",
-			"image": "showers",
+			"image": "storm",
 			"min": 10,
 			"max": 25,
-			"summary": "Shower or two.",
+			"summary": "Shower or two. Possible storm.",
 			"rain": "0 to 5 mm",
 			"precipPercent": 60,
-			"description": "Partly cloudy. Medium (50%) chance of showers, most likely in the afternoon and evening. The chance of a thunderstorm in the afternoon and evening. Winds northeasterly 20 to 30 km/h. Overnight temperatures falling to between 11 and 17 with daytime temperatures reaching 25 to 31."
+			"description": "Partly cloudy. Medium (50%) chance of showers, most likely in the afternoon and evening. The chance of a thunderstorm. Winds northeasterly 20 to 30 km/h. Overnight temperatures falling to between 11 and 17 with daytime temperatures reaching 25 to 31."
 		},
 		{
 			"class": "day",
