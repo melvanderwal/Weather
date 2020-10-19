@@ -1,5 +1,5 @@
 var forecast={
-	"updated": "19/10/2020, 4:04:40 pm",
+	"updated": "19/10/2020, 4:19:40 pm",
 	"kenmore": [
 		{
 			"class": "day main",
@@ -150,74 +150,85 @@ var forecast={
 	],
 	"warwick": [
 		{
-			"class": "day main",
+			"class": "day eve",
 			"day": "Monday",
 			"image": "partly-cloudy",
-			"max": 27,
 			"summary": "Partly cloudy.",
-			"precipPercent": 5,
-			"description": "Mostly sunny. Fog in the south early this morning. Light winds becoming south to southwesterly 15 to 25 km/h in the middle of the day. Daytime maximum temperatures around 30."
+			"precipPercent": 0,
+			"description": "Clear. Light winds."
 		},
 		{
-			"class": "day",
+			"class": "day main",
 			"day": "Tuesday",
 			"image": "partly-cloudy",
 			"min": 10,
-			"max": 25,
+			"max": 26,
 			"summary": "Partly cloudy.",
 			"precipPercent": 5,
-			"description": "Partly cloudy. Winds east to northeasterly 15 to 25 km/h becoming light in the middle of the day then becoming east to northeasterly 15 to 25 km/h in the late afternoon. Overnight temperatures falling to between 11 and 15 with daytime temperatures reaching 26 to 31."
+			"description": "Mostly sunny morning. The chance of a thunderstorm in the far in the evening. Winds northeast to southeasterly 15 to 20 km/h tending north to northeasterly in the morning then tending east to northeasterly 15 to 25 km/h in the early afternoon. Overnight temperatures falling to between 11 and 14 with daytime temperatures reaching around 30."
 		},
 		{
 			"class": "day",
 			"day": "Wednesday",
 			"image": "partly-cloudy",
 			"min": 9,
-			"max": 27,
+			"max": 26,
 			"summary": "Partly cloudy.",
-			"precipPercent": 20,
-			"description": "Partly cloudy. Medium (50%) chance of showers. The chance of a thunderstorm. Winds northeasterly 25 to 35 km/h. Overnight temperatures falling to between 10 and 16 with daytime temperatures reaching the mid to high 20s."
+			"rain": "0 to 1 mm",
+			"precipPercent": 30,
+			"description": "Cloudy. Medium (60%) chance of showers. The chance of a thunderstorm. Winds northeasterly 20 to 30 km/h. Overnight temperatures falling to between 10 and 16 with daytime temperatures reaching the mid to high 20s."
 		},
 		{
 			"class": "day",
 			"day": "Thursday",
-			"image": "storm",
-			"min": 10,
-			"max": 25,
-			"summary": "Shower or two. Possible storm.",
-			"rain": "0 to 5 mm",
+			"image": "showers",
+			"min": 11,
+			"max": 23,
+			"summary": "Shower or two.",
+			"rain": "4 to 10 mm",
 			"precipPercent": 60,
-			"description": "Partly cloudy. Medium (50%) chance of showers, most likely in the afternoon and evening. The chance of a thunderstorm. Winds northeasterly 20 to 30 km/h. Overnight temperatures falling to between 11 and 17 with daytime temperatures reaching 25 to 31."
+			"description": "Partly cloudy. Medium (60%) chance of showers, most likely in the morning. The chance of a thunderstorm. Winds northeasterly 15 to 25 km/h. Overnight temperatures falling to between 12 and 16 with daytime temperatures reaching 24 to 29."
 		},
 		{
 			"class": "day",
 			"day": "Friday",
-			"image": "storm",
-			"min": 12,
-			"max": 28,
-			"summary": "Possible shower or storm.",
+			"image": "light-showers",
+			"min": 11,
+			"max": 27,
+			"summary": "Possible shower.",
 			"rain": "0 to 2 mm",
-			"precipPercent": 40
+			"precipPercent": 40,
+			"description": "Partly cloudy. Slight (30%) chance of a shower in the afternoon and evening. The chance of a thunderstorm in the afternoon and evening. Winds north to northeasterly 20 to 30 km/h. Overnight temperatures falling to between 12 and 17 with daytime temperatures reaching 28 to 33."
 		},
 		{
 			"class": "day",
 			"day": "Saturday",
-			"image": "storm",
-			"min": 13,
-			"max": 27,
-			"summary": "Shower or two. Possible storm.",
-			"rain": "0 to 8 mm",
-			"precipPercent": 50
+			"image": "showers",
+			"min": 12,
+			"max": 25,
+			"summary": "Shower or two.",
+			"rain": "6 to 20 mm",
+			"precipPercent": 60
 		},
 		{
 			"class": "day",
 			"day": "Sunday",
 			"image": "showers",
-			"min": 14,
+			"min": 13,
 			"max": 27,
 			"summary": "Shower or two.",
-			"rain": "0 to 8 mm",
+			"rain": "0 to 15 mm",
 			"precipPercent": 50
+		},
+		{
+			"class": "day",
+			"day": "Monday",
+			"image": "light-showers",
+			"min": 13,
+			"max": 25,
+			"summary": "Possible shower.",
+			"rain": "0 to 10 mm",
+			"precipPercent": 40
 		}
 	]
 }
