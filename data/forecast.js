@@ -1,23 +1,14 @@
 var forecast={
-	"updated": "19/10/2020, 10:49:40 pm",
+	"updated": "20/10/2020, 5:04:40 am",
 	"kenmore": [
-		{
-			"class": "day eve",
-			"day": "Monday",
-			"image": "partly-cloudy",
-			"summary": "Partly cloudy.",
-			"precipPercent": 10,
-			"description": "Partly cloudy. Winds east to southeasterly 15 to 20 km/h tending south to southeasterly in the evening."
-		},
 		{
 			"class": "day main",
 			"day": "Tuesday",
 			"image": "partly-cloudy",
-			"min": 15,
 			"max": 28,
 			"summary": "Partly cloudy.",
 			"precipPercent": 10,
-			"description": "Partly cloudy. Winds southerly 15 to 20 km/h turning east to southeasterly 25 to 35 km/h in the late morning and early afternoon then becoming light in the late evening."
+			"description": "Partly cloudy. Winds south to southeasterly 15 to 20 km/h tending east to southeasterly 25 to 35 km/h in the early afternoon then becoming light in the late evening."
 		},
 		{
 			"class": "day",
@@ -27,7 +18,7 @@ var forecast={
 			"max": 28,
 			"summary": "Partly cloudy.",
 			"precipPercent": 10,
-			"description": "Partly cloudy. The chance of a thunderstorm in the Lockyer Valley in the afternoon. Light winds becoming easterly 15 to 25 km/h in the middle of the day then becoming light in the evening."
+			"description": "Partly cloudy. Light winds becoming easterly 15 to 25 km/h in the middle of the day then becoming light in the evening."
 		},
 		{
 			"class": "day",
@@ -86,18 +77,9 @@ var forecast={
 	],
 	"ipswich": [
 		{
-			"class": "day eve",
-			"day": "Monday",
-			"image": "partly-cloudy",
-			"summary": "Partly cloudy.",
-			"precipPercent": 10,
-			"description": "Partly cloudy. Winds southeasterly 15 to 20 km/h becoming light in the evening."
-		},
-		{
 			"class": "day main",
 			"day": "Tuesday",
 			"image": "partly-cloudy",
-			"min": 13,
 			"max": 29,
 			"summary": "Partly cloudy.",
 			"precipPercent": 10,
@@ -170,22 +152,13 @@ var forecast={
 	],
 	"warwick": [
 		{
-			"class": "day eve",
-			"day": "Monday",
-			"image": "partly-cloudy",
-			"summary": "Partly cloudy.",
-			"precipPercent": 0,
-			"description": "Clear. Light winds."
-		},
-		{
 			"class": "day main",
 			"day": "Tuesday",
 			"image": "partly-cloudy",
-			"min": 10,
 			"max": 26,
 			"summary": "Partly cloudy.",
 			"precipPercent": 5,
-			"description": "Mostly sunny morning. The chance of a thunderstorm in the far in the evening. Winds northeast to southeasterly 15 to 20 km/h tending north to northeasterly in the morning then tending east to northeasterly 15 to 25 km/h in the early afternoon. Overnight temperatures falling to between 11 and 14 with daytime temperatures reaching around 30."
+			"description": "Partly cloudy. The chance of a thunderstorm in the north during this afternoon and evening. Winds east to northeasterly 15 to 20 km/h becoming light in the middle of the day then becoming easterly 15 to 25 km/h in the evening. Daytime maximum temperatures around 30."
 		},
 		{
 			"class": "day",
@@ -194,9 +167,9 @@ var forecast={
 			"min": 9,
 			"max": 26,
 			"summary": "Partly cloudy.",
-			"rain": "0 to 1 mm",
+			"rain": "0 to 0.2 mm",
 			"precipPercent": 30,
-			"description": "Cloudy. Medium (60%) chance of showers. The chance of a thunderstorm. Winds northeasterly 20 to 30 km/h. Overnight temperatures falling to between 10 and 16 with daytime temperatures reaching the mid to high 20s."
+			"description": "Partly cloudy. Medium (60%) chance of showers. The chance of a thunderstorm in the west and north, possibly severe. Winds northeasterly 20 to 30 km/h. Overnight temperatures falling to between 10 and 16 with daytime temperatures reaching the mid to high 20s."
 		},
 		{
 			"class": "day",
