@@ -1,14 +1,14 @@
 var forecast={
-	"updated": "21/10/2020, 11:49:40 am",
+	"updated": "21/10/2020, 12:04:40 pm",
 	"kenmore": [
 		{
 			"class": "day main",
 			"day": "Wednesday",
-			"image": "partly-cloudy",
+			"image": "showers",
 			"max": 29,
-			"summary": "Partly cloudy.",
-			"precipPercent": 10,
-			"description": "Partly cloudy. Light winds becoming easterly 15 to 20 km/h in the early afternoon then becoming light in the evening."
+			"summary": "Shower or two.",
+			"precipPercent": 70,
+			"description": "Partly cloudy. Medium (60%) chance of showers in the late morning and afternoon. Winds easterly 15 to 20 km/h becoming light in the evening."
 		},
 		{
 			"class": "day",
@@ -16,7 +16,7 @@ var forecast={
 			"image": "light-showers",
 			"min": 15,
 			"max": 27,
-			"summary": "Possible early shower.",
+			"summary": "Possible shower.",
 			"rain": "0 to 2 mm",
 			"precipPercent": 40,
 			"description": "Partly cloudy. Medium (40%) chance of showers in the morning. Light winds becoming northeasterly 15 to 20 km/h in the early afternoon then becoming light in the evening."
@@ -80,11 +80,11 @@ var forecast={
 		{
 			"class": "day main",
 			"day": "Wednesday",
-			"image": "partly-cloudy",
+			"image": "showers",
 			"max": 30,
-			"summary": "Partly cloudy.",
-			"precipPercent": 10,
-			"description": "Partly cloudy. Light winds becoming easterly 15 to 20 km/h in the late afternoon then becoming light in the evening."
+			"summary": "Shower or two.",
+			"precipPercent": 70,
+			"description": "Partly cloudy. High (70%) chance of showers. Light winds becoming east to northeasterly 20 to 25 km/h in the early afternoon then becoming light in the evening."
 		},
 		{
 			"class": "day",
@@ -158,9 +158,9 @@ var forecast={
 			"day": "Wednesday",
 			"image": "storm",
 			"max": 26,
-			"summary": "Possible storm.",
-			"precipPercent": 30,
-			"description": "Cloudy. Medium (60%) chance of showers, most likely from late this morning. The chance of a thunderstorm, possibly severe in the west and north. Winds northeasterly 15 to 25 km/h. Daytime maximum temperatures in the mid to high 20s."
+			"summary": "Shower or two. Possible storm.",
+			"precipPercent": 70,
+			"description": "Cloudy. High (70%) chance of showers. The chance of a thunderstorm, possibly severe in the west and north. Winds northeasterly 15 to 25 km/h. Daytime maximum temperatures in the mid to high 20s."
 		},
 		{
 			"class": "day",
