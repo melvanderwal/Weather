@@ -1,5 +1,5 @@
 var forecast={
-	"updated": "23/10/2020, 4:04:40 pm",
+	"updated": "23/10/2020, 4:19:40 pm",
 	"kenmore": [
 		{
 			"class": "day main",
@@ -156,24 +156,23 @@ var forecast={
 	],
 	"warwick": [
 		{
-			"class": "day main",
+			"class": "day eve",
 			"day": "Friday",
 			"image": "storm",
-			"max": 27,
 			"summary": "Shower or two. Possible storm.",
 			"precipPercent": 50,
-			"description": "Partly cloudy. High (70%) chance of showers in the southwest, medium (50%) chance elsewhere. The chance of a thunderstorm during this afternoon and evening, possibly severe. Winds north to northeasterly 20 to 30 km/h. Daytime maximum temperatures 27 to 34."
+			"description": "Partly cloudy. High (70%) chance of showers. The chance of a thunderstorm, possibly severe. Winds northeasterly 15 to 25 km/h."
 		},
 		{
-			"class": "day",
+			"class": "day main",
 			"day": "Saturday",
 			"image": "storm",
-			"min": 14,
-			"max": 24,
-			"summary": "Showers. Possible storm.",
-			"rain": "5 to 15 mm",
-			"precipPercent": 80,
-			"description": "Cloudy. High (80%) chance of showers, most likely in the morning and afternoon. The chance of a thunderstorm, possibly severe. Heavy falls possible in the north. Winds northeasterly 20 to 25 km/h turning northerly 20 to 30 km/h early in the morning. Overnight temperatures falling to between 14 and 18 with daytime temperatures reaching 24 to 29."
+			"min": 15,
+			"max": 21,
+			"summary": "Showers. Storm likely.",
+			"rain": "15 to 25 mm",
+			"precipPercent": 90,
+			"description": "Cloudy. Very high (90%) chance of showers and patchy rain, most likely in the morning and afternoon. A thunderstorm likely, possibly severe. Winds northerly 25 to 35 km/h. Overnight temperatures falling to between 16 and 19 with daytime temperatures reaching 21 to 26."
 		},
 		{
 			"class": "day",
@@ -182,40 +181,41 @@ var forecast={
 			"min": 14,
 			"max": 27,
 			"summary": "Showers. Possible storm.",
-			"rain": "15 to 25 mm",
-			"precipPercent": 80,
-			"description": "Partly cloudy. High (80%) chance of showers in the east, medium (50%) chance elsewhere. The chance of a thunderstorm, possibly severe. Winds north to northwesterly 15 to 20 km/h shifting south to southwesterly 15 to 25 km/h during the afternoon. Overnight temperatures falling to between 14 and 17 with daytime temperatures reaching the mid to high 20s."
+			"rain": "15 to 30 mm",
+			"precipPercent": 90,
+			"description": "Partly cloudy. Very high (90%) chance of showers in the east, medium (50%) chance elsewhere. The chance of a thunderstorm, possibly severe. Winds northwest to northeasterly 15 to 20 km/h tending northwest to southwesterly 15 to 25 km/h in the morning then becoming southwesterly 15 to 20 km/h in the evening. Overnight temperatures falling to between 14 and 17 with daytime temperatures reaching the mid to high 20s."
 		},
 		{
 			"class": "day",
 			"day": "Monday",
-			"image": "storm",
-			"min": 12,
-			"max": 26,
-			"summary": "Shower or two. Possible storm.",
-			"rain": "1 to 8 mm",
+			"image": "showers",
+			"min": 13,
+			"max": 25,
+			"summary": "Shower or two.",
+			"rain": "4 to 8 mm",
 			"precipPercent": 50,
-			"description": "Partly cloudy. Medium (60%) chance of showers over the Granite Belt, slight (30%) chance elsewhere. The chance of a thunderstorm. Light winds becoming west to southwesterly 15 to 20 km/h during the day then becoming light during the afternoon. Overnight temperatures falling to around 13 with daytime temperatures reaching the mid to high 20s."
+			"description": "Partly cloudy. Medium (60%) chance of showers over the Granite Belt, slight (30%) chance elsewhere. The chance of a thunderstorm. Light winds becoming west to southwesterly 15 to 20 km/h during the day then becoming light during the evening. Overnight temperatures falling to around 13 with daytime temperatures reaching the mid to high 20s."
 		},
 		{
 			"class": "day",
 			"day": "Tuesday",
-			"image": "showers",
-			"min": 11,
+			"image": "storm",
+			"min": 10,
 			"max": 24,
-			"summary": "Shower or two.",
-			"rain": "3 to 10 mm",
-			"precipPercent": 50
+			"summary": "Shower or two. Possible storm.",
+			"rain": "10 to 25 mm",
+			"precipPercent": 70,
+			"description": "Partly cloudy. High (70%) chance of showers in the east, medium (50%) chance elsewhere. The chance of a thunderstorm. Light winds becoming east to northeasterly 15 to 25 km/h during the morning. Overnight temperatures falling to between 11 and 14 with daytime temperatures reaching 24 to 29."
 		},
 		{
 			"class": "day",
 			"day": "Wednesday",
 			"image": "showers",
-			"min": 11,
+			"min": 10,
 			"max": 25,
 			"summary": "Shower or two.",
-			"rain": "0 to 10 mm",
-			"precipPercent": 50
+			"rain": "2 to 8 mm",
+			"precipPercent": 70
 		},
 		{
 			"class": "day",
@@ -224,8 +224,17 @@ var forecast={
 			"min": 11,
 			"max": 26,
 			"summary": "Partly cloudy.",
-			"rain": "0 to 6 mm",
+			"rain": "0 to 0.2 mm",
 			"precipPercent": 30
+		},
+		{
+			"class": "day",
+			"day": "Friday",
+			"image": "partly-cloudy",
+			"min": 9,
+			"max": 29,
+			"summary": "Mostly sunny.",
+			"precipPercent": 20
 		}
 	]
 }
