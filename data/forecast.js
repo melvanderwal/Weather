@@ -1,24 +1,14 @@
 var forecast={
-	"updated": "23/10/2020, 10:49:40 pm",
+	"updated": "24/10/2020, 5:04:40 am",
 	"kenmore": [
-		{
-			"class": "day eve",
-			"day": "Friday",
-			"image": "partly-cloudy",
-			"summary": "Partly cloudy.",
-			"precipPercent": 5,
-			"description": "Partly cloudy. Winds northeasterly 15 to 20 km/h."
-		},
 		{
 			"class": "day main",
 			"day": "Saturday",
 			"image": "storm",
-			"min": 19,
 			"max": 27,
-			"summary": "Shower or two. Possible evening storm.",
-			"rain": "2 to 6 mm",
+			"summary": "Shower or two. Possible storm.",
 			"precipPercent": 70,
-			"description": "Cloudy. High (70%) chance of showers and patchy rain, most likely from the late morning. The chance of a thunderstorm in the evening. Winds northerly 15 to 25 km/h."
+			"description": "Cloudy. High (70%) chance of showers, most likely from late this morning. The chance of a thunderstorm during this afternoon and evening. Winds northerly 15 to 25 km/h."
 		},
 		{
 			"class": "day",
@@ -88,23 +78,13 @@ var forecast={
 	],
 	"ipswich": [
 		{
-			"class": "day eve",
-			"day": "Friday",
-			"image": "partly-cloudy",
-			"summary": "Partly cloudy.",
-			"precipPercent": 5,
-			"description": "Partly cloudy. Light winds."
-		},
-		{
 			"class": "day main",
 			"day": "Saturday",
 			"image": "storm",
-			"min": 17,
 			"max": 27,
 			"summary": "Shower or two. Possible storm.",
-			"rain": "4 to 10 mm",
 			"precipPercent": 70,
-			"description": "Cloudy. High (70%) chance of showers and patchy rain, most likely from the late morning. The chance of a thunderstorm in the afternoon and evening. Light winds becoming northerly 15 to 20 km/h in the early afternoon then becoming light in the late afternoon."
+			"description": "Cloudy. High (70%) chance of showers, most likely from late this morning. The chance of a thunderstorm during this afternoon and evening. Light winds becoming northerly 15 to 20 km/h in the early afternoon then becoming light in the late afternoon."
 		},
 		{
 			"class": "day",
@@ -174,23 +154,13 @@ var forecast={
 	],
 	"warwick": [
 		{
-			"class": "day eve",
-			"day": "Friday",
-			"image": "storm",
-			"summary": "Shower or two. Possible storm.",
-			"precipPercent": 50,
-			"description": "Partly cloudy. High (70%) chance of showers. The chance of a thunderstorm, possibly severe. Winds northeasterly 15 to 25 km/h."
-		},
-		{
 			"class": "day main",
 			"day": "Saturday",
 			"image": "storm",
-			"min": 15,
 			"max": 21,
 			"summary": "Showers. Storm likely.",
-			"rain": "15 to 25 mm",
 			"precipPercent": 90,
-			"description": "Cloudy. Very high (90%) chance of showers and patchy rain, most likely in the morning and afternoon. A thunderstorm likely, possibly severe. Winds northerly 25 to 35 km/h. Overnight temperatures falling to between 16 and 19 with daytime temperatures reaching 21 to 26."
+			"description": "Cloudy. Very high (95%) chance of showers. A thunderstorm likely, possibly severe. Winds northerly 25 to 35 km/h. Daytime maximum temperatures 21 to 26."
 		},
 		{
 			"class": "day",
@@ -199,9 +169,9 @@ var forecast={
 			"min": 14,
 			"max": 27,
 			"summary": "Showers. Possible storm.",
-			"rain": "15 to 30 mm",
-			"precipPercent": 90,
-			"description": "Partly cloudy. Very high (90%) chance of showers in the east, medium (50%) chance elsewhere. The chance of a thunderstorm, possibly severe. Winds northwest to northeasterly 15 to 20 km/h tending northwest to southwesterly 15 to 25 km/h in the morning then becoming southwesterly 15 to 20 km/h in the evening. Overnight temperatures falling to between 14 and 17 with daytime temperatures reaching the mid to high 20s."
+			"rain": "10 to 25 mm",
+			"precipPercent": 80,
+			"description": "Partly cloudy. High (80%) chance of showers in the east, medium (50%) chance elsewhere. The chance of a thunderstorm, possibly severe. Winds northwest to northeasterly 15 to 20 km/h tending northwest to southwesterly 15 to 25 km/h in the morning then becoming southwesterly 15 to 20 km/h in the evening. Overnight temperatures falling to between 14 and 17 with daytime temperatures reaching the mid to high 20s."
 		},
 		{
 			"class": "day",
