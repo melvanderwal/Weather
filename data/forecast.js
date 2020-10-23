@@ -1,5 +1,5 @@
 var forecast={
-	"updated": "24/10/2020, 5:19:40 am",
+	"updated": "24/10/2020, 5:34:40 am",
 	"kenmore": [
 		{
 			"class": "day main",
@@ -8,7 +8,7 @@ var forecast={
 			"max": 27,
 			"summary": "Shower or two. Possible storm.",
 			"precipPercent": 70,
-			"description": "Cloudy. High (70%) chance of showers, most likely from late this morning. The chance of a thunderstorm during this afternoon and evening. Winds northerly 15 to 25 km/h."
+			"description": "Cloudy. Morning smoke. High (70%) chance of showers, most likely in the afternoon and evening. The chance of a thunderstorm in the afternoon and evening. Winds northerly 15 to 25 km/h."
 		},
 		{
 			"class": "day",
