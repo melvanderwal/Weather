@@ -1,5 +1,5 @@
 var forecast={
-	"updated": "24/10/2020, 5:49:40 pm",
+	"updated": "24/10/2020, 6:04:40 pm",
 	"kenmore": [
 		{
 			"class": "day eve",
@@ -16,7 +16,7 @@ var forecast={
 			"min": 19,
 			"max": 29,
 			"summary": "Showers. Storm likely.",
-			"rain": "15 to 30 mm",
+			"rain": "8 to 25 mm",
 			"precipPercent": 95,
 			"description": "Cloudy. Very high (95%) chance of showers. A thunderstorm likely, possibly severe. Winds northerly 15 to 25 km/h becoming light in the late afternoon then becoming northerly 15 to 20 km/h in the evening."
 		},
@@ -101,7 +101,7 @@ var forecast={
 			"min": 18,
 			"max": 30,
 			"summary": "Showers. Storm likely.",
-			"rain": "15 to 30 mm",
+			"rain": "6 to 20 mm",
 			"precipPercent": 95,
 			"description": "Cloudy. Very high (95%) chance of showers. A thunderstorm likely, possibly severe. Light winds."
 		},
@@ -186,7 +186,7 @@ var forecast={
 			"min": 16,
 			"max": 27,
 			"summary": "Showers. Storm likely.",
-			"rain": "10 to 25 mm",
+			"rain": "4 to 10 mm",
 			"precipPercent": 95,
 			"description": "Cloudy. Very high (90%) chance of showers in the east, medium (40%) chance elsewhere. The chance of a thunderstorm, possibly severe. Winds north to northwesterly 15 to 25 km/h tending west to northwesterly in the middle of the day then becoming light in the evening. Overnight temperatures falling to around 17 with daytime temperatures reaching the mid to high 20s."
 		},
