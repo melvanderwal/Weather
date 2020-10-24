@@ -1,5 +1,5 @@
 var forecast={
-	"updated": "24/10/2020, 5:04:40 pm",
+	"updated": "24/10/2020, 5:19:40 pm",
 	"kenmore": [
 		{
 			"class": "day eve",
@@ -29,7 +29,7 @@ var forecast={
 			"summary": "Showers.",
 			"rain": "3 to 10 mm",
 			"precipPercent": 80,
-			"description": "Partly cloudy. High (80%) chance of showers. The chance of a thunderstorm. Light winds."
+			"description": "Partly cloudy. High (80%) chance of showers, most likely in the early morning. The chance of an early thunderstorm. Light winds."
 		},
 		{
 			"class": "day",
@@ -111,10 +111,10 @@ var forecast={
 			"image": "showers",
 			"min": 15,
 			"max": 30,
-			"summary": "Shower or two.",
+			"summary": "Showers easing.",
 			"rain": "3 to 10 mm",
-			"precipPercent": 70,
-			"description": "Partly cloudy. High (70%) chance of showers. The chance of a thunderstorm. Light winds."
+			"precipPercent": 80,
+			"description": "Partly cloudy. High (80%) chance of showers, most likely in the early morning. The chance of an early thunderstorm. Light winds."
 		},
 		{
 			"class": "day",
@@ -197,9 +197,9 @@ var forecast={
 			"min": 13,
 			"max": 25,
 			"summary": "Shower or two.",
-			"rain": "0 to 5 mm",
-			"precipPercent": 50,
-			"description": "Partly cloudy. Medium (40%) chance of showers in the east, near zero chance elsewhere. The chance of a thunderstorm in the east in the morning and afternoon. Light winds becoming west to southwesterly 15 to 20 km/h in the middle of the day then becoming light in the late afternoon. Overnight temperatures falling to around 14 with daytime temperatures reaching the mid to high 20s."
+			"rain": "1 to 6 mm",
+			"precipPercent": 60,
+			"description": "Partly cloudy. Medium (60%) chance of showers over the Granite Belt, slight (30%) chance elsewhere. The chance of a thunderstorm in the morning and afternoon. Light winds becoming west to southwesterly 15 to 20 km/h in the middle of the day then becoming light in the late afternoon. Overnight temperatures falling to around 14 with daytime temperatures reaching the mid to high 20s."
 		},
 		{
 			"class": "day",
