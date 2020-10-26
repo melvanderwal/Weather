@@ -1,5 +1,80 @@
 var forecast={
-	"updated": "26/10/2020, 12:49:40 pm",
+	"updated": "26/10/2020, 1:04:40 pm",
+	"kenmore": [
+		{
+			"class": "day main",
+			"day": "Monday",
+			"image": "showers",
+			"max": 30,
+			"summary": "Morning shower or two.",
+			"precipPercent": 50,
+			"description": "Partly cloudy. Medium (50%) chance of showers early this morning. The slight chance of a thunderstorm during the morning. Light winds."
+		},
+		{
+			"class": "day",
+			"day": "Tuesday",
+			"image": "storm",
+			"min": 17,
+			"max": 26,
+			"summary": "Showers. Storm likely.",
+			"rain": "8 to 25 mm",
+			"precipPercent": 90,
+			"description": "Cloudy. High (80%) chance of showers, most likely from the late morning. A thunderstorm likely, possibly severe. Light winds becoming easterly 20 to 30 km/h in the morning then becoming light in the evening."
+		},
+		{
+			"class": "day",
+			"day": "Wednesday",
+			"image": "storm",
+			"min": 16,
+			"max": 29,
+			"summary": "Shower or two. Storm likely.",
+			"rain": "6 to 20 mm",
+			"precipPercent": 70,
+			"description": "Partly cloudy. High (70%) chance of showers, most likely in the afternoon and evening. A thunderstorm likely in the afternoon and evening. Light winds becoming northeasterly 15 to 25 km/h during the day then turning north to northwesterly 15 to 20 km/h during the evening."
+		},
+		{
+			"class": "day",
+			"day": "Thursday",
+			"image": "partly-cloudy",
+			"min": 15,
+			"max": 31,
+			"summary": "Partly cloudy.",
+			"precipPercent": 20,
+			"description": "Partly cloudy. Slight (20%) chance of a shower in the morning and afternoon. The chance of a thunderstorm in the morning and afternoon. Light winds becoming northerly 15 to 20 km/h during the afternoon then becoming light during the evening."
+		},
+		{
+			"class": "day",
+			"day": "Friday",
+			"image": "sunny",
+			"min": 13,
+			"max": 31,
+			"summary": "Sunny.",
+			"precipPercent": 5,
+			"description": "Sunny. Light winds becoming northeasterly 15 to 25 km/h during the day."
+		},
+		{
+			"class": "day",
+			"day": "Saturday",
+			"image": "partly-cloudy",
+			"min": 17,
+			"max": 32,
+			"summary": "Mostly sunny.",
+			"rain": "0 to 0.2 mm",
+			"precipPercent": 30,
+			"description": "Mostly sunny day. Slight (20%) chance of a shower, most likely later in the day. The chance of a thunderstorm later in the day. Light winds becoming north to northeasterly 15 to 25 km/h during the day."
+		},
+		{
+			"class": "day",
+			"day": "Sunday",
+			"image": "partly-cloudy",
+			"min": 17,
+			"max": 33,
+			"summary": "Mostly sunny.",
+			"rain": "0 to 0.4 mm",
+			"precipPercent": 30,
+			"description": "Mostly sunny. Slight (30%) chance of a shower. The chance of a thunderstorm later in the day. Winds north to northwesterly 15 to 20 km/h turning northeasterly 15 to 25 km/h during the day."
+		}
+	],
 	"ipswich": [
 		{
 			"class": "day main",
