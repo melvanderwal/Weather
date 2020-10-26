@@ -1,13 +1,13 @@
 var forecast={
-	"updated": "26/10/2020, 5:49:40 pm",
+	"updated": "26/10/2020, 6:04:40 pm",
 	"kenmore": [
 		{
 			"class": "day eve",
 			"day": "Monday",
-			"image": "light-showers",
-			"summary": "Possible shower.",
-			"precipPercent": 60,
-			"description": "Partly cloudy. Medium (50%) chance of showers becoming less likely by early evening. Light winds."
+			"image": "partly-cloudy",
+			"summary": "Partly cloudy",
+			"precipPercent": 50,
+			"description": "Partly cloudy. Slight (30%) chance of showers, becoming less likely in the evening. Light winds."
 		},
 		{
 			"class": "day main",
@@ -88,10 +88,10 @@ var forecast={
 		{
 			"class": "day eve",
 			"day": "Monday",
-			"image": "showers",
-			"summary": "Shower or two.",
-			"precipPercent": 60,
-			"description": "Partly cloudy. Medium (60%) chance of showers, becoming less likely for the evening. Light winds."
+			"image": "partly-cloudy",
+			"summary": "Partly cloudy",
+			"precipPercent": 40,
+			"description": "Partly cloudy. Slight (30%) chance of showers, becoming less likely in the evening. Light winds."
 		},
 		{
 			"class": "day main",
