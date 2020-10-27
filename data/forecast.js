@@ -1,5 +1,5 @@
 var forecast={
-	"updated": "27/10/2020, 9:49:40 am",
+	"updated": "27/10/2020, 10:04:40 am",
 	"kenmore": [
 		{
 			"class": "day main",
@@ -82,7 +82,7 @@ var forecast={
 			"max": 27,
 			"summary": "Showers. Storm likely.",
 			"precipPercent": 90,
-			"description": "Cloudy. Very high (90%) chance of showers. A thunderstorm likely, possibly severe. Light winds becoming south to southeasterly 15 to 20 km/h in the middle of the day then tending east to southeasterly in the early afternoon."
+			"description": "Cloudy. Very high (90%) chance of showers. A thunderstorm likely, possibly severe. Winds south to southeasterly 15 to 20 km/h turning easterly in the early afternoon then becoming light in the evening."
 		},
 		{
 			"class": "day",
