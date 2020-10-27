@@ -1,5 +1,5 @@
 var forecast={
-	"updated": "27/10/2020, 9:19:40 pm",
+	"updated": "27/10/2020, 9:34:40 pm",
 	"kenmore": [
 		{
 			"class": "day eve",
@@ -165,6 +165,85 @@ var forecast={
 			"summary": "Partly cloudy.",
 			"precipPercent": 20,
 			"description": "Light winds becoming southeasterly 20 to 25 km/h during the day."
+		}
+	],
+	"warwick": [
+		{
+			"class": "day eve",
+			"day": "Tuesday",
+			"image": "storm",
+			"summary": "Showers. Storm likely.",
+			"precipPercent": 80,
+			"description": "Partly cloudy. High (70%) chance of showers in the east,easing during the evening. Slight (20%) chance elsewhere. The chance of a thunderstorm, possibly severe up until early evening. Winds east to northeasterly 15 to 25 km/h."
+		},
+		{
+			"class": "day main",
+			"day": "Wednesday",
+			"image": "storm",
+			"min": 13,
+			"max": 24,
+			"summary": "Showers. Storm likely.",
+			"rain": "5 to 15 mm",
+			"precipPercent": 90,
+			"description": "Partly cloudy. High (80%) chance of showers in the east, slight (20%) chance elsewhere. The chance of a thunderstorm, possibly severe. Winds east to northeasterly 20 to 30 km/h becoming light in the late evening. Overnight temperatures falling to between 13 and 16 with daytime temperatures reaching 25 to 32."
+		},
+		{
+			"class": "day",
+			"day": "Thursday",
+			"image": "sunny",
+			"min": 12,
+			"max": 26,
+			"summary": "Sunny.",
+			"precipPercent": 20,
+			"description": "Mostly sunny. Slight (20%) chance of a shower over the Granite Belt in the early morning. Near zero chance of rain elsewhere. Light winds becoming westerly 15 to 20 km/h in the morning then becoming light in the evening. Overnight temperatures falling to around 13 with daytime temperatures reaching around 30."
+		},
+		{
+			"class": "day",
+			"day": "Friday",
+			"image": "sunny",
+			"min": 10,
+			"max": 30,
+			"summary": "Sunny.",
+			"precipPercent": 0,
+			"description": "Hot. Sunny day. The chance of a thunderstorm in the southwest in the evening. Light winds becoming north to northeasterly 25 to 35 km/h during the morning. Overnight temperatures falling to between 10 and 14 with daytime temperatures reaching 30 to 36."
+		},
+		{
+			"class": "day",
+			"day": "Saturday",
+			"image": "storm",
+			"min": 13,
+			"max": 28,
+			"summary": "Shower or two. Possible storm,",
+			"rain": "3 to 10 mm",
+			"precipPercent": 70,
+			"description": "Partly cloudy. Medium (60%) chance of showers in the east, slight (20%) chance elsewhere. The chance of a thunderstorm in the afternoon and evening. Winds north to northeasterly 20 to 30 km/h tending north to northwesterly 25 to 35 km/h during the morning then tending north to northeasterly 15 to 20 km/h during the evening. Overnight temperatures falling to between 14 and 18 with daytime temperatures reaching 27 to 33."
+		},
+		{
+			"class": "day",
+			"day": "Sunday",
+			"image": "sunny",
+			"min": 12,
+			"max": 29,
+			"summary": "Sunny.",
+			"precipPercent": 10
+		},
+		{
+			"class": "day",
+			"day": "Monday",
+			"image": "partly-cloudy",
+			"min": 12,
+			"max": 27,
+			"summary": "Mostly sunny.",
+			"precipPercent": 5
+		},
+		{
+			"class": "day",
+			"day": "Tuesday",
+			"image": "partly-cloudy",
+			"min": 11,
+			"max": 26,
+			"summary": "Partly cloudy.",
+			"precipPercent": 20
 		}
 	]
 }
