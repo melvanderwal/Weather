@@ -1,5 +1,5 @@
 var forecast={
-	"updated": "30/10/2020, 4:04:40 pm",
+	"updated": "30/10/2020, 4:19:40 pm",
 	"kenmore": [
 		{
 			"class": "day main",
@@ -146,24 +146,23 @@ var forecast={
 	],
 	"warwick": [
 		{
-			"class": "day main",
+			"class": "day eve",
 			"day": "Friday",
-			"image": "sunny",
-			"max": 30,
-			"summary": "Sunny.",
+			"image": "partly-cloudy",
+			"summary": "Mostly clear.",
 			"precipPercent": 10,
-			"description": "Hot. Sunny day. The chance of a thunderstorm later tonight. Winds northerly 15 to 25 km/h tending north to northeasterly 25 to 35 km/h in the morning. Daytime maximum temperatures 30 to 36."
+			"description": "Mostly clear. The chance of a thunderstorm in the south later tonight. Winds north to northeasterly 25 to 35 km/h."
 		},
 		{
-			"class": "day",
+			"class": "day main",
 			"day": "Saturday",
 			"image": "storm",
-			"min": 13,
+			"min": 14,
 			"max": 27,
 			"summary": "Showers. Storm likely.",
-			"rain": "10 to 35 mm",
+			"rain": "8 to 20 mm",
 			"precipPercent": 90,
-			"description": "Partly cloudy. Medium (60%) chance of showers in the east, slight (20%) chance elsewhere. The chance of a thunderstorm, possibly severe. Winds north to northwesterly 25 to 40 km/h tending northwest to southwesterly 20 to 30 km/h in the late afternoon then becoming light in the evening. Overnight temperatures falling to between 14 and 17 with daytime temperatures reaching 28 to 33."
+			"description": "Partly cloudy. High (70%) chance of showers in the east, slight (20%) chance elsewhere. The chance of a thunderstorm, possibly severe. Winds north to northwesterly 25 to 35 km/h turning west to southwesterly 15 to 20 km/h in the afternoon. Overnight temperatures falling to between 14 and 17 with daytime temperatures reaching 28 to 33."
 		},
 		{
 			"class": "day",
@@ -173,44 +172,55 @@ var forecast={
 			"max": 29,
 			"summary": "Sunny.",
 			"precipPercent": 0,
-			"description": "Sunny. Light winds becoming west to southwesterly 15 to 25 km/h during the morning then tending south to southwesterly 15 to 20 km/h during the afternoon. Overnight temperatures falling to between 12 and 15 with daytime temperatures reaching around 30."
+			"description": "Sunny. Light winds becoming southwesterly 15 to 25 km/h in the morning then tending southeast to southwesterly in the late afternoon. Overnight temperatures falling to between 12 and 15 with daytime temperatures reaching around 30."
 		},
 		{
 			"class": "day",
 			"day": "Monday",
 			"image": "partly-cloudy",
 			"min": 11,
-			"max": 28,
-			"summary": "Partly cloudy.",
-			"precipPercent": 10,
-			"description": "Sunny. Light winds becoming south to southeasterly 15 to 25 km/h during the morning then tending northeast to southeasterly during the evening. Overnight temperatures falling to between 12 and 16 with daytime temperatures reaching 29 to 34."
+			"max": 27,
+			"summary": "Mostly sunny.",
+			"precipPercent": 0,
+			"description": "Sunny. Light winds becoming southeasterly 15 to 25 km/h during the morning then tending northeast to southeasterly 15 to 20 km/h during the evening. Overnight temperatures falling to between 12 and 16 with daytime temperatures reaching 29 to 34."
 		},
 		{
 			"class": "day",
 			"day": "Tuesday",
-			"image": "partly-cloudy",
-			"min": 12,
-			"max": 26,
-			"summary": "Partly cloudy.",
-			"precipPercent": 10
+			"image": "sunny",
+			"min": 11,
+			"max": 27,
+			"summary": "Sunny.",
+			"precipPercent": 5,
+			"description": "Sunny. Winds east to northeasterly 15 to 20 km/h tending east to southeasterly during the day then tending east to northeasterly during the evening. Overnight temperatures falling to between 11 and 16 with daytime temperatures reaching 28 to 33."
 		},
 		{
 			"class": "day",
 			"day": "Wednesday",
 			"image": "sunny",
-			"min": 11,
+			"min": 10,
 			"max": 29,
 			"summary": "Sunny.",
-			"precipPercent": 10
+			"precipPercent": 0
 		},
 		{
 			"class": "day",
 			"day": "Thursday",
 			"image": "partly-cloudy",
 			"min": 11,
+			"max": 33,
+			"summary": "Mostly sunny.",
+			"precipPercent": 20
+		},
+		{
+			"class": "day",
+			"day": "Friday",
+			"image": "light-showers",
+			"min": 14,
 			"max": 31,
-			"summary": "Partly cloudy.",
-			"precipPercent": 10
+			"summary": "Possible shower.",
+			"rain": "0 to 2 mm",
+			"precipPercent": 40
 		}
 	]
 }
