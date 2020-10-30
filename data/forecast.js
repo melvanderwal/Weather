@@ -1,25 +1,24 @@
 var forecast={
-	"updated": "30/10/2020, 4:19:40 pm",
+	"updated": "30/10/2020, 4:34:40 pm",
 	"kenmore": [
 		{
-			"class": "day main",
+			"class": "day eve",
 			"day": "Friday",
-			"image": "fog",
-			"max": 32,
-			"summary": "Morning fog then sunny.",
+			"image": "clear",
+			"summary": "Clear.",
 			"precipPercent": 0,
-			"description": "Sunny. Patchy fog this morning. Light winds becoming north to northeasterly 15 to 25 km/h in the middle of the day."
+			"description": "Clear. Winds northeasterly 15 to 25 km/h turning northerly in the late evening."
 		},
 		{
-			"class": "day",
+			"class": "day main",
 			"day": "Saturday",
 			"image": "storm",
 			"min": 17,
-			"max": 31,
+			"max": 32,
 			"summary": "Showers. Storm likely.",
-			"rain": "6 to 15 mm",
-			"precipPercent": 80,
-			"description": "Cloudy. High (80%) chance of showers, most likely from the late morning. A thunderstorm likely from the late morning, possibly severe. Winds northerly 25 to 35 km/h becoming light in the evening then becoming northerly 15 to 20 km/h in the late evening."
+			"rain": "10 to 30 mm",
+			"precipPercent": 90,
+			"description": "Cloudy. Very high (90%) chance of showers from the late morning. A thunderstorm likely from the late morning, possibly severe. Winds northerly 25 to 35 km/h becoming light in the evening then becoming northerly 15 to 20 km/h in the late evening."
 		},
 		{
 			"class": "day",
@@ -28,8 +27,8 @@ var forecast={
 			"min": 16,
 			"max": 34,
 			"summary": "Sunny.",
-			"precipPercent": 10,
-			"description": "Sunny. Light winds."
+			"precipPercent": 20,
+			"description": "Slight (20%) chance of a shower in the early morning. Sunny day. Light winds becoming west to southwesterly 15 to 20 km/h in the middle of the day then tending southeast to southwesterly in the evening."
 		},
 		{
 			"class": "day",
@@ -38,70 +37,80 @@ var forecast={
 			"min": 16,
 			"max": 29,
 			"summary": "Mostly sunny.",
-			"precipPercent": 20,
-			"description": "Mostly sunny. Slight (20%) chance of a shower. Light winds becoming east to southeasterly 15 to 25 km/h during the day then tending south to southeasterly 15 to 20 km/h during the evening."
+			"precipPercent": 10,
+			"description": "Mostly sunny. Light winds becoming southeasterly 15 to 25 km/h during the morning then tending southerly 15 to 20 km/h during the evening."
 		},
 		{
 			"class": "day",
 			"day": "Tuesday",
 			"image": "partly-cloudy",
-			"min": 15,
+			"min": 14,
 			"max": 29,
-			"summary": "Partly cloudy.",
-			"precipPercent": 20,
-			"description": "Partly cloudy. Slight (20%) chance of a shower. Light winds becoming south to southeasterly 15 to 25 km/h during the morning."
+			"summary": "Mostly sunny.",
+			"precipPercent": 5,
+			"description": "Mostly sunny. Winds southerly 15 to 20 km/h tending southeasterly 15 to 25 km/h during the day then becoming light during the evening."
 		},
 		{
 			"class": "day",
 			"day": "Wednesday",
 			"image": "sunny",
-			"min": 14,
+			"min": 13,
 			"max": 29,
 			"summary": "Sunny.",
-			"precipPercent": 20,
-			"description": "Mostly sunny. Slight (20%) chance of a shower. Light winds becoming east to southeasterly 15 to 20 km/h during the day."
+			"precipPercent": 5,
+			"description": "Sunny. Light winds becoming easterly 15 to 20 km/h during the day."
 		},
 		{
 			"class": "day",
 			"day": "Thursday",
+			"image": "sunny",
+			"min": 14,
+			"max": 33,
+			"summary": "Sunny.",
+			"precipPercent": 20,
+			"description": "Mostly sunny. Slight (20%) chance of a shower. Light winds becoming northeasterly 15 to 20 km/h during the day."
+		},
+		{
+			"class": "day",
+			"day": "Friday",
 			"image": "partly-cloudy",
-			"min": 15,
-			"max": 32,
-			"summary": "Mostly sunny.",
-			"precipPercent": 10,
-			"description": "Mostly sunny. Light winds becoming east to northeasterly 15 to 20 km/h during the day."
+			"min": 17,
+			"max": 31,
+			"summary": "Partly cloudy.",
+			"rain": "0 to 1 mm",
+			"precipPercent": 30,
+			"description": "Partly cloudy. Slight (30%) chance of a shower, most likely later in the day. The chance of a thunderstorm later in the day. Light winds becoming east to northeasterly 15 to 25 km/h during the morning."
 		}
 	],
 	"ipswich": [
 		{
-			"class": "day main",
+			"class": "day eve",
 			"day": "Friday",
-			"image": "fog",
-			"max": 33,
-			"summary": "Morning fog then sunny.",
+			"image": "clear",
+			"summary": "Clear.",
 			"precipPercent": 0,
-			"description": "Patchy fog early this morning. Sunny afternoon. Light winds becoming northeasterly 15 to 20 km/h in the late afternoon then becoming light in the evening."
+			"description": "Clear. Winds northeasterly 20 to 25 km/h becoming light in the evening."
 		},
 		{
-			"class": "day",
+			"class": "day main",
 			"day": "Saturday",
 			"image": "storm",
 			"min": 15,
 			"max": 33,
 			"summary": "Showers. Storm likely.",
-			"rain": "6 to 15 mm",
+			"rain": "10 to 25 mm",
 			"precipPercent": 90,
-			"description": "Cloudy. Very high (90%) chance of showers, most likely from the late morning. A thunderstorm likely from the late morning, possibly severe. Light winds becoming northerly 20 to 25 km/h in the morning then becoming light in the evening."
+			"description": "Cloudy. Very high (90%) chance of showers, most likely from the late morning. A thunderstorm likely from the late morning, possibly severe. Light winds becoming north to northwesterly 20 to 25 km/h in the morning then becoming light in the early afternoon."
 		},
 		{
 			"class": "day",
 			"day": "Sunday",
 			"image": "sunny",
 			"min": 14,
-			"max": 35,
+			"max": 34,
 			"summary": "Sunny.",
 			"precipPercent": 10,
-			"description": "Sunny. Light winds."
+			"description": "Sunny. Light winds becoming westerly 15 to 20 km/h in the middle of the day then becoming light in the late afternoon."
 		},
 		{
 			"class": "day",
@@ -110,8 +119,8 @@ var forecast={
 			"min": 14,
 			"max": 31,
 			"summary": "Mostly sunny.",
-			"precipPercent": 20,
-			"description": "Mostly sunny. Slight (20%) chance of a shower. Light winds becoming easterly 15 to 20 km/h during the afternoon then becoming light during the evening."
+			"precipPercent": 10,
+			"description": "Mostly sunny. Light winds becoming southeasterly 15 to 20 km/h during the afternoon then becoming light during the evening."
 		},
 		{
 			"class": "day",
@@ -119,29 +128,40 @@ var forecast={
 			"image": "partly-cloudy",
 			"min": 13,
 			"max": 30,
-			"summary": "Partly cloudy.",
-			"precipPercent": 10,
-			"description": "Partly cloudy. Winds southerly 15 to 20 km/h tending southeasterly 20 to 25 km/h during the day."
+			"summary": "Mostly sunny.",
+			"precipPercent": 5,
+			"description": "Mostly sunny. Light winds becoming southeasterly 15 to 20 km/h during the afternoon then becoming light during the evening."
 		},
 		{
 			"class": "day",
 			"day": "Wednesday",
 			"image": "sunny",
-			"min": 12,
+			"min": 11,
 			"max": 31,
 			"summary": "Sunny.",
-			"precipPercent": 10,
-			"description": "Sunny. Light winds becoming easterly 15 to 20 km/h during the day."
+			"precipPercent": 0,
+			"description": "Sunny. Light winds becoming northeasterly 15 to 20 km/h later."
 		},
 		{
 			"class": "day",
 			"day": "Thursday",
+			"image": "sunny",
+			"min": 12,
+			"max": 35,
+			"summary": "Hot and sunny.",
+			"precipPercent": 20,
+			"description": "Hot and mostly sunny. Slight (20%) chance of a shower. Light winds becoming northeasterly 15 to 20 km/h during the day."
+		},
+		{
+			"class": "day",
+			"day": "Friday",
 			"image": "partly-cloudy",
-			"min": 13,
+			"min": 15,
 			"max": 33,
-			"summary": "Mostly sunny.",
-			"precipPercent": 10,
-			"description": "Mostly sunny. Light winds becoming east to northeasterly 20 to 25 km/h during the day."
+			"summary": "Partly cloudy.",
+			"rain": "0 to 1 mm",
+			"precipPercent": 30,
+			"description": "Partly cloudy. Slight (30%) chance of a shower, most likely later in the day. The chance of a thunderstorm later in the day. Light winds becoming east to northeasterly 20 to 25 km/h during the day."
 		}
 	],
 	"warwick": [
