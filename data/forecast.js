@@ -1,23 +1,14 @@
 var forecast={
-	"updated": "31/10/2020, 10:49:40 pm",
+	"updated": "01/11/2020, 5:04:40 am",
 	"kenmore": [
-		{
-			"class": "day eve",
-			"day": "Saturday",
-			"image": "storm",
-			"summary": "Showers. Storm likely.",
-			"precipPercent": 90,
-			"description": "Cloudy. Very high (90%) chance of showers, becoming less likely later tonight. A thunderstorm likely, possibly severe. Light winds."
-		},
 		{
 			"class": "day main",
 			"day": "Sunday",
 			"image": "sunny",
-			"min": 16,
 			"max": 33,
 			"summary": "Sunny.",
-			"precipPercent": 20,
-			"description": "Slight (20%) chance of a shower in the early morning. Sunny day. Light winds becoming west to southwesterly 15 to 20 km/h in the morning then becoming light in the early afternoon."
+			"precipPercent": 0,
+			"description": "Sunny. The chance of patchy fog in the early morning. Winds west to southwesterly 15 to 20 km/h becoming light in the early afternoon."
 		},
 		{
 			"class": "day",
@@ -26,7 +17,7 @@ var forecast={
 			"min": 15,
 			"max": 29,
 			"summary": "Mostly sunny.",
-			"precipPercent": 20,
+			"precipPercent": 10,
 			"description": "Mostly sunny. Light winds becoming southeasterly 20 to 30 km/h in the morning then tending southerly 15 to 20 km/h in the late evening."
 		},
 		{
@@ -84,22 +75,13 @@ var forecast={
 	],
 	"ipswich": [
 		{
-			"class": "day eve",
-			"day": "Saturday",
-			"image": "storm",
-			"summary": "Showers. Storm likely.",
-			"precipPercent": 90,
-			"description": "Cloudy. Very high (90%) chance of showers, becoming less likely later tonight. A thunderstorm likely, possibly severe. Light winds."
-		},
-		{
 			"class": "day main",
 			"day": "Sunday",
-			"image": "sunny",
-			"min": 14,
+			"image": "fog",
 			"max": 34,
-			"summary": "Sunny.",
-			"precipPercent": 10,
-			"description": "Sunny. Light winds becoming westerly 15 to 20 km/h in the middle of the day then becoming light in the early afternoon."
+			"summary": "Early fog then sunny.",
+			"precipPercent": 0,
+			"description": "The chance of fog in the early morning. Sunny day. Light winds becoming westerly 15 to 20 km/h in the middle of the day then becoming light in the early afternoon."
 		},
 		{
 			"class": "day",
@@ -108,7 +90,7 @@ var forecast={
 			"min": 14,
 			"max": 30,
 			"summary": "Mostly sunny.",
-			"precipPercent": 5,
+			"precipPercent": 10,
 			"description": "Mostly sunny. Light winds becoming east to southeasterly 20 to 25 km/h in the middle of the day then becoming light in the late evening."
 		},
 		{
@@ -166,22 +148,13 @@ var forecast={
 	],
 	"warwick": [
 		{
-			"class": "day eve",
-			"day": "Saturday",
-			"image": "partly-cloudy",
-			"summary": "Mostly clear.",
-			"precipPercent": 5,
-			"description": "Mostly clear. The chance of a thunderstorm in the north, possibly severe. Winds westerly 20 to 30 km/h turning south to southwesterly 15 to 20 km/h in the evening."
-		},
-		{
 			"class": "day main",
 			"day": "Sunday",
 			"image": "sunny",
-			"min": 11,
 			"max": 29,
 			"summary": "Sunny.",
-			"precipPercent": 5,
-			"description": "Sunny. Light winds becoming southwesterly 15 to 20 km/h in the morning then turning south to southeasterly in the evening. Overnight temperatures falling to between 11 and 14 with daytime temperatures reaching around 30."
+			"precipPercent": 0,
+			"description": "Sunny. Winds southwesterly 15 to 20 km/h tending southerly in the evening then becoming light in the late evening. Daytime maximum temperatures around 30."
 		},
 		{
 			"class": "day",
