@@ -1,33 +1,24 @@
 var forecast={
-	"updated": "01/11/2020, 10:49:40 pm",
+	"updated": "02/11/2020, 5:04:40 am",
 	"kenmore": [
-		{
-			"class": "day eve",
-			"day": "Sunday",
-			"image": "clear",
-			"summary": "Clear.",
-			"precipPercent": 0,
-			"description": "Clear. Light winds."
-		},
 		{
 			"class": "day main",
 			"day": "Monday",
 			"image": "partly-cloudy",
-			"min": 16,
 			"max": 29,
 			"summary": "Mostly sunny.",
-			"precipPercent": 20,
-			"description": "Mostly sunny. Light winds becoming southeast to southwesterly 15 to 20 km/h in the morning then tending east to southeasterly 20 to 30 km/h in the middle of the day."
+			"precipPercent": 10,
+			"description": "Mostly sunny. Winds southerly 15 to 20 km/h turning east to southeasterly 20 to 30 km/h in the morning then tending south to southeasterly 15 to 20 km/h in the late evening."
 		},
 		{
 			"class": "day",
 			"day": "Tuesday",
-			"image": "sunny",
+			"image": "partly-cloudy",
 			"min": 13,
 			"max": 29,
-			"summary": "Sunny.",
+			"summary": "Mostly sunny.",
 			"precipPercent": 0,
-			"description": "Sunny. Light winds becoming east to southeasterly 15 to 25 km/h in the middle of the day then becoming light in the late evening."
+			"description": "Mostly sunny. Light winds becoming east to southeasterly 15 to 25 km/h in the middle of the day then becoming light in the late evening."
 		},
 		{
 			"class": "day",
@@ -83,32 +74,23 @@ var forecast={
 	],
 	"ipswich": [
 		{
-			"class": "day eve",
-			"day": "Sunday",
-			"image": "clear",
-			"summary": "Clear.",
-			"precipPercent": 0,
-			"description": "Clear. Light winds."
-		},
-		{
 			"class": "day main",
 			"day": "Monday",
 			"image": "partly-cloudy",
-			"min": 14,
 			"max": 30,
-			"summary": "Partly cloudy.",
+			"summary": "Mostly sunny.",
 			"precipPercent": 5,
-			"description": "Partly cloudy. Light winds becoming northeasterly 15 to 20 km/h in the late afternoon then becoming light in the evening."
+			"description": "Mostly sunny. Light winds becoming northeasterly 15 to 20 km/h in the late afternoon then becoming light in the evening."
 		},
 		{
 			"class": "day",
 			"day": "Tuesday",
-			"image": "sunny",
+			"image": "partly-cloudy",
 			"min": 12,
 			"max": 30,
-			"summary": "Sunny.",
+			"summary": "Mostly sunny.",
 			"precipPercent": 0,
-			"description": "Sunny. Light winds becoming east to northeasterly 15 to 20 km/h in the late afternoon then becoming light in the evening."
+			"description": "Mostly sunny. Light winds becoming east to northeasterly 15 to 20 km/h in the late afternoon then becoming light in the evening."
 		},
 		{
 			"class": "day",
@@ -164,22 +146,13 @@ var forecast={
 	],
 	"warwick": [
 		{
-			"class": "day eve",
-			"day": "Sunday",
-			"image": "clear",
-			"summary": "Clear.",
-			"precipPercent": 0,
-			"description": "Clear. Winds south to southwesterly 15 to 20 km/h becoming light in the evening."
-		},
-		{
 			"class": "day main",
 			"day": "Monday",
 			"image": "partly-cloudy",
-			"min": 11,
 			"max": 27,
 			"summary": "Partly cloudy.",
 			"precipPercent": 0,
-			"description": "Mostly sunny. Winds south to southeasterly 15 to 20 km/h turning east to northeasterly in the evening. Overnight temperatures falling to between 11 and 15 with daytime temperatures reaching 28 to 33."
+			"description": "Mostly sunny. Winds south to southeasterly 15 to 20 km/h turning east to northeasterly in the evening. Daytime maximum temperatures 28 to 33."
 		},
 		{
 			"class": "day",
