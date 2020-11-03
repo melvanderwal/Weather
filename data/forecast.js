@@ -1,33 +1,24 @@
 var forecast={
-	"updated": "03/11/2020, 10:49:41 pm",
+	"updated": "04/11/2020, 5:04:40 am",
 	"kenmore": [
-		{
-			"class": "day eve",
-			"day": "Tuesday",
-			"image": "clear",
-			"summary": "Clear.",
-			"precipPercent": 0,
-			"description": "Clear. Winds east to southeasterly 15 to 25 km/h becoming light in the late evening."
-		},
 		{
 			"class": "day main",
 			"day": "Wednesday",
 			"image": "sunny",
-			"min": 14,
 			"max": 29,
 			"summary": "Sunny.",
 			"precipPercent": 0,
-			"description": "Mostly sunny. Light winds becoming east to northeasterly 15 to 20 km/h in the middle of the day then tending north to northeasterly in the late afternoon."
+			"description": "Sunny. Light winds becoming east to northeasterly 15 to 20 km/h in the middle of the day then tending north to northeasterly in the late afternoon."
 		},
 		{
 			"class": "day",
 			"day": "Thursday",
-			"image": "sunny",
+			"image": "storm",
 			"min": 15,
 			"max": 35,
-			"summary": "Sunny.",
-			"precipPercent": 5,
-			"description": "Sunny. Light winds becoming northwest to northeasterly 15 to 25 km/h in the middle of the day then tending south to southeasterly in the evening."
+			"summary": "Possible storm.",
+			"precipPercent": 20,
+			"description": "Partly cloudy. Slight (20%) chance of a shower or thunderstorm in the afternoon and evening, but little if any rainfall. Light winds becoming northwest to northeasterly 15 to 25 km/h in the middle of the day then tending south to southeasterly in the evening."
 		},
 		{
 			"class": "day",
@@ -83,18 +74,9 @@ var forecast={
 	],
 	"ipswich": [
 		{
-			"class": "day eve",
-			"day": "Tuesday",
-			"image": "clear",
-			"summary": "Clear.",
-			"precipPercent": 0,
-			"description": "Clear. Winds easterly 20 to 25 km/h becoming light in the evening."
-		},
-		{
 			"class": "day main",
 			"day": "Wednesday",
 			"image": "sunny",
-			"min": 13,
 			"max": 31,
 			"summary": "Sunny.",
 			"precipPercent": 0,
@@ -103,12 +85,12 @@ var forecast={
 		{
 			"class": "day",
 			"day": "Thursday",
-			"image": "sunny",
+			"image": "storm",
 			"min": 13,
-			"max": 37,
-			"summary": "Hot and sunny.",
-			"precipPercent": 5,
-			"description": "Hot and sunny. Light winds becoming northwesterly 15 to 20 km/h in the middle of the day then tending southeast to southwesterly in the evening."
+			"max": 38,
+			"summary": "Hot. Possible storm.",
+			"precipPercent": 10,
+			"description": "Hot and mostly sunny. The chance of a thunderstorm with little or no rainfall from the late morning. Light winds becoming northwesterly 15 to 20 km/h in the middle of the day then tending southeast to southwesterly in the evening."
 		},
 		{
 			"class": "day",
@@ -164,32 +146,23 @@ var forecast={
 	],
 	"warwick": [
 		{
-			"class": "day eve",
-			"day": "Tuesday",
-			"image": "clear",
-			"summary": "Clear.",
-			"precipPercent": 0,
-			"description": "Clear. Winds south to southeasterly 15 to 20 km/h turning east to northeasterly in the evening."
-		},
-		{
 			"class": "day main",
 			"day": "Wednesday",
 			"image": "sunny",
-			"min": 12,
 			"max": 30,
 			"summary": "Sunny.",
 			"precipPercent": 0,
-			"description": "Hot and sunny. Winds east to northeasterly 15 to 25 km/h tending west to northwesterly 15 to 20 km/h in the middle of the day then tending north to northeasterly in the evening. Overnight temperatures falling to between 12 and 17 with daytime temperatures reaching 30 to 36."
+			"description": "Sunny. Winds north to northeasterly 15 to 25 km/h tending west to northwesterly 15 to 20 km/h in the middle of the day then tending north to northeasterly in the evening. Daytime maximum temperatures 30 to 36."
 		},
 		{
 			"class": "day",
 			"day": "Thursday",
 			"image": "partly-cloudy",
 			"min": 12,
-			"max": 34,
+			"max": 33,
 			"summary": "Mostly sunny.",
 			"precipPercent": 10,
-			"description": "Hot. Sunny morning. The chance of a thunderstorm over the Granite Belt in the afternoon. Winds northwest to northeasterly 20 to 30 km/h tending northwest to southwesterly 30 to 45 km/h in the middle of the day then tending south to southwesterly 25 to 40 km/h in the late afternoon. Overnight temperatures falling to between 13 and 19 with daytime temperatures reaching 33 to 38."
+			"description": "Hot and mostly sunny. The chance of a thunderstorm with little or no rainfall from the late morning. Winds northwest to northeasterly 20 to 30 km/h tending northwest to southwesterly 30 to 45 km/h in the middle of the day then tending south to southwesterly 25 to 40 km/h in the late afternoon. Overnight temperatures falling to between 13 and 19 with daytime temperatures reaching 32 to 38."
 		},
 		{
 			"class": "day",
