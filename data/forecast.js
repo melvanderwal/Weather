@@ -1,5 +1,5 @@
 var forecast={
-	"updated": "05/11/2020, 6:19:40 pm",
+	"updated": "05/11/2020, 6:34:40 pm",
 	"kenmore": [
 		{
 			"class": "day eve",
@@ -17,7 +17,7 @@ var forecast={
 			"max": 29,
 			"summary": "Sunny.",
 			"precipPercent": 0,
-			"description": "Sunny. Light winds becoming southeast to southwesterly 15 to 20 km/h in the middle of the day then tending northeast to southeasterly 20 to 30 km/h in the early afternoon."
+			"description": "Sunny. Chance of smoke haze in the morning. Light winds becoming southeast to southwesterly 15 to 20 km/h in the middle of the day then tending northeast to southeasterly 20 to 30 km/h in the early afternoon."
 		},
 		{
 			"class": "day",
@@ -98,7 +98,7 @@ var forecast={
 			"max": 31,
 			"summary": "Sunny.",
 			"precipPercent": 0,
-			"description": "Sunny. Light winds becoming northeasterly 20 to 30 km/h in the early afternoon then tending easterly 15 to 25 km/h in the evening."
+			"description": "Sunny. Chance of smoke haze in the morning. Light winds becoming northeasterly 20 to 30 km/h in the early afternoon then tending easterly 15 to 25 km/h in the evening."
 		},
 		{
 			"class": "day",
