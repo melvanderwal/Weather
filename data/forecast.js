@@ -1,23 +1,14 @@
 var forecast={
-	"updated": "05/11/2020, 10:49:40 pm",
+	"updated": "06/11/2020, 5:04:40 am",
 	"kenmore": [
-		{
-			"class": "day eve",
-			"day": "Thursday",
-			"image": "partly-cloudy",
-			"summary": "Mostly clear.",
-			"precipPercent": 10,
-			"description": "Mostly clear. Winds northwesterly 25 to 35 km/h turning southwesterly 15 to 20 km/h in the evening."
-		},
 		{
 			"class": "day main",
 			"day": "Friday",
 			"image": "sunny",
-			"min": 15,
 			"max": 29,
 			"summary": "Sunny.",
 			"precipPercent": 0,
-			"description": "Sunny. Chance of smoke haze in the morning. Light winds becoming southeast to southwesterly 15 to 20 km/h in the middle of the day then tending northeast to southeasterly 20 to 30 km/h in the early afternoon."
+			"description": "Sunny. Light winds becoming southeast to southwesterly 15 to 20 km/h in the middle of the day then tending northeast to southeasterly 15 to 25 km/h in the early afternoon."
 		},
 		{
 			"class": "day",
@@ -25,9 +16,9 @@ var forecast={
 			"image": "partly-cloudy",
 			"min": 14,
 			"max": 28,
-			"summary": "Mostly sunny.",
+			"summary": "Partly cloudy.",
 			"precipPercent": 5,
-			"description": "Mostly sunny. Light winds becoming easterly 20 to 30 km/h in the middle of the day then tending southeasterly 15 to 20 km/h in the late evening."
+			"description": "Partly cloudy. Light winds becoming easterly 20 to 30 km/h in the middle of the day then tending southeasterly 15 to 20 km/h in the late evening."
 		},
 		{
 			"class": "day",
@@ -83,22 +74,13 @@ var forecast={
 	],
 	"ipswich": [
 		{
-			"class": "day eve",
-			"day": "Thursday",
-			"image": "partly-cloudy",
-			"summary": "Hot. Mostly clear.",
-			"precipPercent": 10,
-			"description": "Hot. Mostly clear. Winds northwesterly 25 to 30 km/h tending westerly 20 to 25 km/h in the late afternoon then tending southwesterly 15 to 20 km/h in the evening."
-		},
-		{
 			"class": "day main",
 			"day": "Friday",
 			"image": "sunny",
-			"min": 14,
 			"max": 31,
 			"summary": "Sunny.",
 			"precipPercent": 0,
-			"description": "Sunny. Chance of smoke haze in the morning. Light winds becoming northeasterly 20 to 30 km/h in the early afternoon then tending easterly 15 to 25 km/h in the evening."
+			"description": "Sunny. Light winds becoming northeasterly 20 to 30 km/h in the early afternoon then tending easterly 15 to 25 km/h in the evening."
 		},
 		{
 			"class": "day",
@@ -106,9 +88,9 @@ var forecast={
 			"image": "partly-cloudy",
 			"min": 13,
 			"max": 30,
-			"summary": "Mostly sunny.",
-			"precipPercent": 0,
-			"description": "Mostly sunny. Light winds becoming easterly 20 to 25 km/h in the early afternoon then becoming light in the evening."
+			"summary": "Partly cloudy.",
+			"precipPercent": 5,
+			"description": "Partly cloudy. Light winds becoming easterly 20 to 25 km/h in the early afternoon then becoming light in the evening."
 		},
 		{
 			"class": "day",
@@ -163,22 +145,13 @@ var forecast={
 	],
 	"warwick": [
 		{
-			"class": "day eve",
-			"day": "Thursday",
-			"image": "partly-cloudy",
-			"summary": "Mostly clear.",
-			"precipPercent": 10,
-			"description": "Hot. Mostly clear. Winds west to southwesterly 35 to 45 km/h tending south to southwesterly 20 to 30 km/h in the evening."
-		},
-		{
 			"class": "day main",
 			"day": "Friday",
 			"image": "sunny",
-			"min": 10,
 			"max": 29,
 			"summary": "Sunny.",
 			"precipPercent": 0,
-			"description": "Sunny. Chance of smoke haze in the east during the morning.Winds south to southwesterly 15 to 25 km/h becoming light in the evening. Overnight temperatures falling to between 10 and 13 with daytime temperatures reaching around 30."
+			"description": "Sunny. Winds south to southwesterly 15 to 25 km/h becoming light in the evening. Daytime maximum temperatures around 30."
 		},
 		{
 			"class": "day",
@@ -186,9 +159,9 @@ var forecast={
 			"image": "partly-cloudy",
 			"min": 10,
 			"max": 28,
-			"summary": "Mostly sunny.",
-			"precipPercent": 0,
-			"description": "Sunny. Winds northeast to southeasterly 15 to 20 km/h becoming light before dawn then becoming southeast to southwesterly 15 to 25 km/h in the early afternoon. Overnight temperatures falling to between 10 and 14 with daytime temperatures reaching around 30."
+			"summary": "Partly cloudy.",
+			"precipPercent": 10,
+			"description": "Mostly sunny. Winds northeast to southeasterly 15 to 20 km/h becoming light before dawn then becoming southeast to southwesterly 15 to 25 km/h in the early afternoon. Overnight temperatures falling to between 10 and 14 with daytime temperatures reaching around 30."
 		},
 		{
 			"class": "day",
