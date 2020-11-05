@@ -1,5 +1,5 @@
 var forecast={
-	"updated": "05/11/2020, 4:04:40 pm",
+	"updated": "05/11/2020, 4:19:40 pm",
 	"kenmore": [
 		{
 			"class": "day main",
@@ -145,43 +145,42 @@ var forecast={
 	],
 	"warwick": [
 		{
-			"class": "day main",
+			"class": "day eve",
 			"day": "Thursday",
-			"image": "partly-cloudy",
-			"max": 34,
-			"summary": "Partly cloudy.",
+			"image": "storm",
+			"summary": "Possible storm.",
 			"precipPercent": 10,
-			"description": "Hot. Partly cloudy. The chance of a thunderstorm with little or no rainfall from late this morning. Winds north to northwesterly 20 to 30 km/h shifting southwesterly 35 to 45 km/h in the late morning and afternoon then decreasing to 25 to 35 km/h in the evening. Daytime maximum temperatures 32 to 38."
+			"description": "Hot. Mostly clear. The chance of a thunderstorm in the east up until early evening. Winds west to southwesterly 35 to 45 km/h tending south to southwesterly 20 to 30 km/h in the evening."
 		},
 		{
-			"class": "day",
+			"class": "day main",
 			"day": "Friday",
 			"image": "sunny",
 			"min": 10,
 			"max": 29,
 			"summary": "Sunny.",
 			"precipPercent": 0,
-			"description": "Sunny. Winds southerly 15 to 25 km/h becoming light in the evening. Overnight temperatures falling to between 10 and 13 with daytime temperatures reaching around 30."
+			"description": "Sunny. Winds south to southwesterly 15 to 25 km/h becoming light in the evening. Overnight temperatures falling to between 10 and 13 with daytime temperatures reaching around 30."
 		},
 		{
 			"class": "day",
 			"day": "Saturday",
 			"image": "partly-cloudy",
 			"min": 10,
-			"max": 29,
+			"max": 28,
 			"summary": "Mostly sunny.",
-			"precipPercent": 10,
-			"description": "Mostly sunny. Winds east to northeasterly 15 to 20 km/h becoming light during the morning then becoming southeast to southwesterly 15 to 25 km/h during the afternoon. Overnight temperatures falling to between 11 and 14 with daytime temperatures reaching around 30."
+			"precipPercent": 0,
+			"description": "Sunny. Winds northeast to southeasterly 15 to 20 km/h becoming light before dawn then becoming southeast to southwesterly 15 to 25 km/h in the early afternoon. Overnight temperatures falling to between 10 and 14 with daytime temperatures reaching around 30."
 		},
 		{
 			"class": "day",
 			"day": "Sunday",
 			"image": "partly-cloudy",
-			"min": 11,
-			"max": 25,
+			"min": 12,
+			"max": 24,
 			"summary": "Partly cloudy.",
 			"precipPercent": 10,
-			"description": "Partly cloudy. The chance of a thunderstorm in the north in the afternoon. Winds east to northeasterly 20 to 30 km/h. Overnight temperatures falling to between 12 and 17 with daytime temperatures reaching 25 to 31."
+			"description": "Partly cloudy. Slight (20%) chance of a shower in the north, near zero chance elsewhere. The chance of a thunderstorm in the north in the morning and afternoon. Winds east to northeasterly 25 to 35 km/h. Overnight temperatures falling to between 12 and 17 with daytime temperatures reaching 25 to 31."
 		},
 		{
 			"class": "day",
@@ -189,8 +188,9 @@ var forecast={
 			"image": "partly-cloudy",
 			"min": 9,
 			"max": 25,
-			"summary": "Partly cloudy.",
-			"precipPercent": 5
+			"summary": "Mostly sunny.",
+			"precipPercent": 0,
+			"description": "Mostly sunny. Winds east to northeasterly 20 to 30 km/h tending east to southeasterly 15 to 25 km/h during the day then tending east to northeasterly during the evening. Overnight temperatures falling to between 10 and 14 with daytime temperatures reaching 26 to 31."
 		},
 		{
 			"class": "day",
@@ -199,16 +199,25 @@ var forecast={
 			"min": 9,
 			"max": 28,
 			"summary": "Mostly sunny.",
-			"precipPercent": 5
+			"precipPercent": 0
 		},
 		{
 			"class": "day",
 			"day": "Wednesday",
 			"image": "partly-cloudy",
-			"min": 9,
-			"max": 30,
+			"min": 10,
+			"max": 31,
 			"summary": "Mostly sunny.",
-			"precipPercent": 5
+			"precipPercent": 0
+		},
+		{
+			"class": "day",
+			"day": "Thursday",
+			"image": "storm",
+			"min": 12,
+			"max": 30,
+			"summary": "Possible late storm.",
+			"precipPercent": 20
 		}
 	]
 }
