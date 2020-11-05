@@ -1,13 +1,13 @@
 var forecast={
-	"updated": "05/11/2020, 4:34:40 pm",
+	"updated": "05/11/2020, 4:49:40 pm",
 	"kenmore": [
 		{
 			"class": "day eve",
 			"day": "Thursday",
-			"image": "storm",
-			"summary": "Possible storm.",
+			"image": "partly-cloudy",
+			"summary": "Mostly clear.",
 			"precipPercent": 10,
-			"description": "Mostly clear. The chance of a thunderstorm up until early evening, possibly severe for a time. Winds west to northwesterly 20 to 30 km/h turning southwesterly 15 to 20 km/h in the evening."
+			"description": "Mostly clear. Winds northwesterly 25 to 35 km/h turning southwesterly 15 to 20 km/h in the evening."
 		},
 		{
 			"class": "day main",
@@ -85,10 +85,10 @@ var forecast={
 		{
 			"class": "day eve",
 			"day": "Thursday",
-			"image": "storm",
-			"summary": "Hot. Possible storm.",
+			"image": "partly-cloudy",
+			"summary": "Hot. Mostly clear.",
 			"precipPercent": 10,
-			"description": "Hot. Mostly clear. The chance of a thunderstorm, possible severe up until early evening. Winds westerly 20 to 25 km/h tending southwesterly 15 to 20 km/h in the evening."
+			"description": "Hot. Mostly clear. Winds northwesterly 25 to 30 km/h tending westerly 20 to 25 km/h in the late afternoon then tending southwesterly 15 to 20 km/h in the evening."
 		},
 		{
 			"class": "day main",
@@ -165,10 +165,10 @@ var forecast={
 		{
 			"class": "day eve",
 			"day": "Thursday",
-			"image": "storm",
-			"summary": "Possible storm.",
+			"image": "partly-cloudy",
+			"summary": "Mostly clear.",
 			"precipPercent": 10,
-			"description": "Hot. Mostly clear. The chance of a thunderstorm in the east up until early evening. Winds west to southwesterly 35 to 45 km/h tending south to southwesterly 20 to 30 km/h in the evening."
+			"description": "Hot. Mostly clear. Winds west to southwesterly 35 to 45 km/h tending south to southwesterly 20 to 30 km/h in the evening."
 		},
 		{
 			"class": "day main",
