@@ -1,5 +1,5 @@
 var forecast={
-	"updated": "05/11/2020, 6:04:40 pm",
+	"updated": "05/11/2020, 6:19:40 pm",
 	"kenmore": [
 		{
 			"class": "day eve",
@@ -178,7 +178,7 @@ var forecast={
 			"max": 29,
 			"summary": "Sunny.",
 			"precipPercent": 0,
-			"description": "Sunny. Winds south to southwesterly 15 to 25 km/h becoming light in the evening. Overnight temperatures falling to between 10 and 13 with daytime temperatures reaching around 30."
+			"description": "Sunny. Chance of smoke haze in the east during the morning.Winds south to southwesterly 15 to 25 km/h becoming light in the evening. Overnight temperatures falling to between 10 and 13 with daytime temperatures reaching around 30."
 		},
 		{
 			"class": "day",
