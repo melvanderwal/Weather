@@ -1,23 +1,14 @@
 var forecast={
-	"updated": "06/11/2020, 10:49:40 pm",
+	"updated": "07/11/2020, 5:04:41 am",
 	"kenmore": [
-		{
-			"class": "day eve",
-			"day": "Friday",
-			"image": "clear",
-			"summary": "Clear.",
-			"precipPercent": 0,
-			"description": "Clear. Winds easterly 15 to 20 km/h becoming light in the late evening."
-		},
 		{
 			"class": "day main",
 			"day": "Saturday",
 			"image": "partly-cloudy",
-			"min": 15,
 			"max": 27,
-			"summary": "Mostly sunny.",
+			"summary": "Partly cloudy.",
 			"precipPercent": 5,
-			"description": "Mostly sunny. Light winds becoming easterly 15 to 20 km/h in the late afternoon then becoming light in the evening."
+			"description": "Partly cloudy. Light winds becoming easterly 15 to 20 km/h in the late afternoon then becoming light in the evening."
 		},
 		{
 			"class": "day",
@@ -83,18 +74,9 @@ var forecast={
 	],
 	"ipswich": [
 		{
-			"class": "day eve",
-			"day": "Friday",
-			"image": "clear",
-			"summary": "Clear.",
-			"precipPercent": 0,
-			"description": "Clear. Winds northeasterly 15 to 20 km/h tending easterly in the evening."
-		},
-		{
 			"class": "day main",
 			"day": "Saturday",
 			"image": "partly-cloudy",
-			"min": 13,
 			"max": 28,
 			"summary": "Partly cloudy.",
 			"precipPercent": 5,
@@ -109,7 +91,7 @@ var forecast={
 			"summary": "Possible shower.",
 			"rain": "0 to 1 mm",
 			"precipPercent": 40,
-			"description": "Partly cloudy. Medium (40%) chance of showers, most likely in the morning and early afternoon. Light winds becoming easterly 15 to 20 km/h in the late afternoon then becoming light in the evening."
+			"description": "Partly cloudy. Medium (40%) chance of showers, most likely in the morning and afternoon. Light winds becoming easterly 15 to 20 km/h in the late afternoon then becoming light in the evening."
 		},
 		{
 			"class": "day",
@@ -165,22 +147,13 @@ var forecast={
 	],
 	"warwick": [
 		{
-			"class": "day eve",
-			"day": "Friday",
-			"image": "clear",
-			"summary": "Clear.",
-			"precipPercent": 0,
-			"description": "Clear. Light winds."
-		},
-		{
 			"class": "day main",
 			"day": "Saturday",
 			"image": "partly-cloudy",
-			"min": 8,
 			"max": 27,
 			"summary": "Partly cloudy.",
 			"precipPercent": 10,
-			"description": "Mostly sunny. Light winds becoming northeast to southeasterly 15 to 25 km/h in the evening. Overnight temperatures falling to between 10 and 14 with daytime temperatures reaching around 30."
+			"description": "Mostly sunny. Light winds becoming northeast to southeasterly 15 to 25 km/h in the evening. Daytime maximum temperatures around 30."
 		},
 		{
 			"class": "day",
@@ -190,7 +163,7 @@ var forecast={
 			"max": 23,
 			"summary": "Partly cloudy.",
 			"precipPercent": 20,
-			"description": "Partly cloudy. Slight (20%) chance of a shower over the far southeastern parts, near zero chance elsewhere. Winds east to northeasterly 20 to 30 km/h. Overnight temperatures falling to between 12 and 16 with daytime temperatures reaching 24 to 30."
+			"description": "Partly cloudy. Slight (20%) chance of a shower over the Granite Belt, near zero chance elsewhere. Winds east to northeasterly 20 to 30 km/h. Overnight temperatures falling to between 12 and 16 with daytime temperatures reaching 24 to 30."
 		},
 		{
 			"class": "day",
