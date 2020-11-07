@@ -1,24 +1,14 @@
 var forecast={
-	"updated": "07/11/2020, 10:49:40 pm",
+	"updated": "08/11/2020, 5:04:40 am",
 	"kenmore": [
-		{
-			"class": "day eve",
-			"day": "Saturday",
-			"image": "partly-cloudy",
-			"summary": "Partly cloudy.",
-			"precipPercent": 5,
-			"description": "Partly cloudy. Winds easterly 15 to 20 km/h becoming light in the evening."
-		},
 		{
 			"class": "day main",
 			"day": "Sunday",
 			"image": "light-showers",
-			"min": 16,
 			"max": 24,
 			"summary": "Possible morning shower.",
-			"rain": "0 to 1 mm",
 			"precipPercent": 40,
-			"description": "Partly cloudy. Medium (40%) chance of showers in the morning. Light winds becoming southeasterly 20 to 30 km/h in the morning then becoming light in the late evening."
+			"description": "Partly cloudy. Medium (50%) chance of showers this morning. Winds southeasterly 20 to 30 km/h becoming light in the late evening."
 		},
 		{
 			"class": "day",
@@ -83,23 +73,13 @@ var forecast={
 	],
 	"ipswich": [
 		{
-			"class": "day eve",
-			"day": "Saturday",
-			"image": "partly-cloudy",
-			"summary": "Partly cloudy.",
-			"precipPercent": 5,
-			"description": "Partly cloudy. Winds easterly 15 to 20 km/h becoming light in the evening."
-		},
-		{
 			"class": "day main",
 			"day": "Sunday",
 			"image": "light-showers",
-			"min": 15,
 			"max": 25,
 			"summary": "Possible morning shower.",
-			"rain": "0 to 1 mm",
 			"precipPercent": 40,
-			"description": "Partly cloudy. Medium (40%) chance of showers in the morning. Light winds becoming east to southeasterly 15 to 20 km/h in the morning then becoming light in the evening."
+			"description": "Partly cloudy. Medium (40%) chance of showers this morning. Winds east to southeasterly 15 to 20 km/h becoming light in the evening."
 		},
 		{
 			"class": "day",
@@ -164,22 +144,13 @@ var forecast={
 	],
 	"warwick": [
 		{
-			"class": "day eve",
-			"day": "Saturday",
-			"image": "partly-cloudy",
-			"summary": "Partly cloudy.",
-			"precipPercent": 5,
-			"description": "Mostly clear. Winds south to southeasterly 15 to 20 km/h turning east to northeasterly 15 to 25 km/h in the late evening."
-		},
-		{
 			"class": "day main",
 			"day": "Sunday",
 			"image": "partly-cloudy",
-			"min": 12,
 			"max": 24,
 			"summary": "Partly cloudy.",
 			"precipPercent": 20,
-			"description": "Partly cloudy. Slight (20%) chance of a shower over the Granite Belt. Winds east to northeasterly 20 to 30 km/h. Overnight temperatures falling to between 12 and 16 with daytime temperatures reaching 24 to 30."
+			"description": "Partly cloudy. Slight (20%) chance of a shower over the Granite Belt, near zero chance elsewhere. Winds east to northeasterly 20 to 30 km/h. Daytime maximum temperatures 24 to 30."
 		},
 		{
 			"class": "day",
