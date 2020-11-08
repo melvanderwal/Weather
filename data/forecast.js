@@ -1,5 +1,5 @@
 var forecast={
-	"updated": "08/11/2020, 4:04:41 pm",
+	"updated": "08/11/2020, 4:19:40 pm",
 	"kenmore": [
 		{
 			"class": "day main",
@@ -144,72 +144,80 @@ var forecast={
 	],
 	"warwick": [
 		{
-			"class": "day main",
+			"class": "day eve",
 			"day": "Sunday",
 			"image": "partly-cloudy",
-			"max": 24,
 			"summary": "Partly cloudy.",
-			"precipPercent": 20,
-			"description": "Partly cloudy. Slight (20%) chance of a shower over the Granite Belt, near zero chance elsewhere. Winds east to northeasterly 20 to 30 km/h. Daytime maximum temperatures 24 to 30."
+			"precipPercent": 5,
+			"description": "Mostly clear. Winds easterly 15 to 25 km/h."
 		},
 		{
-			"class": "day",
+			"class": "day main",
 			"day": "Monday",
 			"image": "partly-cloudy",
 			"min": 9,
 			"max": 25,
 			"summary": "Mostly sunny.",
 			"precipPercent": 0,
-			"description": "Mostly sunny. Winds east to northeasterly 20 to 30 km/h tending east to southeasterly 15 to 25 km/h in the middle of the day then tending east to northeasterly in the evening. Overnight temperatures falling to between 10 and 14 with daytime temperatures reaching 26 to 31."
+			"description": "Sunny. Winds east to northeasterly 20 to 30 km/h tending east to southeasterly 15 to 25 km/h in the middle of the day then tending east to northeasterly in the evening. Overnight temperatures falling to between 10 and 14 with daytime temperatures reaching 26 to 31."
 		},
 		{
 			"class": "day",
 			"day": "Tuesday",
 			"image": "partly-cloudy",
 			"min": 9,
-			"max": 27,
+			"max": 28,
 			"summary": "Mostly sunny.",
 			"precipPercent": 0,
-			"description": "Mostly sunny. Winds east to northeasterly 15 to 25 km/h tending east to southeasterly during the day then tending east to northeasterly during the evening. Overnight temperatures falling to between 10 and 15 with daytime temperatures reaching 27 to 32."
+			"description": "Sunny. Winds east to northeasterly 15 to 25 km/h becoming light in the middle of the day then becoming east to northeasterly 15 to 25 km/h in the late afternoon. Overnight temperatures falling to between 10 and 15 with daytime temperatures reaching 27 to 32."
 		},
 		{
 			"class": "day",
 			"day": "Wednesday",
 			"image": "partly-cloudy",
-			"min": 10,
-			"max": 30,
+			"min": 11,
+			"max": 29,
 			"summary": "Mostly sunny.",
 			"precipPercent": 0,
-			"description": "Sunny. Winds northeasterly 15 to 25 km/h becoming light during the day then becoming northeasterly 15 to 25 km/h during the afternoon. Overnight temperatures falling to between 11 and 16 with daytime temperatures reaching 29 to 34."
+			"description": "Sunny. Winds northeasterly 15 to 25 km/h. Overnight temperatures falling to between 11 and 16 with daytime temperatures reaching 29 to 34."
 		},
 		{
 			"class": "day",
 			"day": "Thursday",
 			"image": "partly-cloudy",
-			"min": 11,
+			"min": 12,
 			"max": 31,
 			"summary": "Mostly sunny.",
-			"precipPercent": 5
+			"precipPercent": 10,
+			"description": "Partly cloudy. Slight (30%) chance of a shower in the southwest in the afternoon and evening. The chance of a thunderstorm in the south in the afternoon and evening. Winds north to northeasterly 15 to 20 km/h increasing to 25 to 35 km/h during the morning. Overnight temperatures falling to between 12 and 18 with daytime temperatures reaching the low to mid 30s."
 		},
 		{
 			"class": "day",
 			"day": "Friday",
-			"image": "light-showers",
+			"image": "showers",
 			"min": 13,
-			"max": 30,
-			"summary": "Possible shower.",
+			"max": 28,
+			"summary": "Shower or two.",
 			"rain": "0 to 3 mm",
-			"precipPercent": 40
+			"precipPercent": 60
 		},
 		{
 			"class": "day",
 			"day": "Saturday",
 			"image": "partly-cloudy",
 			"min": 13,
-			"max": 31,
-			"summary": "Partly cloudy.",
-			"rain": "0 to 0.4 mm",
-			"precipPercent": 30
+			"max": 32,
+			"summary": "Mostly sunny.",
+			"precipPercent": 20
+		},
+		{
+			"class": "day",
+			"day": "Sunday",
+			"image": "sunny",
+			"min": 14,
+			"max": 36,
+			"summary": "Hot and sunny.",
+			"precipPercent": 5
 		}
 	]
 }
