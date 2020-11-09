@@ -1,19 +1,10 @@
 var forecast={
-	"updated": "09/11/2020, 10:49:40 pm",
+	"updated": "10/11/2020, 5:04:40 am",
 	"kenmore": [
-		{
-			"class": "day eve",
-			"day": "Monday",
-			"image": "partly-cloudy",
-			"summary": "Mostly clear.",
-			"precipPercent": 0,
-			"description": "Mostly clear. Winds easterly 20 to 30 km/h becoming light in the late evening."
-		},
 		{
 			"class": "day main",
 			"day": "Tuesday",
 			"image": "partly-cloudy",
-			"min": 13,
 			"max": 26,
 			"summary": "Partly cloudy.",
 			"precipPercent": 5,
@@ -27,7 +18,7 @@ var forecast={
 			"max": 28,
 			"summary": "Mostly sunny.",
 			"precipPercent": 5,
-			"description": "Mostly sunny. Light winds becoming east to northeasterly 20 to 30 km/h in the morning then becoming light in the late evening."
+			"description": "Mostly sunny. The chance of fog in the west in the early morning. Light winds becoming east to northeasterly 20 to 30 km/h in the morning then becoming light in the late evening."
 		},
 		{
 			"class": "day",
@@ -82,18 +73,9 @@ var forecast={
 	],
 	"ipswich": [
 		{
-			"class": "day eve",
-			"day": "Monday",
-			"image": "partly-cloudy",
-			"summary": "Mostly clear.",
-			"precipPercent": 0,
-			"description": "Mostly clear. Winds easterly 20 to 25 km/h becoming light in the late evening."
-		},
-		{
 			"class": "day main",
 			"day": "Tuesday",
 			"image": "partly-cloudy",
-			"min": 11,
 			"max": 28,
 			"summary": "Mostly sunny.",
 			"precipPercent": 0,
@@ -106,8 +88,8 @@ var forecast={
 			"min": 12,
 			"max": 30,
 			"summary": "Mostly sunny.",
-			"precipPercent": 5,
-			"description": "Mostly sunny. Light winds becoming northeasterly 20 to 30 km/h in the middle of the day then becoming light in the late evening."
+			"precipPercent": 0,
+			"description": "The chance of fog in the early morning. Mostly sunny day. Light winds becoming northeasterly 20 to 30 km/h in the middle of the day then becoming light in the late evening."
 		},
 		{
 			"class": "day",
@@ -162,22 +144,13 @@ var forecast={
 	],
 	"warwick": [
 		{
-			"class": "day eve",
-			"day": "Monday",
-			"image": "clear",
-			"summary": "Clear.",
-			"precipPercent": 0,
-			"description": "Mostly clear. Winds east to northeasterly 15 to 25 km/h."
-		},
-		{
 			"class": "day main",
 			"day": "Tuesday",
-			"image": "sunny",
-			"min": 9,
+			"image": "partly-cloudy",
 			"max": 28,
-			"summary": "Sunny.",
+			"summary": "Mostly sunny.",
 			"precipPercent": 0,
-			"description": "Sunny. Winds east to northeasterly 15 to 25 km/h becoming light in the middle of the day then becoming east to northeasterly 15 to 25 km/h in the early afternoon. Overnight temperatures falling to between 10 and 14 with daytime temperatures reaching 27 to 32."
+			"description": "Mostly sunny. Winds east to northeasterly 15 to 25 km/h becoming light in the middle of the day then becoming east to northeasterly 15 to 25 km/h in the early afternoon. Daytime maximum temperatures 27 to 32."
 		},
 		{
 			"class": "day",
@@ -187,7 +160,7 @@ var forecast={
 			"max": 29,
 			"summary": "Mostly sunny.",
 			"precipPercent": 0,
-			"description": "Sunny. Winds northeasterly 15 to 25 km/h becoming light in the middle of the day then becoming northeasterly 15 to 20 km/h in the late afternoon. Overnight temperatures falling to between 11 and 16 with daytime temperatures reaching 29 to 34."
+			"description": "Sunny. The chance of fog in the far east in the early morning. Winds northeasterly 15 to 25 km/h becoming light in the middle of the day then becoming northeasterly 15 to 20 km/h in the late afternoon. Overnight temperatures falling to between 11 and 16 with daytime temperatures reaching 29 to 34."
 		},
 		{
 			"class": "day",
