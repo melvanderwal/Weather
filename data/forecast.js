@@ -1,23 +1,14 @@
 var forecast={
-	"updated": "11/11/2020, 10:49:40 pm",
+	"updated": "12/11/2020, 5:04:40 am",
 	"kenmore": [
-		{
-			"class": "day eve",
-			"day": "Wednesday",
-			"image": "clear",
-			"summary": "Clear.",
-			"precipPercent": 0,
-			"description": "Clear. Light winds."
-		},
 		{
 			"class": "day main",
 			"day": "Thursday",
 			"image": "partly-cloudy",
-			"min": 15,
 			"max": 29,
 			"summary": "Mostly sunny.",
 			"precipPercent": 0,
-			"description": "Mostly sunny. The chance of fog in the west in the early morning. Light winds becoming northeasterly 20 to 30 km/h in the middle of the day then tending northerly 15 to 20 km/h in the late evening."
+			"description": "Mostly sunny. Light winds becoming northeasterly 20 to 30 km/h in the middle of the day then tending northerly 15 to 20 km/h in the late evening."
 		},
 		{
 			"class": "day",
@@ -25,10 +16,10 @@ var forecast={
 			"image": "storm",
 			"min": 17,
 			"max": 29,
-			"summary": "Possible late shower or storm.",
+			"summary": "Possible shower or storm.",
 			"rain": "0 to 2 mm",
 			"precipPercent": 40,
-			"description": "Partly cloudy. Medium (40%) chance of showers in the late afternoon and evening. The chance of a thunderstorm in the evening. Light winds becoming northerly 20 to 30 km/h in the morning."
+			"description": "Partly cloudy. Medium (40%) chance of showers, most likely in the afternoon or evening. The chance of a thunderstorm in the afternoon and evening. Light winds becoming northerly 20 to 30 km/h in the morning."
 		},
 		{
 			"class": "day",
@@ -84,22 +75,13 @@ var forecast={
 	],
 	"ipswich": [
 		{
-			"class": "day eve",
-			"day": "Wednesday",
-			"image": "clear",
-			"summary": "Clear.",
-			"precipPercent": 0,
-			"description": "Clear. Winds northeasterly 15 to 20 km/h becoming light in the evening."
-		},
-		{
 			"class": "day main",
 			"day": "Thursday",
 			"image": "partly-cloudy",
-			"min": 13,
 			"max": 31,
 			"summary": "Mostly sunny.",
 			"precipPercent": 0,
-			"description": "The chance of fog in the early morning. Mostly sunny day. Light winds becoming northeasterly 20 to 25 km/h in the middle of the day then becoming light in the evening."
+			"description": "Mostly sunny. Light winds becoming northeasterly 20 to 25 km/h in the middle of the day then becoming light in the evening."
 		},
 		{
 			"class": "day",
@@ -107,10 +89,10 @@ var forecast={
 			"image": "storm",
 			"min": 15,
 			"max": 30,
-			"summary": "Possible late shower or storm.",
+			"summary": "Shower or two. Possible storm.",
 			"rain": "0 to 3 mm",
-			"precipPercent": 40,
-			"description": "Partly cloudy. Medium (40%) chance of showers, most likely in the evening. The chance of a thunderstorm. Light winds becoming north to northeasterly 15 to 20 km/h in the late afternoon then becoming light in the evening."
+			"precipPercent": 50,
+			"description": "Partly cloudy. Medium (50%) chance of showers in the afternoon and evening. The chance of a thunderstorm in the afternoon and evening. Light winds becoming north to northeasterly 15 to 20 km/h in the late afternoon then becoming light in the evening."
 		},
 		{
 			"class": "day",
@@ -166,22 +148,13 @@ var forecast={
 	],
 	"warwick": [
 		{
-			"class": "day eve",
-			"day": "Wednesday",
-			"image": "partly-cloudy",
-			"summary": "Mostly clear.",
-			"precipPercent": 5,
-			"description": "Mostly clear. Winds northeasterly 15 to 20 km/h."
-		},
-		{
 			"class": "day main",
 			"day": "Thursday",
 			"image": "partly-cloudy",
-			"min": 12,
 			"max": 30,
 			"summary": "Mostly sunny.",
 			"precipPercent": 0,
-			"description": "Mostly sunny. Slight (20%) chance of a shower in the southwest, near zero chance elsewhere. The chance of a thunderstorm in the southwest. Winds north to northeasterly 25 to 35 km/h. Overnight temperatures falling to between 12 and 18 with daytime temperatures reaching 30 to 35."
+			"description": "Mostly sunny. Medium (40%) chance of showers in the southwest, near zero chance elsewhere. The chance of a thunderstorm in the southwest. Winds northerly 25 to 35 km/h. Daytime maximum temperatures 30 to 35."
 		},
 		{
 			"class": "day",
@@ -190,9 +163,9 @@ var forecast={
 			"min": 13,
 			"max": 27,
 			"summary": "Shower or two. Possible storm.",
-			"rain": "1 to 4 mm",
-			"precipPercent": 60,
-			"description": "Hot. Partly cloudy. High (70%) chance of showers. The chance of a thunderstorm, possibly severe. Winds northerly 25 to 40 km/h tending northwesterly 20 to 30 km/h in the early afternoon then tending northwest to northeasterly in the late afternoon. Overnight temperatures falling to between 14 and 19 with daytime temperatures reaching 27 to 36."
+			"rain": "1 to 6 mm",
+			"precipPercent": 70,
+			"description": "Hot. Partly cloudy. High (70%) chance of showers, most likely in the morning and afternoon. The chance of a thunderstorm, possibly severe. Winds northerly 25 to 40 km/h tending northwesterly 20 to 30 km/h in the early afternoon then tending northwest to northeasterly in the late afternoon. Overnight temperatures falling to between 14 and 19 with daytime temperatures reaching 27 to 36."
 		},
 		{
 			"class": "day",
