@@ -1,23 +1,14 @@
 var forecast={
-	"updated": "14/11/2020, 10:49:40 pm",
+	"updated": "15/11/2020, 5:04:40 am",
 	"kenmore": [
-		{
-			"class": "day eve",
-			"day": "Saturday",
-			"image": "clear",
-			"summary": "Clear.",
-			"precipPercent": 5,
-			"description": "Clear. Winds north to northeasterly 15 to 25 km/h becoming light in the evening."
-		},
 		{
 			"class": "day main",
 			"day": "Sunday",
 			"image": "sunny",
-			"min": 19,
 			"max": 32,
 			"summary": "Sunny.",
 			"precipPercent": 0,
-			"description": "Sunny. Light winds becoming easterly 15 to 25 km/h in the middle of the day then becoming light in the evening."
+			"description": "Sunny. The chance of early morning fog patches in the west. Light winds becoming easterly 15 to 25 km/h in the middle of the day then becoming light in the evening."
 		},
 		{
 			"class": "day",
@@ -25,9 +16,9 @@ var forecast={
 			"image": "partly-cloudy",
 			"min": 20,
 			"max": 32,
-			"summary": "Partly cloudy.",
+			"summary": "Cloud clearing.",
 			"precipPercent": 5,
-			"description": "Partly cloudy. Light winds becoming northeasterly 20 to 30 km/h in the middle of the day then tending northerly 15 to 25 km/h in the late evening."
+			"description": "Cloud clearing. The chance of fog patches in the early morning, mainly in the west. Light winds becoming northeasterly 20 to 30 km/h in the middle of the day then tending northerly 15 to 25 km/h in the late evening."
 		},
 		{
 			"class": "day",
@@ -83,18 +74,9 @@ var forecast={
 	],
 	"ipswich": [
 		{
-			"class": "day eve",
-			"day": "Saturday",
-			"image": "clear",
-			"summary": "Clear.",
-			"precipPercent": 0,
-			"description": "Clear. Winds northwesterly 15 to 20 km/h becoming light in the evening."
-		},
-		{
 			"class": "day main",
 			"day": "Sunday",
 			"image": "sunny",
-			"min": 17,
 			"max": 36,
 			"summary": "Hot and sunny.",
 			"precipPercent": 0,
@@ -108,7 +90,7 @@ var forecast={
 			"max": 36,
 			"summary": "Hot. Cloud clearing.",
 			"precipPercent": 5,
-			"description": "Hot. Partly cloudy. Light winds becoming northeasterly 20 to 25 km/h in the early afternoon then becoming light in the evening."
+			"description": "Hot. The chance of fog patches in the early morning. Sunny afternoon. Light winds becoming northeasterly 20 to 25 km/h in the early afternoon then becoming light in the evening."
 		},
 		{
 			"class": "day",
@@ -164,22 +146,13 @@ var forecast={
 	],
 	"warwick": [
 		{
-			"class": "day eve",
-			"day": "Saturday",
-			"image": "clear",
-			"summary": "Clear.",
-			"precipPercent": 0,
-			"description": "Clear. Winds west to southwesterly 15 to 20 km/h becoming light in the evening."
-		},
-		{
 			"class": "day main",
 			"day": "Sunday",
 			"image": "sunny",
-			"min": 15,
 			"max": 35,
 			"summary": "Sunny.",
 			"precipPercent": 0,
-			"description": "Very hot and sunny. Light winds becoming east to northeasterly 15 to 20 km/h in the late evening. Overnight temperatures falling to between 15 and 19 with daytime temperatures reaching 35 to 40."
+			"description": "Very hot and sunny. Light winds becoming east to northeasterly 15 to 20 km/h in the late evening. Daytime maximum temperatures 35 to 40."
 		},
 		{
 			"class": "day",
