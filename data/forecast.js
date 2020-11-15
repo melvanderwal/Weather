@@ -1,23 +1,14 @@
 var forecast={
-	"updated": "15/11/2020, 10:49:40 pm",
+	"updated": "16/11/2020, 5:04:40 am",
 	"kenmore": [
-		{
-			"class": "day eve",
-			"day": "Sunday",
-			"image": "partly-cloudy",
-			"summary": "Mostly clear.",
-			"precipPercent": 0,
-			"description": "Mostly clear. Winds easterly 20 to 25 km/h becoming light in the late evening."
-		},
 		{
 			"class": "day main",
 			"day": "Monday",
 			"image": "partly-cloudy",
-			"min": 20,
 			"max": 33,
 			"summary": "Cloud clearing.",
 			"precipPercent": 0,
-			"description": "Cloudy morning, clearing to a mostly sunny day. The chance of fog in the early morning. Light winds becoming northeasterly 15 to 25 km/h in the middle of the day then tending northerly 15 to 20 km/h in the late evening."
+			"description": "Cloud clearing. The chance of fog early this morning, mainly in the west. Light winds becoming northeasterly 15 to 25 km/h in the middle of the day then tending northerly 15 to 20 km/h in the late evening."
 		},
 		{
 			"class": "day",
@@ -83,22 +74,13 @@ var forecast={
 	],
 	"ipswich": [
 		{
-			"class": "day eve",
-			"day": "Sunday",
-			"image": "partly-cloudy",
-			"summary": "Mostly clear.",
-			"precipPercent": 0,
-			"description": "Mostly clear. Winds easterly 20 to 25 km/h becoming light in the late evening."
-		},
-		{
 			"class": "day main",
 			"day": "Monday",
 			"image": "sunny",
-			"min": 18,
 			"max": 36,
 			"summary": "Hot. Cloud clearing.",
 			"precipPercent": 0,
-			"description": "Hot. Cloudy morning, clearing to a mostly sunny day. The chance of fog in the early morning. Light winds becoming northeasterly 20 to 25 km/h in the early afternoon then becoming light in the late evening."
+			"description": "Hot. The chance of fog early this morning. Sunny afternoon. Light winds becoming northeasterly 20 to 25 km/h in the early afternoon then becoming light in the late evening."
 		},
 		{
 			"class": "day",
@@ -164,22 +146,13 @@ var forecast={
 	],
 	"warwick": [
 		{
-			"class": "day eve",
-			"day": "Sunday",
-			"image": "clear",
-			"summary": "Clear.",
-			"precipPercent": 0,
-			"description": "Clear. Light winds becoming east to northeasterly 15 to 20 km/h in the late evening."
-		},
-		{
 			"class": "day main",
 			"day": "Monday",
-			"image": "sunny",
-			"min": 16,
+			"image": "partly-cloudy",
 			"max": 36,
-			"summary": "Hot and sunny.",
+			"summary": "Hot and mostly sunny.",
 			"precipPercent": 0,
-			"description": "Very hot. Sunny day. The chance of a thunderstorm in the southwest in the evening. Winds northeasterly 15 to 25 km/h tending northerly 25 to 35 km/h in the morning then tending northwest to northeasterly 20 to 30 km/h in the middle of the day. Overnight temperatures falling to between 17 and 22 with daytime temperatures reaching 35 to 43."
+			"description": "Very hot. Sunny day. The chance of a thunderstorm in the southwest this evening. Winds north to northeasterly 25 to 35 km/h tending north to northwesterly 20 to 30 km/h in the middle of the day then tending north to northeasterly in the evening. Daytime maximum temperatures 35 to 43."
 		},
 		{
 			"class": "day",
@@ -190,7 +163,7 @@ var forecast={
 			"summary": "Shower or two. Possible storm.",
 			"rain": "1 to 2 mm",
 			"precipPercent": 70,
-			"description": "Very hot. Partly cloudy. High (70%) chance of showers over the Granite Belt, slight (30%) chance elsewhere. The chance of a thunderstorm from the late morning. Winds north to northwesterly 15 to 25 km/h tending northwest to southwesterly in the middle of the day then tending northeast to southeasterly 20 to 30 km/h in the late afternoon. Overnight temperatures falling to between 19 and 24 with daytime temperatures reaching 34 to 40."
+			"description": "Very hot. Partly cloudy. High (70%) chance of showers over the Granite Belt, slight (30%) chance elsewhere. The chance of a thunderstorm from the late morning. Possibly severe in the east. Winds north to northwesterly 15 to 25 km/h tending northwest to southwesterly in the middle of the day then tending northeast to southeasterly 20 to 30 km/h in the late afternoon. Overnight temperatures falling to between 19 and 24 with daytime temperatures reaching 34 to 40."
 		},
 		{
 			"class": "day",
