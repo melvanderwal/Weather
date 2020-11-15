@@ -1,5 +1,5 @@
 var forecast={
-	"updated": "15/11/2020, 6:04:40 pm",
+	"updated": "15/11/2020, 6:19:40 pm",
 	"kenmore": [
 		{
 			"class": "day eve",
@@ -17,7 +17,7 @@ var forecast={
 			"max": 33,
 			"summary": "Cloud clearing.",
 			"precipPercent": 0,
-			"description": "The chance of fog in the early morning, clearing to a mostly sunny afternoon. Light winds becoming northeasterly 15 to 25 km/h in the middle of the day then tending northerly 15 to 20 km/h in the late evening."
+			"description": "Cloudy morning, clearing to a mostly sunny day. The chance of fog in the early morning. Light winds becoming northeasterly 15 to 25 km/h in the middle of the day then tending northerly 15 to 20 km/h in the late evening."
 		},
 		{
 			"class": "day",
