@@ -1,5 +1,5 @@
 var forecast={
-	"updated": "15/11/2020, 6:19:40 pm",
+	"updated": "15/11/2020, 6:34:40 pm",
 	"kenmore": [
 		{
 			"class": "day eve",
@@ -93,12 +93,12 @@ var forecast={
 		{
 			"class": "day main",
 			"day": "Monday",
-			"image": "partly-cloudy",
+			"image": "sunny",
 			"min": 18,
 			"max": 36,
-			"summary": "Hot and mostly sunny.",
+			"summary": "Hot. Cloud clearing.",
 			"precipPercent": 0,
-			"description": "Hot. The chance of fog in the early morning. Mostly sunny day. Light winds becoming northeasterly 20 to 25 km/h in the early afternoon then becoming light in the late evening."
+			"description": "Hot. Cloudy morning, clearing to a mostly sunny day. The chance of fog in the early morning. Light winds becoming northeasterly 20 to 25 km/h in the early afternoon then becoming light in the late evening."
 		},
 		{
 			"class": "day",
