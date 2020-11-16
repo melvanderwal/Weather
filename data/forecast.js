@@ -1,5 +1,5 @@
 var forecast={
-	"updated": "16/11/2020, 6:04:40 pm",
+	"updated": "16/11/2020, 6:19:40 pm",
 	"kenmore": [
 		{
 			"class": "day eve",
@@ -18,7 +18,7 @@ var forecast={
 			"summary": "Shower or two. Possible storm.",
 			"rain": "0 to 1 mm",
 			"precipPercent": 50,
-			"description": "Partly cloudy. Medium (50%) chance of showers, most likely in the afternoon and evening. The chance of a thunderstorm in the afternoon and evening, possibly severe. Winds northerly 15 to 20 km/h tending north to northwesterly 15 to 25 km/h in the morning then shifting southeasterly 20 to 30 km/h in the late morning and afternoon."
+			"description": "Morning smoke haze, partly cloudy day. Medium (50%) chance of showers, most likely in the afternoon and evening. The chance of a thunderstorm in the afternoon and evening, possibly severe. Winds northerly 15 to 20 km/h tending north to northwesterly 15 to 25 km/h in the morning then shifting southeasterly 20 to 30 km/h in the late morning and afternoon."
 		},
 		{
 			"class": "day",
@@ -99,7 +99,7 @@ var forecast={
 			"summary": "Shower or two. Possible storm.",
 			"rain": "0 to 2 mm",
 			"precipPercent": 50,
-			"description": "Partly cloudy. Medium (50%) chance of showers, most likely in the afternoon and evening. The chance of a thunderstorm in the afternoon and evening, possibly severe. Light winds becoming northwest to southwesterly 15 to 20 km/h in the morning then tending east to southeasterly 20 to 30 km/h in the middle of the day."
+			"description": "Morning smoke haze, partly cloudy day. Medium (50%) chance of showers, most likely in the afternoon and evening. The chance of a thunderstorm in the afternoon and evening, possibly severe. Light winds becoming northwest to southwesterly 15 to 20 km/h in the morning then tending east to southeasterly 20 to 30 km/h in the middle of the day."
 		},
 		{
 			"class": "day",
@@ -169,7 +169,7 @@ var forecast={
 			"image": "clear",
 			"summary": "Clear.",
 			"precipPercent": 0,
-			"description": "Mostly clear. Light winds becoming north to northeasterly 15 to 25 km/h in the evening."
+			"description": "Mostly clear. The chance of a thunderstorm in the west and north. Winds north to northeasterly 15 to 25 km/h."
 		},
 		{
 			"class": "day main",
