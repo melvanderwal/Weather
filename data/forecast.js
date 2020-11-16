@@ -1,5 +1,5 @@
 var forecast={
-	"updated": "16/11/2020, 8:19:40 pm",
+	"updated": "16/11/2020, 8:34:40 pm",
 	"kenmore": [
 		{
 			"class": "day eve",
@@ -166,10 +166,10 @@ var forecast={
 		{
 			"class": "day eve",
 			"day": "Monday",
-			"image": "clear",
-			"summary": "Clear.",
-			"precipPercent": 0,
-			"description": "Mostly clear. The chance of a thunderstorm in the west and north. Winds north to northeasterly 15 to 25 km/h."
+			"image": "storm",
+			"summary": "Possible storm.",
+			"precipPercent": 30,
+			"description": "Partly cloudy. Slight (30%) chance of a shower or thunderstorm in the west and south. Winds north to northeasterly 15 to 25 km/h."
 		},
 		{
 			"class": "day main",
