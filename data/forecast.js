@@ -1,19 +1,10 @@
 var forecast={
-	"updated": "17/11/2020, 10:49:40 pm",
+	"updated": "18/11/2020, 5:04:40 am",
 	"kenmore": [
-		{
-			"class": "day eve",
-			"day": "Tuesday",
-			"image": "storm",
-			"summary": "Shower or two. Possible storm.",
-			"precipPercent": 50,
-			"description": "Cloudy. Medium (50%) chance of showers, becoming less likely later tonight. The chance of a thunderstorm. Winds southeasterly 20 to 30 km/h decreasing to 15 to 20 km/h in the evening."
-		},
 		{
 			"class": "day main",
 			"day": "Wednesday",
 			"image": "partly-cloudy",
-			"min": 19,
 			"max": 29,
 			"summary": "Partly cloudy.",
 			"precipPercent": 0,
@@ -83,22 +74,13 @@ var forecast={
 	],
 	"ipswich": [
 		{
-			"class": "day eve",
-			"day": "Tuesday",
-			"image": "storm",
-			"summary": "Shower or two. Possible storm.",
-			"precipPercent": 60,
-			"description": "Partly cloudy. Medium (60%) chance of showers, becoming less likely later tonight. The chance of a thunderstorm. Winds easterly 20 to 25 km/h tending southeasterly 15 to 20 km/h in the evening."
-		},
-		{
 			"class": "day main",
 			"day": "Wednesday",
 			"image": "partly-cloudy",
-			"min": 18,
 			"max": 31,
 			"summary": "Partly cloudy.",
 			"precipPercent": 0,
-			"description": "Partly cloudy. A cooler day. Light winds becoming east to southeasterly 15 to 25 km/h in the morning then becoming light in the evening."
+			"description": "Partly cloudy. A cooler day. Winds southeasterly 15 to 20 km/h tending easterly 20 to 25 km/h in the early afternoon then becoming light in the evening."
 		},
 		{
 			"class": "day",
@@ -164,22 +146,13 @@ var forecast={
 	],
 	"warwick": [
 		{
-			"class": "day eve",
-			"day": "Tuesday",
-			"image": "partly-cloudy",
-			"summary": "Partly cloudy.",
-			"precipPercent": 30,
-			"description": "Partly cloudy. Slight (30%) chance of a shower in the far east, near zero chance elsewhere. The chance of a thunderstorm in the east. Winds southeast to southwesterly 15 to 25 km/h tending northeast to southeasterly in the evening."
-		},
-		{
 			"class": "day main",
 			"day": "Wednesday",
 			"image": "partly-cloudy",
-			"min": 14,
 			"max": 29,
 			"summary": "Mostly sunny.",
 			"precipPercent": 0,
-			"description": "Mostly sunny. A cooler day over the east, but remaining hot over the west. Slight (30%) chance of a shower or gusty thunderstorm in the north in the afternoon and evening. Near zero chance of rain elsewhere. Winds east to northeasterly 20 to 30 km/h. Overnight temperatures falling to between 15 and 20 with daytime temperatures reaching 29 to 37."
+			"description": "Hot and mostly sunny. Slight (30%) chance of a shower in the north during this afternoon and evening. Near zero chance of rain elsewhere. The chance of a thunderstorm during this afternoon and evening, with gusty winds in the north. Winds east to northeasterly 20 to 30 km/h. Daytime maximum temperatures 29 to 37."
 		},
 		{
 			"class": "day",
