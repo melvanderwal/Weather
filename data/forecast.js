@@ -1,5 +1,5 @@
 var forecast={
-	"updated": "17/11/2020, 4:04:40 pm",
+	"updated": "17/11/2020, 4:19:40 pm",
 	"kenmore": [
 		{
 			"class": "day main",
@@ -144,70 +144,80 @@ var forecast={
 	],
 	"warwick": [
 		{
-			"class": "day main",
+			"class": "day eve",
 			"day": "Tuesday",
-			"image": "storm",
-			"max": 32,
-			"summary": "Shower or two. Possible storm.",
-			"precipPercent": 50,
-			"description": "Very hot. Partly cloudy. Medium (50%) chance of showers in the far east, slight (30%) chance elsewhere. The chance of a thunderstorm, possibly severe. Winds north to northwesterly 15 to 25 km/h shifting south to southwesterly during the morning then tending northeast to southeasterly in the late afternoon. Daytime maximum temperatures 33 to 39."
+			"image": "partly-cloudy",
+			"summary": "Partly cloudy.",
+			"precipPercent": 30,
+			"description": "Partly cloudy. Slight (30%) chance of a shower in the far east, near zero chance elsewhere. The chance of a thunderstorm in the east. Winds southeast to southwesterly 15 to 25 km/h tending northeast to southeasterly in the evening."
 		},
 		{
-			"class": "day",
+			"class": "day main",
 			"day": "Wednesday",
 			"image": "partly-cloudy",
 			"min": 14,
 			"max": 29,
 			"summary": "Mostly sunny.",
 			"precipPercent": 0,
-			"description": "Hot and mostly sunny. Winds east to northeasterly 20 to 30 km/h. Overnight temperatures falling to between 15 and 20 with daytime temperatures reaching 29 to 37."
+			"description": "Mostly sunny. A cooler day over the east, but remaining hot over the west. Slight (30%) chance of a shower or gusty thunderstorm in the north in the afternoon and evening. Near zero chance of rain elsewhere. Winds east to northeasterly 20 to 30 km/h. Overnight temperatures falling to between 15 and 20 with daytime temperatures reaching 29 to 37."
 		},
 		{
 			"class": "day",
 			"day": "Thursday",
 			"image": "partly-cloudy",
 			"min": 12,
-			"max": 31,
+			"max": 30,
 			"summary": "Mostly sunny.",
 			"precipPercent": 0,
-			"description": "Hot and sunny. Winds east to northeasterly 15 to 25 km/h becoming light during the morning then becoming east to northeasterly 15 to 25 km/h during the afternoon. Overnight temperatures falling to between 13 and 18 with daytime temperatures reaching 30 to 37."
+			"description": "Hot and sunny. Winds east to northeasterly 20 to 30 km/h. Overnight temperatures falling to between 13 and 19 with daytime temperatures reaching 30 to 37."
 		},
 		{
 			"class": "day",
 			"day": "Friday",
-			"image": "partly-cloudy",
+			"image": "sunny",
 			"min": 13,
-			"max": 32,
-			"summary": "Mostly sunny.",
+			"max": 33,
+			"summary": "Sunny.",
 			"precipPercent": 0,
-			"description": "Hot and sunny. Winds northeasterly 15 to 25 km/h becoming light during the morning then becoming east to northeasterly 15 to 20 km/h during the evening. Overnight temperatures falling to between 14 and 19 with daytime temperatures reaching 32 to 37."
+			"description": "Hot and sunny. Winds east to northeasterly 15 to 25 km/h. Overnight temperatures falling to between 13 and 19 with daytime temperatures reaching 32 to 38."
 		},
 		{
 			"class": "day",
 			"day": "Saturday",
 			"image": "partly-cloudy",
-			"min": 13,
+			"min": 14,
 			"max": 33,
 			"summary": "Partly cloudy.",
-			"precipPercent": 20
+			"precipPercent": 10,
+			"description": "Very hot and mostly sunny. Slight (20%) chance of a shower over the Granite Belt in the morning and afternoon. Near zero chance of rain elsewhere. The chance of a thunderstorm over the Granite Belt in the afternoon and evening. Winds northeasterly 15 to 20 km/h becoming light during the day then becoming east to northeasterly 15 to 25 km/h during the afternoon. Overnight temperatures falling to between 14 and 20 with daytime temperatures reaching 33 to 39."
 		},
 		{
 			"class": "day",
 			"day": "Sunday",
 			"image": "sunny",
 			"min": 14,
-			"max": 33,
+			"max": 35,
 			"summary": "Sunny.",
 			"precipPercent": 0
 		},
 		{
 			"class": "day",
 			"day": "Monday",
-			"image": "partly-cloudy",
-			"min": 13,
-			"max": 33,
-			"summary": "Partly cloudy.",
+			"image": "sunny",
+			"min": 14,
+			"max": 36,
+			"summary": "Hot and sunny.",
 			"precipPercent": 20
+		},
+		{
+			"class": "day",
+			"day": "Tuesday",
+			"image": "light-showers",
+			"min": 18,
+			"max": 35,
+			"summary": "Possible shower.",
+			"rain": "0 to 3 mm",
+			"precipPercent": 40
 		}
 	]
 }
