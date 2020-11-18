@@ -1,23 +1,14 @@
 var forecast={
-	"updated": "18/11/2020, 10:49:40 pm",
+	"updated": "19/11/2020, 5:04:40 am",
 	"kenmore": [
-		{
-			"class": "day eve",
-			"day": "Wednesday",
-			"image": "partly-cloudy",
-			"summary": "Partly cloudy.",
-			"precipPercent": 0,
-			"description": "Partly cloudy. Winds southeasterly 20 to 30 km/h decreasing to 15 to 20 km/h in the evening."
-		},
 		{
 			"class": "day main",
 			"day": "Thursday",
 			"image": "partly-cloudy",
-			"min": 18,
 			"max": 29,
 			"summary": "Partly cloudy.",
 			"precipPercent": 0,
-			"description": "Partly cloudy. Winds south to southeasterly 15 to 20 km/h turning easterly in the morning then becoming light in the evening."
+			"description": "Partly cloudy. Winds southeasterly 15 to 20 km/h tending easterly in the morning then becoming light in the evening."
 		},
 		{
 			"class": "day",
@@ -84,18 +75,9 @@ var forecast={
 	],
 	"ipswich": [
 		{
-			"class": "day eve",
-			"day": "Wednesday",
-			"image": "partly-cloudy",
-			"summary": "Partly cloudy.",
-			"precipPercent": 0,
-			"description": "Partly cloudy. Winds easterly 20 to 25 km/h becoming light in the evening."
-		},
-		{
 			"class": "day main",
 			"day": "Thursday",
 			"image": "partly-cloudy",
-			"min": 15,
 			"max": 31,
 			"summary": "Partly cloudy.",
 			"precipPercent": 0,
@@ -166,22 +148,13 @@ var forecast={
 	],
 	"warwick": [
 		{
-			"class": "day eve",
-			"day": "Wednesday",
-			"image": "partly-cloudy",
-			"summary": "Mostly clear.",
-			"precipPercent": 0,
-			"description": "Mostly clear. Winds easterly 15 to 25 km/h."
-		},
-		{
 			"class": "day main",
 			"day": "Thursday",
-			"image": "sunny",
-			"min": 13,
+			"image": "partly-cloudy",
 			"max": 31,
-			"summary": "Sunny.",
+			"summary": "Mostly sunny.",
 			"precipPercent": 0,
-			"description": "Sunny. Hot in the west. Winds east to northeasterly 20 to 30 km/h. Overnight temperatures falling to between 13 and 19 with daytime temperatures reaching 31 to 37."
+			"description": "Hot and sunny. Winds east to northeasterly 20 to 30 km/h. Daytime maximum temperatures 31 to 37."
 		},
 		{
 			"class": "day",
