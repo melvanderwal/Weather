@@ -1,23 +1,14 @@
 var forecast={
-	"updated": "19/11/2020, 10:49:40 pm",
+	"updated": "20/11/2020, 5:04:40 am",
 	"kenmore": [
-		{
-			"class": "day eve",
-			"day": "Thursday",
-			"image": "partly-cloudy",
-			"summary": "Mostly clear.",
-			"precipPercent": 0,
-			"description": "Mostly clear. Winds easterly 15 to 20 km/h becoming light in the evening."
-		},
 		{
 			"class": "day main",
 			"day": "Friday",
 			"image": "partly-cloudy",
-			"min": 17,
 			"max": 29,
-			"summary": "Cloud clearing.",
+			"summary": "Mostly sunny.",
 			"precipPercent": 0,
-			"description": "Cloud clearing. Winds east to southeasterly 15 to 20 km/h turning northeasterly 20 to 30 km/h in the late morning then decreasing to 15 to 20 km/h in the evening."
+			"description": "Mostly sunny. Winds easterly 15 to 20 km/h turning northeasterly 20 to 30 km/h in the middle of the day then becoming light in the evening."
 		},
 		{
 			"class": "day",
@@ -85,18 +76,9 @@ var forecast={
 	],
 	"ipswich": [
 		{
-			"class": "day eve",
-			"day": "Thursday",
-			"image": "clear",
-			"summary": "Clear.",
-			"precipPercent": 0,
-			"description": "Clear. Winds easterly 15 to 20 km/h becoming light in the evening."
-		},
-		{
 			"class": "day main",
 			"day": "Friday",
 			"image": "partly-cloudy",
-			"min": 15,
 			"max": 32,
 			"summary": "Mostly sunny.",
 			"precipPercent": 0,
@@ -168,22 +150,13 @@ var forecast={
 	],
 	"warwick": [
 		{
-			"class": "day eve",
-			"day": "Thursday",
-			"image": "clear",
-			"summary": "Clear.",
-			"precipPercent": 0,
-			"description": "Clear. Winds easterly 15 to 20 km/h turning northeasterly 15 to 25 km/h in the evening."
-		},
-		{
 			"class": "day main",
 			"day": "Friday",
 			"image": "sunny",
-			"min": 13,
 			"max": 33,
 			"summary": "Sunny.",
-			"precipPercent": 0,
-			"description": "Sunny. Hot in the west. Winds northeasterly 15 to 25 km/h becoming light in the middle of the day then becoming east to northeasterly 15 to 25 km/h in the early afternoon. Overnight temperatures falling to between 14 and 19 with daytime temperatures reaching 32 to 38."
+			"precipPercent": 5,
+			"description": "Hot and sunny. Winds northeasterly 15 to 25 km/h becoming light in the middle of the day then becoming east to northeasterly 15 to 25 km/h in the early afternoon. Daytime maximum temperatures 32 to 38."
 		},
 		{
 			"class": "day",
@@ -193,7 +166,7 @@ var forecast={
 			"max": 34,
 			"summary": "Mostly sunny.",
 			"precipPercent": 10,
-			"description": "Hot and mostly sunny. Slight (20%) chance of a shower or thunderstorm over the Granite Belt in the afternoon. Near zero chance of rain elsewhere. Winds northeasterly 15 to 25 km/h becoming light in the morning then becoming east to northeasterly 15 to 25 km/h in the middle of the day. Overnight temperatures falling to between 15 and 21 with daytime temperatures reaching 33 to 39."
+			"description": "Hot and mostly sunny. Slight (20%) chance of a shower over the Granite Belt in the late morning and afternoon. Near zero chance of rain elsewhere. The chance of a thunderstorm in the southeast in the afternoon and evening. Winds northeasterly 15 to 25 km/h becoming light in the morning then becoming east to northeasterly 15 to 25 km/h in the middle of the day. Overnight temperatures falling to between 15 and 21 with daytime temperatures reaching 33 to 39."
 		},
 		{
 			"class": "day",
