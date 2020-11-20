@@ -1,33 +1,24 @@
 var forecast={
-	"updated": "20/11/2020, 10:49:40 pm",
+	"updated": "21/11/2020, 5:04:40 am",
 	"kenmore": [
-		{
-			"class": "day eve",
-			"day": "Friday",
-			"image": "clear",
-			"summary": "Clear.",
-			"precipPercent": 0,
-			"description": "Clear. Light winds."
-		},
 		{
 			"class": "day main",
 			"day": "Saturday",
-			"image": "sunny",
-			"min": 17,
-			"max": 30,
-			"summary": "Sunny.",
-			"precipPercent": 10,
-			"description": "Sunny. Light winds."
+			"image": "partly-cloudy",
+			"max": 31,
+			"summary": "Mostly sunny.",
+			"precipPercent": 0,
+			"description": "Mostly sunny. Light winds."
 		},
 		{
 			"class": "day",
 			"day": "Sunday",
 			"image": "partly-cloudy",
 			"min": 18,
-			"max": 30,
+			"max": 31,
 			"summary": "Mostly sunny.",
 			"precipPercent": 0,
-			"description": "Mostly sunny. Light winds becoming northeasterly 15 to 25 km/h in the middle of the day then becoming light in the late evening."
+			"description": "Mostly sunny. Light winds becoming north to northeasterly 15 to 25 km/h in the middle of the day then becoming light in the evening."
 		},
 		{
 			"class": "day",
@@ -84,32 +75,23 @@ var forecast={
 	],
 	"ipswich": [
 		{
-			"class": "day eve",
-			"day": "Friday",
-			"image": "clear",
-			"summary": "Clear.",
-			"precipPercent": 0,
-			"description": "Clear. Light winds."
-		},
-		{
 			"class": "day main",
 			"day": "Saturday",
 			"image": "sunny",
-			"min": 15,
-			"max": 33,
+			"max": 34,
 			"summary": "Sunny.",
-			"precipPercent": 5,
+			"precipPercent": 0,
 			"description": "Sunny. Light winds."
 		},
 		{
 			"class": "day",
 			"day": "Sunday",
-			"image": "partly-cloudy",
+			"image": "sunny",
 			"min": 16,
 			"max": 33,
-			"summary": "Mostly sunny.",
+			"summary": "Sunny.",
 			"precipPercent": 0,
-			"description": "Mostly sunny. Light winds becoming northeasterly 20 to 25 km/h in the early afternoon then becoming light in the evening."
+			"description": "Sunny. Light winds becoming northeasterly 20 to 25 km/h in the early afternoon then becoming light in the evening."
 		},
 		{
 			"class": "day",
@@ -166,22 +148,13 @@ var forecast={
 	],
 	"warwick": [
 		{
-			"class": "day eve",
-			"day": "Friday",
-			"image": "clear",
-			"summary": "Clear.",
-			"precipPercent": 5,
-			"description": "Hot. Clear. Light winds."
-		},
-		{
 			"class": "day main",
 			"day": "Saturday",
-			"image": "partly-cloudy",
-			"min": 14,
-			"max": 34,
-			"summary": "Mostly sunny.",
-			"precipPercent": 10,
-			"description": "Very hot and mostly sunny. Slight (20%) chance of a shower over the Granite Belt in the late morning and afternoon. Near zero chance of rain elsewhere. The chance of a thunderstorm in the southeast in the afternoon and evening. Winds northeasterly 15 to 20 km/h becoming light in the morning then becoming east to northeasterly 15 to 20 km/h in the early afternoon. Overnight temperatures falling to between 15 and 21 with daytime temperatures reaching 33 to 39."
+			"image": "sunny",
+			"max": 35,
+			"summary": "Sunny.",
+			"precipPercent": 5,
+			"description": "Hot and mostly sunny. Slight (30%) chance of a shower or thunderstorm over the southeast and Granite Belt in the afternoon and evening. Near zero chance of rain elsewhere. Winds north to northeasterly 15 to 20 km/h becoming light in the morning then becoming east to northeasterly 15 to 20 km/h in the early afternoon. Daytime maximum temperatures 33 to 39."
 		},
 		{
 			"class": "day",
@@ -191,7 +164,7 @@ var forecast={
 			"max": 35,
 			"summary": "Sunny.",
 			"precipPercent": 0,
-			"description": "Very hot and sunny. Winds northeasterly 15 to 25 km/h becoming light in the middle of the day then becoming northeasterly 15 to 20 km/h in the early afternoon. Overnight temperatures falling to between 15 and 21 with daytime temperatures reaching 33 to 39."
+			"description": "Hot and sunny. Winds northeasterly 15 to 25 km/h becoming light in the middle of the day then becoming northeasterly 15 to 20 km/h in the early afternoon. Overnight temperatures falling to between 15 and 21 with daytime temperatures reaching 33 to 39."
 		},
 		{
 			"class": "day",
