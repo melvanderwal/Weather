@@ -1,5 +1,5 @@
 var forecast={
-	"updated": "21/11/2020, 4:04:40 pm",
+	"updated": "21/11/2020, 4:19:40 pm",
 	"kenmore": [
 		{
 			"class": "day main",
@@ -148,23 +148,22 @@ var forecast={
 	],
 	"warwick": [
 		{
-			"class": "day main",
+			"class": "day eve",
 			"day": "Saturday",
-			"image": "sunny",
-			"max": 35,
-			"summary": "Sunny.",
-			"precipPercent": 5,
-			"description": "Hot and mostly sunny. Slight (30%) chance of a shower or thunderstorm over the southeast and Granite Belt in the afternoon and evening. Near zero chance of rain elsewhere. Winds north to northeasterly 15 to 20 km/h becoming light in the morning then becoming east to northeasterly 15 to 20 km/h in the early afternoon. Daytime maximum temperatures 33 to 39."
+			"image": "clear",
+			"summary": "Clear.",
+			"precipPercent": 0,
+			"description": "Mostly clear. The chance of a thunderstorm in the far south near the southern border early this evening. Winds easterly 15 to 20 km/h turning northeasterly in the evening."
 		},
 		{
-			"class": "day",
+			"class": "day main",
 			"day": "Sunday",
 			"image": "sunny",
 			"min": 14,
 			"max": 35,
 			"summary": "Sunny.",
 			"precipPercent": 0,
-			"description": "Hot and sunny. Winds northeasterly 15 to 25 km/h becoming light in the middle of the day then becoming northeasterly 15 to 20 km/h in the early afternoon. Overnight temperatures falling to between 15 and 21 with daytime temperatures reaching 33 to 39."
+			"description": "Very hot and sunny. Winds northeasterly 15 to 25 km/h becoming light in the morning then becoming northeasterly 15 to 20 km/h in the late evening. Overnight temperatures falling to between 15 and 22 with daytime temperatures reaching 33 to 39."
 		},
 		{
 			"class": "day",
@@ -173,46 +172,56 @@ var forecast={
 			"min": 14,
 			"max": 36,
 			"summary": "Hot and sunny.",
-			"precipPercent": 5,
-			"description": "Very hot and sunny. Winds north to northeasterly 15 to 20 km/h tending north to northwesterly 20 to 30 km/h during the morning. Overnight temperatures falling to between 15 and 21 with daytime temperatures reaching 35 to 41."
+			"precipPercent": 0,
+			"description": "Very hot. Sunny day. The chance of a thunderstorm in the southwest in the late afternoon and evening. Winds north to northeasterly 15 to 20 km/h tending north to northwesterly 20 to 30 km/h during the morning. Overnight temperatures falling to between 15 and 21 with daytime temperatures reaching 35 to 41."
 		},
 		{
 			"class": "day",
 			"day": "Tuesday",
 			"image": "storm",
-			"min": 20,
-			"max": 34,
+			"min": 19,
+			"max": 32,
 			"summary": "Shower or two. Possible storm.",
-			"rain": "1 to 5 mm",
-			"precipPercent": 60,
-			"description": "Very hot. Partly cloudy. Medium (60%) chance of showers over the Granite Belt, slight (30%) chance elsewhere. The chance of a thunderstorm. Winds north to northwesterly 15 to 20 km/h turning west to southwesterly 20 to 30 km/h during the morning. Overnight temperatures falling to between 19 and 23 with daytime temperatures reaching the mid to high 30s."
+			"rain": "3 to 10 mm",
+			"precipPercent": 70,
+			"description": "Very hot. Partly cloudy. High (70%) chance of showers over the Granite Belt, slight (30%) chance elsewhere. The chance of a thunderstorm, possibly severe. Winds north to northwesterly 20 to 30 km/h tending northwest to southwesterly during the day then tending northeast to southeasterly 25 to 35 km/h during the afternoon. Overnight temperatures falling to between 19 and 23 with daytime temperatures reaching 33 to 39."
 		},
 		{
 			"class": "day",
 			"day": "Wednesday",
-			"image": "partly-cloudy",
+			"image": "cloudy",
 			"min": 15,
-			"max": 27,
-			"summary": "Partly cloudy.",
-			"rain": "0 to 0.4 mm",
-			"precipPercent": 30
+			"max": 26,
+			"summary": "Cloudy.",
+			"rain": "0 to 1 mm",
+			"precipPercent": 30,
+			"description": "Partly cloudy. Slight (30%) chance of a shower, most likely in the morning and afternoon. The chance of a thunderstorm in the north. Winds east to northeasterly 25 to 35 km/h. Overnight temperatures falling to between 15 and 20 with daytime temperatures reaching 26 to 35."
 		},
 		{
 			"class": "day",
 			"day": "Thursday",
 			"image": "partly-cloudy",
-			"min": 13,
-			"max": 30,
+			"min": 14,
+			"max": 31,
 			"summary": "Mostly sunny.",
-			"precipPercent": 10
+			"precipPercent": 5
 		},
 		{
 			"class": "day",
 			"day": "Friday",
 			"image": "partly-cloudy",
 			"min": 13,
-			"max": 32,
+			"max": 33,
 			"summary": "Mostly sunny.",
+			"precipPercent": 10
+		},
+		{
+			"class": "day",
+			"day": "Saturday",
+			"image": "partly-cloudy",
+			"min": 15,
+			"max": 35,
+			"summary": "Partly cloudy.",
 			"precipPercent": 10
 		}
 	]
