@@ -1,24 +1,14 @@
 var forecast={
-	"updated": "23/11/2020, 10:49:40 pm",
+	"updated": "24/11/2020, 5:04:40 am",
 	"kenmore": [
-		{
-			"class": "day eve",
-			"day": "Monday",
-			"image": "clear",
-			"summary": "Clear.",
-			"precipPercent": 0,
-			"description": "Clear. Winds northeasterly 20 to 30 km/h turning northerly 15 to 25 km/h in the evening."
-		},
 		{
 			"class": "day main",
 			"day": "Tuesday",
 			"image": "storm",
-			"min": 20,
 			"max": 32,
 			"summary": "Shower or two. Possible storm.",
-			"rain": "1 to 4 mm",
 			"precipPercent": 70,
-			"description": "Partly cloudy. Medium (60%) chance of showers, most likely in the afternoon and evening. The chance of a thunderstorm from late morning until early evening. Winds northerly 15 to 25 km/h becoming light before dawn then becoming east to southeasterly 20 to 30 km/h in the early afternoon."
+			"description": "Partly cloudy. Medium (60%) chance of showers, most likely this afternoon and evening. The chance of a thunderstorm from early afternoon to early evening, possibly severe in the west. Light winds becoming east to southeasterly 20 to 30 km/h in the early afternoon."
 		},
 		{
 			"class": "day",
@@ -84,23 +74,13 @@ var forecast={
 	],
 	"ipswich": [
 		{
-			"class": "day eve",
-			"day": "Monday",
-			"image": "clear",
-			"summary": "Clear.",
-			"precipPercent": 0,
-			"description": "Clear. Light winds."
-		},
-		{
 			"class": "day main",
 			"day": "Tuesday",
 			"image": "storm",
-			"min": 19,
 			"max": 34,
 			"summary": "Shower or two. Possible storm.",
-			"rain": "1 to 4 mm",
 			"precipPercent": 70,
-			"description": "Partly cloudy. High (70%) chance of showers, most likely in the afternoon and evening. The chance of a thunderstorm from the late morning, possibly severe. Light winds becoming easterly 20 to 30 km/h in the early afternoon then becoming light in the evening."
+			"description": "Partly cloudy. High (70%) chance of showers, most likely during this afternoon and evening. The chance of a thunderstorm from late this morning, possibly severe in the afternoon. Light winds becoming easterly 20 to 30 km/h in the early afternoon then becoming light in the evening."
 		},
 		{
 			"class": "day",
@@ -166,23 +146,13 @@ var forecast={
 	],
 	"warwick": [
 		{
-			"class": "day eve",
-			"day": "Monday",
-			"image": "clear",
-			"summary": "Clear.",
-			"precipPercent": 0,
-			"description": "Mostly clear. The chance of a thunderstorm in the southwest later this evening. Winds northwesterly 15 to 20 km/h turning northerly in the evening."
-		},
-		{
 			"class": "day main",
 			"day": "Tuesday",
 			"image": "storm",
-			"min": 19,
 			"max": 33,
 			"summary": "Shower or two. Possible storm.",
-			"rain": "0 to 2 mm",
 			"precipPercent": 60,
-			"description": "Very hot. Partly cloudy. Medium (50%) chance of showers in the east, slight (20%) chance elsewhere. The chance of a thunderstorm from the late morning, possibly severe. Winds north to northwesterly 15 to 25 km/h shifting south to southwesterly 20 to 30 km/h during the morning and early afternoon then tending northeast to southeasterly in the evening. Overnight temperatures falling to between 19 and 23 with daytime temperatures reaching 34 to 39."
+			"description": "Very hot. Partly cloudy. Medium (60%) chance of showers in the far east, slight (30%) chance elsewhere. The chance of a thunderstorm from late this morning, possibly severe in the east. Winds northwesterly 15 to 25 km/h shifting easterly 20 to 30 km/h during the afternoon and evening. Daytime maximum temperatures 34 to 39."
 		},
 		{
 			"class": "day",
