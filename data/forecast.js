@@ -1,23 +1,14 @@
 var forecast={
-	"updated": "25/11/2020, 10:49:40 pm",
+	"updated": "26/11/2020, 5:04:40 am",
 	"kenmore": [
-		{
-			"class": "day eve",
-			"day": "Wednesday",
-			"image": "partly-cloudy",
-			"summary": "Partly cloudy.",
-			"precipPercent": 5,
-			"description": "Partly cloudy. Winds easterly 25 to 30 km/h turning southeasterly 15 to 20 km/h in the evening."
-		},
 		{
 			"class": "day main",
 			"day": "Thursday",
 			"image": "sunny",
-			"min": 19,
 			"max": 30,
 			"summary": "Sunny.",
 			"precipPercent": 0,
-			"description": "Sunny. A warmer day. Light winds becoming east to northeasterly 15 to 25 km/h in the middle of the day then becoming light in the late evening."
+			"description": "Mostly sunny. Light winds becoming east to northeasterly 15 to 25 km/h in the middle of the day then becoming light in the late evening."
 		},
 		{
 			"class": "day",
@@ -82,22 +73,13 @@ var forecast={
 	],
 	"ipswich": [
 		{
-			"class": "day eve",
-			"day": "Wednesday",
-			"image": "partly-cloudy",
-			"summary": "Partly cloudy.",
-			"precipPercent": 5,
-			"description": "Partly cloudy. Winds easterly 20 to 25 km/h becoming light in the evening."
-		},
-		{
 			"class": "day main",
 			"day": "Thursday",
 			"image": "sunny",
-			"min": 18,
 			"max": 33,
 			"summary": "Sunny.",
 			"precipPercent": 0,
-			"description": "Sunny. A warmer day. Light winds becoming northeasterly 20 to 30 km/h in the late afternoon then becoming light in the evening."
+			"description": "Sunny. Light winds becoming northeasterly 20 to 30 km/h in the late afternoon then becoming light in the evening."
 		},
 		{
 			"class": "day",
@@ -162,22 +144,13 @@ var forecast={
 	],
 	"warwick": [
 		{
-			"class": "day eve",
-			"day": "Wednesday",
-			"image": "partly-cloudy",
-			"summary": "Partly cloudy.",
-			"precipPercent": 10,
-			"description": "Mostly clear. Slight (20%) chance of a shower or thunderstorm in the far north, near zero chance elsewhere. Winds east to northeasterly 15 to 25 km/h."
-		},
-		{
 			"class": "day main",
 			"day": "Thursday",
 			"image": "partly-cloudy",
-			"min": 15,
 			"max": 32,
 			"summary": "Partly cloudy.",
-			"precipPercent": 5,
-			"description": "Hot. Mostly sunny morning. The chance of a thunderstorm in the far north in the afternoon. Winds north to northeasterly 15 to 25 km/h becoming light in the middle of the day then becoming east to northeasterly 15 to 20 km/h in the late evening. Overnight temperatures falling to between 15 and 21 with daytime temperatures reaching 32 to 37."
+			"precipPercent": 0,
+			"description": "Hot. Sunny morning. The chance of a thunderstorm in the north this afternoon. Winds north to northeasterly 15 to 25 km/h becoming light in the middle of the day then becoming east to northeasterly 15 to 20 km/h in the late evening. Daytime maximum temperatures 32 to 37."
 		},
 		{
 			"class": "day",
