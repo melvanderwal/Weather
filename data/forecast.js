@@ -1,19 +1,10 @@
 var forecast={
-	"updated": "26/11/2020, 10:49:40 pm",
+	"updated": "27/11/2020, 5:04:40 am",
 	"kenmore": [
-		{
-			"class": "day eve",
-			"day": "Thursday",
-			"image": "clear",
-			"summary": "Clear.",
-			"precipPercent": 0,
-			"description": "Clear. Winds northeasterly 20 to 25 km/h becoming light in the evening."
-		},
 		{
 			"class": "day main",
 			"day": "Friday",
 			"image": "partly-cloudy",
-			"min": 19,
 			"max": 29,
 			"summary": "Partly cloudy.",
 			"precipPercent": 5,
@@ -83,22 +74,13 @@ var forecast={
 	],
 	"ipswich": [
 		{
-			"class": "day eve",
-			"day": "Thursday",
-			"image": "clear",
-			"summary": "Clear.",
-			"precipPercent": 0,
-			"description": "Clear. Winds northeasterly 20 to 25 km/h becoming light in the evening."
-		},
-		{
 			"class": "day main",
 			"day": "Friday",
 			"image": "partly-cloudy",
-			"min": 17,
 			"max": 32,
-			"summary": "Partly cloudy.",
+			"summary": "Mostly sunny.",
 			"precipPercent": 0,
-			"description": "Partly cloudy. Light winds becoming easterly 20 to 25 km/h in the early afternoon then becoming light in the evening."
+			"description": "Mostly sunny. Light winds becoming easterly 20 to 25 km/h in the early afternoon then becoming light in the evening."
 		},
 		{
 			"class": "day",
@@ -163,22 +145,13 @@ var forecast={
 	],
 	"warwick": [
 		{
-			"class": "day eve",
-			"day": "Thursday",
-			"image": "partly-cloudy",
-			"summary": "Mostly clear.",
-			"precipPercent": 0,
-			"description": "Mostly clear. Light winds becoming east to northeasterly 15 to 20 km/h in the late evening."
-		},
-		{
 			"class": "day main",
 			"day": "Friday",
 			"image": "partly-cloudy",
-			"min": 15,
 			"max": 33,
 			"summary": "Mostly sunny.",
 			"precipPercent": 5,
-			"description": "Very hot and mostly sunny. The chance of a thunderstorm in the southwest in the morning and afternoon. Winds northeasterly 15 to 20 km/h becoming light in the morning then becoming east to northeasterly 15 to 25 km/h in the early afternoon. Overnight temperatures falling to between 16 and 23 with daytime temperatures reaching 32 to 39."
+			"description": "Very hot and mostly sunny. The chance of a thunderstorm in the southwest during the morning and afternoon. Winds northeasterly 15 to 20 km/h becoming light in the morning then becoming east to northeasterly 15 to 25 km/h in the early afternoon. Daytime maximum temperatures 32 to 39."
 		},
 		{
 			"class": "day",
