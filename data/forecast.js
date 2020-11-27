@@ -1,5 +1,5 @@
 var forecast={
-	"updated": "27/11/2020, 4:04:40 pm",
+	"updated": "27/11/2020, 4:19:40 pm",
 	"kenmore": [
 		{
 			"class": "day main",
@@ -145,23 +145,22 @@ var forecast={
 	],
 	"warwick": [
 		{
-			"class": "day main",
+			"class": "day eve",
 			"day": "Friday",
-			"image": "partly-cloudy",
-			"max": 33,
-			"summary": "Mostly sunny.",
-			"precipPercent": 5,
-			"description": "Very hot and mostly sunny. The chance of a thunderstorm in the southwest during the morning and afternoon. Winds northeasterly 15 to 20 km/h becoming light in the morning then becoming east to northeasterly 15 to 25 km/h in the early afternoon. Daytime maximum temperatures 32 to 39."
+			"image": "clear",
+			"summary": "Clear.",
+			"precipPercent": 0,
+			"description": "Mostly clear. Winds easterly 15 to 25 km/h turning northeasterly 20 to 25 km/h in the evening."
 		},
 		{
-			"class": "day",
+			"class": "day main",
 			"day": "Saturday",
 			"image": "sunny",
 			"min": 13,
-			"max": 34,
+			"max": 35,
 			"summary": "Sunny.",
 			"precipPercent": 0,
-			"description": "Very hot and sunny. Winds northeasterly 15 to 25 km/h becoming light in the middle of the day then becoming northeasterly 15 to 20 km/h in the late afternoon. Overnight temperatures falling to between 14 and 21 with daytime temperatures reaching 33 to 39."
+			"description": "Hot and sunny. Winds northeasterly 15 to 25 km/h becoming light in the evening then becoming north to northeasterly 15 to 20 km/h in the late evening. Overnight temperatures falling to between 15 and 21 with daytime temperatures reaching 34 to 40."
 		},
 		{
 			"class": "day",
@@ -187,28 +186,39 @@ var forecast={
 			"class": "day",
 			"day": "Tuesday",
 			"image": "partly-cloudy",
-			"min": 19,
+			"min": 18,
 			"max": 39,
 			"summary": "Very hot and mostly sunny.",
-			"precipPercent": 0
+			"precipPercent": 10,
+			"description": "##"
 		},
 		{
 			"class": "day",
 			"day": "Wednesday",
 			"image": "partly-cloudy",
-			"min": 21,
-			"max": 39,
+			"min": 20,
+			"max": 41,
 			"summary": "Very hot and mostly sunny.",
-			"precipPercent": 10
+			"precipPercent": 20
 		},
 		{
 			"class": "day",
 			"day": "Thursday",
 			"image": "partly-cloudy",
-			"min": 17,
-			"max": 30,
+			"min": 15,
+			"max": 32,
 			"summary": "Partly cloudy.",
 			"precipPercent": 20
+		},
+		{
+			"class": "day",
+			"day": "Friday",
+			"image": "light-showers",
+			"min": 17,
+			"max": 33,
+			"summary": "Possible shower.",
+			"rain": "0 to 8 mm",
+			"precipPercent": 40
 		}
 	]
 }
