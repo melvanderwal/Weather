@@ -1,19 +1,10 @@
 var forecast={
-	"updated": "27/11/2020, 10:49:40 pm",
+	"updated": "28/11/2020, 5:04:40 am",
 	"kenmore": [
-		{
-			"class": "day eve",
-			"day": "Friday",
-			"image": "clear",
-			"summary": "Clear.",
-			"precipPercent": 0,
-			"description": "Clear. Winds easterly 20 to 25 km/h becoming light in the evening."
-		},
 		{
 			"class": "day main",
 			"day": "Saturday",
 			"image": "sunny",
-			"min": 17,
 			"max": 30,
 			"summary": "Sunny.",
 			"precipPercent": 0,
@@ -83,18 +74,9 @@ var forecast={
 	],
 	"ipswich": [
 		{
-			"class": "day eve",
-			"day": "Friday",
-			"image": "clear",
-			"summary": "Clear.",
-			"precipPercent": 0,
-			"description": "Clear. Winds easterly 20 to 25 km/h becoming light in the evening."
-		},
-		{
 			"class": "day main",
 			"day": "Saturday",
 			"image": "sunny",
-			"min": 15,
 			"max": 34,
 			"summary": "Sunny.",
 			"precipPercent": 0,
@@ -164,22 +146,13 @@ var forecast={
 	],
 	"warwick": [
 		{
-			"class": "day eve",
-			"day": "Friday",
-			"image": "clear",
-			"summary": "Clear.",
-			"precipPercent": 0,
-			"description": "Mostly clear. Winds easterly 15 to 25 km/h turning northeasterly 20 to 25 km/h in the evening."
-		},
-		{
 			"class": "day main",
 			"day": "Saturday",
 			"image": "sunny",
-			"min": 13,
 			"max": 35,
 			"summary": "Sunny.",
 			"precipPercent": 0,
-			"description": "Hot and sunny. Winds northeasterly 15 to 25 km/h becoming light in the evening then becoming north to northeasterly 15 to 20 km/h in the late evening. Overnight temperatures falling to between 15 and 21 with daytime temperatures reaching 34 to 40."
+			"description": "Very hot and sunny. Winds northeasterly 15 to 25 km/h becoming light in the evening then becoming north to northeasterly 15 to 20 km/h in the late evening. Daytime maximum temperatures 34 to 40."
 		},
 		{
 			"class": "day",
