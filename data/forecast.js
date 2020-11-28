@@ -1,23 +1,14 @@
 var forecast={
-	"updated": "28/11/2020, 10:49:40 pm",
+	"updated": "29/11/2020, 5:04:40 am",
 	"kenmore": [
-		{
-			"class": "day eve",
-			"day": "Saturday",
-			"image": "clear",
-			"summary": "Clear.",
-			"precipPercent": 0,
-			"description": "Clear. Winds northeasterly 15 to 20 km/h becoming light in the evening."
-		},
 		{
 			"class": "day main",
 			"day": "Sunday",
 			"image": "sunny",
-			"min": 18,
 			"max": 34,
 			"summary": "Sunny.",
 			"precipPercent": 0,
-			"description": "Sunny. Winds north to northwesterly 15 to 20 km/h tending north to northeasterly 20 to 30 km/h in the late morning and early afternoon."
+			"description": "Sunny. Winds north to northwesterly 15 to 20 km/h tending north to northeasterly 20 to 30 km/h in the early afternoon."
 		},
 		{
 			"class": "day",
@@ -26,7 +17,7 @@ var forecast={
 			"min": 20,
 			"max": 32,
 			"summary": "Mostly sunny.",
-			"precipPercent": 0,
+			"precipPercent": 5,
 			"description": "Mostly sunny. Winds northerly 15 to 20 km/h becoming light before dawn then becoming easterly 15 to 25 km/h in the middle of the day."
 		},
 		{
@@ -83,22 +74,13 @@ var forecast={
 	],
 	"ipswich": [
 		{
-			"class": "day eve",
-			"day": "Saturday",
-			"image": "clear",
-			"summary": "Clear.",
-			"precipPercent": 0,
-			"description": "Clear. Winds northeasterly 15 to 20 km/h becoming light in the evening."
-		},
-		{
 			"class": "day main",
 			"day": "Sunday",
-			"image": "sunny",
-			"min": 16,
+			"image": "partly-cloudy",
 			"max": 38,
-			"summary": "Hot and sunny.",
+			"summary": "Hot and mostly sunny.",
 			"precipPercent": 0,
-			"description": "Hot and sunny. Light winds."
+			"description": "Hot and mostly sunny. Light winds."
 		},
 		{
 			"class": "day",
@@ -164,32 +146,23 @@ var forecast={
 	],
 	"warwick": [
 		{
-			"class": "day eve",
-			"day": "Saturday",
-			"image": "clear",
-			"summary": "Clear.",
-			"precipPercent": 0,
-			"description": "Clear. Winds northeasterly 15 to 20 km/h."
-		},
-		{
 			"class": "day main",
 			"day": "Sunday",
-			"image": "sunny",
-			"min": 15,
+			"image": "partly-cloudy",
 			"max": 37,
-			"summary": "Hot and sunny.",
+			"summary": "Hot and mostly sunny.",
 			"precipPercent": 0,
-			"description": "Very hot and sunny. Winds north to northeasterly 15 to 20 km/h tending north to northwesterly 20 to 30 km/h during the morning. Overnight temperatures falling to between 16 and 23 with daytime temperatures reaching 36 to 42."
+			"description": "Hot and mostly sunny. Winds north to northwesterly 20 to 30 km/h becoming light in the late afternoon then becoming northerly 15 to 20 km/h in the late evening. Daytime maximum temperatures 36 to 42."
 		},
 		{
 			"class": "day",
 			"day": "Monday",
-			"image": "partly-cloudy",
+			"image": "sunny",
 			"min": 19,
 			"max": 39,
-			"summary": "Very hot and mostly sunny.",
+			"summary": "Very hot and sunny.",
 			"precipPercent": 0,
-			"description": "Very hot. Sunny morning. The chance of a thunderstorm with little or no rainfall in the south in the afternoon and evening. Winds north to northwesterly 20 to 30 km/h turning east to northeasterly in the evening. Overnight temperatures falling to between 19 and 26 with daytime temperatures reaching 38 to 45."
+			"description": "Very hot. Mostly sunny morning. The chance of a thunderstorm with little or no rainfall in the south in the afternoon and evening. Winds north to northwesterly 20 to 30 km/h turning east to northeasterly in the evening. Overnight temperatures falling to between 19 and 26 with daytime temperatures reaching 38 to 45."
 		},
 		{
 			"class": "day",
