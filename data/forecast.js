@@ -1,23 +1,14 @@
 var forecast={
-	"updated": "29/11/2020, 10:49:40 pm",
+	"updated": "30/11/2020, 5:04:40 am",
 	"kenmore": [
-		{
-			"class": "day eve",
-			"day": "Sunday",
-			"image": "partly-cloudy",
-			"summary": "Mostly clear.",
-			"precipPercent": 0,
-			"description": "Mostly clear. Winds northeasterly 20 to 30 km/h turning northerly 15 to 25 km/h in the evening."
-		},
 		{
 			"class": "day main",
 			"day": "Monday",
 			"image": "partly-cloudy",
-			"min": 21,
 			"max": 32,
 			"summary": "Mostly sunny.",
 			"precipPercent": 0,
-			"description": "Mostly sunny. Winds northerly 20 to 30 km/h becoming light early in the morning then becoming east to southeasterly 15 to 25 km/h in the morning."
+			"description": "Mostly sunny. Some smoke haze likely. Light winds becoming easterly 15 to 25 km/h in the middle of the day then tending southeasterly 15 to 20 km/h in the late evening."
 		},
 		{
 			"class": "day",
@@ -25,9 +16,9 @@ var forecast={
 			"image": "partly-cloudy",
 			"min": 21,
 			"max": 33,
-			"summary": "Partly cloudy.",
-			"precipPercent": 5,
-			"description": "Partly cloudy. Winds southeasterly 15 to 20 km/h shifting north to northeasterly 20 to 25 km/h during the day."
+			"summary": "Cloud clearing.",
+			"precipPercent": 0,
+			"description": "Mostly cloudy in the morning, clearing to a mostly sunny day. Winds southeasterly 15 to 20 km/h shifting north to northeasterly 20 to 25 km/h during the day."
 		},
 		{
 			"class": "day",
@@ -84,32 +75,23 @@ var forecast={
 	],
 	"ipswich": [
 		{
-			"class": "day eve",
-			"day": "Sunday",
-			"image": "partly-cloudy",
-			"summary": "Mostly clear.",
-			"precipPercent": 0,
-			"description": "Mostly clear. Light winds."
-		},
-		{
 			"class": "day main",
 			"day": "Monday",
 			"image": "partly-cloudy",
-			"min": 20,
 			"max": 36,
 			"summary": "Hot and mostly sunny.",
 			"precipPercent": 0,
-			"description": "Hot and mostly sunny. Light winds becoming northeasterly 20 to 25 km/h in the early afternoon then tending easterly 15 to 25 km/h in the late afternoon."
+			"description": "Hot and mostly sunny. Some smoke haze likely. Light winds becoming northeasterly 20 to 25 km/h in the early afternoon then tending easterly 15 to 25 km/h in the late afternoon."
 		},
 		{
 			"class": "day",
 			"day": "Tuesday",
-			"image": "partly-cloudy",
-			"min": 20,
-			"max": 37,
-			"summary": "Hot. Partly cloudy.",
-			"precipPercent": 5,
-			"description": "Hot. Partly cloudy. Light winds becoming northeasterly 20 to 25 km/h in the early afternoon then becoming light in the evening."
+			"image": "sunny",
+			"min": 21,
+			"max": 36,
+			"summary": "Hot. Cloud clearing.",
+			"precipPercent": 0,
+			"description": "Hot. Mostly cloudy in the morning, clearing to a mostly sunny day. Light winds becoming northeasterly 20 to 25 km/h in the early afternoon then becoming light in the evening."
 		},
 		{
 			"class": "day",
@@ -165,30 +147,21 @@ var forecast={
 	],
 	"warwick": [
 		{
-			"class": "day eve",
-			"day": "Sunday",
-			"image": "partly-cloudy",
-			"summary": "Mostly clear.",
-			"precipPercent": 0,
-			"description": "Mostly clear. Light winds becoming northerly 15 to 20 km/h in the late evening."
-		},
-		{
 			"class": "day main",
 			"day": "Monday",
 			"image": "partly-cloudy",
-			"min": 19,
 			"max": 38,
 			"summary": "Very hot. Partly cloudy.",
 			"precipPercent": 0,
-			"description": "Very hot. Mostly sunny morning. The chance of a thunderstorm with little or no rainfall in the south in the afternoon and evening. Winds north to northwesterly 20 to 30 km/h tending north to northeasterly 25 to 35 km/h in the late afternoon then tending east to northeasterly 25 to 40 km/h in the late evening. Overnight temperatures falling to between 19 and 26 with daytime temperatures reaching 38 to 45."
+			"description": "Very hot. Mostly sunny morning. The chance of a thunderstorm with little or no rainfall in the south during this afternoon and evening. Winds north to northwesterly 15 to 25 km/h tending north to northeasterly 25 to 35 km/h in the late afternoon then tending east to northeasterly 25 to 40 km/h in the late evening. Daytime maximum temperatures 38 to 45."
 		},
 		{
 			"class": "day",
 			"day": "Tuesday",
-			"image": "sunny",
-			"min": 17,
+			"image": "partly-cloudy",
+			"min": 18,
 			"max": 37,
-			"summary": "Hot. Partly cloudy.",
+			"summary": "Hot and mostly sunny.",
 			"precipPercent": 0,
 			"description": "Very hot and mostly sunny. Winds northeasterly 25 to 40 km/h turning northerly 25 to 35 km/h in the morning then tending northwest to northeasterly 20 to 30 km/h in the middle of the day. Overnight temperatures falling to between 18 and 25 with daytime temperatures reaching 37 to 44."
 		},
