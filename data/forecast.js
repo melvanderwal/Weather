@@ -1,24 +1,14 @@
 var forecast={
-	"updated": "01/12/2020, 10:49:40 pm",
+	"updated": "02/12/2020, 5:04:40 am",
 	"kenmore": [
-		{
-			"class": "day eve",
-			"day": "Tuesday",
-			"image": "clear",
-			"summary": "Clear.",
-			"precipPercent": 0,
-			"description": "Clear. Winds northeasterly 15 to 20 km/h becoming light in the late evening."
-		},
 		{
 			"class": "day main",
 			"day": "Wednesday",
-			"image": "partly-cloudy",
-			"min": 22,
+			"image": "light-showers",
 			"max": 35,
-			"summary": "Mostly sunny.",
-			"rain": "0 to 0.2 mm",
-			"precipPercent": 30,
-			"description": "Hot and mostly sunny. Possible smoke haze. Slight (30%) chance of a shower in the evening. Winds northerly 15 to 25 km/h increasing to 30 km/h before turning easterly 15 to 20 km/h in the evening."
+			"summary": "Mostly sunny. Possible late shower.",
+			"precipPercent": 40,
+			"description": "Hot and mostly sunny. Some smoke haze possible. Medium (40%) chance of showers later tonight. The chance of a thunderstorm in the west this afternoon or evening. Winds northerly 15 to 25 km/h increasing to 30 km/h before turning easterly 15 to 20 km/h in the evening."
 		},
 		{
 			"class": "day",
@@ -26,10 +16,10 @@ var forecast={
 			"image": "light-showers",
 			"min": 22,
 			"max": 30,
-			"summary": "Possible shower.",
+			"summary": "Possible early shower.",
 			"rain": "0 to 1 mm",
 			"precipPercent": 40,
-			"description": "Cloudy. Medium (40%) chance of showers, most likely in the morning. Winds southeasterly 15 to 25 km/h tending easterly in the middle of the day then becoming light in the late evening."
+			"description": "Cloudy. Medium (40%) chance of showers in the early morning. Winds southeasterly 15 to 25 km/h tending easterly in the middle of the day then becoming light in the late evening."
 		},
 		{
 			"class": "day",
@@ -86,34 +76,24 @@ var forecast={
 	],
 	"ipswich": [
 		{
-			"class": "day eve",
-			"day": "Tuesday",
-			"image": "clear",
-			"summary": "Clear.",
-			"precipPercent": 0,
-			"description": "Clear. Winds northeasterly 15 to 20 km/h becoming light in the late evening."
-		},
-		{
 			"class": "day main",
 			"day": "Wednesday",
-			"image": "partly-cloudy",
-			"min": 21,
+			"image": "storm",
 			"max": 40,
-			"summary": "Hot and mostly sunny.",
-			"rain": "0 to 0.4 mm",
-			"precipPercent": 30,
-			"description": "Hot. Mostly sunny day. Slight (30%) chance of a shower in the late afternoon and evening. The chance of a thunderstorm at night. Light winds becoming northeasterly 20 to 25 km/h in the early afternoon then tending easterly 15 to 25 km/h in the late afternoon."
+			"summary": "Hot. Possible storm.",
+			"precipPercent": 50,
+			"description": "Hot. Mostly sunny day. Medium (50%) chance of showers later tonight. The chance of a thunderstorm late this afternoon and evening. Light winds becoming northeasterly 20 to 25 km/h in the early afternoon then tending easterly 15 to 25 km/h in the late afternoon."
 		},
 		{
 			"class": "day",
 			"day": "Thursday",
-			"image": "cloudy",
+			"image": "light-showers",
 			"min": 21,
 			"max": 32,
-			"summary": "Cloudy.",
+			"summary": "Possible shower.",
 			"rain": "0 to 1 mm",
-			"precipPercent": 30,
-			"description": "Cloudy. Slight (30%) chance of a shower, most likely in the early morning. Light winds becoming east to northeasterly 20 to 30 km/h in the early afternoon then becoming light in the late evening."
+			"precipPercent": 40,
+			"description": "Cloudy. Medium (40%) chance of showers, most likely in the early morning. Light winds becoming east to northeasterly 20 to 30 km/h in the early afternoon then becoming light in the late evening."
 		},
 		{
 			"class": "day",
@@ -171,23 +151,13 @@ var forecast={
 	],
 	"warwick": [
 		{
-			"class": "day eve",
-			"day": "Tuesday",
-			"image": "partly-cloudy",
-			"summary": "Mostly clear.",
-			"precipPercent": 0,
-			"description": "Mostly clear. The chance of a thunderstorm with little or no rainfall. Winds northerly 15 to 25 km/h."
-		},
-		{
 			"class": "day main",
 			"day": "Wednesday",
 			"image": "storm",
-			"min": 20,
 			"max": 41,
 			"summary": "Very hot. Possible storm.",
-			"rain": "0 to 5 mm",
-			"precipPercent": 50,
-			"description": "Very hot and mostly sunny. Medium (60%) chance of showers over the Granite Belt, slight (30%) chance elsewhere. The chance of a thunderstorm in the afternoon and evening, with possible heavy falls in the far southeast. Winds north to northwesterly 20 to 30 km/h tending northeast to southeasterly 25 to 35 km/h in the late afternoon. Overnight temperatures falling to 21 to 28 with daytime temperatures reaching 40 to 45."
+			"precipPercent": 80,
+			"description": "Very hot. Sunny morning. Medium (60%) chance of showers during this afternoon and evening. The chance of a thunderstorm during this afternoon and evening with locally heavy falls possible. Winds north to northwesterly 20 to 30 km/h tending northeast to southeasterly 25 to 35 km/h in the late afternoon. Daytime maximum temperatures 40 to 45."
 		},
 		{
 			"class": "day",
@@ -195,10 +165,10 @@ var forecast={
 			"image": "storm",
 			"min": 18,
 			"max": 33,
-			"summary": "Possible late shower or storm.",
-			"rain": "0 to 4 mm",
-			"precipPercent": 40,
-			"description": "Very hot. Partly cloudy. Medium (50%) chance of showers in the south, slight (20%) chance elsewhere. The chance of a thunderstorm, with possible heavy falls in the far south in the afternoon and evening. Winds east to northeasterly 25 to 35 km/h. Overnight temperatures falling to between 19 and 25 with daytime temperatures reaching 33 to 40."
+			"summary": "Showers. Possible storm.",
+			"rain": "1 to 6 mm",
+			"precipPercent": 60,
+			"description": "Very hot. Partly cloudy. High (70%) chance of showers in the south, medium (40%) chance elsewhere. The chance of a thunderstorm, with possible heavy falls in the south in the afternoon and evening. Winds east to northeasterly 25 to 35 km/h. Overnight temperatures falling to between 19 and 25 with daytime temperatures reaching 33 to 40."
 		},
 		{
 			"class": "day",
