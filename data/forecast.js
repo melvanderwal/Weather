@@ -1,5 +1,5 @@
 var forecast={
-	"updated": "01/12/2020, 4:04:40 pm",
+	"updated": "01/12/2020, 4:19:40 pm",
 	"kenmore": [
 		{
 			"class": "day main",
@@ -151,24 +151,23 @@ var forecast={
 	],
 	"warwick": [
 		{
-			"class": "day main",
+			"class": "day eve",
 			"day": "Tuesday",
 			"image": "partly-cloudy",
-			"max": 36,
-			"summary": "Hot. Partly cloudy.",
+			"summary": "Mostly clear.",
 			"precipPercent": 0,
-			"description": "Very hot. Mostly sunny morning. The chance of a thunderstorm with little or no rainfall during this afternoon and evening. Winds north to northeasterly 25 to 35 km/h tending north to northwesterly 15 to 25 km/h in the middle of the day then tending north to northeasterly 15 to 20 km/h in the evening. Daytime maximum temperatures 36 to 44."
+			"description": "Mostly clear. The chance of a thunderstorm with little or no rainfall. Winds northerly 15 to 25 km/h."
 		},
 		{
-			"class": "day",
+			"class": "day main",
 			"day": "Wednesday",
 			"image": "storm",
 			"min": 20,
-			"max": 40,
+			"max": 41,
 			"summary": "Very hot. Possible storm.",
 			"rain": "0 to 5 mm",
 			"precipPercent": 50,
-			"description": "Very hot and mostly sunny. Medium (60%) chance of showers over the Granite Belt, slight (30%) chance elsewhere. The chance of a thunderstorm in the afternoon and evening. Winds north to northeasterly 15 to 25 km/h tending north to northwesterly in the morning then tending northeast to southeasterly 20 to 30 km/h in the early afternoon. Overnight temperatures falling to 20 to 28 with daytime temperatures reaching 40 to 45."
+			"description": "Very hot and mostly sunny. Medium (60%) chance of showers over the Granite Belt, slight (30%) chance elsewhere. The chance of a thunderstorm in the afternoon and evening, with possible heavy falls in the far southeast. Winds north to northwesterly 20 to 30 km/h tending northeast to southeasterly 25 to 35 km/h in the late afternoon. Overnight temperatures falling to 21 to 28 with daytime temperatures reaching 40 to 45."
 		},
 		{
 			"class": "day",
@@ -176,30 +175,31 @@ var forecast={
 			"image": "storm",
 			"min": 18,
 			"max": 33,
-			"summary": "Possible late storm.",
-			"rain": "0 to 0.4 mm",
-			"precipPercent": 30,
-			"description": "Very hot. Partly cloudy. Medium (50%) chance of showers near the New South Wales border, slight (20%) chance elsewhere. The chance of a thunderstorm. Winds easterly 20 to 30 km/h turning northeasterly 25 to 35 km/h during the morning. Overnight temperatures falling to between 19 and 25 with daytime temperatures reaching 33 to 40."
+			"summary": "Possible late shower or storm.",
+			"rain": "0 to 4 mm",
+			"precipPercent": 40,
+			"description": "Very hot. Partly cloudy. Medium (50%) chance of showers in the south, slight (20%) chance elsewhere. The chance of a thunderstorm, with possible heavy falls in the far south in the afternoon and evening. Winds east to northeasterly 25 to 35 km/h. Overnight temperatures falling to between 19 and 25 with daytime temperatures reaching 33 to 40."
 		},
 		{
 			"class": "day",
 			"day": "Friday",
 			"image": "storm",
-			"min": 19,
+			"min": 18,
 			"max": 35,
 			"summary": "Shower or two. Possible storm.",
-			"rain": "1 to 6 mm",
+			"rain": "1 to 8 mm",
 			"precipPercent": 60,
-			"description": "Hot. Partly cloudy. Medium (60%) chance of showers over the Granite Belt, slight (30%) chance elsewhere. The chance of a thunderstorm. Winds north to northeasterly 20 to 30 km/h tending north to northwesterly 15 to 25 km/h during the morning then becoming light during the day. Overnight temperatures falling to between 19 and 23 with daytime temperatures reaching 34 to 39."
+			"description": "Hot. Partly cloudy. Medium (60%) chance of showers over the Granite Belt, slight (30%) chance elsewhere. The chance of a thunderstorm, possibly severe in the east. Winds northwest to northeasterly 15 to 25 km/h tending southeast to southwesterly 15 to 20 km/h during the afternoon then becoming light during the evening. Overnight temperatures falling to between 19 and 23 with daytime temperatures reaching 34 to 39."
 		},
 		{
 			"class": "day",
 			"day": "Saturday",
-			"image": "partly-cloudy",
-			"min": 19,
+			"image": "sunny",
+			"min": 18,
 			"max": 37,
-			"summary": "Hot. Partly cloudy.",
-			"precipPercent": 20
+			"summary": "Hot and sunny.",
+			"precipPercent": 10,
+			"description": "Very hot and mostly sunny. Slight (20%) chance of a shower over the Granite Belt in the evening. Near zero chance of rain elsewhere. The chance of a thunderstorm in the south in the afternoon and evening. Winds northerly 15 to 25 km/h. Overnight temperatures falling to between 19 and 23 with daytime temperatures reaching 37 to 42."
 		},
 		{
 			"class": "day",
@@ -213,12 +213,21 @@ var forecast={
 		{
 			"class": "day",
 			"day": "Monday",
+			"image": "light-showers",
+			"min": 20,
+			"max": 33,
+			"summary": "Possible shower.",
+			"rain": "0 to 5 mm",
+			"precipPercent": 40
+		},
+		{
+			"class": "day",
+			"day": "Tuesday",
 			"image": "partly-cloudy",
-			"min": 19,
-			"max": 34,
+			"min": 17,
+			"max": 31,
 			"summary": "Partly cloudy.",
-			"rain": "0 to 0.4 mm",
-			"precipPercent": 30
+			"precipPercent": 20
 		}
 	]
 }
