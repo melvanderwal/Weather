@@ -1,5 +1,5 @@
 var forecast={
-	"updated": "04/12/2020, 8:04:40 am",
+	"updated": "04/12/2020, 8:19:40 am",
 	"kenmore": [
 		{
 			"class": "day main",
@@ -148,20 +148,11 @@ var forecast={
 	"warwick": [
 		{
 			"class": "day main",
-			"day": "Thursday",
-			"image": "storm",
-			"summary": "Shower or two. Possible storm.",
-			"precipPercent": 50
-		},
-		{
-			"class": "day",
 			"day": "Friday",
 			"image": "storm",
-			"min": 18,
 			"max": 36,
-			"summary": "Shower or two. Storm likely.",
-			"rain": "3 to 10 mm",
-			"precipPercent": 70,
+			"summary": "Shower or two. Possible storm.",
+			"precipPercent": 60,
 			"description": "Very hot. Partly cloudy. High (70%) chance of showers over the Granite Belt, slight (30%) chance elsewhere. The chance of a thunderstorm, possibly severe. Winds north to northwesterly 20 to 30 km/h tending northwest to southwesterly 15 to 20 km/h in the late afternoon then tending northeast to southeasterly in the late evening. Daytime maximum temperatures around 40."
 		},
 		{
@@ -191,7 +182,7 @@ var forecast={
 			"min": 22,
 			"max": 36,
 			"summary": "Shower or two. Possible storm.",
-			"rain": "0 to 4 mm",
+			"rain": "0 to 5 mm",
 			"precipPercent": 50,
 			"description": "Hot. Partly cloudy. Medium (40%) chance of showers, most likely in the afternoon and evening. The chance of a thunderstorm. Winds north to northwesterly 15 to 25 km/h shifting south to southwesterly 20 to 30 km/h during the afternoon. Overnight temperatures falling to the low to mid 20s with daytime temperatures reaching 33 to 39."
 		},
