@@ -1,23 +1,14 @@
 var forecast={
-	"updated": "05/12/2020, 10:49:40 pm",
+	"updated": "06/12/2020, 5:04:40 am",
 	"kenmore": [
-		{
-			"class": "day eve",
-			"day": "Saturday",
-			"image": "partly-cloudy",
-			"summary": "Mostly clear.",
-			"precipPercent": 0,
-			"description": "Mostly clear. Winds northeasterly 15 to 25 km/h turning northerly in the evening."
-		},
 		{
 			"class": "day main",
 			"day": "Sunday",
 			"image": "partly-cloudy",
-			"min": 21,
 			"max": 37,
-			"summary": "Hot and mostly sunny.",
+			"summary": "Hot. Morning smoke haze.",
 			"precipPercent": 0,
-			"description": "Hot and mostly sunny. Winds northerly 20 to 30 km/h."
+			"description": "Very hot inland. Areas of smoke haze this morning. Mostly sunny afternoon. Winds northerly 20 to 30 km/h."
 		},
 		{
 			"class": "day",
@@ -28,7 +19,7 @@ var forecast={
 			"summary": "Showers. Possible storm.",
 			"rain": "8 to 25 mm",
 			"precipPercent": 80,
-			"description": "Partly cloudy. High (70%) chance of showers from the late morning. The chance of a thunderstorm from the late morning, possibly severe. Winds northerly 15 to 20 km/h tending northwest to northeasterly 15 to 25 km/h in the morning then becoming north to northwesterly and light in the evening."
+			"description": "Partly cloudy. High (80%) chance of showers, most likely from the late morning. The chance of a thunderstorm, possibly severe. Winds northerly 15 to 20 km/h tending northwest to northeasterly 15 to 25 km/h in the morning then becoming north to northwesterly and light in the evening."
 		},
 		{
 			"class": "day",
@@ -85,22 +76,13 @@ var forecast={
 	],
 	"ipswich": [
 		{
-			"class": "day eve",
-			"day": "Saturday",
-			"image": "partly-cloudy",
-			"summary": "Mostly clear.",
-			"precipPercent": 5,
-			"description": "Mostly clear. Light winds."
-		},
-		{
 			"class": "day main",
 			"day": "Sunday",
 			"image": "partly-cloudy",
-			"min": 20,
 			"max": 41,
-			"summary": "Hot and mostly sunny.",
+			"summary": "Very hot. Morning smoke haze.",
 			"precipPercent": 0,
-			"description": "Hot and mostly sunny. Light winds becoming northerly 20 to 25 km/h in the morning then becoming light in the late afternoon."
+			"description": "Very hot. Smoke haze this morning. Mostly sunny afternoon. Light winds becoming northerly 20 to 25 km/h in the morning then becoming light in the late afternoon."
 		},
 		{
 			"class": "day",
@@ -109,9 +91,9 @@ var forecast={
 			"min": 24,
 			"max": 39,
 			"summary": "Showers. Possible storm.",
-			"rain": "15 to 35 mm",
+			"rain": "8 to 30 mm",
 			"precipPercent": 80,
-			"description": "Partly cloudy. High (80%) chance of showers from the late morning. The chance of a thunderstorm from the late morning, possibly severe. Light winds becoming northwesterly 20 to 25 km/h in the morning then becoming light in the middle of the day."
+			"description": "Partly cloudy. High (80%) chance of showers, most likely from the late morning. The chance of a thunderstorm, possibly severe. Light winds becoming northwesterly 20 to 25 km/h in the morning then becoming light in the middle of the day."
 		},
 		{
 			"class": "day",
@@ -168,22 +150,13 @@ var forecast={
 	],
 	"warwick": [
 		{
-			"class": "day eve",
-			"day": "Saturday",
-			"image": "showers",
-			"summary": "Shower or two. Possible storm.",
-			"precipPercent": 60,
-			"description": "Partly cloudy. Medium (50%) chance of showers in the east. The chance of a thunderstorm. Winds north to northeasterly 15 to 25 km/h."
-		},
-		{
 			"class": "day main",
 			"day": "Sunday",
-			"image": "storm",
-			"min": 20,
+			"image": "partly-cloudy",
 			"max": 38,
-			"summary": "Hot. Possible late storm.",
+			"summary": "Very hot and mostly sunny.",
 			"precipPercent": 20,
-			"description": "Hot. Mostly sunny morning. Slight (30%) chance of a shower in the late afternoon and evening. The chance of a thunderstorm in the afternoon and evening, possibly severe over the central and western Downs with damaging wind gusts. Winds northerly 25 to 40 km/h tending northwesterly 30 to 45 km/h in the morning then becoming light in the evening. Overnight temperatures falling to 20 to 28 with daytime temperatures reaching around 40."
+			"description": "Very hot. Mostly sunny morning. Slight (30%) chance of a shower. The chance of a thunderstorm, possibly severe with damaging winds. Winds northerly 25 to 40 km/h tending northwesterly 30 to 45 km/h in the morning then becoming light in the evening. Daytime maximum temperatures around 40."
 		},
 		{
 			"class": "day",
