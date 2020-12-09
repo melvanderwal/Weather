@@ -1,5 +1,5 @@
 var forecast={
-	"updated": "09/12/2020, 4:04:40 pm",
+	"updated": "09/12/2020, 4:19:40 pm",
 	"kenmore": [
 		{
 			"class": "day main",
@@ -154,75 +154,85 @@ var forecast={
 	],
 	"warwick": [
 		{
-			"class": "day main",
+			"class": "day eve",
 			"day": "Wednesday",
-			"image": "sunny",
-			"max": 29,
-			"summary": "Sunny.",
+			"image": "partly-cloudy",
+			"summary": "Mostly clear.",
 			"precipPercent": 0,
-			"description": "Sunny. Winds northeasterly 20 to 30 km/h becoming light in the middle of the day then becoming northeasterly 15 to 20 km/h in the evening. Daytime maximum temperatures 29 to 35."
+			"description": "Clear. Winds northeasterly 15 to 25 km/h."
 		},
 		{
-			"class": "day",
+			"class": "day main",
 			"day": "Thursday",
 			"image": "partly-cloudy",
 			"min": 14,
 			"max": 31,
 			"summary": "Partly cloudy.",
 			"precipPercent": 5,
-			"description": "Partly cloudy. Winds north to northeasterly 15 to 25 km/h becoming light in the middle of the day then becoming northeasterly 15 to 20 km/h in the late evening. Overnight temperatures falling to between 15 and 20 with daytime temperatures reaching the low to mid 30s."
+			"description": "Partly cloudy. Winds north to northeasterly 15 to 25 km/h becoming light in the middle of the day then becoming northeasterly 15 to 20 km/h in the late evening. Overnight temperatures falling to between 14 and 18 with daytime temperatures reaching the low to mid 30s."
 		},
 		{
 			"class": "day",
 			"day": "Friday",
-			"image": "showers",
+			"image": "rain",
 			"min": 16,
-			"max": 26,
-			"summary": "Shower or two.",
-			"rain": "3 to 10 mm",
-			"precipPercent": 60,
-			"description": "Cloudy. High (70%) chance of showers over the Granite Belt, medium (50%) chance elsewhere. The chance of a thunderstorm in the southwest in the afternoon and evening. Winds northeasterly 20 to 30 km/h tending north to northeasterly 25 to 35 km/h during the morning then turning easterly 20 to 30 km/h during the day. Overnight temperatures falling to between 17 and 22 with daytime temperatures reaching 25 to 30."
+			"max": 25,
+			"summary": "Rain at times.",
+			"rain": "3 to 8 mm",
+			"precipPercent": 70,
+			"description": "Cloudy. High (80%) showers, tending to rain areas over the Granite Belt, medium (50%) chance of showers elsewhere. The chance of a thunderstorm in the afternoon and evening. Winds northeasterly 20 to 30 km/h turning easterly in the late morning. Overnight temperatures falling to between 17 and 22 with daytime temperatures reaching the mid to high 20s."
 		},
 		{
 			"class": "day",
 			"day": "Saturday",
 			"image": "showers",
-			"min": 15,
+			"min": 14,
 			"max": 24,
 			"summary": "Shower or two.",
-			"rain": "0 to 6 mm",
-			"precipPercent": 50,
-			"description": "Cloudy. High (70%) chance of showers over the Granite Belt, medium (40%) chance elsewhere. The chance of a thunderstorm. Winds easterly 15 to 25 km/h increasing to 25 to 35 km/h during the morning. Overnight temperatures falling to between 15 and 18 with daytime temperatures reaching 24 to 29."
+			"rain": "1 to 6 mm",
+			"precipPercent": 60,
+			"description": "Cloudy. High (70%) chance of showers over the Granite Belt, slight (30%) chance elsewhere. The chance of a thunderstorm. Winds east to southeasterly 25 to 35 km/h. Overnight temperatures falling to between 15 and 18 with daytime temperatures reaching the mid to high 20s."
 		},
 		{
 			"class": "day",
 			"day": "Sunday",
 			"image": "showers",
-			"min": 15,
-			"max": 24,
+			"min": 14,
+			"max": 23,
 			"summary": "Shower or two.",
-			"rain": "3 to 20 mm",
-			"precipPercent": 60
+			"rain": "4 to 15 mm",
+			"precipPercent": 70,
+			"description": "Cloudy. High (80%) chance of showers over the Granite Belt, slight (30%) chance elsewhere. The chance of a thunderstorm. Winds east to southeasterly 25 to 35 km/h. Overnight temperatures falling to around 16 with daytime temperatures reaching 23 to 29."
 		},
 		{
 			"class": "day",
 			"day": "Monday",
-			"image": "light-showers",
-			"min": 15,
+			"image": "showers",
+			"min": 14,
 			"max": 26,
-			"summary": "Possible shower.",
-			"rain": "0 to 10 mm",
-			"precipPercent": 40
+			"summary": "Shower or two.",
+			"rain": "1 to 10 mm",
+			"precipPercent": 50
 		},
 		{
 			"class": "day",
 			"day": "Tuesday",
-			"image": "partly-cloudy",
+			"image": "light-showers",
+			"min": 15,
+			"max": 28,
+			"summary": "Possible shower.",
+			"rain": "0 to 3 mm",
+			"precipPercent": 40
+		},
+		{
+			"class": "day",
+			"day": "Wednesday",
+			"image": "light-showers",
 			"min": 16,
-			"max": 26,
-			"summary": "Partly cloudy.",
+			"max": 31,
+			"summary": "Possible shower.",
 			"rain": "0 to 4 mm",
-			"precipPercent": 30
+			"precipPercent": 40
 		}
 	]
 }
