@@ -1,5 +1,5 @@
 var forecast={
-	"updated": "10/12/2020, 6:34:40 pm",
+	"updated": "10/12/2020, 6:49:40 pm",
 	"kenmore": [
 		{
 			"class": "day eve",
@@ -29,7 +29,7 @@ var forecast={
 			"summary": "Showers.",
 			"rain": "8 to 15 mm",
 			"precipPercent": 90,
-			"description": "Partly cloudy. Very high (90%) chance of showers, most likely from the late morning. Winds southeasterly 20 to 30 km/h."
+			"description": "Partly cloudy. Very high (90%) chance of showers, most likely from the late morning. The chance of a thunderstorm in the west in the afternoon and evening. Winds southeasterly 20 to 30 km/h."
 		},
 		{
 			"class": "day",
@@ -116,7 +116,7 @@ var forecast={
 			"summary": "Showers.",
 			"rain": "5 to 10 mm",
 			"precipPercent": 80,
-			"description": "Partly cloudy. High (80%) chance of showers, most likely from the late morning. Light winds becoming southerly 15 to 20 km/h early in the morning then tending southeasterly 20 to 30 km/h in the morning."
+			"description": "Partly cloudy. High (80%) chance of showers, most likely from the late morning. The chance of a thunderstorm in the afternoon and evening. Light winds becoming southerly 15 to 20 km/h early in the morning then tending southeasterly 20 to 30 km/h in the morning."
 		},
 		{
 			"class": "day",
@@ -186,10 +186,10 @@ var forecast={
 		{
 			"class": "day main",
 			"day": "Friday",
-			"image": "storm",
+			"image": "rain",
 			"min": 16,
 			"max": 25,
-			"summary": "Rain at times. Possible storm.",
+			"summary": "Rain at times.",
 			"rain": "1 to 10 mm",
 			"precipPercent": 70,
 			"description": "Cloudy. High (70%) chance of rain in the south, medium (40%) chance elsewhere. The chance of a thunderstorm from the late morning. Winds northeasterly 15 to 25 km/h turning easterly 25 to 35 km/h during the morning. Overnight temperatures falling to between 17 and 22 with daytime temperatures reaching 25 to 31."
