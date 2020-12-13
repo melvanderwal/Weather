@@ -1,5 +1,5 @@
 var forecast={
-	"updated": "13/12/2020, 12:49:40 pm",
+	"updated": "13/12/2020, 1:04:40 pm",
 	"kenmore": [
 		{
 			"class": "day main",
@@ -16,8 +16,8 @@ var forecast={
 			"image": "rain",
 			"min": 19,
 			"max": 28,
-			"summary": "Showers. Possible heavy falls.",
-			"rain": "25 to 60 mm",
+			"summary": "Rain. Possible heavy falls.",
+			"rain": "50 to 120 mm",
 			"precipPercent": 95,
 			"description": "Cloudy. Very high (95%) chance of rain tending to showers by the afternoon. The chance of a thunderstorm. Heavy falls possible. Winds southerly 30 to 40 km/h turning easterly 20 to 30 km/h early in the morning."
 		},
@@ -90,13 +90,13 @@ var forecast={
 		{
 			"class": "day",
 			"day": "Monday",
-			"image": "heavy-showers",
+			"image": "rain",
 			"min": 18,
 			"max": 29,
 			"summary": "Showers. Possible heavy falls.",
-			"rain": "25 to 60 mm",
+			"rain": "45 to 100 mm",
 			"precipPercent": 95,
-			"description": "Cloudy. Very high (95%) chance of showers. The chance of a thunderstorm. Heavy falls possible. Winds southerly 20 to 25 km/h tending southeasterly 15 to 25 km/h before dawn then tending easterly in the middle of the day."
+			"description": "Cloudy. Very high (95%) chance of rain tending to showers by the afternoon. The chance of a thunderstorm. Heavy falls possible. Winds southerly 20 to 25 km/h tending southeasterly 15 to 25 km/h before dawn then tending easterly in the middle of the day."
 		},
 		{
 			"class": "day",
@@ -171,9 +171,9 @@ var forecast={
 			"min": 15,
 			"max": 25,
 			"summary": "Rain. Possible heavy falls.",
-			"rain": "15 to 35 mm",
-			"precipPercent": 90,
-			"description": "Cloudy. Very high (90%) chance of showers in the far east, high (70%) chance elsewhere. The chance of a thunderstorm. Heavy falls possible over the Granite Belt. Winds south to southeasterly 25 to 35 km/h turning easterly 20 to 30 km/h in the middle of the day. Overnight temperatures falling to between 15 and 18 with daytime temperatures reaching around 30."
+			"rain": "30 to 60 mm",
+			"precipPercent": 95,
+			"description": "Cloudy. High (80%) chance of showers. The chance of a thunderstorm. Heavy falls possible in the east. Winds south to southeasterly 25 to 35 km/h turning easterly 20 to 30 km/h in the middle of the day. Overnight temperatures falling to between 15 and 18 with daytime temperatures reaching around 30."
 		},
 		{
 			"class": "day",
