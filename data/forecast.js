@@ -1,5 +1,5 @@
 var forecast={
-	"updated": "14/12/2020, 5:34:40 am",
+	"updated": "14/12/2020, 5:49:40 am",
 	"kenmore": [
 		{
 			"class": "day main",
@@ -81,11 +81,11 @@ var forecast={
 		{
 			"class": "day main",
 			"day": "Monday",
-			"image": "showers",
+			"image": "rain",
 			"max": 27,
-			"summary": "Showers. Possible heavy falls.",
+			"summary": "Showers.",
 			"precipPercent": 100,
-			"description": "Cloudy. Very high (near 100%) chance of showers, becoming less likely late this afternoon and evening. The chance of a thunderstorm. Winds southeasterly 20 to 25 km/h increasing to 25 to 40 km/h in the morning then becoming light in the evening."
+			"description": "Cloudy. Very high (near 100%) chance of showers, becoming less likely in the late afternoon and evening. The chance of a thunderstorm. Winds southeasterly 20 to 25 km/h increasing to 25 to 40 km/h in the morning then becoming light in the evening."
 		},
 		{
 			"class": "day",
