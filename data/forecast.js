@@ -1,5 +1,5 @@
 var forecast={
-	"updated": "15/12/2020, 5:19:40 pm",
+	"updated": "15/12/2020, 5:34:41 pm",
 	"kenmore": [
 		{
 			"class": "day eve",
