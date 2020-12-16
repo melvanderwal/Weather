@@ -1,5 +1,5 @@
 var forecast={
-	"updated": "16/12/2020, 10:04:40 am",
+	"updated": "16/12/2020, 10:19:40 am",
 	"kenmore": [
 		{
 			"class": "day main",
@@ -162,7 +162,7 @@ var forecast={
 			"max": 31,
 			"summary": "Shower or two.",
 			"precipPercent": 70,
-			"description": "Cloudy. Very high (90%) chance of showers in the southwest, medium (60%) chance elsewhere. The chance of a thunderstorm. Winds northeasterly 20 to 30 km/h. Daytime maximum temperatures in the low 30s."
+			"description": "Cloudy. Very high (90%) chance of showers in the southwest, medium (60%) chance elsewhere. The chance of a thunderstorm, possibly severe in the far west. Winds northeasterly 20 to 30 km/h. Daytime maximum temperatures in the low 30s."
 		},
 		{
 			"class": "day",
