@@ -1,5 +1,5 @@
 var forecast={
-	"updated": "19/12/2020, 4:04:40 pm",
+	"updated": "19/12/2020, 4:19:40 pm",
 	"kenmore": [
 		{
 			"class": "day main",
@@ -154,75 +154,85 @@ var forecast={
 	],
 	"warwick": [
 		{
-			"class": "day main",
+			"class": "day eve",
 			"day": "Saturday",
 			"image": "storm",
-			"max": 31,
 			"summary": "Showers. Storm likely.",
-			"precipPercent": 90,
-			"description": "Hot. Partly cloudy. Very high (90%) chance of showers over the Granite Belt, high (70%) chance elsewhere. The chance of a thunderstorm, possibly severe. Winds north to northwesterly 15 to 20 km/h becoming light in the middle of the day then becoming east to northeasterly 15 to 25 km/h in the evening. Daytime maximum temperatures 31 to 38."
+			"precipPercent": 80,
+			"description": "Partly cloudy. Very high (90%) chance of showers over the Granite Belt, medium (60%) chance elsewhere. The chance of a thunderstorm, possibly severe. Light winds becoming east to northeasterly 15 to 25 km/h in the evening."
 		},
 		{
-			"class": "day",
+			"class": "day main",
 			"day": "Sunday",
 			"image": "storm",
-			"min": 20,
-			"max": 30,
-			"summary": "Showers. Storm likely.",
+			"min": 19,
+			"max": 32,
+			"summary": "Showers. Possible storm.",
 			"rain": "6 to 20 mm",
 			"precipPercent": 80,
-			"description": "Hot. Partly cloudy. Medium (60%) chance of showers, most likely from the late morning. The chance of a thunderstorm, possibly severe. Winds northeasterly 15 to 20 km/h tending northwest to northeasterly 15 to 25 km/h in the morning then becoming light in the evening. Overnight temperatures falling to the low to mid 20s with daytime temperatures reaching 30 to 37."
+			"description": "Partly cloudy. High (80%) chance of showers in the south, medium (50%) chance elsewhere. The chance of a thunderstorm, possibly severe. Winds northwest to northeasterly 20 to 30 km/h tending southeast to southwesterly 15 to 20 km/h in the late afternoon then becoming light in the evening. Overnight temperatures falling to between 19 and 24 with daytime temperatures reaching 32 to 38."
 		},
 		{
 			"class": "day",
 			"day": "Monday",
-			"image": "showers",
+			"image": "light-showers",
 			"min": 19,
-			"max": 30,
-			"summary": "Shower or two.",
-			"rain": "0 to 5 mm",
-			"precipPercent": 50,
-			"description": "Hot. Partly cloudy. High (70%) chance of showers in the southwest, tending to rain areas for a time later in the day and overnight. Medium (40%) chance of showers elsewhere. The chance of a thunderstorm. Winds north to northeasterly 15 to 20 km/h tending north to northwesterly during the day then tending north to northeasterly during the afternoon. Overnight temperatures falling to between 19 and 23 with daytime temperatures reaching 30 to 36."
+			"max": 31,
+			"summary": "Possible shower.",
+			"rain": "0 to 2 mm",
+			"precipPercent": 40,
+			"description": "Hot. Partly cloudy. Medium (50%) chance of showers in the south, most likely from the late morning. Near zero chance of rain elsewhere. The chance of a thunderstorm. Light winds becoming north to northeasterly 15 to 25 km/h in the morning. Overnight temperatures falling to the low to mid 20s with daytime temperatures reaching 31 to 38."
 		},
 		{
 			"class": "day",
 			"day": "Tuesday",
 			"image": "showers",
-			"min": 20,
-			"max": 28,
+			"min": 19,
+			"max": 31,
 			"summary": "Shower or two.",
-			"rain": "1 to 8 mm",
+			"rain": "3 to 10 mm",
 			"precipPercent": 60,
-			"description": "Partly cloudy. Medium (50%) chance of showers, most likely in the morning and afternoon. The chance of a thunderstorm. Winds northwest to northeasterly 15 to 20 km/h tending northwest to southwesterly 15 to 25 km/h during the morning then tending south to southwesterly during the afternoon. Overnight temperatures falling to between 19 and 22 with daytime temperatures reaching 25 to 33."
+			"description": "Hot. Cloudy. Medium (60%) chance of showers, most likely in the morning and afternoon. The chance of a thunderstorm. Winds northwest to northeasterly 15 to 25 km/h tending northwest to southwesterly 20 to 30 km/h during the day then tending south to southwesterly 15 to 25 km/h during the evening. Overnight temperatures falling to between 19 and 23 with daytime temperatures reaching 28 to 36."
 		},
 		{
 			"class": "day",
 			"day": "Wednesday",
 			"image": "partly-cloudy",
-			"min": 17,
-			"max": 29,
+			"min": 18,
+			"max": 30,
 			"summary": "Partly cloudy.",
-			"precipPercent": 20
+			"precipPercent": 5,
+			"description": "Partly cloudy. Light winds becoming southerly 15 to 20 km/h during the morning. Overnight temperatures falling to between 18 and 21 with daytime temperatures reaching 28 to 33."
 		},
 		{
 			"class": "day",
 			"day": "Thursday",
-			"image": "showers",
-			"min": 16,
-			"max": 26,
-			"summary": "Shower or two.",
-			"rain": "0 to 6 mm",
-			"precipPercent": 50
+			"image": "light-showers",
+			"min": 15,
+			"max": 25,
+			"summary": "Possible shower.",
+			"rain": "0 to 2 mm",
+			"precipPercent": 40
 		},
 		{
 			"class": "day",
 			"day": "Friday",
 			"image": "showers",
 			"min": 16,
-			"max": 23,
+			"max": 25,
 			"summary": "Shower or two.",
-			"rain": "2 to 10 mm",
-			"precipPercent": 60
+			"rain": "1 to 6 mm",
+			"precipPercent": 50
+		},
+		{
+			"class": "day",
+			"day": "Saturday",
+			"image": "light-showers",
+			"min": 15,
+			"max": 29,
+			"summary": "Possible shower.",
+			"rain": "0 to 1 mm",
+			"precipPercent": 40
 		}
 	]
 }
