@@ -1,5 +1,5 @@
 var forecast={
-	"updated": "20/12/2020, 7:04:40 pm",
+	"updated": "20/12/2020, 7:19:40 pm",
 	"kenmore": [
 		{
 			"class": "day eve",
@@ -89,10 +89,10 @@ var forecast={
 		{
 			"class": "day eve",
 			"day": "Sunday",
-			"image": "partly-cloudy",
-			"summary": "Partly cloudy.",
+			"image": "storm",
+			"summary": "Possible storm.",
 			"precipPercent": 20,
-			"description": "Partly cloudy. Slight (20%) chance of a shower. Winds northeasterly 20 to 25 km/h becoming light in the evening."
+			"description": "Partly cloudy. Slight (20%) chance of a shower. The chance of a thunderstorm. Winds northeasterly 15 to 20 km/h becoming light in the evening."
 		},
 		{
 			"class": "day main",
