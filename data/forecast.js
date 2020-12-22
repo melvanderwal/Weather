@@ -1,23 +1,14 @@
 var forecast={
-	"updated": "22/12/2020, 10:49:40 pm",
+	"updated": "23/12/2020, 5:04:40 am",
 	"kenmore": [
-		{
-			"class": "day eve",
-			"day": "Tuesday",
-			"image": "light-showers",
-			"summary": "Possible shower.",
-			"precipPercent": 40,
-			"description": "Partly cloudy. Medium (40%) chance of showers. The chance of a thunderstorm. Winds west to southwesterly 15 to 25 km/h becoming light in the evening."
-		},
 		{
 			"class": "day main",
 			"day": "Wednesday",
 			"image": "partly-cloudy",
-			"min": 22,
 			"max": 33,
-			"summary": "Mostly sunny.",
-			"precipPercent": 10,
-			"description": "Mostly sunny. Winds westerly 15 to 20 km/h becoming light early in the morning then becoming east to southeasterly 20 to 30 km/h in the early afternoon."
+			"summary": "Partly cloudy.",
+			"precipPercent": 0,
+			"description": "Partly cloudy. Light winds becoming easterly 20 to 30 km/h in the early afternoon then tending southeasterly in the evening."
 		},
 		{
 			"class": "day",
@@ -87,21 +78,12 @@ var forecast={
 	],
 	"ipswich": [
 		{
-			"class": "day eve",
-			"day": "Tuesday",
-			"image": "showers",
-			"summary": "Shower or two.",
-			"precipPercent": 50,
-			"description": "Partly cloudy. Medium (50%) chance of showers. The chance of a thunderstorm. Winds westerly 20 to 25 km/h becoming light in the evening."
-		},
-		{
 			"class": "day main",
 			"day": "Wednesday",
 			"image": "partly-cloudy",
-			"min": 21,
 			"max": 34,
 			"summary": "Mostly sunny.",
-			"precipPercent": 5,
+			"precipPercent": 0,
 			"description": "Mostly sunny. Light winds becoming easterly 20 to 25 km/h in the late afternoon then becoming light in the evening."
 		},
 		{
@@ -172,22 +154,13 @@ var forecast={
 	],
 	"warwick": [
 		{
-			"class": "day eve",
-			"day": "Tuesday",
-			"image": "showers",
-			"summary": "Shower or two.",
-			"precipPercent": 60,
-			"description": "Cloudy. Medium (60%) chance of showers. The chance of a thunderstorm. Winds southwesterly 15 to 20 km/h becoming light in the evening."
-		},
-		{
 			"class": "day main",
 			"day": "Wednesday",
 			"image": "partly-cloudy",
-			"min": 17,
 			"max": 31,
-			"summary": "Mostly sunny.",
-			"precipPercent": 5,
-			"description": "Mostly sunny. Winds south to southwesterly 15 to 25 km/h becoming light in the evening then becoming southeast to southwesterly 15 to 20 km/h in the late evening. Overnight temperatures falling to around 18 with daytime temperatures reaching 28 to 33."
+			"summary": "Partly cloudy.",
+			"precipPercent": 0,
+			"description": "Partly cloudy. Winds south to southwesterly 15 to 25 km/h becoming light in the evening then becoming southeast to southwesterly 15 to 20 km/h in the late evening. Daytime maximum temperatures 28 to 33."
 		},
 		{
 			"class": "day",
