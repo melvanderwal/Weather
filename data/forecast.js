@@ -1,23 +1,14 @@
 var forecast={
-	"updated": "24/12/2020, 10:49:40 pm",
+	"updated": "25/12/2020, 5:04:40 am",
 	"kenmore": [
-		{
-			"class": "day eve",
-			"day": "Thursday",
-			"image": "cloudy",
-			"summary": "Cloudy.",
-			"precipPercent": 10,
-			"description": "Cloudy. Winds easterly 15 to 20 km/h becoming light in the evening."
-		},
 		{
 			"class": "day main",
 			"day": "Friday",
 			"image": "partly-cloudy",
-			"min": 20,
 			"max": 29,
 			"summary": "Partly cloudy.",
 			"precipPercent": 20,
-			"description": "Partly cloudy. Slight (20%) chance of a shower in the morning. Light winds becoming easterly 15 to 20 km/h in the middle of the day then becoming light in the evening."
+			"description": "Partly cloudy. Slight (20%) chance of a shower. Light winds becoming easterly 15 to 20 km/h in the middle of the day then becoming light in the evening."
 		},
 		{
 			"class": "day",
@@ -26,7 +17,8 @@ var forecast={
 			"min": 20,
 			"max": 29,
 			"summary": "Partly cloudy.",
-			"precipPercent": 20,
+			"rain": "0 to 0.2 mm",
+			"precipPercent": 30,
 			"description": "Partly cloudy. Slight (20%) chance of a shower. Winds southeasterly 15 to 20 km/h turning easterly 15 to 25 km/h in the morning then becoming light in the late evening."
 		},
 		{
@@ -85,23 +77,13 @@ var forecast={
 	],
 	"ipswich": [
 		{
-			"class": "day eve",
-			"day": "Thursday",
-			"image": "cloudy",
-			"summary": "Cloudy.",
-			"precipPercent": 20,
-			"description": "Cloudy. Slight (20%) chance of a shower, most likely later tonight. Winds easterly 15 to 20 km/h becoming light in the evening."
-		},
-		{
 			"class": "day main",
 			"day": "Friday",
 			"image": "partly-cloudy",
-			"min": 20,
 			"max": 31,
 			"summary": "Partly cloudy.",
-			"rain": "0 to 0.2 mm",
-			"precipPercent": 30,
-			"description": "Partly cloudy. Slight (30%) chance of a shower in the afternoon. Light winds becoming easterly 15 to 20 km/h in the early afternoon then becoming light in the evening."
+			"precipPercent": 20,
+			"description": "Partly cloudy. Slight (20%) chance of a shower. Light winds becoming easterly 15 to 20 km/h in the early afternoon then becoming light in the evening."
 		},
 		{
 			"class": "day",
@@ -110,8 +92,9 @@ var forecast={
 			"min": 19,
 			"max": 30,
 			"summary": "Partly cloudy.",
-			"precipPercent": 20,
-			"description": "Partly cloudy. Slight (20%) chance of a shower. Light winds becoming easterly 20 to 25 km/h in the morning then becoming light in the evening."
+			"rain": "0 to 0.4 mm",
+			"precipPercent": 30,
+			"description": "Partly cloudy. Slight (30%) chance of a shower. Light winds becoming easterly 20 to 25 km/h in the morning then becoming light in the evening."
 		},
 		{
 			"class": "day",
@@ -169,33 +152,24 @@ var forecast={
 	],
 	"warwick": [
 		{
-			"class": "day eve",
-			"day": "Thursday",
-			"image": "light-showers",
-			"summary": "Possible shower.",
-			"precipPercent": 40,
-			"description": "Cloudy. Medium (40%) chance of showers or patchy light rain, most likely later this evening. Winds southeast to southwesterly 15 to 20 km/h tending northeast to southeasterly in the late evening."
-		},
-		{
 			"class": "day main",
 			"day": "Friday",
 			"image": "light-showers",
-			"min": 16,
 			"max": 29,
 			"summary": "Possible shower.",
-			"rain": "0 to 1 mm",
 			"precipPercent": 40,
-			"description": "Partly cloudy. Slight (30%) chance of a shower in the far east in the late morning and afternoon. Near zero chance of rain elsewhere. Winds east to northeasterly 15 to 20 km/h becoming light in the morning then becoming northeast to southeasterly 15 to 25 km/h in the late afternoon. Overnight temperatures falling to between 16 and 21 with daytime temperatures reaching 29 to 34."
+			"description": "Partly cloudy. Slight (20%) chance of a shower. Winds east to northeasterly 15 to 20 km/h becoming light in the morning then becoming northeast to southeasterly 15 to 25 km/h in the late afternoon. Daytime maximum temperatures 29 to 34."
 		},
 		{
 			"class": "day",
 			"day": "Saturday",
-			"image": "partly-cloudy",
+			"image": "light-showers",
 			"min": 15,
 			"max": 28,
-			"summary": "Partly cloudy.",
-			"precipPercent": 20,
-			"description": "Partly cloudy. Slight (30%) chance of a shower over the Granite Belt in the late morning and afternoon. Near zero chance of rain elsewhere. The chance of a thunderstorm in the southeast in the late morning and afternoon. Winds east to northeasterly 20 to 30 km/h. Overnight temperatures falling to between 16 and 20 with daytime temperatures reaching 28 to 34."
+			"summary": "Possible shower.",
+			"rain": "0 to 1 mm",
+			"precipPercent": 40,
+			"description": "Mostly sunny. Medium (50%) chance of showers over the Granite Belt. The chance of a thunderstorm in the southeast. Winds east to northeasterly 20 to 30 km/h. Overnight temperatures falling to between 16 and 20 with daytime temperatures reaching 28 to 34."
 		},
 		{
 			"class": "day",
