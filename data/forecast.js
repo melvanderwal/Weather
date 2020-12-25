@@ -1,14 +1,14 @@
 var forecast={
-	"updated": "25/12/2020, 11:49:40 am",
+	"updated": "25/12/2020, 12:04:40 pm",
 	"kenmore": [
 		{
 			"class": "day main",
 			"day": "Friday",
-			"image": "partly-cloudy",
+			"image": "light-showers",
 			"max": 29,
-			"summary": "Partly cloudy.",
-			"precipPercent": 20,
-			"description": "Partly cloudy. Slight (20%) chance of a shower. Light winds becoming easterly 15 to 20 km/h in the middle of the day then becoming light in the evening."
+			"summary": "Possible shower.",
+			"precipPercent": 40,
+			"description": "Partly cloudy. Medium (40%) chance of showers in the late morning and afternoon. The chance of a thunderstorm in the west in the afternoon. Winds easterly 15 to 20 km/h becoming light in the evening."
 		},
 		{
 			"class": "day",
@@ -79,11 +79,11 @@ var forecast={
 		{
 			"class": "day main",
 			"day": "Friday",
-			"image": "partly-cloudy",
+			"image": "light-showers",
 			"max": 31,
-			"summary": "Partly cloudy.",
-			"precipPercent": 20,
-			"description": "Partly cloudy. Slight (20%) chance of a shower. Light winds becoming easterly 15 to 20 km/h in the early afternoon then becoming light in the evening."
+			"summary": "Possible shower.",
+			"precipPercent": 40,
+			"description": "Partly cloudy. Medium (40%) chance of showers in the late morning and afternoon. The chance of a thunderstorm. Light winds becoming easterly 15 to 20 km/h in the early afternoon then becoming light in the late afternoon."
 		},
 		{
 			"class": "day",
@@ -158,7 +158,7 @@ var forecast={
 			"max": 29,
 			"summary": "Possible shower.",
 			"precipPercent": 40,
-			"description": "Partly cloudy. Slight (20%) chance of a shower. Winds east to northeasterly 15 to 20 km/h becoming light in the morning then becoming northeast to southeasterly 15 to 25 km/h in the late afternoon. Daytime maximum temperatures 29 to 34."
+			"description": "Partly cloudy. Slight (30%) chance of a shower in the east in the late morning and afternoon. Near zero chance of rain elsewhere. The chance of a thunderstorm. Light winds becoming northeast to southeasterly 15 to 25 km/h in the evening. Daytime maximum temperatures 29 to 34."
 		},
 		{
 			"class": "day",
