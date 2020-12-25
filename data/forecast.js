@@ -1,14 +1,14 @@
 var forecast={
-	"updated": "26/12/2020, 8:49:40 am",
+	"updated": "26/12/2020, 9:04:40 am",
 	"kenmore": [
 		{
 			"class": "day main",
 			"day": "Saturday",
-			"image": "partly-cloudy",
+			"image": "light-showers",
 			"max": 29,
-			"summary": "Partly cloudy.",
-			"precipPercent": 10,
-			"description": "Partly cloudy. Winds southeasterly 15 to 20 km/h tending easterly 15 to 25 km/h in the morning then becoming light in the evening."
+			"summary": "Possible morning shower.",
+			"precipPercent": 40,
+			"description": "Partly cloudy. Medium (40%) chance of showers in the morning. Winds easterly 15 to 25 km/h becoming light in the evening."
 		},
 		{
 			"class": "day",
@@ -79,11 +79,11 @@ var forecast={
 		{
 			"class": "day main",
 			"day": "Saturday",
-			"image": "partly-cloudy",
+			"image": "light-showers",
 			"max": 31,
-			"summary": "Partly cloudy.",
-			"precipPercent": 10,
-			"description": "Partly cloudy. Winds southeasterly 15 to 20 km/h tending easterly 20 to 25 km/h in the morning then becoming light in the evening."
+			"summary": "Possible shower.",
+			"precipPercent": 30,
+			"description": "Partly cloudy. Slight (30%) chance of a shower. Winds easterly 20 to 25 km/h becoming light in the evening."
 		},
 		{
 			"class": "day",
