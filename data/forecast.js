@@ -1,19 +1,10 @@
 var forecast={
-	"updated": "26/12/2020, 10:49:40 pm",
+	"updated": "27/12/2020, 5:04:40 am",
 	"kenmore": [
-		{
-			"class": "day eve",
-			"day": "Saturday",
-			"image": "partly-cloudy",
-			"summary": "Mostly clear.",
-			"precipPercent": 0,
-			"description": "Mostly clear. Winds easterly 15 to 25 km/h becoming light in the evening."
-		},
 		{
 			"class": "day main",
 			"day": "Sunday",
 			"image": "partly-cloudy",
-			"min": 19,
 			"max": 30,
 			"summary": "Mostly sunny.",
 			"precipPercent": 5,
@@ -87,18 +78,9 @@ var forecast={
 	],
 	"ipswich": [
 		{
-			"class": "day eve",
-			"day": "Saturday",
-			"image": "partly-cloudy",
-			"summary": "Mostly clear.",
-			"precipPercent": 0,
-			"description": "Mostly clear. Winds easterly 20 to 25 km/h becoming light in the evening."
-		},
-		{
 			"class": "day main",
 			"day": "Sunday",
 			"image": "partly-cloudy",
-			"min": 18,
 			"max": 32,
 			"summary": "Mostly sunny.",
 			"precipPercent": 5,
@@ -172,22 +154,13 @@ var forecast={
 	],
 	"warwick": [
 		{
-			"class": "day eve",
-			"day": "Saturday",
-			"image": "partly-cloudy",
-			"summary": "Mostly clear.",
-			"precipPercent": 20,
-			"description": "Mostly clear. Medium (40%) chance of showers over the Granite Belt early this evening. Near zero chance of rain elsewhere. The chance of a thunderstorm near the New South Wales border early this evening. Winds easterly 15 to 25 km/h."
-		},
-		{
 			"class": "day main",
 			"day": "Sunday",
 			"image": "sunny",
-			"min": 14,
 			"max": 31,
 			"summary": "Sunny.",
 			"precipPercent": 5,
-			"description": "Hot and sunny. Winds northeasterly 15 to 25 km/h becoming light in the middle of the day then becoming northeasterly 15 to 25 km/h in the evening. Overnight temperatures falling to between 15 and 20 with daytime temperatures reaching 31 to 36."
+			"description": "Hot and mostly sunny. Slight (20%) chance of a shower over the Granite Belt. Winds northeasterly 15 to 25 km/h becoming light in the middle of the day then becoming northeasterly 15 to 25 km/h in the evening. Daytime maximum temperatures 31 to 36."
 		},
 		{
 			"class": "day",
@@ -197,7 +170,7 @@ var forecast={
 			"max": 33,
 			"summary": "Mostly sunny.",
 			"precipPercent": 10,
-			"description": "Hot and mostly sunny. Slight (20%) chance of a shower over the Granite Belt, near zero chance elsewhere. The chance of a thunderstorm in the southwest in the afternoon. Winds north to northeasterly 20 to 30 km/h becoming light in the middle of the day then becoming northeasterly 15 to 25 km/h in the early afternoon. Overnight temperatures falling to between 17 and 22 with daytime temperatures reaching the low to high 30s."
+			"description": "Hot and mostly sunny. Slight (20%) chance of a shower over the Granite Belt. The chance of a thunderstorm in the south. Winds north to northeasterly 20 to 30 km/h becoming light in the middle of the day then becoming northeasterly 15 to 25 km/h in the early afternoon. Overnight temperatures falling to between 17 and 22 with daytime temperatures reaching the low to high 30s."
 		},
 		{
 			"class": "day",
