@@ -1,25 +1,23 @@
 var forecast={
-	"updated": "28/12/2020, 4:19:40 pm",
+	"updated": "28/12/2020, 4:34:40 pm",
 	"kenmore": [
 		{
-			"class": "day main",
+			"class": "day eve",
 			"day": "Monday",
 			"image": "partly-cloudy",
-			"max": 31,
-			"summary": "Mostly sunny.",
-			"precipPercent": 10,
-			"description": "Mostly sunny. Light winds becoming northeasterly 15 to 20 km/h in the middle of the day then becoming light in the evening."
+			"summary": "Mostly clear.",
+			"precipPercent": 5,
+			"description": "Mostly clear. Winds northeasterly 15 to 20 km/h becoming light in the evening."
 		},
 		{
-			"class": "day",
+			"class": "day main",
 			"day": "Tuesday",
 			"image": "partly-cloudy",
 			"min": 21,
 			"max": 31,
 			"summary": "Partly cloudy.",
-			"rain": "0 to 1 mm",
-			"precipPercent": 30,
-			"description": "Partly cloudy. Slight (30%) chance of a shower. most likely in the afternoon. Light winds becoming northeasterly 15 to 25 km/h in the middle of the day then becoming light in the evening."
+			"precipPercent": 20,
+			"description": "Partly cloudy. Slight (20%) chance of a shower. Light winds becoming northeasterly 15 to 20 km/h in the middle of the day then becoming light in the evening."
 		},
 		{
 			"class": "day",
@@ -27,10 +25,10 @@ var forecast={
 			"image": "showers",
 			"min": 22,
 			"max": 27,
-			"summary": "Showers.",
-			"rain": "8 to 20 mm",
-			"precipPercent": 80,
-			"description": "Cloudy. High (80%) chance of showers. Light winds becoming east to northeasterly 15 to 20 km/h during the afternoon then becoming light during the evening."
+			"summary": "Shower or two.",
+			"rain": "2 to 10 mm",
+			"precipPercent": 60,
+			"description": "Cloudy. Medium (60%) chance of showers, most likely in the morning and afternoon. Light winds becoming easterly 15 to 20 km/h in the middle of the day then becoming light in the evening."
 		},
 		{
 			"class": "day",
@@ -39,9 +37,9 @@ var forecast={
 			"min": 21,
 			"max": 29,
 			"summary": "Shower or two.",
-			"rain": "4 to 10 mm",
+			"rain": "2 to 6 mm",
 			"precipPercent": 70,
-			"description": "Cloudy. High (70%) chance of showers. Light winds becoming east to southeasterly 15 to 25 km/h during the morning."
+			"description": "Partly cloudy. High (70%) chance of showers. Light winds becoming east to southeasterly 15 to 25 km/h during the morning then becoming light during the evening."
 		},
 		{
 			"class": "day",
@@ -50,9 +48,9 @@ var forecast={
 			"min": 21,
 			"max": 29,
 			"summary": "Shower or two.",
-			"rain": "1 to 6 mm",
-			"precipPercent": 60,
-			"description": "Partly cloudy. Medium (60%) chance of showers. Winds east to southeasterly 20 to 30 km/h."
+			"rain": "2 to 8 mm",
+			"precipPercent": 70,
+			"description": "Partly cloudy. Medium (60%) chance of showers, most likely in the morning and afternoon. Light winds becoming easterly 15 to 25 km/h during the morning then becoming light during the evening."
 		},
 		{
 			"class": "day",
@@ -61,41 +59,51 @@ var forecast={
 			"min": 21,
 			"max": 29,
 			"summary": "Shower or two.",
-			"rain": "1 to 6 mm",
+			"rain": "1 to 5 mm",
 			"precipPercent": 60,
-			"description": "Partly cloudy. Medium (60%) chance of showers. Winds southeasterly 15 to 20 km/h turning easterly 15 to 25 km/h during the morning."
+			"description": "Partly cloudy. Medium (60%) chance of showers. The chance of a thunderstorm in the west in the afternoon. Light winds becoming easterly 15 to 20 km/h during the morning."
 		},
 		{
 			"class": "day",
 			"day": "Sunday",
 			"image": "showers",
 			"min": 21,
-			"max": 29,
+			"max": 30,
 			"summary": "Shower or two.",
-			"rain": "0 to 4 mm",
+			"rain": "1 to 8 mm",
+			"precipPercent": 60,
+			"description": "Partly cloudy. Medium (60%) chance of showers. The chance of a thunderstorm in the west in the afternoon. Light winds becoming northeasterly 15 to 25 km/h during the day."
+		},
+		{
+			"class": "day",
+			"day": "Monday",
+			"image": "showers",
+			"min": 22,
+			"max": 32,
+			"summary": "Shower or two.",
+			"rain": "0 to 6 mm",
 			"precipPercent": 50,
-			"description": "Partly cloudy. Medium (50%) chance of showers. Light winds becoming east to northeasterly 15 to 20 km/h during the day."
+			"description": "Partly cloudy. Medium (50%) chance of showers. Light winds becoming north to northeasterly 15 to 25 km/h during the morning."
 		}
 	],
 	"ipswich": [
 		{
-			"class": "day main",
+			"class": "day eve",
 			"day": "Monday",
 			"image": "partly-cloudy",
-			"max": 33,
-			"summary": "Mostly sunny.",
-			"precipPercent": 10,
-			"description": "Mostly sunny. Light winds becoming northeasterly 15 to 20 km/h in the late afternoon then becoming light in the evening."
+			"summary": "Mostly clear.",
+			"precipPercent": 5,
+			"description": "Mostly clear. Winds northeasterly 15 to 20 km/h becoming light in the evening."
 		},
 		{
-			"class": "day",
+			"class": "day main",
 			"day": "Tuesday",
 			"image": "partly-cloudy",
 			"min": 20,
 			"max": 33,
 			"summary": "Partly cloudy.",
 			"precipPercent": 20,
-			"description": "Partly cloudy. Slight (20%) chance of a shower. Light winds becoming northeasterly 20 to 25 km/h in the early afternoon then becoming light in the evening."
+			"description": "Partly cloudy. Slight (20%) chance of a shower. Light winds becoming northeasterly 15 to 20 km/h in the early afternoon then becoming light in the evening."
 		},
 		{
 			"class": "day",
@@ -103,54 +111,65 @@ var forecast={
 			"image": "showers",
 			"min": 22,
 			"max": 28,
-			"summary": "Showers.",
-			"rain": "6 to 20 mm",
-			"precipPercent": 80,
-			"description": "Cloudy. High (80%) chance of showers. Light winds becoming east to northeasterly 15 to 20 km/h during the afternoon then becoming light during the evening."
+			"summary": "Shower or two.",
+			"rain": "2 to 10 mm",
+			"precipPercent": 60,
+			"description": "Cloudy. Medium (60%) chance of showers, most likely in the morning and afternoon. Light winds becoming easterly 15 to 20 km/h in the early afternoon then becoming light in the evening."
 		},
 		{
 			"class": "day",
 			"day": "Thursday",
 			"image": "showers",
-			"min": 20,
-			"max": 29,
+			"min": 21,
+			"max": 31,
 			"summary": "Shower or two.",
-			"rain": "3 to 10 mm",
+			"rain": "2 to 5 mm",
 			"precipPercent": 70,
-			"description": "Cloudy. High (70%) chance of showers, most likely in the morning and afternoon. Light winds becoming easterly 20 to 25 km/h during the day then becoming light during the evening."
+			"description": "Partly cloudy. High (70%) chance of showers, most likely in the morning and afternoon. Light winds becoming east to southeasterly 20 to 25 km/h during the day then becoming light during the evening."
 		},
 		{
 			"class": "day",
 			"day": "Friday",
 			"image": "showers",
 			"min": 21,
-			"max": 30,
+			"max": 29,
 			"summary": "Shower or two.",
-			"rain": "1 to 6 mm",
-			"precipPercent": 60,
-			"description": "Partly cloudy. Medium (60%) chance of showers. Winds southeasterly 15 to 20 km/h tending easterly 20 to 25 km/h during the day."
+			"rain": "2 to 8 mm",
+			"precipPercent": 70,
+			"description": "Partly cloudy. High (70%) chance of showers, most likely in the morning and afternoon. Light winds becoming easterly 20 to 25 km/h during the morning then tending southeasterly 15 to 20 km/h during the evening."
 		},
 		{
 			"class": "day",
 			"day": "Saturday",
 			"image": "showers",
-			"min": 20,
-			"max": 29,
+			"min": 21,
+			"max": 30,
 			"summary": "Shower or two.",
-			"rain": "1 to 5 mm",
-			"precipPercent": 50,
-			"description": "Partly cloudy. Medium (50%) chance of showers. Light winds becoming easterly 20 to 25 km/h during the morning."
+			"rain": "1 to 6 mm",
+			"precipPercent": 60,
+			"description": "Partly cloudy. Medium (60%) chance of showers. The chance of a thunderstorm. Light winds becoming easterly 15 to 20 km/h during the day."
 		},
 		{
 			"class": "day",
 			"day": "Sunday",
 			"image": "showers",
-			"min": 20,
+			"min": 21,
 			"max": 31,
 			"summary": "Shower or two.",
-			"rain": "0 to 4 mm",
+			"rain": "1 to 8 mm",
+			"precipPercent": 60,
+			"description": "Partly cloudy. Medium (60%) chance of showers. The chance of a thunderstorm. Light winds becoming northeasterly 15 to 20 km/h during the day."
+		},
+		{
+			"class": "day",
+			"day": "Monday",
+			"image": "showers",
+			"min": 22,
+			"max": 33,
+			"summary": "Shower or two.",
+			"rain": "0 to 6 mm",
 			"precipPercent": 50,
-			"description": "Partly cloudy. Medium (50%) chance of showers. Light winds becoming east to northeasterly 20 to 25 km/h during the day."
+			"description": "Partly cloudy. Medium (50%) chance of showers. Light winds becoming northeasterly 15 to 20 km/h during the day."
 		}
 	],
 	"warwick": [
