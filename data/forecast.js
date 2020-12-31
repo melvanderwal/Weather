@@ -1,24 +1,14 @@
 var forecast={
-	"updated": "31/12/2020, 10:49:40 pm",
+	"updated": "01/01/2021, 5:04:40 am",
 	"kenmore": [
-		{
-			"class": "day eve",
-			"day": "Thursday",
-			"image": "light-showers",
-			"summary": "Possible shower.",
-			"precipPercent": 40,
-			"description": "Partly cloudy. Medium (50%) chance of showers. Winds southeasterly 20 to 30 km/h decreasing to 15 to 20 km/h in the evening."
-		},
 		{
 			"class": "day main",
 			"day": "Friday",
 			"image": "showers",
-			"min": 21,
 			"max": 28,
 			"summary": "Shower or two.",
-			"rain": "2 to 10 mm",
 			"precipPercent": 70,
-			"description": "Cloudy. High (70%) chance of showers. Winds southeasterly 15 to 25 km/h tending easterly 20 to 30 km/h in the middle of the day then becoming light in the late evening."
+			"description": "Cloudy. High (70%) chance of showers, becoming less likely this evening. Winds southeasterly 15 to 25 km/h tending easterly 20 to 30 km/h in the middle of the day then becoming light in the late evening."
 		},
 		{
 			"class": "day",
@@ -89,23 +79,13 @@ var forecast={
 	],
 	"ipswich": [
 		{
-			"class": "day eve",
-			"day": "Thursday",
-			"image": "light-showers",
-			"summary": "Possible shower.",
-			"precipPercent": 40,
-			"description": "Partly cloudy. Medium (40%) chance of showers. Winds easterly 20 to 25 km/h tending southeasterly 15 to 20 km/h in the evening."
-		},
-		{
 			"class": "day main",
 			"day": "Friday",
 			"image": "showers",
-			"min": 21,
 			"max": 29,
 			"summary": "Shower or two.",
-			"rain": "1 to 8 mm",
 			"precipPercent": 60,
-			"description": "Cloudy. Medium (60%) chance of showers. Winds southeasterly 15 to 20 km/h tending easterly 20 to 25 km/h in the middle of the day then becoming light in the late evening."
+			"description": "Cloudy. Medium (60%) chance of showers, most likely during the morning and afternoon. Winds southeasterly 15 to 20 km/h tending easterly 20 to 25 km/h in the middle of the day then becoming light in the late evening."
 		},
 		{
 			"class": "day",
@@ -176,23 +156,13 @@ var forecast={
 	],
 	"warwick": [
 		{
-			"class": "day eve",
-			"day": "Thursday",
-			"image": "light-showers",
-			"summary": "Possible shower.",
-			"precipPercent": 40,
-			"description": "Partly cloudy. Slight (20%) chance of a shower. The chance of a thunderstorm. Winds easterly 20 to 30 km/h."
-		},
-		{
 			"class": "day main",
 			"day": "Friday",
 			"image": "light-showers",
-			"min": 18,
 			"max": 28,
 			"summary": "Possible shower.",
-			"rain": "0 to 2 mm",
 			"precipPercent": 40,
-			"description": "Partly cloudy. Slight (30%) chance of a shower. The chance of a thunderstorm. Winds easterly 15 to 25 km/h increasing to 20 to 30 km/h in the morning. Overnight temperatures falling to between 18 and 21 with daytime temperatures reaching 29 to 35."
+			"description": "Partly cloudy. Slight (30%) chance of a shower from late this morning. The chance of a thunderstorm from late this morning. Winds easterly 15 to 20 km/h increasing to 20 to 30 km/h in the morning. Daytime maximum temperatures 29 to 35."
 		},
 		{
 			"class": "day",
