@@ -1,5 +1,5 @@
 var forecast={
-	"updated": "03/01/2021, 7:19:40 pm",
+	"updated": "03/01/2021, 7:34:40 pm",
 	"kenmore": [
 		{
 			"class": "day eve",
@@ -180,7 +180,7 @@ var forecast={
 			"image": "storm",
 			"summary": "Shower or two. Possible storm.",
 			"precipPercent": 50,
-			"description": "Partly cloudy. High (70%) chance of showers over the Granite Belt, medium (50%) chance elsewhere. The chance of a thunderstorm. Winds northeasterly 15 to 25 km/h."
+			"description": "Partly cloudy. Medium (40%) chance of showers. The chance of a thunderstorm. Winds northeasterly 15 to 25 km/h."
 		},
 		{
 			"class": "day main",
