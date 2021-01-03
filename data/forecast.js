@@ -1,5 +1,5 @@
 var forecast={
-	"updated": "04/01/2021, 5:49:40 am",
+	"updated": "04/01/2021, 6:04:40 am",
 	"kenmore": [
 		{
 			"class": "day main",
@@ -8,7 +8,7 @@ var forecast={
 			"max": 30,
 			"summary": "Partly cloudy.",
 			"precipPercent": 30,
-			"description": "Partly cloudy. Slight (20%) chance of a shower, most likely in the late morning and afternoon. Light winds becoming northeasterly 15 to 20 km/h in the middle of the day then becoming light in the evening."
+			"description": "Partly cloudy. Medium (40%) chance of showers, most likely in the morning and again later in the afternoon. Light winds becoming northeasterly 15 to 20 km/h in the middle of the day then becoming light in the evening."
 		},
 		{
 			"class": "day",
@@ -84,7 +84,7 @@ var forecast={
 			"max": 32,
 			"summary": "Partly cloudy.",
 			"precipPercent": 30,
-			"description": "Partly cloudy. Slight (30%) chance of a shower, most likely from late this morning. Light winds becoming northeasterly 15 to 20 km/h in the early afternoon then becoming light in the evening."
+			"description": "Partly cloudy. Slight (30%) chance of a shower, most likely in the afternoon. Light winds becoming northeasterly 15 to 20 km/h in the early afternoon then becoming light in the evening."
 		},
 		{
 			"class": "day",
