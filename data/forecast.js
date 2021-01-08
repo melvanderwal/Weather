@@ -1,14 +1,14 @@
 var forecast={
-	"updated": "08/01/2021, 10:19:40 am",
+	"updated": "08/01/2021, 10:34:40 am",
 	"kenmore": [
 		{
 			"class": "day main",
 			"day": "Friday",
 			"image": "light-showers",
 			"max": 27,
-			"summary": "Possible shower.",
-			"precipPercent": 40,
-			"description": "Cloudy. Medium (40%) chance of light shower activity. Winds southerly 15 to 25 km/h turning southeasterly 25 to 35 km/h in the morning."
+			"summary": "Patchy rain.",
+			"precipPercent": 30,
+			"description": "Cloudy. Medium (40%) chance of patchy rain. Winds southeasterly 25 to 35 km/h."
 		},
 		{
 			"class": "day",
@@ -80,9 +80,9 @@ var forecast={
 			"day": "Friday",
 			"image": "light-showers",
 			"max": 28,
-			"summary": "Possible shower.",
-			"precipPercent": 40,
-			"description": "Cloudy. Medium (40%) chance of light shower activity, most likely during the morning and afternoon. Winds southerly 15 to 20 km/h tending southeasterly 20 to 25 km/h in the morning then becoming light in the evening."
+			"summary": "Patchy rain.",
+			"precipPercent": 30,
+			"description": "Cloudy. Slight (30%) chance of patchy rain, becoming less likely in the evening. Winds southeasterly 20 to 25 km/h becoming light in the evening."
 		},
 		{
 			"class": "day",
@@ -152,9 +152,9 @@ var forecast={
 			"day": "Friday",
 			"image": "light-showers",
 			"max": 23,
-			"summary": "Possible shower.",
+			"summary": "Patchy rain.",
 			"precipPercent": 40,
-			"description": "Cloudy. Medium (40%) chance of showers, becoming less likely this evening. Winds east to southeasterly 20 to 30 km/h. Daytime maximum temperatures in the low to high 20s."
+			"description": "Cloudy. Medium (50%) chance of showers and patch rain in the north and east, slight (30%) chance elsewhere. Winds east to southeasterly 20 to 30 km/h. Daytime maximum temperatures in the low to high 20s."
 		},
 		{
 			"class": "day",
