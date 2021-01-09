@@ -1,5 +1,5 @@
 var forecast={
-	"updated": "09/01/2021, 4:04:40 pm",
+	"updated": "09/01/2021, 4:19:40 pm",
 	"kenmore": [
 		{
 			"class": "day main",
@@ -146,33 +146,32 @@ var forecast={
 	],
 	"warwick": [
 		{
-			"class": "day main",
+			"class": "day eve",
 			"day": "Saturday",
-			"image": "cloudy",
-			"max": 24,
-			"summary": "Cloudy.",
-			"precipPercent": 20,
-			"description": "Cloudy. Medium (50%) chance of showers in the north, becoming less likely this evening. Near zero chance of rain elsewhere. Winds east to southeasterly 15 to 20 km/h becoming easterly 20 to 30 km/h in the morning. Daytime maximum temperatures 22 to 28."
+			"image": "partly-cloudy",
+			"summary": "Partly cloudy.",
+			"precipPercent": 10,
+			"description": "Partly cloudy. Slight (20%) chance of showers or patchy rain in the north early this evening. Near zero chance of rain elsewhere. Winds easterly 15 to 25 km/h."
 		},
 		{
-			"class": "day",
+			"class": "day main",
 			"day": "Sunday",
 			"image": "partly-cloudy",
 			"min": 15,
 			"max": 26,
 			"summary": "Partly cloudy.",
 			"precipPercent": 20,
-			"description": "Partly cloudy. Slight (20%) chance of a shower over the Granite Belt. Winds easterly 15 to 20 km/h becoming light before dawn then becoming easterly 15 to 25 km/h in the morning. Overnight temperatures falling to around 16 with daytime temperatures reaching 26 to 31."
+			"description": "Partly cloudy. Slight (20%) chance of a shower over the Granite Belt, near zero chance elsewhere. Winds easterly 15 to 20 km/h becoming light before dawn then becoming easterly 15 to 25 km/h in the morning. Overnight temperatures falling to around 16 with daytime temperatures reaching around 30."
 		},
 		{
 			"class": "day",
 			"day": "Monday",
 			"image": "partly-cloudy",
-			"min": 15,
+			"min": 16,
 			"max": 27,
 			"summary": "Partly cloudy.",
 			"precipPercent": 10,
-			"description": "Mostly sunny. Winds easterly 15 to 25 km/h. Overnight temperatures falling to between 15 and 18 with daytime temperatures reaching around 30."
+			"description": "Mostly sunny. Slight (20%) chance of a shower over the Granite Belt, near zero chance elsewhere. Winds easterly 15 to 20 km/h becoming light before dawn then becoming easterly 15 to 25 km/h in the morning. Overnight temperatures falling to between 15 and 18 with daytime temperatures reaching around 30."
 		},
 		{
 			"class": "day",
@@ -182,34 +181,45 @@ var forecast={
 			"max": 29,
 			"summary": "Mostly sunny.",
 			"precipPercent": 0,
-			"description": "Sunny. Winds easterly 15 to 20 km/h. Overnight temperatures falling to between 15 and 19 with daytime temperatures reaching 29 to 34."
+			"description": "Sunny. Winds east to northeasterly 15 to 20 km/h tending east to southeasterly during the day then tending east to northeasterly during the evening. Overnight temperatures falling to between 15 and 19 with daytime temperatures reaching 29 to 34."
 		},
 		{
 			"class": "day",
 			"day": "Wednesday",
 			"image": "partly-cloudy",
 			"min": 15,
-			"max": 29,
+			"max": 30,
 			"summary": "Mostly sunny.",
-			"precipPercent": 10
+			"precipPercent": 10,
+			"description": "Sunny. Winds east to northeasterly 15 to 20 km/h tending east to southeasterly during the day then tending east to northeasterly during the evening. Overnight temperatures falling to between 15 and 20 with daytime temperatures reaching 30 to 35."
 		},
 		{
 			"class": "day",
 			"day": "Thursday",
-			"image": "sunny",
+			"image": "partly-cloudy",
 			"min": 16,
 			"max": 32,
-			"summary": "Sunny.",
-			"precipPercent": 5
+			"summary": "Mostly sunny.",
+			"precipPercent": 0
 		},
 		{
 			"class": "day",
 			"day": "Friday",
 			"image": "partly-cloudy",
-			"min": 17,
-			"max": 33,
+			"min": 16,
+			"max": 34,
 			"summary": "Mostly sunny.",
-			"precipPercent": 20
+			"precipPercent": 10
+		},
+		{
+			"class": "day",
+			"day": "Saturday",
+			"image": "showers",
+			"min": 18,
+			"max": 33,
+			"summary": "Shower or two.",
+			"rain": "3 to 10 mm",
+			"precipPercent": 70
 		}
 	]
 }
