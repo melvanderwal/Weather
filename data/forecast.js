@@ -1,5 +1,5 @@
 var forecast={
-	"updated": "10/01/2021, 4:04:40 pm",
+	"updated": "10/01/2021, 4:19:40 pm",
 	"kenmore": [
 		{
 			"class": "day main",
@@ -146,23 +146,22 @@ var forecast={
 	],
 	"warwick": [
 		{
-			"class": "day main",
+			"class": "day eve",
 			"day": "Sunday",
 			"image": "partly-cloudy",
-			"max": 26,
 			"summary": "Partly cloudy.",
 			"precipPercent": 20,
-			"description": "Partly cloudy. Slight (20%) chance of a shower over the Granite Belt. Winds easterly 15 to 25 km/h. Daytime maximum temperatures around 30."
+			"description": "Partly cloudy. Slight (20%) chance of a shower over the Granite Belt, near zero chance elsewhere. Winds easterly 15 to 20 km/h."
 		},
 		{
-			"class": "day",
+			"class": "day main",
 			"day": "Monday",
 			"image": "partly-cloudy",
-			"min": 16,
+			"min": 15,
 			"max": 27,
 			"summary": "Partly cloudy.",
 			"precipPercent": 10,
-			"description": "Mostly sunny. Slight (20%) chance of a shower over the Granite Belt. Winds easterly 15 to 20 km/h becoming light before dawn then becoming easterly 15 to 25 km/h in the morning. Overnight temperatures falling to between 15 and 18 with daytime temperatures reaching around 30."
+			"description": "Mostly sunny. Winds easterly 15 to 20 km/h becoming light before dawn then becoming easterly 15 to 20 km/h in the morning. Overnight temperatures falling to between 15 and 18 with daytime temperatures reaching around 30."
 		},
 		{
 			"class": "day",
@@ -171,46 +170,57 @@ var forecast={
 			"min": 15,
 			"max": 29,
 			"summary": "Mostly sunny.",
-			"precipPercent": 0,
-			"description": "Sunny. Winds east to northeasterly 15 to 20 km/h tending east to southeasterly during the day then tending east to northeasterly during the evening. Overnight temperatures falling to between 15 and 19 with daytime temperatures reaching 29 to 34."
+			"precipPercent": 5,
+			"description": "Sunny. Winds east to northeasterly 15 to 20 km/h tending east to southeasterly in the middle of the day then tending east to northeasterly in the evening. Overnight temperatures falling to between 15 and 19 with daytime temperatures reaching 29 to 34."
 		},
 		{
 			"class": "day",
 			"day": "Wednesday",
 			"image": "partly-cloudy",
-			"min": 15,
-			"max": 30,
+			"min": 16,
+			"max": 29,
 			"summary": "Mostly sunny.",
-			"precipPercent": 10,
-			"description": "Sunny. Winds east to northeasterly 15 to 20 km/h tending east to southeasterly during the day then tending east to northeasterly during the evening. Overnight temperatures falling to between 15 and 20 with daytime temperatures reaching 30 to 35."
+			"precipPercent": 5,
+			"description": "Sunny. Winds east to northeasterly 15 to 20 km/h tending east to southeasterly during the day then tending east to northeasterly during the evening. Overnight temperatures falling to between 16 and 20 with daytime temperatures reaching 30 to 35."
 		},
 		{
 			"class": "day",
 			"day": "Thursday",
-			"image": "partly-cloudy",
-			"min": 16,
-			"max": 32,
-			"summary": "Mostly sunny.",
-			"precipPercent": 0
+			"image": "sunny",
+			"min": 15,
+			"max": 33,
+			"summary": "Sunny.",
+			"precipPercent": 0,
+			"description": "Hot and sunny. Light winds becoming east to southeasterly 15 to 20 km/h during the afternoon then tending east to northeasterly during the evening. Overnight temperatures falling to between 16 and 21 with daytime temperatures reaching 32 to 37."
 		},
 		{
 			"class": "day",
 			"day": "Friday",
-			"image": "partly-cloudy",
-			"min": 16,
+			"image": "sunny",
+			"min": 17,
 			"max": 34,
-			"summary": "Mostly sunny.",
-			"precipPercent": 10
+			"summary": "Sunny.",
+			"precipPercent": 20
 		},
 		{
 			"class": "day",
 			"day": "Saturday",
 			"image": "storm",
-			"min": 18,
+			"min": 19,
 			"max": 33,
 			"summary": "Shower or two. Possible storm.",
-			"rain": "3 to 10 mm",
-			"precipPercent": 70
+			"rain": "1 to 10 mm",
+			"precipPercent": 60
+		},
+		{
+			"class": "day",
+			"day": "Sunday",
+			"image": "storm",
+			"min": 18,
+			"max": 29,
+			"summary": "Showers. Possible late storm.",
+			"rain": "0 to 8 mm",
+			"precipPercent": 50
 		}
 	]
 }
