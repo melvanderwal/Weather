@@ -1,24 +1,23 @@
 var forecast={
-	"updated": "11/01/2021, 4:19:40 pm",
+	"updated": "11/01/2021, 4:34:40 pm",
 	"kenmore": [
 		{
-			"class": "day main",
+			"class": "day eve",
 			"day": "Monday",
 			"image": "partly-cloudy",
-			"max": 28,
-			"summary": "Partly cloudy.",
-			"precipPercent": 20,
-			"description": "Partly cloudy. Slight (20%) chance of a shower. Winds southeasterly 15 to 25 km/h becoming light in the evening."
+			"summary": "Mostly clear.",
+			"precipPercent": 10,
+			"description": "Mostly clear. Winds east to southeasterly 15 to 25 km/h becoming light in the evening."
 		},
 		{
-			"class": "day",
+			"class": "day main",
 			"day": "Tuesday",
 			"image": "partly-cloudy",
 			"min": 19,
 			"max": 29,
 			"summary": "Partly cloudy.",
 			"precipPercent": 20,
-			"description": "Partly cloudy. Slight (20%) chance of a shower. Light winds becoming east to southeasterly 15 to 20 km/h in the middle of the day then becoming light in the evening."
+			"description": "Partly cloudy. Slight (20%) chance of a shower. Light winds becoming east to southeasterly 15 to 20 km/h in the morning then becoming light in the evening."
 		},
 		{
 			"class": "day",
@@ -71,23 +70,31 @@ var forecast={
 			"rain": "0 to 4 mm",
 			"precipPercent": 40,
 			"description": "Partly cloudy. Medium (40%) chance of showers. The chance of a thunderstorm later in the day. Winds southeasterly 15 to 20 km/h turning east to northeasterly 15 to 25 km/h during the day."
+		},
+		{
+			"class": "day",
+			"day": "Monday",
+			"image": "blank",
+			"min": null,
+			"max": null,
+			"summary": "##",
+			"description": "##"
 		}
 	],
 	"ipswich": [
 		{
-			"class": "day main",
+			"class": "day eve",
 			"day": "Monday",
 			"image": "partly-cloudy",
-			"max": 30,
-			"summary": "Partly cloudy.",
-			"precipPercent": 20,
-			"description": "Partly cloudy. Slight (20%) chance of a shower. Winds southeasterly 15 to 20 km/h tending easterly in the middle of the day then becoming light in the evening."
+			"summary": "Mostly clear.",
+			"precipPercent": 10,
+			"description": "Mostly clear. Winds easterly 15 to 20 km/h becoming light in the evening."
 		},
 		{
-			"class": "day",
+			"class": "day main",
 			"day": "Tuesday",
 			"image": "partly-cloudy",
-			"min": 17,
+			"min": 18,
 			"max": 31,
 			"summary": "Partly cloudy.",
 			"precipPercent": 20,
@@ -144,6 +151,15 @@ var forecast={
 			"rain": "0 to 4 mm",
 			"precipPercent": 40,
 			"description": "Partly cloudy. Medium (40%) chance of showers. The chance of a thunderstorm later in the day. Light winds becoming easterly 20 to 25 km/h during the day."
+		},
+		{
+			"class": "day",
+			"day": "Monday",
+			"image": "blank",
+			"min": null,
+			"max": null,
+			"summary": "##",
+			"description": "##"
 		}
 	],
 	"warwick": [
