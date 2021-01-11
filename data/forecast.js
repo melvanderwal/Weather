@@ -1,5 +1,5 @@
 var forecast={
-	"updated": "11/01/2021, 4:04:40 pm",
+	"updated": "11/01/2021, 4:19:40 pm",
 	"kenmore": [
 		{
 			"class": "day main",
@@ -148,23 +148,22 @@ var forecast={
 	],
 	"warwick": [
 		{
-			"class": "day main",
+			"class": "day eve",
 			"day": "Monday",
 			"image": "partly-cloudy",
-			"max": 27,
-			"summary": "Partly cloudy.",
-			"precipPercent": 20,
-			"description": "Mostly sunny. Winds easterly 15 to 20 km/h becoming light in the middle of the day then becoming easterly 15 to 20 km/h in the late afternoon. Daytime maximum temperatures around 30."
+			"summary": "Mostly clear.",
+			"precipPercent": 10,
+			"description": "Mostly clear. Winds easterly 15 to 20 km/h."
 		},
 		{
-			"class": "day",
+			"class": "day main",
 			"day": "Tuesday",
 			"image": "partly-cloudy",
 			"min": 15,
 			"max": 29,
 			"summary": "Mostly sunny.",
 			"precipPercent": 5,
-			"description": "Sunny. Winds east to northeasterly 15 to 20 km/h tending east to southeasterly in the middle of the day then tending east to northeasterly in the evening. Overnight temperatures falling to between 15 and 19 with daytime temperatures reaching 29 to 34."
+			"description": "Sunny. Winds east to northeasterly 15 to 20 km/h becoming light in the morning then becoming east to northeasterly 15 to 20 km/h in the evening. Overnight temperatures falling to between 15 and 19 with daytime temperatures reaching around 30."
 		},
 		{
 			"class": "day",
@@ -193,7 +192,8 @@ var forecast={
 			"min": 17,
 			"max": 34,
 			"summary": "Sunny.",
-			"precipPercent": 20
+			"precipPercent": 20,
+			"description": "##"
 		},
 		{
 			"class": "day",
@@ -214,6 +214,14 @@ var forecast={
 			"summary": "Showers. Possible late storm.",
 			"rain": "0 to 8 mm",
 			"precipPercent": 50
+		},
+		{
+			"class": "day",
+			"day": "Monday",
+			"image": "blank",
+			"min": null,
+			"max": null,
+			"summary": "##"
 		}
 	]
 }
