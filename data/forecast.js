@@ -1,19 +1,10 @@
 var forecast={
-	"updated": "13/01/2021, 10:49:40 pm",
+	"updated": "14/01/2021, 5:04:40 am",
 	"kenmore": [
-		{
-			"class": "day eve",
-			"day": "Wednesday",
-			"image": "partly-cloudy",
-			"summary": "Partly cloudy.",
-			"precipPercent": 20,
-			"description": "Partly cloudy. Slight (20%) chance of a shower, mainly near the coast. Winds easterly 15 to 25 km/h becoming light in the evening."
-		},
 		{
 			"class": "day main",
 			"day": "Thursday",
 			"image": "partly-cloudy",
-			"min": 20,
 			"max": 31,
 			"summary": "Mostly sunny.",
 			"precipPercent": 10,
@@ -26,7 +17,7 @@ var forecast={
 			"min": 20,
 			"max": 33,
 			"summary": "Sunny.",
-			"precipPercent": 5,
+			"precipPercent": 10,
 			"description": "Sunny. Light winds becoming north to northeasterly 15 to 25 km/h in the early afternoon."
 		},
 		{
@@ -87,22 +78,13 @@ var forecast={
 	],
 	"ipswich": [
 		{
-			"class": "day eve",
-			"day": "Wednesday",
-			"image": "partly-cloudy",
-			"summary": "Mostly clear.",
-			"precipPercent": 20,
-			"description": "Mostly clear. Slight (20%) chance of a shower. Winds easterly 15 to 20 km/h becoming light in the evening."
-		},
-		{
 			"class": "day main",
 			"day": "Thursday",
 			"image": "partly-cloudy",
-			"min": 19,
 			"max": 33,
-			"summary": "Mostly sunny.",
+			"summary": "Cloud clearing.",
 			"precipPercent": 10,
-			"description": "Mostly sunny. Light winds."
+			"description": "Cloud clearing. Light winds."
 		},
 		{
 			"class": "day",
@@ -111,7 +93,7 @@ var forecast={
 			"min": 19,
 			"max": 36,
 			"summary": "Sunny.",
-			"precipPercent": 5,
+			"precipPercent": 10,
 			"description": "Sunny. Light winds becoming northeasterly 15 to 20 km/h in the late afternoon then becoming light in the evening."
 		},
 		{
@@ -172,32 +154,24 @@ var forecast={
 	],
 	"warwick": [
 		{
-			"class": "day eve",
-			"day": "Wednesday",
-			"image": "partly-cloudy",
-			"summary": "Mostly clear.",
-			"precipPercent": 5,
-			"description": "Clear. Winds east to northeasterly 15 to 20 km/h."
-		},
-		{
 			"class": "day main",
 			"day": "Thursday",
 			"image": "partly-cloudy",
-			"min": 16,
 			"max": 33,
 			"summary": "Mostly sunny.",
 			"precipPercent": 5,
-			"description": "Hot and sunny. Slight (20%) chance of an isolated shower or storm in the far southwest near the NSW border later in the afternoon and evening. Winds northeasterly 15 to 20 km/h becoming light before dawn then becoming northeasterly 15 to 20 km/h in the evening. Overnight temperatures falling to between 16 and 21 with daytime temperatures reaching 32 to 37."
+			"description": "Hot and sunny. Slight (20%) chance of an isolated shower or storm in the far southwest near the NSW border later in the afternoon and evening. Light winds becoming east to northeasterly 15 to 20 km/h in the evening then becoming light in the late evening. Daytime maximum temperatures 32 to 37."
 		},
 		{
 			"class": "day",
 			"day": "Friday",
-			"image": "sunny",
+			"image": "partly-cloudy",
 			"min": 17,
 			"max": 35,
-			"summary": "Sunny.",
-			"precipPercent": 20,
-			"description": "Hot and mostly sunny. Slight (30%) chance of a shower over the Granite Belt, near zero chance elsewhere. The chance of a thunderstorm in the southeast in the afternoon and evening. Winds northwest to northeasterly 15 to 25 km/h tending west to northwesterly 15 to 20 km/h in the early afternoon then tending northwest to northeasterly in the evening. Overnight temperatures falling to between 17 and 24 with daytime temperatures reaching 34 to 40."
+			"summary": "Mostly sunny.",
+			"rain": "0 to 0.4 mm",
+			"precipPercent": 30,
+			"description": "Hot and mostly sunny. Slight (20%) chance of a shower in the southeast, near zero chance elsewhere. The chance of a thunderstorm in the afternoon and evening. Winds northwest to northeasterly 15 to 25 km/h tending west to northwesterly 15 to 20 km/h in the early afternoon then tending northwest to northeasterly in the evening. Overnight temperatures falling to between 17 and 24 with daytime temperatures reaching 34 to 40."
 		},
 		{
 			"class": "day",
