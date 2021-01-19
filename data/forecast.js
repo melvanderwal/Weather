@@ -1,24 +1,14 @@
 var forecast={
-	"updated": "19/01/2021, 10:49:40 pm",
+	"updated": "20/01/2021, 5:04:40 am",
 	"kenmore": [
-		{
-			"class": "day eve",
-			"day": "Tuesday",
-			"image": "showers",
-			"summary": "Shower or two.",
-			"precipPercent": 50,
-			"description": "Partly cloudy. Medium (50%) chance of showers. The chance of a thunderstorm early this evening. Winds easterly 15 to 20 km/h becoming light in the evening."
-		},
 		{
 			"class": "day main",
 			"day": "Wednesday",
 			"image": "showers",
-			"min": 20,
 			"max": 27,
 			"summary": "Shower or two.",
-			"rain": "0 to 1 mm",
-			"precipPercent": 60,
-			"description": "Partly cloudy. Medium (50%) chance of showers, most likely in the morning and afternoon. Winds southerly 15 to 20 km/h turning southeasterly 15 to 25 km/h in the morning."
+			"precipPercent": 50,
+			"description": "Partly cloudy. Medium (50%) chance of showers. Winds southerly 15 to 20 km/h turning southeasterly 15 to 25 km/h in the morning."
 		},
 		{
 			"class": "day",
@@ -85,23 +75,13 @@ var forecast={
 	],
 	"ipswich": [
 		{
-			"class": "day eve",
-			"day": "Tuesday",
-			"image": "showers",
-			"summary": "Shower or two.",
-			"precipPercent": 60,
-			"description": "Partly cloudy. Medium (60%) chance of showers, becoming less likely later tonight. The chance of a thunderstorm. Winds easterly 15 to 20 km/h becoming light in the evening."
-		},
-		{
 			"class": "day main",
 			"day": "Wednesday",
-			"image": "showers",
-			"min": 20,
+			"image": "light-showers",
 			"max": 28,
-			"summary": "Shower or two.",
-			"rain": "0 to 1 mm",
-			"precipPercent": 50,
-			"description": "Partly cloudy. Medium (50%) chance of showers. Light winds becoming east to southeasterly 15 to 20 km/h in the middle of the day then becoming light in the evening."
+			"summary": "Possible shower.",
+			"precipPercent": 40,
+			"description": "Partly cloudy. Medium (40%) chance of showers. Light winds becoming east to southeasterly 15 to 20 km/h in the middle of the day then becoming light in the evening."
 		},
 		{
 			"class": "day",
@@ -168,23 +148,13 @@ var forecast={
 	],
 	"warwick": [
 		{
-			"class": "day eve",
-			"day": "Tuesday",
-			"image": "light-showers",
-			"summary": "Possible shower.",
-			"precipPercent": 40,
-			"description": "Mostly clear. Medium (40%) chance of showers over the Granite Belt, becoming less likely later tonight. Near zero chance of rain elsewhere. The chance of a thunderstorm. Winds south to southeasterly 15 to 20 km/h turning easterly 15 to 25 km/h in the evening."
-		},
-		{
 			"class": "day main",
 			"day": "Wednesday",
-			"image": "partly-cloudy",
-			"min": 17,
+			"image": "light-showers",
 			"max": 26,
-			"summary": "Partly cloudy.",
-			"rain": "0 to 0.2 mm",
-			"precipPercent": 30,
-			"description": "Partly cloudy. Slight (20%) chance of a shower in the far east, near zero chance elsewhere. Winds easterly 20 to 30 km/h. Overnight temperatures falling to between 17 and 21 with daytime temperatures reaching 27 to 34."
+			"summary": "Possible shower.",
+			"precipPercent": 40,
+			"description": "Partly cloudy. Slight (30%) chance of a shower in the east. Winds east to northeasterly 20 to 30 km/h. Daytime maximum temperatures 27 to 34."
 		},
 		{
 			"class": "day",
@@ -194,7 +164,7 @@ var forecast={
 			"max": 27,
 			"summary": "Partly cloudy.",
 			"precipPercent": 20,
-			"description": "Partly cloudy. Slight (30%) chance of a shower over the Granite Belt, most likely from the late morning. Near zero chance of rain elsewhere. The chance of a thunderstorm near the New South Wales border in the afternoon and evening. Winds east to northeasterly 20 to 30 km/h. Overnight temperatures falling to between 15 and 19 with daytime temperatures reaching 27 to 33."
+			"description": "Mostly sunny. Slight (30%) chance of a shower over the Granite Belt and the southwest. The chance of a thunderstorm in the southwest. Winds east to northeasterly 20 to 30 km/h. Overnight temperatures falling to between 15 and 19 with daytime temperatures reaching 27 to 33."
 		},
 		{
 			"class": "day",
