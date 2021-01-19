@@ -1,14 +1,14 @@
 var forecast={
-	"updated": "19/01/2021, 11:04:40 am",
+	"updated": "19/01/2021, 11:19:41 am",
 	"kenmore": [
 		{
 			"class": "day main",
 			"day": "Tuesday",
-			"image": "storm",
+			"image": "showers",
 			"max": 32,
-			"summary": "Shower or two. Possible storm.",
+			"summary": "Shower or two.",
 			"precipPercent": 50,
-			"description": "Cloudy. Medium (60%) chance of showers. The chance of a thunderstorm, possibly severe. Light winds becoming southeasterly 15 to 20 km/h in the late evening."
+			"description": "Partly cloudy. Medium (50%) chance of showers. The chance of a thunderstorm. Light winds becoming easterly 15 to 20 km/h in the late afternoon then becoming light in the evening."
 		},
 		{
 			"class": "day",
@@ -77,11 +77,11 @@ var forecast={
 		{
 			"class": "day main",
 			"day": "Tuesday",
-			"image": "storm",
+			"image": "showers",
 			"max": 33,
-			"summary": "Shower or two. Possible storm.",
+			"summary": "Shower or two.",
 			"precipPercent": 70,
-			"description": "Partly cloudy. High (70%) chance of showers, most likely in the afternoon and evening. The chance of a thunderstorm, possibly severe. Light winds."
+			"description": "Partly cloudy. High (70%) chance of showers, most likely in the afternoon and evening. The chance of a thunderstorm, possibly severe. Light winds becoming easterly 15 to 20 km/h in the late afternoon then becoming light in the evening."
 		},
 		{
 			"class": "day",
