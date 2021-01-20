@@ -1,5 +1,5 @@
 var forecast={
-	"updated": "20/01/2021, 4:04:40 pm",
+	"updated": "20/01/2021, 4:19:40 pm",
 	"kenmore": [
 		{
 			"class": "day main",
@@ -148,23 +148,23 @@ var forecast={
 	],
 	"warwick": [
 		{
-			"class": "day main",
+			"class": "day eve",
 			"day": "Wednesday",
-			"image": "light-showers",
-			"max": 26,
-			"summary": "Possible shower.",
-			"precipPercent": 40,
-			"description": "Partly cloudy. Slight (30%) chance of a shower in the east. Winds east to northeasterly 20 to 30 km/h. Daytime maximum temperatures 27 to 34."
-		},
-		{
-			"class": "day",
-			"day": "Thursday",
 			"image": "partly-cloudy",
-			"min": 15,
-			"max": 27,
 			"summary": "Partly cloudy.",
 			"precipPercent": 20,
-			"description": "Mostly sunny. Slight (30%) chance of a shower over the Granite Belt and the southwest. The chance of a thunderstorm in the southwest. Winds east to northeasterly 20 to 30 km/h. Overnight temperatures falling to between 15 and 19 with daytime temperatures reaching 27 to 33."
+			"description": "Mostly clear. Slight (20%) chance of a shower over the Granite Belt, near zero chance elsewhere. Winds east to northeasterly 15 to 25 km/h."
+		},
+		{
+			"class": "day main",
+			"day": "Thursday",
+			"image": "partly-cloudy",
+			"min": 16,
+			"max": 27,
+			"summary": "Partly cloudy.",
+			"rain": "0 to 0.2 mm",
+			"precipPercent": 30,
+			"description": "Mostly sunny. Slight (30%) chance of a shower in the south in the afternoon and evening. Near zero chance of rain elsewhere. The chance of a thunderstorm near the New South Wales border in the afternoon and evening. Winds east to northeasterly 15 to 25 km/h becoming light in the middle of the day then becoming east to northeasterly 15 to 25 km/h in the late afternoon. Overnight temperatures falling to between 16 and 19 with daytime temperatures reaching 27 to 33."
 		},
 		{
 			"class": "day",
@@ -172,29 +172,30 @@ var forecast={
 			"image": "partly-cloudy",
 			"min": 15,
 			"max": 29,
-			"summary": "Partly cloudy.",
-			"rain": "0 to 0.4 mm",
+			"summary": "Mostly sunny.",
+			"rain": "0 to 1 mm",
 			"precipPercent": 30,
-			"description": "Partly cloudy. Slight (30%) chance of a shower near the New South Wales border, near zero chance elsewhere. The chance of a thunderstorm in the afternoon and evening. Winds northeasterly 15 to 25 km/h becoming light during the day then becoming east to northeasterly 15 to 20 km/h during the afternoon. Overnight temperatures falling to between 15 and 20 with daytime temperatures reaching around 30."
+			"description": "Mostly sunny. Slight (30%) chance of a shower near the New South Wales border, most likely in the late morning and afternoon. Near zero chance of rain elsewhere. The chance of a thunderstorm in the south from the late morning. Winds northeasterly 15 to 25 km/h becoming light in the middle of the day then becoming east to northeasterly 15 to 20 km/h in the late afternoon. Overnight temperatures falling to between 15 and 20 with daytime temperatures reaching 29 to 34."
 		},
 		{
 			"class": "day",
 			"day": "Saturday",
-			"image": "sunny",
+			"image": "partly-cloudy",
 			"min": 16,
 			"max": 31,
-			"summary": "Sunny.",
+			"summary": "Mostly sunny.",
 			"precipPercent": 20,
-			"description": "Hot and mostly sunny. Slight (20%) chance of a shower over the Granite Belt, near zero chance elsewhere. Winds northeasterly 15 to 20 km/h becoming light during the day then becoming east to northeasterly 15 to 25 km/h during the afternoon. Overnight temperatures falling to between 16 and 21 with daytime temperatures reaching 30 to 36."
+			"description": "Hot and mostly sunny. Slight (20%) chance of a shower over the Granite Belt, most likely in the morning and afternoon. Near zero chance of rain elsewhere. Winds northeasterly 15 to 20 km/h becoming light during the morning then becoming east to northeasterly 15 to 20 km/h during the afternoon. Overnight temperatures falling to between 16 and 21 with daytime temperatures reaching 31 to 36."
 		},
 		{
 			"class": "day",
 			"day": "Sunday",
 			"image": "partly-cloudy",
-			"min": 15,
+			"min": 16,
 			"max": 30,
 			"summary": "Mostly sunny.",
-			"precipPercent": 5
+			"precipPercent": 5,
+			"description": "Hot and sunny. Winds east to northeasterly 15 to 25 km/h. Overnight temperatures falling to between 16 and 21 with daytime temperatures reaching 30 to 36."
 		},
 		{
 			"class": "day",
@@ -202,17 +203,27 @@ var forecast={
 			"image": "partly-cloudy",
 			"min": 16,
 			"max": 31,
-			"summary": "Partly cloudy.",
-			"precipPercent": 0
+			"summary": "Mostly sunny.",
+			"precipPercent": 10
 		},
 		{
 			"class": "day",
 			"day": "Tuesday",
 			"image": "partly-cloudy",
 			"min": 17,
-			"max": 29,
-			"summary": "Partly cloudy.",
+			"max": 33,
+			"summary": "Mostly sunny.",
 			"precipPercent": 20
+		},
+		{
+			"class": "day",
+			"day": "Wednesday",
+			"image": "partly-cloudy",
+			"min": 18,
+			"max": 33,
+			"summary": "Mostly sunny.",
+			"rain": "0 to 0.2 mm",
+			"precipPercent": 30
 		}
 	]
 }
