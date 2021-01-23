@@ -1,5 +1,5 @@
 var forecast={
-	"updated": "24/01/2021, 6:49:40 am",
+	"updated": "24/01/2021, 7:04:40 am",
 	"kenmore": [
 		{
 			"class": "day main",
@@ -8,7 +8,7 @@ var forecast={
 			"max": 30,
 			"summary": "Partly cloudy.",
 			"precipPercent": 30,
-			"description": "Partly cloudy. Slight (30%) chance of a shower, especially during the early morning. Light winds."
+			"description": "Partly cloudy. Slight (30%) chance of a shower. Light winds."
 		},
 		{
 			"class": "day",
@@ -85,7 +85,7 @@ var forecast={
 			"max": 30,
 			"summary": "Partly cloudy.",
 			"precipPercent": 20,
-			"description": "Partly cloudy. Slight (20%) chance of a shower, especially during the morning. Light winds."
+			"description": "Partly cloudy. Slight (20%) chance of a shower. Light winds."
 		},
 		{
 			"class": "day",
