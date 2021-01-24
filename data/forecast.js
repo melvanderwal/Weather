@@ -1,5 +1,5 @@
 var forecast={
-	"updated": "24/01/2021, 11:34:40 am",
+	"updated": "24/01/2021, 11:49:40 am",
 	"kenmore": [
 		{
 			"class": "day main",
@@ -8,7 +8,7 @@ var forecast={
 			"max": 30,
 			"summary": "Partly cloudy.",
 			"precipPercent": 30,
-			"description": "Partly cloudy. Slight (30%) chance of a shower. Light winds."
+			"description": "Partly cloudy. Slight (30%) chance of a shower near the coast. Light winds."
 		},
 		{
 			"class": "day",
@@ -162,7 +162,7 @@ var forecast={
 			"max": 29,
 			"summary": "Mostly sunny.",
 			"precipPercent": 5,
-			"description": "Mostly sunny. Winds east to northeasterly 15 to 20 km/h becoming light early in the morning then becoming east to northeasterly 15 to 25 km/h in the morning. Daytime maximum temperatures 29 to 35."
+			"description": "Mostly sunny. Light winds becoming east to northeasterly 15 to 20 km/h in the late afternoon. Daytime maximum temperatures 29 to 34."
 		},
 		{
 			"class": "day",
