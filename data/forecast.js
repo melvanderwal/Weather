@@ -1,5 +1,5 @@
 var forecast={
-	"updated": "29/01/2021, 4:04:40 pm",
+	"updated": "29/01/2021, 4:19:40 pm",
 	"kenmore": [
 		{
 			"class": "day main",
@@ -156,23 +156,23 @@ var forecast={
 	],
 	"warwick": [
 		{
-			"class": "day main",
+			"class": "day eve",
 			"day": "Friday",
 			"image": "partly-cloudy",
-			"max": 29,
 			"summary": "Partly cloudy.",
-			"precipPercent": 20,
-			"description": "Partly cloudy. Slight (30%) chance of a shower in the east. Winds easterly 15 to 25 km/h. Daytime maximum temperatures 29 to 34."
+			"precipPercent": 5,
+			"description": "Mostly clear. Winds easterly 15 to 25 km/h."
 		},
 		{
-			"class": "day",
+			"class": "day main",
 			"day": "Saturday",
 			"image": "partly-cloudy",
 			"min": 17,
 			"max": 31,
 			"summary": "Partly cloudy.",
-			"precipPercent": 10,
-			"description": "Mostly sunny. Slight (20%) chance of a shower in the east. Winds east to northeasterly 15 to 25 km/h becoming light early in the morning then becoming east to northeasterly 15 to 25 km/h in the morning. Overnight temperatures falling to between 17 and 20 with daytime temperatures reaching the low to mid 30s."
+			"rain": "0 to 0.4 mm",
+			"precipPercent": 30,
+			"description": "Mostly sunny. Slight (20%) chance of a shower over the Granite Belt, near zero chance elsewhere. Winds east to northeasterly 15 to 20 km/h becoming light in the middle of the day then becoming east to northeasterly 15 to 25 km/h in the late afternoon. Overnight temperatures falling to between 17 and 21 with daytime temperatures reaching 30 to 35."
 		},
 		{
 			"class": "day",
@@ -203,7 +203,8 @@ var forecast={
 			"max": 31,
 			"summary": "Possible shower.",
 			"rain": "0 to 1 mm",
-			"precipPercent": 40
+			"precipPercent": 40,
+			"description": "##"
 		},
 		{
 			"class": "day",
@@ -224,6 +225,14 @@ var forecast={
 			"summary": "Possible shower.",
 			"rain": "0 to 1 mm",
 			"precipPercent": 40
+		},
+		{
+			"class": "day",
+			"day": "Friday",
+			"image": "blank",
+			"min": null,
+			"max": null,
+			"summary": "##"
 		}
 	]
 }
