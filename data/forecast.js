@@ -1,14 +1,14 @@
 var forecast={
-	"updated": "02/02/2021, 9:04:40 am",
+	"updated": "02/02/2021, 9:19:40 am",
 	"kenmore": [
 		{
 			"class": "day main",
 			"day": "Tuesday",
-			"image": "showers",
+			"image": "heavy-showers",
 			"max": 28,
 			"summary": "Showers.",
 			"precipPercent": 80,
-			"description": "Cloudy. High (80%) chance of showers. The chance of a thunderstorm in the west during this afternoon and evening. Winds east to northeasterly 15 to 20 km/h becoming light in the evening."
+			"description": "Cloudy. High (80%) chance of showers. The chance of a thunderstorm. Winds east to northeasterly 15 to 20 km/h becoming light in the evening."
 		},
 		{
 			"class": "day",
@@ -80,11 +80,11 @@ var forecast={
 		{
 			"class": "day main",
 			"day": "Tuesday",
-			"image": "showers",
+			"image": "heavy-showers",
 			"max": 29,
 			"summary": "Showers.",
 			"precipPercent": 80,
-			"description": "Cloudy. High (80%) chance of showers, most likely in the late morning and afternoon. The chance of a thunderstorm during this afternoon and evening. Light winds becoming easterly 15 to 20 km/h in the late afternoon then becoming light in the evening."
+			"description": "Cloudy. High (80%) chance of showers. The chance of a thunderstorm in the afternoon. Light winds becoming easterly 15 to 20 km/h in the late afternoon then becoming light in the evening."
 		},
 		{
 			"class": "day",
@@ -159,7 +159,7 @@ var forecast={
 			"max": 28,
 			"summary": "Shower or two.",
 			"precipPercent": 60,
-			"description": "Partly cloudy. Medium (40%) chance of showers, most likely in the late morning and afternoon. The chance of a thunderstorm, with possible heavy falls over the Granite Belt during this afternoon and evening. Winds northeasterly 15 to 20 km/h becoming light in the morning then becoming easterly 15 to 20 km/h in the late evening. Daytime maximum temperatures around 30."
+			"description": "Partly cloudy. Medium (40%) chance of showers, most likely in the late morning and afternoon. The chance of a thunderstorm. Possible heavy falls over the Granite Belt in the afternoon and evening. Winds northeasterly 15 to 20 km/h becoming light in the morning then becoming easterly 15 to 20 km/h in the late evening. Daytime maximum temperatures around 30."
 		},
 		{
 			"class": "day",
