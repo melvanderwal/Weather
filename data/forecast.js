@@ -1,13 +1,13 @@
 var forecast={
-	"updated": "02/02/2021, 6:04:40 pm",
+	"updated": "02/02/2021, 6:19:40 pm",
 	"kenmore": [
 		{
 			"class": "day eve",
 			"day": "Tuesday",
 			"image": "showers",
-			"summary": "Shower or two, easing.",
-			"precipPercent": 70,
-			"description": "Partly cloudy. High (70%) chance of showers, contracting to the coast during the evening. The chance of a thunderstorm over western parts, with possible heavy falls. Light winds."
+			"summary": "Shower or two.",
+			"precipPercent": 60,
+			"description": "Partly cloudy. High (70%) chance of showers, contracting to the coast in the evening. The chance of a thunderstorm later tonight and mainly over the western suburbs. Light winds."
 		},
 		{
 			"class": "day main",
@@ -92,8 +92,8 @@ var forecast={
 			"day": "Tuesday",
 			"image": "storm",
 			"summary": "Shower or two. Possible storm.",
-			"precipPercent": 70,
-			"description": "Partly cloudy. High (70%) chance of showers. The chance of a thunderstorm with possible heavy falls. Light winds."
+			"precipPercent": 60,
+			"description": "Partly cloudy. Medium (40%) chance of showers, clearing in the evening. The chance of a thunderstorm. Light winds."
 		},
 		{
 			"class": "day main",
@@ -178,7 +178,7 @@ var forecast={
 			"image": "storm",
 			"summary": "Shower or two. Possible storm.",
 			"precipPercent": 50,
-			"description": "Partly cloudy. Slight (30%) chance of a shower in the east, near zero chance elsewhere. The chance of a thunderstorm, with possible heavy falls over the Granite Belt. Winds southeast to southwesterly 15 to 20 km/h tending northeast to southeasterly in the evening."
+			"description": "Partly cloudy. Slight (30%) chance of a shower in the far east south of Dalby, near zero chance elsewhere. The chance of a thunderstorm near the ranges, becoming less likely later in the night. Winds southeast to southwesterly 15 to 25 km/h tending northeast to southeasterly 15 to 20 km/h in the evening."
 		},
 		{
 			"class": "day main",
