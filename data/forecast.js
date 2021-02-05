@@ -1,5 +1,5 @@
 var forecast={
-	"updated": "06/02/2021, 5:34:40 am",
+	"updated": "06/02/2021, 5:49:40 am",
 	"kenmore": [
 		{
 			"class": "day main",
@@ -149,19 +149,10 @@ var forecast={
 	"warwick": [
 		{
 			"class": "day main",
-			"day": "Friday",
-			"image": "partly-cloudy",
-			"summary": "Partly cloudy.",
-			"precipPercent": 5
-		},
-		{
-			"class": "day",
 			"day": "Saturday",
-			"image": "showers",
-			"min": 16,
+			"image": "storm",
 			"max": 32,
-			"summary": "Late shower or two.",
-			"rain": "0 to 0.2 mm",
+			"summary": "Showers. Possible late storm.",
 			"precipPercent": 50,
 			"description": "Partly cloudy. High (80%) chance of showers in the west, medium (50%) chance elsewhere. The chance of a thunderstorm with possible heavy falls and gusty winds. Winds northwest to northeasterly 20 to 30 km/h becoming light in the late afternoon then becoming northwest to southwesterly 15 to 20 km/h in the late evening. Daytime maximum temperatures in the low to mid 30s."
 		},
