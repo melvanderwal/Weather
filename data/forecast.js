@@ -1,19 +1,10 @@
 var forecast={
-	"updated": "08/02/2021, 10:49:40 pm",
+	"updated": "09/02/2021, 5:04:40 am",
 	"kenmore": [
-		{
-			"class": "day eve",
-			"day": "Monday",
-			"image": "partly-cloudy",
-			"summary": "Mostly clear.",
-			"precipPercent": 10,
-			"description": "Mostly clear. Winds southeasterly 20 to 30 km/h becoming light in the evening."
-		},
 		{
 			"class": "day main",
 			"day": "Tuesday",
 			"image": "partly-cloudy",
-			"min": 19,
 			"max": 29,
 			"summary": "Partly cloudy.",
 			"precipPercent": 10,
@@ -26,9 +17,9 @@ var forecast={
 			"min": 18,
 			"max": 27,
 			"summary": "Partly cloudy.",
-			"rain": "0 to 0.4 mm",
+			"rain": "0 to 1 mm",
 			"precipPercent": 30,
-			"description": "Partly cloudy. Slight (30%) chance of a shower in the late morning and afternoon. Winds southerly 15 to 20 km/h tending southeasterly 15 to 25 km/h in the morning then becoming light in the late evening."
+			"description": "Partly cloudy. Slight (30%) chance of a shower, most likely in the late morning and afternoon. Winds southerly 15 to 20 km/h tending southeasterly 15 to 25 km/h in the morning then becoming light in the late evening."
 		},
 		{
 			"class": "day",
@@ -85,18 +76,9 @@ var forecast={
 	],
 	"ipswich": [
 		{
-			"class": "day eve",
-			"day": "Monday",
-			"image": "partly-cloudy",
-			"summary": "Mostly clear.",
-			"precipPercent": 10,
-			"description": "Mostly clear. Light winds."
-		},
-		{
 			"class": "day main",
 			"day": "Tuesday",
 			"image": "partly-cloudy",
-			"min": 19,
 			"max": 30,
 			"summary": "Partly cloudy.",
 			"precipPercent": 10,
@@ -168,22 +150,13 @@ var forecast={
 	],
 	"warwick": [
 		{
-			"class": "day eve",
-			"day": "Monday",
-			"image": "partly-cloudy",
-			"summary": "Partly cloudy.",
-			"precipPercent": 5,
-			"description": "Mostly clear. Winds east to southeasterly 15 to 25 km/h tending east to northeasterly in the evening."
-		},
-		{
 			"class": "day main",
 			"day": "Tuesday",
 			"image": "partly-cloudy",
-			"min": 15,
 			"max": 28,
 			"summary": "Partly cloudy.",
 			"precipPercent": 5,
-			"description": "Partly cloudy. Winds northeast to southeasterly 20 to 30 km/h. Overnight temperatures falling to between 16 and 21 with daytime temperatures reaching around 30."
+			"description": "Partly cloudy. Winds northeast to southeasterly 20 to 30 km/h. Daytime maximum temperatures around 30."
 		},
 		{
 			"class": "day",
@@ -193,7 +166,7 @@ var forecast={
 			"max": 27,
 			"summary": "Partly cloudy.",
 			"precipPercent": 10,
-			"description": "Partly cloudy. Slight (20%) chance of a shower over the Granite Belt, near zero chance elsewhere. Winds east to northeasterly 15 to 25 km/h tending east to southeasterly in the middle of the day. Overnight temperatures falling to between 15 and 19 with daytime temperatures reaching around 30."
+			"description": "Partly cloudy. Slight (20%) chance of a shower in the southwest, near zero chance elsewhere. Winds east to northeasterly 15 to 25 km/h tending east to southeasterly in the middle of the day. Overnight temperatures falling to between 15 and 19 with daytime temperatures reaching around 30."
 		},
 		{
 			"class": "day",
