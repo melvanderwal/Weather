@@ -1,5 +1,5 @@
 var forecast={
-	"updated": "10/02/2021, 9:04:40 am",
+	"updated": "10/02/2021, 9:21:55 am",
 	"kenmore": [
 		{
 			"class": "day main",
@@ -156,7 +156,7 @@ var forecast={
 			"max": 28,
 			"summary": "Partly cloudy.",
 			"precipPercent": 10,
-			"description": "Partly cloudy. Slight (30%) chance of a shower in the west during the morning and afternoon. Near zero chance of rain elsewhere. Winds east to northeasterly 20 to 30 km/h becoming light in the middle of the day then becoming northeast to southeasterly 15 to 25 km/h in the early afternoon. Daytime maximum temperatures around 30."
+			"description": "Partly cloudy. Slight (30%) chance of a shower in the west in the morning and afternoon. Near zero chance of rain elsewhere. The chance of a thunderstorm in the west. Winds east to northeasterly 20 to 30 km/h becoming light in the middle of the day then becoming northeast to southeasterly 15 to 25 km/h in the early afternoon. Daytime maximum temperatures around 30."
 		},
 		{
 			"class": "day",
