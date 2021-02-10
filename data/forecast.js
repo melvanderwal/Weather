@@ -1,23 +1,14 @@
 var forecast={
-	"updated": "10/02/2021, 10:49:40 pm",
+	"updated": "11/02/2021, 5:04:40 am",
 	"kenmore": [
-		{
-			"class": "day eve",
-			"day": "Wednesday",
-			"image": "partly-cloudy",
-			"summary": "Partly cloudy.",
-			"precipPercent": 20,
-			"description": "Partly cloudy. Slight (30%) chance of a shower, becoming less likely in the evening. Winds easterly 15 to 20 km/h turning southeasterly in the evening."
-		},
 		{
 			"class": "day main",
 			"day": "Thursday",
 			"image": "partly-cloudy",
-			"min": 18,
 			"max": 29,
 			"summary": "Partly cloudy.",
-			"precipPercent": 10,
-			"description": "Partly cloudy. Slight (20%) chance of a shower near the coast in the morning. Light winds becoming easterly 15 to 20 km/h in the middle of the day then becoming light in the evening."
+			"precipPercent": 20,
+			"description": "Partly cloudy. Slight (30%) chance of an early shower about the bayside suburbs. Light winds becoming easterly 15 to 20 km/h in the middle of the day then becoming light in the evening."
 		},
 		{
 			"class": "day",
@@ -25,9 +16,9 @@ var forecast={
 			"image": "partly-cloudy",
 			"min": 18,
 			"max": 31,
-			"summary": "Mostly sunny.",
-			"precipPercent": 5,
-			"description": "Mostly sunny. Light winds becoming northeasterly 15 to 25 km/h in the middle of the day then becoming light in the late evening."
+			"summary": "Partly cloudy.",
+			"precipPercent": 10,
+			"description": "Partly cloudy. Light winds becoming northeasterly 15 to 25 km/h in the middle of the day then becoming light in the late evening."
 		},
 		{
 			"class": "day",
@@ -86,21 +77,12 @@ var forecast={
 	],
 	"ipswich": [
 		{
-			"class": "day eve",
-			"day": "Wednesday",
-			"image": "partly-cloudy",
-			"summary": "Partly cloudy.",
-			"precipPercent": 20,
-			"description": "Partly cloudy. Slight (20%) chance of a shower, becoming less likely in the evening. Winds easterly 15 to 20 km/h becoming light in the evening."
-		},
-		{
 			"class": "day main",
 			"day": "Thursday",
 			"image": "partly-cloudy",
-			"min": 17,
 			"max": 30,
 			"summary": "Partly cloudy.",
-			"precipPercent": 5,
+			"precipPercent": 10,
 			"description": "Partly cloudy. Light winds becoming easterly 15 to 20 km/h in the late afternoon then becoming light in the evening."
 		},
 		{
@@ -109,9 +91,9 @@ var forecast={
 			"image": "partly-cloudy",
 			"min": 17,
 			"max": 32,
-			"summary": "Mostly sunny.",
+			"summary": "Partly cloudy.",
 			"precipPercent": 5,
-			"description": "Mostly sunny. Light winds becoming northeasterly 20 to 25 km/h in the early afternoon then becoming light in the late evening."
+			"description": "Partly cloudy. Light winds becoming northeasterly 20 to 25 km/h in the early afternoon then becoming light in the late evening."
 		},
 		{
 			"class": "day",
@@ -170,22 +152,13 @@ var forecast={
 	],
 	"warwick": [
 		{
-			"class": "day eve",
-			"day": "Wednesday",
-			"image": "partly-cloudy",
-			"summary": "Partly cloudy.",
-			"precipPercent": 10,
-			"description": "Mostly clear. The chance of a thunderstorm in the far west, becoming less likely in the evening. Winds east to southeasterly 15 to 20 km/h tending east to northeasterly 20 to 30 km/h in the evening."
-		},
-		{
 			"class": "day main",
 			"day": "Thursday",
 			"image": "partly-cloudy",
-			"min": 14,
 			"max": 29,
 			"summary": "Partly cloudy.",
 			"precipPercent": 5,
-			"description": "Mostly sunny. Winds east to northeasterly 15 to 25 km/h tending north to northeasterly in the morning then tending east to northeasterly in the early afternoon. Overnight temperatures falling to between 15 and 20 with daytime temperatures reaching around 30."
+			"description": "Mostly sunny. Winds east to northeasterly 15 to 25 km/h tending north to northeasterly in the morning then tending east to northeasterly in the early afternoon. Daytime maximum temperatures around 30."
 		},
 		{
 			"class": "day",
@@ -193,7 +166,7 @@ var forecast={
 			"image": "partly-cloudy",
 			"min": 14,
 			"max": 32,
-			"summary": "Mostly sunny.",
+			"summary": "Partly cloudy.",
 			"precipPercent": 0,
 			"description": "Mostly sunny. Winds northeasterly 15 to 25 km/h turning northerly 20 to 30 km/h early in the morning. Overnight temperatures falling to between 15 and 21 with daytime temperatures reaching the low to mid 30s."
 		},
