@@ -1,5 +1,5 @@
 var forecast={
-	"updated": "11/02/2021, 4:04:40 pm",
+	"updated": "11/02/2021, 4:19:40 pm",
 	"kenmore": [
 		{
 			"class": "day main",
@@ -152,45 +152,44 @@ var forecast={
 	],
 	"warwick": [
 		{
-			"class": "day main",
+			"class": "day eve",
 			"day": "Thursday",
 			"image": "partly-cloudy",
-			"max": 29,
-			"summary": "Partly cloudy.",
+			"summary": "Mostly clear.",
 			"precipPercent": 5,
-			"description": "Mostly sunny. Light winds becoming east to northeasterly 15 to 25 km/h in the late afternoon."
+			"description": "Mostly clear. Winds east to northeasterly 15 to 25 km/h."
 		},
 		{
-			"class": "day",
+			"class": "day main",
 			"day": "Friday",
 			"image": "partly-cloudy",
-			"min": 14,
+			"min": 15,
 			"max": 32,
 			"summary": "Partly cloudy.",
 			"precipPercent": 0,
-			"description": "Mostly sunny. Winds northeasterly 15 to 25 km/h turning northerly 20 to 30 km/h early in the morning. Overnight temperatures falling to between 15 and 21 with daytime temperatures reaching the low to mid 30s."
+			"description": "Partly cloudy. Winds northeasterly 15 to 25 km/h tending northwest to northeasterly 25 to 35 km/h early in the morning then becoming northeasterly 15 to 25 km/h in the evening. Overnight temperatures falling to between 15 and 21 with daytime temperatures reaching the low to mid 30s."
 		},
 		{
 			"class": "day",
 			"day": "Saturday",
-			"image": "partly-cloudy",
+			"image": "showers",
 			"min": 16,
-			"max": 32,
-			"summary": "Partly cloudy.",
-			"rain": "0 to 2 mm",
-			"precipPercent": 30,
-			"description": "Partly cloudy. High (70%) chance of showers in the southwest, slight (30%) chance elsewhere. The chance of a thunderstorm. Winds northerly 20 to 30 km/h tending northwesterly during the morning then becoming light during the evening. Overnight temperatures falling to between 17 and 24 with daytime temperatures reaching the low to mid 30s."
+			"max": 30,
+			"summary": "Shower or two.",
+			"rain": "2 to 15 mm",
+			"precipPercent": 60,
+			"description": "Partly cloudy. Very high (90%) chance of showers in the southwest, medium (60%) chance elsewhere. The chance of a thunderstorm. Winds northerly 25 to 35 km/h tending northwesterly 20 to 30 km/h in the middle of the day then becoming light in the evening. Overnight temperatures falling to between 17 and 23 with daytime temperatures reaching 29 to 34."
 		},
 		{
 			"class": "day",
 			"day": "Sunday",
 			"image": "showers",
-			"min": 19,
-			"max": 27,
+			"min": 18,
+			"max": 28,
 			"summary": "Shower or two.",
-			"rain": "0 to 4 mm",
+			"rain": "1 to 3 mm",
 			"precipPercent": 50,
-			"description": "Partly cloudy. Medium (50%) chance of showers, most likely in the morning and afternoon. The chance of a thunderstorm in the afternoon and evening. Light winds becoming northeast to southeasterly 15 to 25 km/h during the morning. Overnight temperatures falling to between 19 and 22 with daytime temperatures reaching 28 to 33."
+			"description": "Partly cloudy. Medium (40%) chance of showers, most likely in the morning. The chance of a thunderstorm in the north in the afternoon and evening. Light winds becoming easterly 15 to 25 km/h during the morning. Overnight temperatures falling to between 18 and 21 with daytime temperatures reaching around 30."
 		},
 		{
 			"class": "day",
@@ -199,14 +198,14 @@ var forecast={
 			"min": 15,
 			"max": 28,
 			"summary": "Partly cloudy.",
-			"rain": "0 to 0.2 mm",
-			"precipPercent": 30
+			"precipPercent": 10,
+			"description": "Partly cloudy. Slight (20%) chance of a shower in the north, near zero chance elsewhere. Winds east to southeasterly 15 to 25 km/h. Overnight temperatures falling to between 16 and 20 with daytime temperatures reaching around 30."
 		},
 		{
 			"class": "day",
 			"day": "Tuesday",
 			"image": "partly-cloudy",
-			"min": 15,
+			"min": 14,
 			"max": 28,
 			"summary": "Partly cloudy.",
 			"rain": "0 to 0.4 mm",
@@ -215,8 +214,18 @@ var forecast={
 		{
 			"class": "day",
 			"day": "Wednesday",
-			"image": "partly-cloudy",
+			"image": "cloudy",
 			"min": 15,
+			"max": 26,
+			"summary": "Cloudy.",
+			"rain": "0 to 1 mm",
+			"precipPercent": 30
+		},
+		{
+			"class": "day",
+			"day": "Thursday",
+			"image": "partly-cloudy",
+			"min": 16,
 			"max": 28,
 			"summary": "Partly cloudy.",
 			"rain": "0 to 1 mm",
