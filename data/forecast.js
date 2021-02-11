@@ -1,23 +1,14 @@
 var forecast={
-	"updated": "11/02/2021, 10:49:40 pm",
+	"updated": "12/02/2021, 5:04:40 am",
 	"kenmore": [
-		{
-			"class": "day eve",
-			"day": "Thursday",
-			"image": "partly-cloudy",
-			"summary": "Mostly clear.",
-			"precipPercent": 5,
-			"description": "Mostly clear. Winds easterly 15 to 20 km/h becoming light in the evening."
-		},
 		{
 			"class": "day main",
 			"day": "Friday",
 			"image": "partly-cloudy",
-			"min": 19,
 			"max": 31,
 			"summary": "Partly cloudy.",
 			"precipPercent": 5,
-			"description": "Partly cloudy. Light winds becoming northeasterly 15 to 20 km/h in the early afternoon then becoming light in the evening."
+			"description": "Partly cloudy. Slight (20%) chance of a light shower about coastal fringes during the early morning. Light winds becoming northeasterly 15 to 20 km/h in the early afternoon then becoming light in the evening."
 		},
 		{
 			"class": "day",
@@ -28,7 +19,7 @@ var forecast={
 			"summary": "Partly cloudy.",
 			"rain": "0 to 0.4 mm",
 			"precipPercent": 30,
-			"description": "Mostly sunny morning, becoming cloudy later in the day. Slight (30%) chance of a shower in the evening. Light winds becoming north to northwesterly 15 to 20 km/h in the morning then tending north to northeasterly 15 to 25 km/h in the middle of the day."
+			"description": "Partly cloudy. Slight (30%) chance of a shower. Light winds becoming north to northwesterly 15 to 20 km/h in the morning then tending north to northeasterly 15 to 25 km/h in the middle of the day."
 		},
 		{
 			"class": "day",
@@ -87,21 +78,12 @@ var forecast={
 	],
 	"ipswich": [
 		{
-			"class": "day eve",
-			"day": "Thursday",
-			"image": "partly-cloudy",
-			"summary": "Mostly clear.",
-			"precipPercent": 5,
-			"description": "Mostly clear. Winds easterly 15 to 20 km/h becoming light in the evening."
-		},
-		{
 			"class": "day main",
 			"day": "Friday",
 			"image": "partly-cloudy",
-			"min": 18,
 			"max": 32,
 			"summary": "Partly cloudy.",
-			"precipPercent": 0,
+			"precipPercent": 5,
 			"description": "Partly cloudy. Light winds becoming northeasterly 15 to 20 km/h in the evening then becoming light in the late evening."
 		},
 		{
@@ -172,33 +154,24 @@ var forecast={
 	],
 	"warwick": [
 		{
-			"class": "day eve",
-			"day": "Thursday",
-			"image": "partly-cloudy",
-			"summary": "Mostly clear.",
-			"precipPercent": 5,
-			"description": "Mostly clear. Winds east to northeasterly 15 to 25 km/h."
-		},
-		{
 			"class": "day main",
 			"day": "Friday",
 			"image": "partly-cloudy",
-			"min": 15,
 			"max": 32,
 			"summary": "Partly cloudy.",
 			"precipPercent": 0,
-			"description": "Partly cloudy. Winds northeasterly 15 to 25 km/h tending northwest to northeasterly 25 to 35 km/h early in the morning then becoming northeasterly 15 to 25 km/h in the evening. Overnight temperatures falling to between 15 and 21 with daytime temperatures reaching the low to mid 30s."
+			"description": "Partly cloudy. Winds northerly 25 to 35 km/h tending northeasterly 15 to 25 km/h in the evening. Daytime maximum temperatures in the low to mid 30s."
 		},
 		{
 			"class": "day",
 			"day": "Saturday",
-			"image": "showers",
+			"image": "rain",
 			"min": 16,
 			"max": 30,
-			"summary": "Shower or two.",
+			"summary": "Late rain at times.",
 			"rain": "2 to 15 mm",
 			"precipPercent": 60,
-			"description": "Partly cloudy. Very high (90%) chance of showers in the southwest, medium (60%) chance elsewhere. The chance of a thunderstorm. Winds northerly 25 to 35 km/h tending northwesterly 20 to 30 km/h in the middle of the day then becoming light in the evening. Overnight temperatures falling to between 17 and 23 with daytime temperatures reaching 29 to 34."
+			"description": "Partly cloudy. Very high (90%) chance of showers in the southwest, medium (60%) chance elsewhere, trending to rain areas at times during the afternoon and evening. The chance of a thunderstorm, possibly severe. Winds northerly 25 to 35 km/h tending northwesterly 20 to 30 km/h in the middle of the day then becoming light in the evening. Overnight temperatures falling to between 17 and 23 with daytime temperatures reaching 29 to 34."
 		},
 		{
 			"class": "day",
