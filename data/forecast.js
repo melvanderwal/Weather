@@ -1,23 +1,14 @@
 var forecast={
-	"updated": "12/02/2021, 10:49:40 pm",
+	"updated": "13/02/2021, 5:04:40 am",
 	"kenmore": [
-		{
-			"class": "day eve",
-			"day": "Friday",
-			"image": "clear",
-			"summary": "Clear.",
-			"precipPercent": 5,
-			"description": "Clear. Winds northeasterly 15 to 20 km/h becoming light in the evening."
-		},
 		{
 			"class": "day main",
 			"day": "Saturday",
 			"image": "partly-cloudy",
-			"min": 20,
 			"max": 33,
-			"summary": "Partly cloudy.",
-			"precipPercent": 20,
-			"description": "Partly cloudy. Slight (20%) chance of a shower in the late evening. Light winds becoming northwesterly 15 to 20 km/h in the morning then turning north to northeasterly 15 to 25 km/h in the early afternoon."
+			"summary": "Becoming cloudy.",
+			"precipPercent": 30,
+			"description": "Mostly sunny morning. Slight (30%) chance of a shower later tonight. Winds northwesterly 15 to 20 km/h becoming light in the morning then becoming north to northeasterly 15 to 25 km/h in the early afternoon."
 		},
 		{
 			"class": "day",
@@ -87,23 +78,13 @@ var forecast={
 	],
 	"ipswich": [
 		{
-			"class": "day eve",
-			"day": "Friday",
-			"image": "clear",
-			"summary": "Clear.",
-			"precipPercent": 0,
-			"description": "Clear. Winds northeasterly 15 to 20 km/h becoming light in the evening."
-		},
-		{
 			"class": "day main",
 			"day": "Saturday",
 			"image": "partly-cloudy",
-			"min": 19,
 			"max": 35,
-			"summary": "Partly cloudy.",
-			"rain": "0 to 0.4 mm",
+			"summary": "Becoming cloudy.",
 			"precipPercent": 30,
-			"description": "Mostly sunny morning. Slight (30%) chance of a shower at night. Light winds becoming northeasterly 15 to 20 km/h in the late afternoon then becoming light in the evening."
+			"description": "Mostly sunny morning. Slight (30%) chance of a shower this evening. Light winds becoming northeasterly 15 to 20 km/h in the late afternoon then becoming light in the evening."
 		},
 		{
 			"class": "day",
@@ -173,23 +154,13 @@ var forecast={
 	],
 	"warwick": [
 		{
-			"class": "day eve",
-			"day": "Friday",
-			"image": "partly-cloudy",
-			"summary": "Mostly clear.",
-			"precipPercent": 0,
-			"description": "Mostly clear. Winds northerly 15 to 20 km/h turning northeasterly 15 to 25 km/h in the evening."
-		},
-		{
 			"class": "day main",
 			"day": "Saturday",
-			"image": "rain",
-			"min": 17,
+			"image": "storm",
 			"max": 33,
-			"summary": "Late rain.",
-			"rain": "1 to 6 mm",
+			"summary": "Rain. Possible late storm.",
 			"precipPercent": 60,
-			"description": "Partly cloudy. Very high (90%) chance of showers in the southwest, medium (60%) chance of rain elsewhere. The chance of a thunderstorm, possibly severe. Winds northwest to northeasterly 20 to 30 km/h becoming northwesterly 15 to 25 km/h in the middle of the day then becoming light in the evening. Overnight temperatures falling to between 17 and 24 with daytime temperatures reaching 29 to 35."
+			"description": "Partly cloudy. Very high (90%) chance of showers in the southwest, medium (60%) chance elsewhere. The chance of a thunderstorm, possibly severe over western parts. Winds northerly 20 to 30 km/h tending northwesterly in the morning then becoming light in the evening. Daytime maximum temperatures 29 to 35."
 		},
 		{
 			"class": "day",
@@ -198,9 +169,9 @@ var forecast={
 			"min": 19,
 			"max": 27,
 			"summary": "Shower or two.",
-			"rain": "0 to 4 mm",
-			"precipPercent": 50,
-			"description": "Partly cloudy. Medium (40%) chance of showers, most likely in the morning and afternoon. Light winds becoming northeast to southeasterly 15 to 25 km/h in the morning. Overnight temperatures falling to between 19 and 22 with daytime temperatures reaching 26 to 31."
+			"rain": "1 to 5 mm",
+			"precipPercent": 60,
+			"description": "Partly cloudy. Medium (50%) chance of showers, most likely in the morning and afternoon. The chance of a thunderstorm in the north in the early morning. Light winds becoming northeast to southeasterly 15 to 25 km/h in the morning. Overnight temperatures falling to between 19 and 22 with daytime temperatures reaching 26 to 31."
 		},
 		{
 			"class": "day",
