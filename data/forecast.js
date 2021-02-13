@@ -1,5 +1,5 @@
 var forecast={
-	"updated": "14/02/2021, 5:49:40 am",
+	"updated": "14/02/2021, 6:04:40 am",
 	"kenmore": [
 		{
 			"class": "day main",
@@ -8,7 +8,7 @@ var forecast={
 			"max": 28,
 			"summary": "Shower or two.",
 			"precipPercent": 50,
-			"description": "A cloudy morning before a partly cloudy afternoon. Medium (50%) chance of a shower, most likely light and in the morning. Light winds becoming southeasterly 15 to 25 km/h in the middle of the day then tending southerly 15 to 20 km/h in the late evening."
+			"description": "Cloudy. Morning drizzle. Medium (50%) chance of showers, becoming less likely in the afternoon. Light winds becoming southeasterly 15 to 25 km/h in the middle of the day then tending southerly 15 to 20 km/h in the late evening."
 		},
 		{
 			"class": "day",
