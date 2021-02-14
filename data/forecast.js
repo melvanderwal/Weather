@@ -1,23 +1,14 @@
 var forecast={
-	"updated": "14/02/2021, 10:49:40 pm",
+	"updated": "15/02/2021, 5:04:40 am",
 	"kenmore": [
-		{
-			"class": "day eve",
-			"day": "Sunday",
-			"image": "partly-cloudy",
-			"summary": "Partly cloudy.",
-			"precipPercent": 5,
-			"description": "Partly cloudy. Winds southeasterly 15 to 25 km/h becoming light in the late evening."
-		},
 		{
 			"class": "day main",
 			"day": "Monday",
 			"image": "partly-cloudy",
-			"min": 19,
 			"max": 31,
 			"summary": "Partly cloudy.",
 			"precipPercent": 20,
-			"description": "Mostly sunny morning. Slight (20%) chance of a shower in the afternoon and evening. Winds southerly 15 to 25 km/h tending southeasterly 20 to 30 km/h in the morning then becoming light in the late evening."
+			"description": "Partly cloudy. Slight (20%) chance of a shower. Winds southerly 15 to 25 km/h tending southeasterly 20 to 30 km/h in the morning then becoming light in the late evening."
 		},
 		{
 			"class": "day",
@@ -88,18 +79,9 @@ var forecast={
 	],
 	"ipswich": [
 		{
-			"class": "day eve",
-			"day": "Sunday",
-			"image": "partly-cloudy",
-			"summary": "Partly cloudy.",
-			"precipPercent": 5,
-			"description": "Partly cloudy. Light winds."
-		},
-		{
 			"class": "day main",
 			"day": "Monday",
 			"image": "partly-cloudy",
-			"min": 18,
 			"max": 31,
 			"summary": "Partly cloudy.",
 			"precipPercent": 10,
@@ -174,22 +156,13 @@ var forecast={
 	],
 	"warwick": [
 		{
-			"class": "day eve",
-			"day": "Sunday",
-			"image": "partly-cloudy",
-			"summary": "Partly cloudy.",
-			"precipPercent": 0,
-			"description": "Partly cloudy. Slight (20%) chance of a shower in the north early this evening. Near zero chance of rain elsewhere. Winds easterly 15 to 25 km/h."
-		},
-		{
 			"class": "day main",
 			"day": "Monday",
 			"image": "partly-cloudy",
-			"min": 15,
 			"max": 29,
-			"summary": "Partly cloudy.",
+			"summary": "Mostly sunny.",
 			"precipPercent": 5,
-			"description": "Mostly sunny. Winds easterly 15 to 25 km/h turning south to southeasterly 20 to 30 km/h during the morning then tending northeast to southeasterly 15 to 25 km/h in the evening. Overnight temperatures falling to between 15 and 20 with daytime temperatures reaching around 30."
+			"description": "Mostly sunny. Winds east to southeasterly 20 to 30 km/h. Daytime maximum temperatures around 30."
 		},
 		{
 			"class": "day",
