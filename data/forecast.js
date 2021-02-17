@@ -1,24 +1,14 @@
 var forecast={
-	"updated": "17/02/2021, 10:49:40 pm",
+	"updated": "18/02/2021, 5:04:40 am",
 	"kenmore": [
-		{
-			"class": "day eve",
-			"day": "Wednesday",
-			"image": "showers",
-			"summary": "Shower or two.",
-			"precipPercent": 70,
-			"description": "Partly cloudy. High (70%) chance of showers. Winds southeasterly 25 to 35 km/h tending southerly 15 to 20 km/h in the evening."
-		},
 		{
 			"class": "day main",
 			"day": "Thursday",
 			"image": "showers",
-			"min": 20,
 			"max": 28,
-			"summary": "Shower or two.",
-			"rain": "5 to 15 mm",
-			"precipPercent": 70,
-			"description": "Partly cloudy. High (70%) chance of showers. The chance of a thunderstorm inland in the afternoon and evening. Winds southerly 15 to 20 km/h becoming light before dawn then becoming southeasterly 15 to 20 km/h in the morning."
+			"summary": "Showers.",
+			"precipPercent": 80,
+			"description": "Partly cloudy. High (80%) chance of showers, most likely in the late morning and afternoon. The chance of a thunderstorm during this afternoon and evening. Winds southeasterly 15 to 20 km/h becoming light in the evening."
 		},
 		{
 			"class": "day",
@@ -27,9 +17,9 @@ var forecast={
 			"min": 20,
 			"max": 29,
 			"summary": "Shower or two.",
-			"rain": "2 to 6 mm",
-			"precipPercent": 70,
-			"description": "Partly cloudy. High (70%) chance of showers, most likely in the late morning and afternoon. The chance of a thunderstorm in the west in the afternoon and evening. Light winds becoming southeasterly 15 to 20 km/h in the middle of the day then becoming light in the late afternoon."
+			"rain": "2 to 8 mm",
+			"precipPercent": 60,
+			"description": "Partly cloudy. Medium (60%) chance of showers, most likely in the late morning and afternoon. The chance of a thunderstorm in the west in the afternoon and evening. Light winds becoming southeasterly 15 to 20 km/h in the middle of the day then becoming light in the late afternoon."
 		},
 		{
 			"class": "day",
@@ -89,23 +79,13 @@ var forecast={
 	],
 	"ipswich": [
 		{
-			"class": "day eve",
-			"day": "Wednesday",
-			"image": "light-showers",
-			"summary": "Possible shower.",
-			"precipPercent": 40,
-			"description": "Partly cloudy. Medium (40%) chance of showers, becoming less likely later this evening. Winds southeasterly 20 to 25 km/h becoming light in the evening."
-		},
-		{
 			"class": "day main",
 			"day": "Thursday",
 			"image": "showers",
-			"min": 19,
 			"max": 29,
-			"summary": "Shower or two.",
-			"rain": "5 to 10 mm",
-			"precipPercent": 70,
-			"description": "Partly cloudy. High (70%) chance of showers, most likely in the morning and afternoon. The chance of a thunderstorm in the afternoon and evening. Light winds becoming southeasterly 15 to 20 km/h in the morning then becoming light in the evening."
+			"summary": "Showers.",
+			"precipPercent": 80,
+			"description": "Partly cloudy. High (80%) chance of showers, most likely during the morning and afternoon. The chance of a thunderstorm during this afternoon and evening. Light winds becoming southeasterly 15 to 20 km/h in the morning then becoming light in the evening."
 		},
 		{
 			"class": "day",
@@ -176,23 +156,13 @@ var forecast={
 	],
 	"warwick": [
 		{
-			"class": "day eve",
-			"day": "Wednesday",
-			"image": "partly-cloudy",
-			"summary": "Partly cloudy.",
-			"precipPercent": 30,
-			"description": "Partly cloudy. Slight (30%) chance of a shower over the east, near zero chance elsewhere. Winds east to southeasterly 25 to 35 km/h."
-		},
-		{
 			"class": "day main",
 			"day": "Thursday",
 			"image": "showers",
-			"min": 17,
 			"max": 26,
 			"summary": "Shower or two.",
-			"rain": "1 to 3 mm",
 			"precipPercent": 60,
-			"description": "Partly cloudy. Medium (60%) chance of showers in the far east, slight (30%) chance elsewhere. The chance of a thunderstorm in the afternoon and evening. Winds east to southeasterly 20 to 30 km/h. Overnight temperatures falling to between 16 and 19 with daytime temperatures reaching 27 to 32."
+			"description": "Partly cloudy. Medium (60%) chance of showers in the far east, slight (30%) chance elsewhere. The chance of a thunderstorm during this afternoon and evening. Winds southeasterly 15 to 25 km/h turning easterly 20 to 30 km/h in the morning. Daytime maximum temperatures 27 to 32."
 		},
 		{
 			"class": "day",
@@ -203,7 +173,7 @@ var forecast={
 			"summary": "Possible shower.",
 			"rain": "0 to 3 mm",
 			"precipPercent": 40,
-			"description": "Partly cloudy. Slight (30%) chance of a shower in the afternoon and evening. The chance of a thunderstorm in the afternoon and evening. Winds easterly 15 to 20 km/h becoming light before dawn then becoming easterly 15 to 20 km/h in the morning. Overnight temperatures falling to between 17 and 20 with daytime temperatures reaching around 30."
+			"description": "Partly cloudy. Medium (40%) chance of showers in the southeast, slight (20%) chance elsewhere. The chance of a thunderstorm from the late morning. Winds easterly 15 to 20 km/h becoming light before dawn then becoming easterly 15 to 20 km/h in the morning. Overnight temperatures falling to between 17 and 20 with daytime temperatures reaching around 30."
 		},
 		{
 			"class": "day",
