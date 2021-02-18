@@ -1,5 +1,5 @@
 var forecast={
-	"updated": "19/02/2021, 9:20:09 am",
+	"updated": "19/02/2021, 9:34:40 am",
 	"kenmore": [
 		{
 			"class": "day main",
