@@ -60,9 +60,8 @@ function chartFrame(className, chartOid, height) {
 
 
 let charts = [
-    { "height": 150, "charts": [["chart", 1178812911]] },
-    { "height": 300, "charts": [["chart", 1343807972]] },
     { "height": 250, "charts": [["chart", 2002231473], ["chart", 1524167861]] },
+    { "height": 300, "charts": [["chart", 1343807972], ["chart", 1178812911]] },
     { "height": 350, "charts": [["chart", 469278234]] },
     { "height": 250, "charts": [["chart", 1514251050], ["chart", 1598170161]] },
     { "height": 350, "charts": [["chart", 1036758008]] },
