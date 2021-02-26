@@ -1,19 +1,10 @@
 var forecast={
-	"updated": "26/02/2021, 10:49:40 pm",
+	"updated": "27/02/2021, 5:04:40 am",
 	"kenmore": [
-		{
-			"class": "day eve",
-			"day": "Friday",
-			"image": "clear",
-			"summary": "Clear.",
-			"precipPercent": 5,
-			"description": "Clear. Winds northeasterly 15 to 20 km/h becoming light in the evening."
-		},
 		{
 			"class": "day main",
 			"day": "Saturday",
 			"image": "partly-cloudy",
-			"min": 21,
 			"max": 31,
 			"summary": "Partly cloudy.",
 			"precipPercent": 20,
@@ -86,18 +77,9 @@ var forecast={
 	],
 	"ipswich": [
 		{
-			"class": "day eve",
-			"day": "Friday",
-			"image": "partly-cloudy",
-			"summary": "Mostly clear.",
-			"precipPercent": 5,
-			"description": "Mostly clear. Winds northeasterly 15 to 20 km/h becoming light in the evening."
-		},
-		{
 			"class": "day main",
 			"day": "Saturday",
 			"image": "partly-cloudy",
-			"min": 21,
 			"max": 32,
 			"summary": "Partly cloudy.",
 			"precipPercent": 20,
@@ -170,23 +152,13 @@ var forecast={
 	],
 	"warwick": [
 		{
-			"class": "day eve",
-			"day": "Friday",
-			"image": "showers",
-			"summary": "Shower or two.",
-			"precipPercent": 50,
-			"description": "Partly cloudy. Medium (40%) chance of showers in the south, becoming less likely later tonight. Near zero chance of rain elsewhere. The chance of a thunderstorm in the south. Light winds becoming northeast to southeasterly 15 to 20 km/h in the evening."
-		},
-		{
 			"class": "day main",
 			"day": "Saturday",
 			"image": "partly-cloudy",
-			"min": 19,
 			"max": 31,
 			"summary": "Partly cloudy.",
-			"rain": "0 to 1 mm",
 			"precipPercent": 30,
-			"description": "Partly cloudy. Medium (40%) chance of showers near the New South Wales border, most likely in the late morning and afternoon. Near zero chance of rain elsewhere. The chance of a thunderstorm near the New South Wales border. Winds northeasterly 15 to 20 km/h becoming light in the middle of the day then becoming east to northeasterly 15 to 20 km/h in the late afternoon. Overnight temperatures falling to between 19 and 23 with daytime temperatures reaching the low to mid 30s."
+			"description": "Partly cloudy. Medium (40%) chance of showers in the southwest from late this morning. Near zero chance of rain elsewhere. The chance of a thunderstorm near the New South Wales border. Winds northeasterly 15 to 20 km/h becoming light in the middle of the day then becoming east to northeasterly 15 to 20 km/h in the late afternoon. Daytime maximum temperatures in the low to mid 30s."
 		},
 		{
 			"class": "day",
@@ -195,9 +167,9 @@ var forecast={
 			"min": 18,
 			"max": 33,
 			"summary": "Possible storm.",
-			"rain": "0 to 0.4 mm",
+			"rain": "0 to 3 mm",
 			"precipPercent": 30,
-			"description": "Partly cloudy. Slight (30%) chance of a shower in the southeast in the afternoon and evening. Near zero chance of rain elsewhere. The chance of a thunderstorm near the New South Wales border in the afternoon and evening. Winds northeasterly 15 to 20 km/h becoming light in the middle of the day then becoming east to northeasterly 15 to 20 km/h in the late afternoon. Overnight temperatures falling to between 19 and 22 with daytime temperatures reaching the low to mid 30s."
+			"description": "Partly cloudy. Slight (30%) chance of a shower near the New South Wales border, most likely in the afternoon and evening. Near zero chance of rain elsewhere. The chance of a thunderstorm near the New South Wales border in the afternoon and evening. Winds northeasterly 15 to 20 km/h becoming light in the middle of the day then becoming east to northeasterly 15 to 20 km/h in the late afternoon. Overnight temperatures falling to between 19 and 22 with daytime temperatures reaching the low to mid 30s."
 		},
 		{
 			"class": "day",
