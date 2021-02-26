@@ -1,5 +1,5 @@
 var forecast={
-	"updated": "26/02/2021, 4:04:40 pm",
+	"updated": "26/02/2021, 4:19:40 pm",
 	"kenmore": [
 		{
 			"class": "day main",
@@ -154,75 +154,85 @@ var forecast={
 	],
 	"warwick": [
 		{
-			"class": "day main",
+			"class": "day eve",
 			"day": "Friday",
 			"image": "showers",
-			"max": 32,
 			"summary": "Shower or two.",
-			"precipPercent": 60,
-			"description": "Partly cloudy. Medium (50%) chance of showers in the south from late this morning. Near zero chance of rain elsewhere. The chance of a thunderstorm over the south and west from late this morning. Winds north to northeasterly 15 to 20 km/h becoming light in the morning then becoming northeast to southeasterly 15 to 20 km/h in the evening. Daytime maximum temperatures in the low to mid 30s."
+			"precipPercent": 50,
+			"description": "Partly cloudy. Medium (40%) chance of showers in the south, becoming less likely later tonight. Near zero chance of rain elsewhere. The chance of a thunderstorm in the south. Light winds becoming northeast to southeasterly 15 to 20 km/h in the evening."
 		},
 		{
-			"class": "day",
+			"class": "day main",
 			"day": "Saturday",
-			"image": "light-showers",
+			"image": "partly-cloudy",
 			"min": 19,
-			"max": 32,
-			"summary": "Possible shower developing.",
+			"max": 31,
+			"summary": "Partly cloudy.",
 			"rain": "0 to 1 mm",
-			"precipPercent": 40,
-			"description": "Partly cloudy. Medium (40%) chance of showers near the New South Wales border, most likely in the afternoon and evening. Near zero chance of rain elsewhere. The chance of a thunderstorm near the New South Wales border. Winds east to northeasterly 15 to 20 km/h becoming light before dawn then becoming northeasterly 15 to 20 km/h in the morning. Overnight temperatures falling to between 19 and 23 with daytime temperatures reaching the low to mid 30s."
+			"precipPercent": 30,
+			"description": "Partly cloudy. Medium (40%) chance of showers near the New South Wales border, most likely in the late morning and afternoon. Near zero chance of rain elsewhere. The chance of a thunderstorm near the New South Wales border. Winds northeasterly 15 to 20 km/h becoming light in the middle of the day then becoming east to northeasterly 15 to 20 km/h in the late afternoon. Overnight temperatures falling to between 19 and 23 with daytime temperatures reaching the low to mid 30s."
 		},
 		{
 			"class": "day",
 			"day": "Sunday",
 			"image": "storm",
-			"min": 19,
-			"max": 32,
-			"summary": "Possible shower or storm.",
-			"rain": "0 to 2 mm",
-			"precipPercent": 40,
-			"description": "Partly cloudy. Slight (30%) chance of a shower in the south in the afternoon and evening. Near zero chance of rain elsewhere. The chance of a thunderstorm in the afternoon and evening. Winds northeasterly 15 to 20 km/h becoming light during the morning then becoming east to northeasterly 15 to 20 km/h during the evening. Overnight temperatures falling to between 19 and 23 with daytime temperatures reaching the low to mid 30s."
+			"min": 18,
+			"max": 33,
+			"summary": "Possible storm.",
+			"rain": "0 to 0.4 mm",
+			"precipPercent": 30,
+			"description": "Partly cloudy. Slight (30%) chance of a shower in the southeast in the afternoon and evening. Near zero chance of rain elsewhere. The chance of a thunderstorm near the New South Wales border in the afternoon and evening. Winds northeasterly 15 to 20 km/h becoming light in the middle of the day then becoming east to northeasterly 15 to 20 km/h in the late afternoon. Overnight temperatures falling to between 19 and 22 with daytime temperatures reaching the low to mid 30s."
 		},
 		{
 			"class": "day",
 			"day": "Monday",
-			"image": "storm",
+			"image": "showers",
 			"min": 19,
-			"max": 31,
-			"summary": "Shower or two. Storm likely.",
-			"rain": "1 to 6 mm",
-			"precipPercent": 70,
-			"description": "Partly cloudy. High (70%) chance of showers over the Granite Belt, medium (40%) chance elsewhere. The chance of a thunderstorm in the afternoon and evening. Light winds. Overnight temperatures falling to between 19 and 22 with daytime temperatures reaching the low to mid 30s."
+			"max": 32,
+			"summary": "Shower or two.",
+			"rain": "1 to 8 mm",
+			"precipPercent": 60,
+			"description": "Partly cloudy. Medium (60%) chance of showers over the Granite Belt, slight (30%) chance elsewhere. The chance of a thunderstorm in the afternoon and evening. Light winds. Overnight temperatures falling to between 19 and 23 with daytime temperatures reaching the low to mid 30s."
 		},
 		{
 			"class": "day",
 			"day": "Tuesday",
 			"image": "partly-cloudy",
-			"min": 18,
-			"max": 33,
-			"summary": "Partly cloudy.",
-			"precipPercent": 20
+			"min": 19,
+			"max": 34,
+			"summary": "Mostly sunny.",
+			"rain": "0 to 0.2 mm",
+			"precipPercent": 30,
+			"description": "Hot and mostly sunny. Slight (30%) chance of a shower over the Granite Belt, most likely in the afternoon and evening. Near zero chance of rain elsewhere. The chance of a thunderstorm in the far east in the afternoon and evening. Light winds becoming south to southeasterly 15 to 25 km/h during the day then tending northeast to southeasterly 15 to 20 km/h during the evening. Overnight temperatures falling to between 19 and 22 with daytime temperatures reaching the mid to high 30s."
 		},
 		{
 			"class": "day",
 			"day": "Wednesday",
-			"image": "storm",
+			"image": "light-showers",
 			"min": 18,
-			"max": 32,
-			"summary": "Possible storm.",
-			"rain": "0 to 1 mm",
-			"precipPercent": 30
+			"max": 30,
+			"summary": "Possible shower.",
+			"rain": "0 to 2 mm",
+			"precipPercent": 40
 		},
 		{
 			"class": "day",
 			"day": "Thursday",
-			"image": "storm",
-			"min": 18,
-			"max": 29,
-			"summary": "Possible storm.",
-			"rain": "0 to 1 mm",
+			"image": "partly-cloudy",
+			"min": 16,
+			"max": 26,
+			"summary": "Partly cloudy.",
+			"rain": "0 to 0.2 mm",
 			"precipPercent": 30
+		},
+		{
+			"class": "day",
+			"day": "Friday",
+			"image": "partly-cloudy",
+			"min": 13,
+			"max": 27,
+			"summary": "Partly cloudy.",
+			"precipPercent": 20
 		}
 	]
 }
