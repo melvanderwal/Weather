@@ -1,13 +1,13 @@
 var forecast={
-	"updated": "03/03/2021, 7:04:41 pm",
+	"updated": "03/03/2021, 7:19:40 pm",
 	"kenmore": [
 		{
 			"class": "day eve",
 			"day": "Wednesday",
 			"image": "partly-cloudy",
 			"summary": "Partly cloudy.",
-			"precipPercent": 10,
-			"description": "Partly cloudy. Slight (30%) chance of a shower. The chance of a thunderstorm in the west during the early evening. Winds east to southeasterly 15 to 20 km/h becoming light in the evening."
+			"precipPercent": 30,
+			"description": "Partly cloudy. Medium (50%) chance of showers about bayside suburbs, slight (30%) chance elsewhere. The chance of a thunderstorm. Light winds."
 		},
 		{
 			"class": "day main",
