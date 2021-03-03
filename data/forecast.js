@@ -1,5 +1,5 @@
 var forecast={
-	"updated": "03/03/2021, 6:49:40 pm",
+	"updated": "03/03/2021, 7:04:41 pm",
 	"kenmore": [
 		{
 			"class": "day eve",
@@ -90,7 +90,7 @@ var forecast={
 			"image": "partly-cloudy",
 			"summary": "Partly cloudy.",
 			"precipPercent": 10,
-			"description": "Partly cloudy. Light winds."
+			"description": "Partly cloudy. Slight (20%) chance of a late shower. Light winds."
 		},
 		{
 			"class": "day main",
