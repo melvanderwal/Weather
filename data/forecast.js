@@ -1,5 +1,5 @@
 var forecast={
-	"updated": "06/03/2021, 7:19:40 pm",
+	"updated": "06/03/2021, 7:34:40 pm",
 	"kenmore": [
 		{
 			"class": "day eve",
@@ -89,10 +89,10 @@ var forecast={
 		{
 			"class": "day eve",
 			"day": "Saturday",
-			"image": "light-showers",
-			"summary": "Possible shower..",
-			"precipPercent": 30,
-			"description": "Partly cloudy. Slight (30%) chance of a shower early this evening. The chance of a thunderstorm early this evening. Winds easterly 15 to 20 km/h becoming light in the evening."
+			"image": "partly-cloudy",
+			"summary": "Partly cloudy.",
+			"precipPercent": 10,
+			"description": "Partly cloudy. Light winds."
 		},
 		{
 			"class": "day main",
