@@ -1,5 +1,5 @@
 var forecast={
-	"updated": "08/03/2021, 9:04:40 pm",
+	"updated": "08/03/2021, 9:19:40 pm",
 	"kenmore": [
 		{
 			"class": "day eve",
@@ -91,10 +91,10 @@ var forecast={
 		{
 			"class": "day eve",
 			"day": "Monday",
-			"image": "storm",
-			"summary": "Shower or two. Possible storm.",
-			"precipPercent": 50,
-			"description": "Partly cloudy. Medium (50%) chance of showers. The chance of a thunderstorm. Winds northeasterly 15 to 20 km/h becoming light in the late evening."
+			"image": "light-showers",
+			"summary": "Possible shower.",
+			"precipPercent": 40,
+			"description": "Partly cloudy. Medium (40%) chance of showers. The chance of a thunderstorm. Light winds."
 		},
 		{
 			"class": "day main",
