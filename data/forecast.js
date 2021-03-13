@@ -1,35 +1,25 @@
 var forecast={
-	"updated": "13/03/2021, 10:49:40 pm",
+	"updated": "14/03/2021, 5:04:40 am",
 	"kenmore": [
-		{
-			"class": "day eve",
-			"day": "Saturday",
-			"image": "partly-cloudy",
-			"summary": "Mostly clear.",
-			"precipPercent": 10,
-			"description": "Mostly clear. The chance of a thunderstorm in the west early this evening. Winds northeasterly 15 to 20 km/h becoming light in the evening."
-		},
 		{
 			"class": "day main",
 			"day": "Sunday",
-			"image": "light-showers",
-			"min": 20,
+			"image": "partly-cloudy",
 			"max": 31,
-			"summary": "Possible late shower.",
-			"rain": "0 to 1 mm",
-			"precipPercent": 40,
-			"description": "Mostly sunny day. Medium (40%) chance of showers in the evening. Light winds becoming northeasterly 15 to 25 km/h in the early afternoon then becoming light in the late evening."
+			"summary": "Mostly sunny.",
+			"precipPercent": 30,
+			"description": "Mostly sunny. Slight (30%) chance of a shower in the morning. Light winds becoming northeasterly 15 to 25 km/h in the early afternoon then becoming light in the late evening."
 		},
 		{
 			"class": "day",
 			"day": "Monday",
 			"image": "rain",
 			"min": 21,
-			"max": 26,
-			"summary": "Rain.",
-			"rain": "25 to 45 mm",
-			"precipPercent": 90,
-			"description": "Cloudy. Very high (90%) chance of rain. The chance of a thunderstorm in the afternoon and evening. Light winds becoming southerly 15 to 25 km/h in the morning."
+			"max": 22,
+			"summary": "Rain at times.",
+			"rain": "15 to 25 mm",
+			"precipPercent": 80,
+			"description": "Cloudy. High (80%) chance of showers tending to rain at times. The chance of a thunderstorm in the morning. Light winds becoming southerly 15 to 20 km/h in the late evening."
 		},
 		{
 			"class": "day",
@@ -89,34 +79,24 @@ var forecast={
 	],
 	"ipswich": [
 		{
-			"class": "day eve",
-			"day": "Saturday",
-			"image": "partly-cloudy",
-			"summary": "Mostly clear.",
-			"precipPercent": 10,
-			"description": "Mostly clear. The chance of a thunderstorm early this evening. Light winds."
-		},
-		{
 			"class": "day main",
 			"day": "Sunday",
-			"image": "light-showers",
-			"min": 19,
+			"image": "partly-cloudy",
 			"max": 33,
-			"summary": "Possible shower.",
-			"rain": "0 to 1 mm",
-			"precipPercent": 40,
-			"description": "Mostly sunny day. Medium (40%) chance of showers, most likely in the evening. Light winds becoming northeasterly 15 to 20 km/h in the late afternoon then becoming light in the evening."
+			"summary": "Partly cloudy.",
+			"precipPercent": 30,
+			"description": "Mostly sunny morning. Slight (30%) chance of a shower later tonight. Light winds becoming northeasterly 15 to 20 km/h in the late afternoon then becoming light in the evening."
 		},
 		{
 			"class": "day",
 			"day": "Monday",
 			"image": "rain",
 			"min": 21,
-			"max": 26,
-			"summary": "Rain.",
-			"rain": "25 to 45 mm",
-			"precipPercent": 90,
-			"description": "Cloudy. Very high (90%) chance of rain. The chance of a thunderstorm in the afternoon and evening. Light winds becoming southerly 15 to 20 km/h in the middle of the day then becoming light in the evening."
+			"max": 22,
+			"summary": "Rain at times.",
+			"rain": "15 to 25 mm",
+			"precipPercent": 80,
+			"description": "Cloudy. High (80%) chance of showers tending to rain at times, most likely in the late morning and afternoon. The chance of a thunderstorm in the morning. Light winds."
 		},
 		{
 			"class": "day",
@@ -176,34 +156,24 @@ var forecast={
 	],
 	"warwick": [
 		{
-			"class": "day eve",
-			"day": "Saturday",
-			"image": "storm",
-			"summary": "Possible storm.",
-			"precipPercent": 30,
-			"description": "Mostly clear. Slight (30%) chance of a shower over the Granite Belt, becoming less likely later this evening. Near zero chance of rain elsewhere. The chance of a thunderstorm early this evening. Light winds becoming northeasterly 15 to 20 km/h in the evening."
-		},
-		{
 			"class": "day main",
 			"day": "Sunday",
 			"image": "storm",
-			"min": 17,
 			"max": 32,
-			"summary": "Showers. Likely storm developing.",
-			"rain": "8 to 15 mm",
+			"summary": "Showers. Possible storm.",
 			"precipPercent": 80,
-			"description": "Partly cloudy. High (80%) chance of showers, most likely in the afternoon and evening. The chance of a thunderstorm in the afternoon and evening. Winds northwest to northeasterly 15 to 25 km/h becoming light in the late afternoon then becoming south to southwesterly 15 to 25 km/h in the evening. Overnight temperatures falling to between 18 and 22 with daytime temperatures reaching the low to mid 30s."
+			"description": "Partly cloudy. Very high (90%) chance of showers, most likely during this afternoon and evening. The chance of a thunderstorm during this afternoon and evening with some locally heavy falls possible. Winds northerly 15 to 25 km/h shifting south to southwesterly in the evening. Daytime maximum temperatures in the low to mid 30s."
 		},
 		{
 			"class": "day",
 			"day": "Monday",
 			"image": "rain",
-			"min": 18,
-			"max": 23,
-			"summary": "Rain. Possible heavy falls.",
-			"rain": "25 to 45 mm",
+			"min": 20,
+			"max": 20,
+			"summary": "Rain at times.",
+			"rain": "35 to 60 mm",
 			"precipPercent": 90,
-			"description": "Cloudy. Very high (90%) chance of rain in the east, medium (60%) chance elsewhere. The chance of a thunderstorm. Heavy falls possible in the east. Winds south to southwesterly 15 to 20 km/h turning east to southeasterly 20 to 30 km/h during the morning and early afternoon. Overnight temperatures falling to between 16 and 20 with daytime temperatures reaching 23 to 28."
+			"description": "Cloudy. Very high (90%) chance of showers and rain areas in the east, medium (60%) chance elsewhere. The chance of a thunderstorm. Heavy falls possible in the east. Winds south to southwesterly 15 to 20 km/h turning east to southeasterly 20 to 30 km/h during the morning and early afternoon. Overnight temperatures falling to between 18 and 22 with daytime temperatures reaching the low to mid 20s."
 		},
 		{
 			"class": "day",
