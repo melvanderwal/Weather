@@ -1,5 +1,5 @@
 var forecast={
-	"updated": "14/03/2021, 8:49:40 am",
+	"updated": "14/03/2021, 9:04:40 am",
 	"kenmore": [
 		{
 			"class": "day main",
@@ -24,13 +24,13 @@ var forecast={
 		{
 			"class": "day",
 			"day": "Tuesday",
-			"image": "cloudy",
-			"min": 19,
-			"max": 25,
-			"summary": "Cloudy.",
-			"rain": "0 to 1 mm",
-			"precipPercent": 30,
-			"description": "Cloudy. Slight (30%) chance of a shower. Winds southerly 15 to 25 km/h turning southeasterly 20 to 30 km/h during the day."
+			"image": "showers",
+			"min": 20,
+			"max": 22,
+			"summary": "Shower or two.",
+			"rain": "5 to 10 mm",
+			"precipPercent": 70,
+			"description": "Cloudy. High (70%) chance of showers. Winds southerly 15 to 25 km/h turning southeasterly 20 to 30 km/h during the day."
 		},
 		{
 			"class": "day",
@@ -101,13 +101,13 @@ var forecast={
 		{
 			"class": "day",
 			"day": "Tuesday",
-			"image": "cloudy",
-			"min": 18,
-			"max": 26,
-			"summary": "Cloudy.",
-			"rain": "0 to 0.4 mm",
-			"precipPercent": 30,
-			"description": "Cloudy. Slight (30%) chance of a shower, most likely in the afternoon and evening. Light winds becoming southeasterly 20 to 25 km/h during the morning then becoming light during the evening."
+			"image": "showers",
+			"min": 20,
+			"max": 22,
+			"summary": "Shower or two.",
+			"rain": "5 to 10 mm",
+			"precipPercent": 70,
+			"description": "Cloudy. High (70%) chance of showers, most likely in the morning and afternoon. Light winds becoming southeasterly 20 to 25 km/h during the morning then becoming light during the evening."
 		},
 		{
 			"class": "day",
@@ -178,12 +178,13 @@ var forecast={
 		{
 			"class": "day",
 			"day": "Tuesday",
-			"image": "cloudy",
-			"min": 15,
-			"max": 23,
-			"summary": "Cloudy.",
-			"precipPercent": 20,
-			"description": "Cloudy. Slight (20%) chance of a shower. Winds easterly 20 to 30 km/h. Overnight temperatures falling to between 15 and 18 with daytime temperatures reaching the low to high 20s."
+			"image": "light-showers",
+			"min": 17,
+			"max": 21,
+			"summary": "Possible shower.",
+			"rain": "0 to 1 mm",
+			"precipPercent": 40,
+			"description": "Cloudy. High (80%) chance of rain in the north, medium (50%) chance elsewhere. Winds easterly 20 to 30 km/h. Overnight temperatures falling to around 18 with daytime temperatures reaching 21 to 26."
 		},
 		{
 			"class": "day",
