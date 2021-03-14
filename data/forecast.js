@@ -1,5 +1,5 @@
 var forecast={
-	"updated": "14/03/2021, 4:04:40 pm",
+	"updated": "14/03/2021, 4:19:40 pm",
 	"kenmore": [
 		{
 			"class": "day main",
@@ -156,73 +156,83 @@ var forecast={
 	],
 	"warwick": [
 		{
-			"class": "day main",
+			"class": "day eve",
 			"day": "Sunday",
 			"image": "storm",
-			"max": 32,
 			"summary": "Showers. Possible storm.",
 			"precipPercent": 80,
-			"description": "Partly cloudy. Very high (90%) chance of showers, most likely during this afternoon and evening. The chance of a thunderstorm during this afternoon and evening with some locally heavy falls possible. Winds northerly 15 to 25 km/h shifting south to southwesterly in the evening. Daytime maximum temperatures in the low to mid 30s."
+			"description": "Cloudy. High (80%) chance of rain. The chance of a thunderstorm. Winds west to southwesterly 15 to 25 km/h tending south to southwesterly 15 to 20 km/h in the evening."
 		},
 		{
-			"class": "day",
+			"class": "day main",
 			"day": "Monday",
 			"image": "rain",
 			"min": 20,
 			"max": 20,
-			"summary": "Rain at times.",
-			"rain": "35 to 60 mm",
-			"precipPercent": 90,
-			"description": "Cloudy. Very high (90%) chance of showers and rain areas in the east, medium (60%) chance elsewhere. The chance of a thunderstorm. Heavy falls possible in the east. Winds south to southwesterly 15 to 20 km/h turning east to southeasterly 20 to 30 km/h during the morning and early afternoon. Overnight temperatures falling to between 18 and 22 with daytime temperatures reaching the low to mid 20s."
+			"summary": "Rain. Possible heavy falls.",
+			"rain": "25 to 50 mm",
+			"precipPercent": 95,
+			"description": "Cloudy. Very high (95%) chance of rain in the east, medium (60%) chance elsewhere. The chance of a thunderstorm. Heavy falls possible in the east. Winds south to southwesterly 15 to 20 km/h turning east to southeasterly 20 to 30 km/h during the morning and early afternoon. Overnight temperatures falling to between 18 and 22 with daytime temperatures reaching the low to mid 20s."
 		},
 		{
 			"class": "day",
 			"day": "Tuesday",
-			"image": "light-showers",
-			"min": 17,
+			"image": "showers",
+			"min": 15,
 			"max": 21,
-			"summary": "Possible shower.",
-			"rain": "0 to 1 mm",
-			"precipPercent": 40,
-			"description": "Cloudy. High (80%) chance of rain in the north, medium (50%) chance elsewhere. Winds easterly 20 to 30 km/h. Overnight temperatures falling to around 18 with daytime temperatures reaching 21 to 26."
+			"summary": "Shower or two.",
+			"rain": "0 to 10 mm",
+			"precipPercent": 50,
+			"description": "Cloudy. High (80%) chance of rain in the north, medium (50%) chance elsewhere. Winds easterly 25 to 35 km/h. Overnight temperatures falling to around 16 with daytime temperatures reaching the low to mid 20s."
 		},
 		{
 			"class": "day",
 			"day": "Wednesday",
-			"image": "light-showers",
+			"image": "showers",
 			"min": 15,
-			"max": 23,
-			"summary": "Possible shower.",
-			"rain": "0 to 2 mm",
-			"precipPercent": 40,
-			"description": "Partly cloudy. Slight (20%) chance of a shower. Winds easterly 20 to 30 km/h. Overnight temperatures falling to around 16 with daytime temperatures reaching the low to high 20s."
+			"max": 21,
+			"summary": "Shower or two.",
+			"rain": "5 to 20 mm",
+			"precipPercent": 60,
+			"description": "Cloudy. High (70%) chance of showers. Heavy falls possible in the north. Winds easterly 25 to 35 km/h. Overnight temperatures falling to around 15 with daytime temperatures reaching the low 20s."
 		},
 		{
 			"class": "day",
 			"day": "Thursday",
-			"image": "light-showers",
-			"min": 15,
+			"image": "showers",
+			"min": 16,
 			"max": 25,
-			"summary": "Possible shower.",
-			"rain": "0 to 3 mm",
-			"precipPercent": 40
+			"summary": "Shower or two.",
+			"rain": "2 to 10 mm",
+			"precipPercent": 60,
+			"description": "Cloudy. Medium (60%) chance of showers, most likely in the morning and afternoon. The chance of a thunderstorm in the afternoon and evening. Winds easterly 15 to 25 km/h becoming light during the evening. Overnight temperatures falling to around 16 with daytime temperatures reaching the mid to high 20s."
 		},
 		{
 			"class": "day",
 			"day": "Friday",
 			"image": "light-showers",
 			"min": 17,
-			"max": 28,
+			"max": 27,
 			"summary": "Possible shower.",
-			"rain": "0 to 2 mm",
+			"rain": "0 to 3 mm",
 			"precipPercent": 40
 		},
 		{
 			"class": "day",
 			"day": "Saturday",
 			"image": "light-showers",
-			"min": 17,
+			"min": 18,
 			"max": 28,
+			"summary": "Possible shower.",
+			"rain": "0 to 3 mm",
+			"precipPercent": 40
+		},
+		{
+			"class": "day",
+			"day": "Sunday",
+			"image": "light-showers",
+			"min": 18,
+			"max": 27,
 			"summary": "Possible shower.",
 			"rain": "0 to 2 mm",
 			"precipPercent": 40
