@@ -1,24 +1,14 @@
 var forecast={
-	"updated": "15/03/2021, 10:49:40 pm",
+	"updated": "16/03/2021, 5:04:40 am",
 	"kenmore": [
-		{
-			"class": "day eve",
-			"day": "Monday",
-			"image": "rain",
-			"summary": "Rain.",
-			"precipPercent": 80,
-			"description": "Cloudy. High (80%) chance of patchy rain at times. Winds southerly 15 to 20 km/h."
-		},
 		{
 			"class": "day main",
 			"day": "Tuesday",
 			"image": "rain",
-			"min": 20,
 			"max": 23,
 			"summary": "Rain at times.",
-			"rain": "2 to 10 mm",
 			"precipPercent": 60,
-			"description": "Cloudy. Medium (60%) chance of rain, most likely in the afternoon and evening. Winds southerly 15 to 25 km/h turning southeasterly 20 to 30 km/h during the day."
+			"description": "Cloudy. Medium (60%) chance of rain, most likely during this afternoon and evening. Winds southerly 15 to 25 km/h turning southeasterly 20 to 30 km/h during the day."
 		},
 		{
 			"class": "day",
@@ -26,10 +16,10 @@ var forecast={
 			"image": "rain",
 			"min": 19,
 			"max": 23,
-			"summary": "Patchy rain at times.",
+			"summary": "Rain.",
 			"rain": "8 to 20 mm",
 			"precipPercent": 90,
-			"description": "Cloudy. Very high (90%) chance of patchy rain areas. Winds southeasterly 15 to 25 km/h becoming light in the late evening."
+			"description": "Cloudy. Very high (90%) chance of rain. Winds southeasterly 15 to 25 km/h becoming light in the late evening."
 		},
 		{
 			"class": "day",
@@ -89,23 +79,13 @@ var forecast={
 	],
 	"ipswich": [
 		{
-			"class": "day eve",
-			"day": "Monday",
-			"image": "rain",
-			"summary": "Rain.",
-			"precipPercent": 80,
-			"description": "Cloudy. High (80%) chance of patchy rain at times. Light winds."
-		},
-		{
 			"class": "day main",
 			"day": "Tuesday",
 			"image": "rain",
-			"min": 19,
 			"max": 23,
 			"summary": "Rain at times.",
-			"rain": "1 to 10 mm",
-			"precipPercent": 60,
-			"description": "Cloudy. Medium (60%) chance of rain, most likely in the afternoon and evening. Light winds becoming southerly 15 to 20 km/h early in the morning then tending southeasterly 15 to 25 km/h in the morning."
+			"precipPercent": 50,
+			"description": "Cloudy. Medium (50%) chance of rain, most likely during this afternoon and evening. Winds southerly 15 to 20 km/h tending southeasterly 20 to 25 km/h in the morning then becoming light in the evening."
 		},
 		{
 			"class": "day",
@@ -113,7 +93,7 @@ var forecast={
 			"image": "rain",
 			"min": 18,
 			"max": 24,
-			"summary": "Patchy rain at times.",
+			"summary": "Rain.",
 			"rain": "8 to 20 mm",
 			"precipPercent": 90,
 			"description": "Cloudy. Very high (90%) chance of rain. Light winds becoming southeasterly 20 to 30 km/h in the morning then becoming light in the evening."
@@ -176,23 +156,13 @@ var forecast={
 	],
 	"warwick": [
 		{
-			"class": "day eve",
-			"day": "Monday",
-			"image": "rain",
-			"summary": "Rain at times.",
-			"precipPercent": 50,
-			"description": "Cloudy. Medium (60%) chance of rain in the north, slight (30%) chance elsewhere. The chance of a thunderstorm in the north. Winds east to southeasterly 15 to 25 km/h."
-		},
-		{
 			"class": "day main",
 			"day": "Tuesday",
 			"image": "light-rain",
-			"min": 16,
 			"max": 20,
 			"summary": "Possible rain.",
-			"rain": "0 to 2 mm",
 			"precipPercent": 40,
-			"description": "Cloudy. High (80%) chance of rain in the north, medium (50%) chance elsewhere. Heavy falls possible in the north. Winds easterly 25 to 35 km/h. Overnight temperatures falling to between 16 and 19 with daytime temperatures reaching between 19 and 23."
+			"description": "Cloudy. High (80%) chance of rain in the north, medium (50%) chance elsewhere. Winds easterly 25 to 35 km/h. Daytime maximum temperatures between 19 and 23."
 		},
 		{
 			"class": "day",
