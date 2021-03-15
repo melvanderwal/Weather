@@ -1,36 +1,35 @@
 var forecast={
-	"updated": "15/03/2021, 4:19:40 pm",
+	"updated": "15/03/2021, 4:34:40 pm",
 	"kenmore": [
 		{
-			"class": "day main",
+			"class": "day eve",
 			"day": "Monday",
 			"image": "rain",
-			"max": 22,
-			"summary": "Rain at times.",
-			"precipPercent": 95,
-			"description": "Cloudy. Very high (95%) chance of showers tending to rain at times. Light winds becoming southerly 15 to 20 km/h in the late afternoon."
+			"summary": "Rain.",
+			"precipPercent": 80,
+			"description": "Cloudy. High (80%) chance of patchy rain at times. Winds southerly 15 to 20 km/h."
 		},
 		{
-			"class": "day",
+			"class": "day main",
 			"day": "Tuesday",
 			"image": "rain",
-			"min": 19,
+			"min": 20,
 			"max": 23,
 			"summary": "Rain at times.",
-			"rain": "1 to 6 mm",
+			"rain": "2 to 10 mm",
 			"precipPercent": 60,
-			"description": "Cloudy. Medium (60%) chance of showers tending to rain at times, most likely from the late morning. Winds southerly 15 to 25 km/h tending southeasterly 20 to 30 km/h in the morning."
+			"description": "Cloudy. Medium (60%) chance of rain, most likely in the afternoon and evening. Winds southerly 15 to 25 km/h turning southeasterly 20 to 30 km/h during the day."
 		},
 		{
 			"class": "day",
 			"day": "Wednesday",
-			"image": "showers",
-			"min": 18,
-			"max": 24,
-			"summary": "Showers.",
+			"image": "rain",
+			"min": 19,
+			"max": 23,
+			"summary": "Patchy rain at times.",
 			"rain": "8 to 20 mm",
 			"precipPercent": 90,
-			"description": "Cloudy. Very high (90%) chance of showers. Winds southeasterly 15 to 25 km/h."
+			"description": "Cloudy. Very high (90%) chance of patchy rain areas. Winds southeasterly 15 to 25 km/h becoming light in the late evening."
 		},
 		{
 			"class": "day",
@@ -41,18 +40,18 @@ var forecast={
 			"summary": "Showers.",
 			"rain": "4 to 15 mm",
 			"precipPercent": 80,
-			"description": "Cloudy. High (80%) chance of showers. Winds southeasterly 15 to 20 km/h becoming light during the morning then becoming southeasterly 15 to 20 km/h during the afternoon."
+			"description": "Cloudy. High (80%) chance of showers. Light winds becoming southeasterly 15 to 25 km/h during the morning then becoming light during the evening."
 		},
 		{
 			"class": "day",
 			"day": "Friday",
 			"image": "showers",
-			"min": 20,
-			"max": 29,
-			"summary": "Showers.",
+			"min": 19,
+			"max": 28,
+			"summary": "Shower or two.",
 			"rain": "3 to 10 mm",
-			"precipPercent": 80,
-			"description": "Cloudy. High (80%) chance of showers. The chance of a thunderstorm later in the day. Light winds becoming easterly 15 to 20 km/h during the day."
+			"precipPercent": 70,
+			"description": "Cloudy. High (70%) chance of showers. The chance of a thunderstorm in the afternoon and evening. Light winds becoming southeasterly 15 to 25 km/h during the morning then becoming light during the evening."
 		},
 		{
 			"class": "day",
@@ -61,20 +60,31 @@ var forecast={
 			"min": 20,
 			"max": 28,
 			"summary": "Shower or two.",
-			"rain": "2 to 10 mm",
+			"rain": "3 to 10 mm",
 			"precipPercent": 70,
-			"description": "Partly cloudy. High (70%) chance of showers. Light winds becoming easterly 15 to 20 km/h during the day."
+			"description": "Partly cloudy. High (70%) chance of showers. Light winds becoming southeasterly 15 to 20 km/h during the day."
 		},
 		{
 			"class": "day",
 			"day": "Sunday",
 			"image": "showers",
-			"min": 21,
-			"max": 28,
+			"min": 20,
+			"max": 27,
 			"summary": "Shower or two.",
-			"rain": "1 to 8 mm",
+			"rain": "3 to 10 mm",
 			"precipPercent": 60,
-			"description": "Partly cloudy. Medium (60%) chance of showers. Light winds becoming easterly 15 to 20 km/h during the day."
+			"description": "Partly cloudy. Medium (60%) chance of showers, most likely during the morning. Light winds becoming southeasterly 15 to 25 km/h during the morning."
+		},
+		{
+			"class": "day",
+			"day": "Monday",
+			"image": "showers",
+			"min": 20,
+			"max": 26,
+			"summary": "Shower or two.",
+			"rain": "1 to 4 mm",
+			"precipPercent": 60,
+			"description": "Partly cloudy. Medium (50%) chance of showers. Winds southerly 15 to 20 km/h turning southeasterly 15 to 25 km/h during the morning."
 		}
 	],
 	"ipswich": [
