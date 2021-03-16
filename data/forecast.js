@@ -1,13 +1,13 @@
 var forecast={
-	"updated": "16/03/2021, 5:04:40 pm",
+	"updated": "16/03/2021, 5:19:40 pm",
 	"kenmore": [
 		{
 			"class": "day eve",
 			"day": "Tuesday",
-			"image": "light-rain",
-			"summary": "Possible rain.",
-			"precipPercent": 40,
-			"description": "Cloudy. Medium (50%) chance of rain. Winds southeasterly 15 to 25 km/h."
+			"image": "rain",
+			"summary": "Rain.",
+			"precipPercent": 90,
+			"description": "Cloudy. Very high (90%) chance of rain, becoming less likely at night. Winds southeasterly 15 to 25 km/h."
 		},
 		{
 			"class": "day main",
@@ -91,10 +91,10 @@ var forecast={
 		{
 			"class": "day eve",
 			"day": "Tuesday",
-			"image": "light-rain",
-			"summary": "Possible rain.",
-			"precipPercent": 40,
-			"description": "Cloudy. Medium (50%) chance of rain. Winds southeasterly 15 to 20 km/h becoming light in the evening."
+			"image": "rain",
+			"summary": "Rain at times",
+			"precipPercent": 90,
+			"description": "Cloudy. Very high (90%) chance of rain, becoming less likely at night. Winds southeasterly 15 to 20 km/h becoming light in the evening."
 		},
 		{
 			"class": "day main",
