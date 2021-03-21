@@ -222,12 +222,5 @@ function humidex(temperature, humidity) {
     return humidex;
 }
 
-// Load the current conditions, and set up auto-refresh to only run if the browser tab is visible
+// Load the current conditions
 getCurrentConditions();
-var autoRefresh = setInterval(function () { getCurrentConditions(); }, 30000);;
-document.addEventListener('visibilitychange', function () {
-    if (document.hidden)
-        clearInterval(autoRefresh);
-    else
-        autoRefresh = setInterval(function () { getCurrentConditions(); }, 30000);
-});
