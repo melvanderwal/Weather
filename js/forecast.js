@@ -1,4 +1,3 @@
-setForecast();
 function setForecast() {
     let containerDiv = document.getElementById("forecastDays");
     containerDiv.innerHTML = "";
@@ -6,17 +5,18 @@ function setForecast() {
     descriptionSpan.innerHTML = "";
 
     // Get forecast from WillyWeather via Google Apps Script
-    url = "https://script.google.com/macros/s/AKfycbzl8Nk15BlddHGUQ6aDL2FM3Lqwl3Z0BG5u4UytZStPfKhoHbz9NZUjYpaCjiyrmceTFQ/exec?action=forecast";
+    url = "https://script.google.com/macros/s/AKfycbxZLDmk6NSzDkmP5oiBcv05tuVr1ueZWTE1ZqcEwUseFOlWWp32tzb3vwf7AGS65EL-nA/exec?action=forecast";
     fetch(url, { method: 'GET' })
         .then(response => response.json())
         .then(forecastJson => {
-            console.log(forecastJson);
             let dayIdx = 0;
+            console.log(forecastJson);
             forecastJson.forecasts.weather.days.forEach(weather => {
                 // Get data from JSON
                 weather = weather.entries[0];
                 let precis = forecastJson.regionPrecis.days[dayIdx].entries[0];
                 let rainfall = forecastJson.forecasts.rainfall.days[dayIdx].entries[0];
+                rainfall.label = (!rainfall.startRange ? "" : rainfall.startRange) + (!rainfall.rangeDivide ? "" : rainfall.rangeDivide) + (!rainfall.endRange ? "" : rainfall.endRange)
                 let dayName = new Date(weather.dateTime).toLocaleString("default", { weekday: "long" })
 
                 // Populate div with that day's forecast info
@@ -30,7 +30,7 @@ function setForecast() {
                 dayDiv.getElementsByClassName("forecastIcon")[0].style.color = iconInfo[1];
                 if (weather.min) dayDiv.getElementsByClassName("forecastMin")[0].textContent = weather.min + "°";
                 if (weather.max) dayDiv.getElementsByClassName("forecastMax")[0].textContent = weather.max + "°";
-                if (rainfall.startRange && rainfall.endRange) dayDiv.getElementsByClassName("forecastPrecipMm")[0].textContent = rainfall.startRange + "-" + rainfall.endRange + "mm";
+                if (rainfall.label) dayDiv.getElementsByClassName("forecastPrecipMm")[0].textContent = rainfall.label + "mm";
                 if (rainfall.probability) dayDiv.getElementsByClassName("forecastPrecipPct")[0].textContent = rainfall.probability + "%";
                 dayDiv.getElementsByClassName("forecastSummary")[0].textContent = weather.precis;
                 dayDiv.getElementsByClassName("forecastDayContainer")[0].title = precis.precis;
@@ -131,3 +131,4 @@ function forecastIcon(image, night) {
         else if (image == "dust") return ["fad fa-sun-dust", "#ff8040"];
     }
 }
+setForecast();
