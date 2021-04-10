@@ -5,18 +5,22 @@ function setForecast() {
     descriptionSpan.innerHTML = "";
 
     // Get forecast from WillyWeather via Google Apps Script
-    url = "https://script.google.com/macros/s/AKfycbxZLDmk6NSzDkmP5oiBcv05tuVr1ueZWTE1ZqcEwUseFOlWWp32tzb3vwf7AGS65EL-nA/exec?action=forecast";
+    //let url = "https://api.willyweather.com.au/v2/NTQwZjI1MzIwMTY1YzNiYTI5NjE4Ym/locations/8055/weather.json?forecasts=weather,rainfall&regionPrecis=true";
+    let url = "https://script.google.com/macros/s/AKfycbxZLDmk6NSzDkmP5oiBcv05tuVr1ueZWTE1ZqcEwUseFOlWWp32tzb3vwf7AGS65EL-nA/exec?action=forecast";
     fetch(url, { method: 'GET' })
         .then(response => response.json())
         .then(forecastJson => {
             let dayIdx = 0;
-            console.log(forecastJson);
+            //console.log(forecastJson);
             forecastJson.forecasts.weather.days.forEach(weather => {
                 // Get data from JSON
                 weather = weather.entries[0];
                 let precis = forecastJson.regionPrecis.days[dayIdx].entries[0];
                 let rainfall = forecastJson.forecasts.rainfall.days[dayIdx].entries[0];
-                rainfall.label = (!rainfall.startRange ? "" : rainfall.startRange) + (!rainfall.rangeDivide ? "" : rainfall.rangeDivide) + (!rainfall.endRange ? "" : rainfall.endRange)
+                if (!rainfall.startRange && !rainfall.endRange)
+                    rainfall.label = null;
+                else
+                    rainfall.label = (!rainfall.startRange ? "" : rainfall.startRange) + (!rainfall.rangeDivide ? "" : rainfall.rangeDivide) + (!rainfall.endRange ? "" : rainfall.endRange) + "mm";
                 let dayName = new Date(weather.dateTime).toLocaleString("default", { weekday: "long" })
 
                 // Populate div with that day's forecast info
@@ -30,7 +34,8 @@ function setForecast() {
                 dayDiv.getElementsByClassName("forecastIcon")[0].style.color = iconInfo[1];
                 if (weather.min) dayDiv.getElementsByClassName("forecastMin")[0].textContent = weather.min + "°";
                 if (weather.max) dayDiv.getElementsByClassName("forecastMax")[0].textContent = weather.max + "°";
-                if (rainfall.label) dayDiv.getElementsByClassName("forecastPrecipMm")[0].textContent = rainfall.label + "mm";
+                if (rainfall.label) dayDiv.getElementsByClassName("forecastPrecipMm")[0].textContent = rainfall.label;
+                if (!rainfall.label) dayDiv.getElementsByClassName("forecastNoPrecip")[0].style.display = "block";
                 if (rainfall.probability) dayDiv.getElementsByClassName("forecastPrecipPct")[0].textContent = rainfall.probability + "%";
                 dayDiv.getElementsByClassName("forecastSummary")[0].textContent = weather.precis;
                 dayDiv.getElementsByClassName("forecastDayContainer")[0].title = precis.precis;
