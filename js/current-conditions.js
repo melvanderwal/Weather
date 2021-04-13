@@ -167,16 +167,16 @@ function setIcon(measurement, value) {
 }
 
 function getColor(measurement, value) {
-    if (measurement == "precipRate") return scaleColor(scaleNumber(value, 0, 50), [169, 194, 219], [0, 0, 255]);
-    if (measurement == "precipTotal") return scaleColor(scaleNumber(value, 0, 25), [169, 194, 219], [0, 0, 255]);
-    if (measurement == "humidity") return scaleColor(scaleNumber(value, 50, 100), [169, 194, 219], [0, 0, 255]);
-    if (measurement == "dewpt") return scaleColor(scaleNumber(value, 0, 5), [0, 0, 255], [169, 194, 219]);
+    if (measurement == "precipRate") return scaleColor(scaleNumber(value, 0, 50), [169, 194, 219], [0, 105, 219]);
+    if (measurement == "precipTotal") return scaleColor(scaleNumber(value, 0, 25), [169, 194, 219], [0, 105, 219]);
+    if (measurement == "humidity") return scaleColor(scaleNumber(value, 50, 100), [169, 194, 219], [0, 105, 219]);
+    if (measurement == "dewpt") return scaleColor(scaleNumber(value, 0, 5), [0, 105, 219], [169, 194, 219]);
     if (measurement == "uv") return scaleColor(scaleNumber(value, 1, 10), [77, 255, 0], [255, 0, 0]);
     if (measurement == "uvIcon") return scaleColor(scaleNumber(value, 1, 10), [0, 0, 0], [255, 0, 0]);
 
     if (measurement == "temp")
         return (value < 24) ?
-            scaleColor(scaleNumber(value, 0, 24), [0, 0, 255], [0, 255, 0]) :
+            scaleColor(scaleNumber(value, 0, 24), [0, 105, 219], [0, 255, 0]) :
             scaleColor(scaleNumber(value, 24, 35), [0, 255, 0], [255, 0, 0]);
 
     if (measurement == "humidex")
