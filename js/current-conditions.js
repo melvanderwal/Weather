@@ -1,5 +1,5 @@
 function getCurrentConditions() {
-    updateSunriseSunset();
+    //updateSunriseSunset();
     let parentNode = document.querySelector("#conditionsData");
     let lastUpdated = parentNode.querySelector("#lastUpdated");
     let currentTemp = parentNode.querySelector("#currentTemp");
@@ -15,6 +15,8 @@ function getCurrentConditions() {
     let dewPoint = parentNode.querySelector("#dewPoint");
     let sunrise = parentNode.querySelector("#sunrise");
     let sunset = parentNode.querySelector("#sunset");
+    let firstLight = parentNode.querySelector("#firstLight");
+    let lastLight = parentNode.querySelector("#lastLight");
     let minTemp = parentNode.querySelector("#minTemp");
     let maxTemp = parentNode.querySelector("#maxTemp");
     let pressureMinMax = parentNode.querySelector("#pressureMinMax");
@@ -57,6 +59,8 @@ function getCurrentConditions() {
         dewPoint.dataset.value = data.metric.dewpt + "°";
         sunrise.textContent = sunriseSunset.sunriseTime;
         sunset.textContent = sunriseSunset.sunsetTime;
+        firstLight.textContent = sunriseSunset.firstLightTime;
+        lastLight.textContent = sunriseSunset.lastLightTime;
         minTemp.textContent = Math.min(summaryData.minTemperature, data.metric.temp) + "°";
         maxTemp.textContent = Math.max(summaryData.maxTemperature, data.metric.temp) + "°";
         pressureMinMax.textContent = parseInt(summaryData.minPressure) + "-" + parseInt(summaryData.maxPressure) + "hPa";

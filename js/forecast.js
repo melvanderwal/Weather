@@ -1,3 +1,4 @@
+var sunriseSunset;
 function setForecast() {
     let containerDiv = document.getElementById("forecastDays");
     containerDiv.innerHTML = "";
@@ -5,8 +6,8 @@ function setForecast() {
     descriptionSpan.innerHTML = "";
 
     // Get forecast from WillyWeather via Google Apps Script
-    //let url = "https://api.willyweather.com.au/v2/NTQwZjI1MzIwMTY1YzNiYTI5NjE4Ym/locations/8055/weather.json?forecasts=weather,rainfall&regionPrecis=true";
-    let url = "https://script.google.com/macros/s/AKfycbxZLDmk6NSzDkmP5oiBcv05tuVr1ueZWTE1ZqcEwUseFOlWWp32tzb3vwf7AGS65EL-nA/exec?action=forecast";
+    //let url = "https://api.willyweather.com.au/v2/NTQwZjI1MzIwMTY1YzNiYTI5NjE4Ym/locations/8055/weather.json?forecasts=weather,rainfall,sunrisesunset&regionPrecis=true";
+    let url = "https://script.google.com/macros/s/AKfycbzpLqbge7PrsoFVslTR8gzrzqTBHyCgC_oqmoV5qQwMra1uM6vRc68-ZtoWFNb4TFnRYw/exec?action=forecast";
     fetch(url, { method: 'GET' })
         .then(response => response.json())
         .then(forecastJson => {
@@ -17,6 +18,12 @@ function setForecast() {
                 weather = weather.entries[0];
                 let precis = forecastJson.regionPrecis.days[dayIdx].entries[0];
                 let rainfall = forecastJson.forecasts.rainfall.days[dayIdx].entries[0];
+
+                if (dayIdx == 0) {
+                    sunriseSunset = forecastJson.forecasts.sunrisesunset.days[dayIdx].entries[0];
+                    updateSunriseSunset();
+                }
+
                 if (!rainfall.startRange && !rainfall.endRange)
                     rainfall.label = null;
                 else
@@ -135,5 +142,27 @@ function forecastIcon(image, night) {
         else if (image == "hail") return ["fad fa-thunderstorm", "#7d7d7d"];
         else if (image == "dust") return ["fad fa-sun-dust", "#ff8040"];
     }
+}
+
+function updateSunriseSunset() {
+    let now = new Date();
+    let sunrise = new Date(sunriseSunset.riseDateTime);
+    let sunset = new Date(sunriseSunset.setDateTime);
+    let hoursSinceSunrise = (now - sunrise) / 3600000;
+    hoursSinceSunrise = hoursSinceSunrise < 0 ? 24 + hoursSinceSunrise : hoursSinceSunrise;
+    let hoursUntilSunset = (sunset - now) / 3600000;
+    hoursUntilSunset = hoursUntilSunset < 0 ? 24 + hoursUntilSunset : hoursUntilSunset;
+    let isNight = now <= sunrise || now >= sunset;
+
+    sunriseSunset.hoursSinceSunrise = hoursSinceSunrise;
+    sunriseSunset.hoursUntilSunset = hoursUntilSunset;
+    sunriseSunset.isNight = isNight;
+    sunriseSunset.isDawn = !isNight && hoursSinceSunrise < 1.5;
+    sunriseSunset.isDusk = !isNight && hoursUntilSunset < 1.5;
+    sunriseSunset.sunriseTime = new Date(sunriseSunset.riseDateTime).toLocaleTimeString(navigator.language, { timeStyle: "short" }).replace("am","").replace("pm","");
+    sunriseSunset.sunsetTime = new Date(sunriseSunset.setDateTime).toLocaleTimeString(navigator.language, { timeStyle: "short" }).replace("am","").replace("pm","")
+    sunriseSunset.firstLightTime = new Date(sunriseSunset.firstLightDateTime).toLocaleTimeString(navigator.language, { timeStyle: "short" }).replace("am","").replace("pm","")
+    sunriseSunset.lastLightTime = new Date(sunriseSunset.lastLightDateTime).toLocaleTimeString(navigator.language, { timeStyle: "short" }).replace("am","").replace("pm","")
+    //console.log(sunriseSunset);
 }
 setForecast();
