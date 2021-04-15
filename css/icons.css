@@ -19,15 +19,27 @@
     --fa-secondary-opacity: 1;
 }
 
-.fa-sunrise {
+.sunrise {
     color: var(--sun-color);
     --fa-secondary-opacity: 0.8;
     --fa-secondary-color: var(--sun-color);
 }
 
-.fa-sunset {
+.sunset {
     color: #9e9e9e;
     --fa-secondary-opacity: 1;
+    --fa-secondary-color: var(--sun-color);
+}
+
+.firstLight {
+    color: var(--sun-color);
+    --fa-secondary-opacity: 0.2;
+    --fa-secondary-color: var(--sun-color);
+}
+
+.lastLight {
+    color: #9e9e9e;
+    --fa-secondary-opacity: 0.2;
     --fa-secondary-color: var(--sun-color);
 }
 
