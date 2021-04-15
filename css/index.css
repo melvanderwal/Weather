@@ -66,6 +66,25 @@ body {
     content: attr(data-value);
 }
 
+/* ----- Sunrise / Sunset ----- */
+#sunriseSunset {
+    display: flex;
+    flex-grow: 1;
+    justify-content: space-evenly;
+    align-items: flex-start;
+    flex-flow: row wrap;
+    padding-top: 5px;
+}
+
+.sunriseSunsetContainer {
+    padding-left: 10px;
+    padding-right: 10px;
+    display: flex;
+    flex-grow: 1;
+    flex-flow: column;
+    align-items: center;
+}
+
 /* ----- Forecast ----- */
 
 #forecast {
