@@ -46,9 +46,7 @@
                 <span id="humidityIcon" class="weatherIcon"></span><span id="humidity" class="measurement"></span> <br>
 
                 <span>UV Index</span>
-                <span id="uvIcon" class="weatherIcon"></span><span id="uvIndex" class="measurement"></span>
-                <span class="weatherIcon fad fa-sunrise"></span>&nbsp;<span id="sunrise"></span>
-                <span class="weatherIcon fad fa-sunset"></span>&nbsp;<span id="sunset"></span><br>
+                <span id="uvIcon" class="weatherIcon"></span><span id="uvIndex" class="measurement"></span> <br>
 
                 <span>Dew Point</span><span id="dewPointIcon" class="weatherIcon"></span><span id="dewPoint"
                     class="measurement"></span><br>
@@ -62,6 +60,12 @@
                     title="Speed"></span></span><span id="windSpeed" class="measurement"></span>
                 <span style="font-size: 20px; margin-left: 4px;" class="weatherIcon darkHalo fas fa-wind"
                     title="Gust"></span><span id="windGust" class="measurement"></span><br>
+
+                <span>Sunrise/Sunset</span>
+                <span class="weatherIcon fad fa-sunrise firstLight" title="First Light"></span>&nbsp;<span id="firstLight" title="First Light"></span>
+                <span class="weatherIcon fad fa-sunrise sunrise" title="Sunrise"></span>&nbsp;<span id="sunrise" title="Sunrise"></span>
+                <span class="weatherIcon fad fa-sunset sunset" title="Sunset"></span>&nbsp;<span id="sunset" title="Sunset"></span>
+                <span class="weatherIcon fad fa-sunset lastLight" title="Last Light"></span>&nbsp;<span id="lastLight" title="Last Light"></span><br>
             </div>
 
             <iframe id="radarFrame" class="frameContainer" frameborder="0" allowfullscreen
@@ -107,7 +111,6 @@
     </template>
 
     <!-- Javascript -->
-    <script src="data/sunrise-sunset.js"></script>
     <script src="js/main.js"></script>
     <script src="js/current-conditions.js"></script>
     <script src="js/forecast.js"></script>
