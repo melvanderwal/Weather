@@ -61,11 +61,18 @@
                 <span style="font-size: 20px; margin-left: 4px;" class="weatherIcon darkHalo fas fa-wind"
                     title="Gust"></span><span id="windGust" class="measurement"></span><br>
 
-                <span>Sunrise/Sunset</span>
-                <span class="weatherIcon fad fa-sunrise firstLight" title="First Light"></span>&nbsp;<span id="firstLight" title="First Light"></span>
-                <span class="weatherIcon fad fa-sunrise sunrise" title="Sunrise"></span>&nbsp;<span id="sunrise" title="Sunrise"></span>
-                <span class="weatherIcon fad fa-sunset sunset" title="Sunset"></span>&nbsp;<span id="sunset" title="Sunset"></span>
-                <span class="weatherIcon fad fa-sunset lastLight" title="Last Light"></span>&nbsp;<span id="lastLight" title="Last Light"></span><br>
+                <div><span>Sunrise/Sunset</span>
+                    <div id="sunriseSunset">
+                        <div class="sunriseSunsetContainer"><span class="weatherIcon fad fa-sunrise firstLight" title="First Light"></span>
+                            <span id="firstLight" title="First Light"></span></div>
+                        <div class="sunriseSunsetContainer"><span class="weatherIcon fad fa-sunrise sunrise" title="Sunrise"></span><span
+                                id="sunrise" title="Sunrise"></span></div>
+                        <div class="sunriseSunsetContainer"><span class="weatherIcon fad fa-sunset sunset" title="Sunset"></span><span id="sunset"
+                                title="Sunset"></span></div>
+                        <div class="sunriseSunsetContainer"><span class="weatherIcon fad fa-sunset lastLight" title="Last Light"></span><span
+                                id="lastLight" title="Last Light"></span></div>
+                    </div>
+                </div>
             </div>
 
             <iframe id="radarFrame" class="frameContainer" frameborder="0" allowfullscreen
