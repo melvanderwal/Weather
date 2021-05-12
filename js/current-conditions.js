@@ -22,7 +22,7 @@ function getCurrentConditions() {
     let pressureMinMax = parentNode.querySelector("#pressureMinMax");
 
     let url = "https://api.weather.com/v2/pws/observations/current?stationId=IBRISBAN393&format=json&units=m&numericPrecision=decimal&apiKey=50a881117c2f4300a881117c2f230053";
-    let summaryUrl = "https://script.google.com/macros/s/AKfycbzkef0L1D0efPByQfJnwoznyQ2s2FZbNtM501alTQ8un6fc2oeq/exec?todaySummary=1";
+    let summaryUrl = "https://script.google.com/macros/s/AKfycbwm2L2FufJZH6BzJlpvxoDeSW6qRJ3OVW7o_bB8oTG9UHvC6GxBeZVMYfu8erMaRT6LnA/exec?todaySummary=1";
     fetch(url, { method: 'GET' })
         .then(response => response.json())
         .then(observationsJson => {
