@@ -31,7 +31,7 @@ function setForecast() {
                 let dayName = new Date(weather.dateTime).toLocaleString("default", { weekday: "long" })
 
                 // Populate div with that day's forecast info
-                 
+                let templateNode = document.getElementById("forecastDayTemplate").cloneNode(true);
                 let dayDiv = document.createElement("div");
                 dayDiv.innerHTML = templateNode.innerHTML;
 
