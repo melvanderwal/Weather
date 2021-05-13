@@ -1,5 +1,4 @@
 function getCurrentConditions() {
-    //updateSunriseSunset();
     let parentNode = document.querySelector("#conditionsData");
     let lastUpdated = parentNode.querySelector("#lastUpdated");
     let currentTemp = parentNode.querySelector("#currentTemp");

@@ -31,7 +31,7 @@ function setForecast() {
                 let dayName = new Date(weather.dateTime).toLocaleString("default", { weekday: "long" })
 
                 // Populate div with that day's forecast info
-                let templateNode = document.getElementById("forecastDayTemplate").cloneNode(true);
+                 
                 let dayDiv = document.createElement("div");
                 dayDiv.innerHTML = templateNode.innerHTML;
 
@@ -159,10 +159,10 @@ function updateSunriseSunset() {
     sunriseSunset.isNight = isNight;
     sunriseSunset.isDawn = !isNight && hoursSinceSunrise < 1.5;
     sunriseSunset.isDusk = !isNight && hoursUntilSunset < 1.5;
-    sunriseSunset.sunriseTime = new Date(sunriseSunset.riseDateTime).toLocaleTimeString(navigator.language, { timeStyle: "short" }).replace("am","").replace("pm","");
+    sunriseSunset.sunriseTime = new Date(sunriseSunset.riseDateTime).toLocaleTimeString(navigator.language, { timeStyle: "short" }).replace("am","").replace("pm","").replace(" ","");
     sunriseSunset.sunsetTime = new Date(sunriseSunset.setDateTime).toLocaleTimeString(navigator.language, { timeStyle: "short" }).replace("am","").replace("pm","")
     sunriseSunset.firstLightTime = new Date(sunriseSunset.firstLightDateTime).toLocaleTimeString(navigator.language, { timeStyle: "short" }).replace("am","").replace("pm","")
     sunriseSunset.lastLightTime = new Date(sunriseSunset.lastLightDateTime).toLocaleTimeString(navigator.language, { timeStyle: "short" }).replace("am","").replace("pm","")
-    //console.log(sunriseSunset);
+    console.log(sunriseSunset);
 }
 setForecast();
