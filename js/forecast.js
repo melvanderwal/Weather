@@ -7,7 +7,7 @@ function setForecast() {
 
     // Get forecast from WillyWeather via Google Apps Script
     //let url = "https://api.willyweather.com.au/v2/NTQwZjI1MzIwMTY1YzNiYTI5NjE4Ym/locations/8055/weather.json?forecasts=weather,rainfall,sunrisesunset&regionPrecis=true";
-    let url = "https://script.google.com/macros/s/AKfycbwm2L2FufJZH6BzJlpvxoDeSW6qRJ3OVW7o_bB8oTG9UHvC6GxBeZVMYfu8erMaRT6LnA/exec?action=forecast";
+    let url = "https://script.google.com/macros/s/" + gasMelStuffId + "/exec?action=forecast";
     fetch(url, { method: 'GET' })
         .then(response => response.json())
         .then(forecastJson => {
